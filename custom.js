@@ -5,7 +5,6 @@ $(document).ready(function () {
         let index = 0;
         for (index = 0; index < rows.length; index++) {
             var name = `#${rows[index]}-stats`;
-            console.log(name);
             if (rows[index] == em)
                 $(name).show();
             else

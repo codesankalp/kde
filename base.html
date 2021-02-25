@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no" />
+  <title>Dashboard</title>
+  <link rel="icon" href="https://kde.org/favicon.ico?v=2" />
+  <style>
+    #loader {
+      transition: all 0.3s ease-in-out;
+      opacity: 1;
+      visibility: visible;
+      position: fixed;
+      height: 100vh;
+      width: 100%;
+      background: #fff;
+      z-index: 90000;
+    }
+
+    #loader.fadeOut {
+      opacity: 0;
+      visibility: hidden;
+    }
+
+    .spinner {
+      width: 40px;
+      height: 40px;
+      position: absolute;
+      top: calc(50% - 20px);
+      left: calc(50% - 20px);
+      background-color: #333;
+      border-radius: 100%;
+      -webkit-animation: sk-scaleout 1s infinite ease-in-out;
+      animation: sk-scaleout 1s infinite ease-in-out;
+    }
+
+    .inactive{
+      display: none!important;
+    }
+
+    .active{
+      background-color: aliceblue;
+    }
+
+    .bg-main{
+      background: no-repeat;
+      background-image: url(assets/static/images/bg.png);
+      background-position-x: center;
+      background-position-y: center;
+      background-size: 40%;
+    }
+
+    @-webkit-keyframes sk-scaleout {
+      0% {
+        -webkit-transform: scale(0);
+      }
+
+      100% {
+        -webkit-transform: scale(1);
+        opacity: 0;
+      }
+    }
+
+    @keyframes sk-scaleout {
+      0% {
+        -webkit-transform: scale(0);
+        transform: scale(0);
+      }
+
+      100% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        opacity: 0;
+      }
+    }
+  </style>
+</head>
+
+<body class="app">
+  <div id="loader">
+    <div class="spinner"></div>
+  </div>
+  <script>
+    window.addEventListener("load", function load() {
+      const loader = document.getElementById("loader");
+      setTimeout(function () {
+        loader.classList.add("fadeOut");
+      }, 100);
+    });
+  </script>
+  <div>
+    <div class="sidebar">
+      <div class="sidebar-inner">
+        <div class="sidebar-logo">
+          <div class="peers ai-c fxw-nw">
+            <div class="peer peer-greed">
+              <a class="sidebar-link td-n" href="javascript:void(0);">
+                <div class="peers ai-c fxw-nw">
+                  <div class="peer">
+                    <div class="logo">
+                      <img src="assets/static/images/logo.svg" alt="" style="width: 70px; height: 65px" />
+                    </div>
+                  </div>
+                  <div class="peer peer-greed">
+                    <h5 class="mL-10 mB-0 logo-text">KDE Promo Dashboard</h5>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="peer">
+              <div class="mobile-toggle sidebar-toggle">
+                <a href="" class="td-n"><i class="ti-arrow-circle-left"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <ul class="sidebar-menu scrollable pos-r">
+          <li class="nav-item" id="facebook">
+            <a class="sidebar-link" href="javascript:void(0);" >
+              <span class="icon-holder">
+                <img src="assets/static/images/facebook.svg" alt="" style="width: 17px; height: 17px" /> </span><span
+                class="title">Facebook Stats</span></a>
+          </li>
+          <li class="nav-item" id="instagram">
+            <a class="sidebar-link" href="javascript:void(0);"><span class="icon-holder"><img src="assets/static/images/instagram.svg"
+                  alt="" style="width: 17px; height: 17px" /> </span><span class="title">Instagram Stats</span></a>
+          </li>
+          <li class="nav-item" id="linkedin">
+            <a class="sidebar-link" href="javascript:void(0);"><span class="icon-holder"><img src="assets/static/images/linkedin.svg"
+                  alt="" style="width: 17px; height: 17px" /> </span><span class="title">LinkedIn Stats</span></a>
+          </li>
+          <li class="nav-item" id="reddit">
+            <a class="sidebar-link" href="javascript:void(0);"><span class="icon-holder"><img src="assets/static/images/reddit.svg" alt=""
+                  style="width: 17px; height: 17px" /> </span><span class="title">Reddit Stats</span></a>
+          </li>
+          <li class="nav-item" id="twitter">
+            <a class="sidebar-link" href="javascript:void(0);"><span class="icon-holder"><img src="assets/static/images/twitter.svg"
+                  alt="" style="width: 17px; height: 17px" /> </span><span class="title">Twitter Stats</span></a>
+          </li>
+          <li class="nav-item" id="mastodon">
+            <a class="sidebar-link" href="javascript:void(0);"><span class="icon-holder"><img src="assets/static/images/mastodon.svg"
+                  alt="" style="width: 17px; height: 17px" /> </span><span class="title">Mastodon Stats</span></a>
+          </li>
+          <li class="nav-item" id="youtube">
+            <a class="sidebar-link" href="javascript:void(0);"><span class="icon-holder"><img src="assets/static/images/youtube.svg"
+                  alt="" style="width: 17px; height: 17px" /> </span><span class="title">Youtube Stats</span></a>
+          </li>
+          <li class="nav-item" id="archlinux">
+            <a class="sidebar-link" href="javascript:void(0);"><span class="icon-holder"><img src="assets/static/images/archlinux.svg"
+                  alt="" style="width: 17px; height: 17px" /> </span><span class="title">ArchLinux Stats</span></a>
+          </li>
+          <li class="nav-item" id="ubuntu">
+            <a class="sidebar-link" href="javascript:void(0);"><span class="icon-holder"><img src="assets/static/images/ubuntu.svg"
+                  alt="" style="width: 17px; height: 17px" /> </span><span class="title">Ubuntu Stats</span></a>
+          </li>
+          <li class="nav-item" id="debian">
+            <a class="sidebar-link" href="javascript:void(0);"><span class="icon-holder"><img src="assets/static/images/debian.svg"
+                  alt="" style="width: 17px; height: 17px" /> </span><span class="title">Debian Stats</span></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="page-container">
+      <div class="header navbar">
+        <div class="header-container">
+          <ul class="nav-left">
+            <li>
+              <a id="sidebar-toggle" class="sidebar-toggle" href="javascript:void(0);"><i class="ti-menu"></i></a>
+            </li>
+          </ul>
+          <ul class="nav-right">
+            <li>
+              <h3 style="margin: 12px 10px 8px 0" id="navbar-name">Facebook Stats</h3>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <main class="main-content bgc-grey-100" id="main">
+        <div id="mainContent">
+          {% include 'templates/facebook.html' %}
+          {% include 'templates/instagram.html' %}
+          {% include 'templates/linkedin.html' %}
+          {% include 'templates/reddit.html' %}
+          {% include 'templates/twitter.html' %}
+          {% include 'templates/mastodon.html' %}
+          {% include 'templates/youtube.html' %}
+          {% include 'templates/archlinux.html' %}
+          {% include 'templates/ubuntu.html' %}
+          {% include 'templates/debian.html' %}
+        </div>
+      </main>
+      <footer class="bdT ta-c p-30 lh-0 fsz-sm c-grey-600"></footer>
+    </div>
+  </div>
+  <script type="text/javascript" src="vendor.js"></script>
+  <script type="text/javascript" src="bundle.js"></script>
+  <script type="text/javascript" src="custom.js"></script>
+  <!-- <script type="text/javascript" src="chart.js"></script> -->
+  <script type="text/javascript">   
+        var options = {
+          series: {{ series }},
+          chart: {
+          type: 'bar',
+          height: 350,
+          width: 600
+        },
+        plotOptions: {
+          bar: {
+            horizontal: true,
+          }
+        },
+        dataLabels: {
+          enabled: true
+        },
+        xaxis: {
+          categories: {{ labels }},
+        }
+        };
+
+        var chart = new ApexCharts(document.querySelector("#youtube-chart"), options);
+        chart.render();
+  </script>
+</body>
+</html>

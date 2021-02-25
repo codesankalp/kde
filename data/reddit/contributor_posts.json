@@ -1,0 +1,270 @@
+{
+	"Bro666": [
+		{
+			"id": "ll388r",
+			"title": "Plasma 5.21 is out and this time we have improved its looks and usability: there's a new wallpaper, an easier-to-use application launcher, a new system monitor, and much more.",
+			"votes": 571,
+			"comments": [
+				{
+					"text": "... And [here's the Plasma 5.21 video](https://cdn.kde.org/promo/Announcements/Plasma/5.21/High.webm)",
+					"votes": 1,
+					"sentiment": 0.0
+				},
+				{ "text": "R.I.P. Gustavo!", "votes": 117, "sentiment": 0.0 },
+				{
+					"text": "Rest in peace Gustavo. Konsole is a damn fine Terminal Emulator.",
+					"votes": 74,
+					"sentiment": 0.3818
+				},
+				{
+					"text": "Awesome\n\nThis is why I love linux so much.",
+					"votes": 33,
+					"sentiment": 0.8519
+				},
+				{
+					"text": "A huge thank you to all contributors. \u2665\ufe0f",
+					"votes": 33,
+					"sentiment": 0.5859
+				},
+				{
+					"text": "Let's gooooooo.\n\nI've been waiting a long time for this day, for this launch, starting 2021 with the first major release of Plasma and what a release, here we go.\n\nWayland, Breeze, etc.\n\nSuch a huge work and effort.\n\nThank you very much to everyone involved in this amazing community that provides us with such a terrific software.\n\nYou're the best. You really rock.\n\nLong life to KDE!!\n\nBests \\^\\^.",
+					"votes": 80,
+					"sentiment": 0.953
+				},
+				{
+					"text": "Rest in Peace Gustavo Carneiro",
+					"votes": 15,
+					"sentiment": 0.5423
+				},
+				{
+					"text": "Oh boy! How quickly do these types of changes typically become available to KDE Neon? I just switched to get more frequent KDE updates and am excited about 5.21.\n\nEdit: Nevermind, it just popped up in Discover!",
+					"votes": 13,
+					"sentiment": 0.4559
+				},
+				{
+					"text": "what's the name of the font used in the trailer?",
+					"votes": 9,
+					"sentiment": 0.0
+				},
+				{
+					"text": "That system monitor looks amazing. I needed something like it",
+					"votes": 8,
+					"sentiment": 0.743
+				},
+				{
+					"text": "I knew this was gonna be a huge release, but damn: I can actually use my Wacom on Wayland now! It totally caught me by surprise. \ud83d\udc99",
+					"votes": 8,
+					"sentiment": -0.1386
+				},
+				{
+					"text": "Nice, wayland is pretty close to being usable. Few things I noticed:\n\n* window rules from x11 session doesn't work in wayland session, you have to create new rules (?)\n* klipper window doesn't show under the mouse cursor\n* yakuake doesn't close when loosing focus\n* right clicking yakuake while it has no focus shows context menu as a separate window\n* left click on firewalld tray icon shows the menu as a separate window, but right click works\n* cant' drag windows between desktops using pager\n* middle mouse copy/paste doesn't work in GTK apps\n* dolphin's integrated terminal has some transparency glitches\n* kscreen dialog doesn't disappear when losing focus or pressing esc key, it can go under other windows\n\nI could start using it even with those glitches if it weren't for middle mouse button copy/paste not working in GTK apps - that's a deal breaker.",
+					"votes": 7,
+					"sentiment": 0.8282
+				},
+				{
+					"text": "Great news! Thank you KDE team!",
+					"votes": 5,
+					"sentiment": 0.8011
+				},
+				{
+					"text": "Wow! I just fall in love with that \ud83d\ude0d. Thanks KDE Team.",
+					"votes": 7,
+					"sentiment": 0.9041
+				},
+				{
+					"text": "That intro video is stunning. So much improvement compared to other release vids. Great work!",
+					"votes": 6,
+					"sentiment": 0.8826
+				},
+				{
+					"text": "Awesome video for an awesome release! Huge thank you to all KDE people.\n\nRIP Gustavo",
+					"votes": 6,
+					"sentiment": 0.923
+				},
+				{
+					"text": "Of all the software projects in the world, KDE is to me the most important.  I love how they haven't reinvented the wheel and have continually refined the desktop experience while listening to the desires of the user community.  Looking forward to 5.21!",
+					"votes": 6,
+					"sentiment": 0.7823
+				},
+				{
+					"text": "I just upgraded from 5.20.5 to 5.21 with KDE Discover and it killed my system.\n\nWhen I login I get a blank desktop with no taskbar. /usr/bin/plasmashell process takes up 100% CPU and is burning up my laptop.\n\nI can kill it but as soon as I start it again... same situation. Any ideas on how I can recover from this or troubleshoot? Nothing is failing in the boot logs. Other processes are running normally.\n\nI am new to KDE Neon and I have no idea where to start or what caused this.\n\nDoes KDE have a safemode?",
+					"votes": 6,
+					"sentiment": -0.5584
+				},
+				{
+					"text": "Congrats to the KDE and all the contributors that made this a reality. If you can please donate to the KDE project today.   \nAlso please send a F\\*\\*\\*k you to Nvidia today.",
+					"votes": 15,
+					"sentiment": 0.7906
+				},
+				{
+					"text": "The video is nice *looking* but not as informative as it really should be. IMO you should look at working with [The Linux Experiment](https://www.youtube.com/watch?v=qbAuxp_I0zk). I have been subbed for a while and his videos are well made and showcase the good (and sometimes bad) parts of KDE - as well as other DEs.",
+					"votes": 11,
+					"sentiment": 0.8765
+				},
+				{
+					"text": "Is the new system monitor completely replacing ksysguard? I use ksysguard on my minimalist setups and I'm not sure if I want to switch over if ksysguard is still going to be maintained.",
+					"votes": 5,
+					"sentiment": -0.2924
+				},
+				{
+					"text": "is kde neon already updated with this version?",
+					"votes": 7,
+					"sentiment": 0.0
+				},
+				{
+					"text": "My `pkcon update` has been stuck on Running for the past hour. It's using CPU so I know it's doing *something* haha... either that or stuck in some loop. Should I Ctrl+C it or give it more time?\n\nEDIT: `strace` showed that it was just stuck in a weird loop of `poll([{fd=3, events=POLLIN}, {fd=9, events=POLLIN}, {fd=13, events=POLLIN}, {fd=15, events=POLLIN}], 4, 7) = 2 ([{fd=13, revents=POLLHUP}, {fd=15, revents=POLLHUP}])`. Odd. I Ctrl+C'd it and re-ran it with `sudo` and it worked fine. Not sure if related.",
+					"votes": 3,
+					"sentiment": -0.7999
+				},
+				{ "text": "Awesome.", "votes": 3, "sentiment": 0.6249 },
+				{
+					"text": "Wayland is working great in this release!  Chrome and Virtualbox were my last glitches until now.\n\nI was excited about the Breeze twilight theme, but after using Breeze dark for so long, it was really jarring having the bright white.\n\nIs there a way to get media controls to show album art with the Spotify snap install?",
+					"votes": 3,
+					"sentiment": 0.8122
+				},
+				{
+					"text": "Does KDE finally support activities in Wayland sessions?",
+					"votes": 3,
+					"sentiment": 0.4019
+				},
+				{
+					"text": "I have been using the testing edition for the last couple of weeks, and I must say - it's been really snappy (and stable). Just updated my user edition machine as well a few hours ago, went very smoothly. \n\n\nGreat job!",
+					"votes": 3,
+					"sentiment": 0.7763
+				},
+				{
+					"text": "Many thanks for all improvements! Plasma now feels much snappier and smooth.\n\n&#x200B;\n\nA few questions:  \n1. How to set up seamless updates? Didn't found anything related in Discover\n\n2. I still see an old System monitor on my PC. Maybe I should enable new layout somewhere?",
+					"votes": 3,
+					"sentiment": 0.7052
+				},
+				{
+					"text": "using it in kde neon, massive improvements over kwin + the visual changes, amazing experience so far.",
+					"votes": 3,
+					"sentiment": 0.7269
+				},
+				{
+					"text": "Where do I find the new system monitor? It doesn't seem to have been automatically installed when I upgraded, and I can't find it in Discover if I search for \"Plasma System Monitor\" or \"System Monitor\".",
+					"votes": 3,
+					"sentiment": 0.0
+				},
+				{
+					"text": "I switched to KDE a couple weeks ago, it keeps getting better and better\n\nCongratulations to everyone involved, it's a joyful experience so far!",
+					"votes": 3,
+					"sentiment": 0.9312
+				},
+				{
+					"text": "mfw Kubuntu 20.04 doesn't allow installation of Plasma 5.21",
+					"votes": 9,
+					"sentiment": -0.1695
+				},
+				{
+					"text": "Already running 5.21 on both my laptops in KDE Neon! Received the update over an hour ago.\n\nI'm disappointed. I was hoping that this release would finally fix the virtual keyboard in the Wayland session so I can use Wayland on my Surface Pro 4 without an external keyboard. It does not fix it! The virtual keyboard does not work on my Surface Pro 4 or on my ASUS laptop. The indicator says it's enabled, but it won't come up when I select a text box in any application, to include KDE Plasma applications.\n\nThis is freaking frustrating! This issue was reported back with the release of 5.20, when the virtual keyboard on the desktop was \"broken\" in favor of fixing an issue with Plasma Mobile (???). I thought 5.21 was supposed to finally fix it, yet it still doesn't work. Despite all of the improvements to Wayland, without a keyboard, the session is useless to me!",
+					"votes": 5,
+					"sentiment": -0.8228
+				},
+				{
+					"text": "Is plasma usable at 100% on wayland now ?",
+					"votes": 2,
+					"sentiment": 0.0
+				},
+				{
+					"text": "Can't wait to try the Improved Wayland session. :)",
+					"votes": 2,
+					"sentiment": 0.7269
+				},
+				{
+					"text": "Man, this update sounds awesome. Have the new Wayland features been tested on Nvidia GPUs ? I've been wanting to try out Wayland for a while, but I read some much horror stories about Nvidia compatibility... I'm not sure about today's status though. \n\nRIP Gustavo",
+					"votes": 2,
+					"sentiment": -0.7134
+				},
+				{
+					"text": "I really like that new theme & start menu",
+					"votes": 2,
+					"sentiment": 0.4201
+				},
+				{
+					"text": "Seems that the issue with some (or all) key inputs not registering at all in Wayland session depending on the software stil hasn't been fixed since the Beta. In Team Fortress 2 the game straight up does not register Backspace nor \\~ button at all, while on Wine none of the keyboard inputs work at all.",
+					"votes": 2,
+					"sentiment": 0.2263
+				},
+				{
+					"text": "~~Is already available in Neon? I moved back to Kubuntu.~~\n\nops, [nevermind](https://www.reddit.com/r/kde/comments/ll388r/plasma_521_is_out_and_this_time_we_have_improved/gnnvzph/)",
+					"votes": 2,
+					"sentiment": 0.0
+				},
+				{
+					"text": "I love the new menu and wayland support getting better is always great! Also the wallpaper choice is cool",
+					"votes": 2,
+					"sentiment": 0.9476
+				},
+				{
+					"text": "I think you made every french user of Plasma happy with this screenshot of Mc Solaar. :)",
+					"votes": 2,
+					"sentiment": 0.7717
+				},
+				{
+					"text": "RIP Gustavo.   Konsole is indeed a great application I use every day.   I will remember him.\n\nThank you KDE team for Plasma 5.21... I'll use it once available in Kubuntu 21.04.\n\nJust made a donation to KDE",
+					"votes": 2,
+					"sentiment": 0.765
+				},
+				{
+					"text": "Ugh, I just added tabs to KSysGuard hahaha. Oh well, this looks better anyway. Thanks for all the hard work!",
+					"votes": 2,
+					"sentiment": 0.8221
+				},
+				{
+					"text": "Man I wanna switch to this so bad but I'm trying to make linux my daily driver so I don't think I'm ready for the complications haha",
+					"votes": 1,
+					"sentiment": -0.1054
+				},
+				{
+					"text": "I am running Fedora 33 KDE and it appears package version has not been updated since 08/2020 on discover. How would I go about upgrading to 5.21 to try it out, currently on 5.20.",
+					"votes": 1,
+					"sentiment": 0.0
+				},
+				{
+					"text": "That 'star icon' in the media player widget looks weird. Not at all obvious that it's meant to show the currently playing thing.",
+					"votes": 1,
+					"sentiment": 0.0258
+				},
+				{
+					"text": "Just installed it on Arch,it's in Extra now!",
+					"votes": 1,
+					"sentiment": 0.0
+				},
+				{
+					"text": "can't find firewalld on arch?",
+					"votes": 1,
+					"sentiment": 0.0
+				},
+				{
+					"text": "How can I enable the \"key held\" feature that was [announced here](https://pointieststick.com/2020/12/04/this-week-in-kde-big-new-accented-alternative-character-input-feature/)? Do I need to use certain keyboard layout to use it?",
+					"votes": 1,
+					"sentiment": 0.3527
+				},
+				{
+					"text": "Is the annoying logout and login problem fixed?",
+					"votes": 1,
+					"sentiment": -0.6597
+				},
+				{
+					"text": "What i want to know is weather its the actual KDE devs who can decide themselves to fix the Wayland issue of having no apparent equivelant to the standard plasma terminal command xrandr to setup the monitors/screens ?\nWithout an equivelant, i wont ever be using Wayland",
+					"votes": 1,
+					"sentiment": -0.2263
+				},
+				{ "text": "[deleted]", "votes": -1, "sentiment": 0.0 },
+				{
+					"text": "Great....now try fixing some bugs for a change!",
+					"votes": -64,
+					"sentiment": 0.0
+				},
+				{
+					"text": "I love how they are like \"plasma 5.21 is all about looks....\" then  has a baby  themed UI backed with a dark purple wallpaper which can only be described as a colour clash train wreck lol.",
+					"votes": -9,
+					"sentiment": 0.7717
+				}
+			]
+		}
+	],
+	"ognarb1": []
+}

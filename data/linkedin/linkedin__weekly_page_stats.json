@@ -1,0 +1,66 @@
+{
+	"totalPageStatistics": {
+		"clicks": {
+			"mobileCustomButtonClickCounts": [
+				{ "customButtonType": "VIEW_WEBSITE", "clicks": 0 }
+			],
+			"careersPageClicks": {
+				"careersPagePromoLinksClicks": 0,
+				"careersPageBannerPromoClicks": 0,
+				"careersPageJobsClicks": 0,
+				"careersPageEmployeesClicks": 0
+			},
+			"desktopCustomButtonClickCounts": [
+				{ "customButtonType": "VIEW_WEBSITE", "clicks": 0 }
+			],
+			"mobileCareersPageClicks": {
+				"careersPageJobsClicks": 0,
+				"careersPagePromoLinksClicks": 0,
+				"careersPageEmployeesClicks": 0
+			}
+		},
+		"views": {
+			"mobileProductsPageViews": { "pageViews": 0, "uniquePageViews": 0 },
+			"allDesktopPageViews": { "pageViews": 25, "uniquePageViews": 13 },
+			"insightsPageViews": { "pageViews": 0, "uniquePageViews": 0 },
+			"mobileAboutPageViews": { "pageViews": 10, "uniquePageViews": 7 },
+			"allMobilePageViews": { "pageViews": 26, "uniquePageViews": 8 },
+			"desktopProductsPageViews": {
+				"pageViews": 0,
+				"uniquePageViews": 0
+			},
+			"productsPageViews": { "pageViews": 0, "uniquePageViews": 0 },
+			"jobsPageViews": { "pageViews": 2, "uniquePageViews": 2 },
+			"peoplePageViews": { "pageViews": 3, "uniquePageViews": 0 },
+			"overviewPageViews": { "pageViews": 32, "uniquePageViews": 21 },
+			"mobileOverviewPageViews": {
+				"pageViews": 16,
+				"uniquePageViews": 8
+			},
+			"lifeAtPageViews": { "pageViews": 0, "uniquePageViews": 0 },
+			"desktopOverviewPageViews": {
+				"pageViews": 16,
+				"uniquePageViews": 13
+			},
+			"mobileCareersPageViews": { "pageViews": 0, "uniquePageViews": 0 },
+			"allPageViews": { "pageViews": 51, "uniquePageViews": 21 },
+			"mobileJobsPageViews": { "pageViews": 0, "uniquePageViews": 0 },
+			"careersPageViews": { "pageViews": 2, "uniquePageViews": 2 },
+			"mobileLifeAtPageViews": { "pageViews": 0, "uniquePageViews": 0 },
+			"desktopJobsPageViews": { "pageViews": 2, "uniquePageViews": 2 },
+			"desktopPeoplePageViews": { "pageViews": 3, "uniquePageViews": 2 },
+			"aboutPageViews": { "pageViews": 14, "uniquePageViews": 4 },
+			"desktopAboutPageViews": { "pageViews": 4, "uniquePageViews": 4 },
+			"mobilePeoplePageViews": { "pageViews": 0, "uniquePageViews": 0 },
+			"desktopInsightsPageViews": {
+				"pageViews": 0,
+				"uniquePageViews": 0
+			},
+			"desktopCareersPageViews": { "pageViews": 2, "uniquePageViews": 2 },
+			"desktopLifeAtPageViews": { "pageViews": 0, "uniquePageViews": 0 },
+			"mobileInsightsPageViews": { "pageViews": 0, "uniquePageViews": 0 }
+		}
+	},
+	"timeRange": { "start": 1612483200000, "end": 1612569600000 },
+	"organization": "urn:li:organization:29561"
+}

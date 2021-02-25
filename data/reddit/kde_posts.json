@@ -1,0 +1,1260 @@
+[
+	{
+		"title": "Lightly 0.4 release, featuring redesigned tabs and cool animations.",
+		"ups": "431",
+		"upvote_ratio": "1.0",
+		"total_awards_received": "4",
+		"created": "1612716510.0",
+		"id": "leive9",
+		"num_crossposts": "1",
+		"num_comments": "104",
+		"link_flair_text": "Community Content",
+		"author": "Luwx",
+		"stickied": "False",
+		"url": "https://i.redd.it/54jo15ooq0g61.png",
+		"author_flair_text": "None",
+		"comments": [
+			{
+				"text": "*Lightly* is a fork of breeze theme style that aims to be visually modern and minimalistic.",
+				"upvotes": 66,
+				"downvotes": 0
+			},
+			{
+				"text": "Holy crap I might just install KDE today just to try this out!",
+				"upvotes": 21,
+				"downvotes": 0
+			},
+			{
+				"text": "Looks good, does it have a darkly alt?",
+				"upvotes": 15,
+				"downvotes": 0
+			},
+			{
+				"text": "Github release page with the relevant changes and gifs demonstrating the animations: https://github.com/Luwx/Lightly/releases/tag/v0.4",
+				"upvotes": 31,
+				"downvotes": 0
+			},
+			{
+				"text": "Those are some fantastic-looking widgets; I wouldn't mind if they were part of the actual Breeze redesign that was [posted here yesterday](https://old.reddit.com/r/kde/comments/ldzjqb/is_the_redesign_of_the_widgets_buttons_check/).",
+				"upvotes": 8,
+				"downvotes": 0
+			},
+			{
+				"text": "Nice! Going to install this on Kubuntu. Finally some really nice light themes amongst all darkish stuff :) The configuration application looks great too.",
+				"upvotes": 6,
+				"downvotes": 0
+			},
+			{
+				"text": "Does it have a gtk theme too? Because some apps like pamac are gtk based and I don't want them to look different than the qt apps...",
+				"upvotes": 9,
+				"downvotes": 0
+			},
+			{ "text": "Gorgeous!", "upvotes": 5, "downvotes": 0 },
+			{
+				"text": "You know what? I with the official the red where more like this. It's still \"flat\" but feels like there's weight and purpose, it's not just lines separating things, makes it feels like each part have life.",
+				"upvotes": 5,
+				"downvotes": 0
+			},
+			{
+				"text": "I thought Lightly was perfect as it was,but now it's even better!\n\nAll the changes look good,but my favourite has to be the button style tabs in dialogue windows,they look very stylish.  [https://i.imgur.com/iFFbhci.png](https://i.imgur.com/iFFbhci.png)",
+				"upvotes": 4,
+				"downvotes": 0
+			},
+			{
+				"text": "I miss KDE so much \ud83d\ude2d. But I've been having problems while logging in, it gets stuck at splash screen for a really long time after logging in",
+				"upvotes": 3,
+				"downvotes": 0
+			},
+			{
+				"text": "Gorgeous theme. It makes me forget the old feeling I get when I use KDE with Breeze. Bravo.",
+				"upvotes": 3,
+				"downvotes": 0
+			},
+			{
+				"text": "Woah so good. This would work well as a base theme for kde. Kde team, please look at this.",
+				"upvotes": 3,
+				"downvotes": 0
+			},
+			{
+				"text": "I'm looking at it and the only thing in my mind now is GLaDOS saying: \"Federal regulations require me to warn you that this next test chamber... [is looking pretty good.](http://www.portal2sounds.com/460)\"",
+				"upvotes": 3,
+				"downvotes": 0
+			},
+			{ "text": "Looking awesome!", "upvotes": 2, "downvotes": 0 },
+			{
+				"text": "Been using lightly for months, fukin love it . Nice to see a new release",
+				"upvotes": 2,
+				"downvotes": 0
+			},
+			{
+				"text": "Lightly is gorgeous, congratulations !",
+				"upvotes": 2,
+				"downvotes": 0
+			},
+			{
+				"text": "I like it. Oxygen was such a good, timeless widget theme, that certain of its design elements still work.",
+				"upvotes": 2,
+				"downvotes": 0
+			},
+			{
+				"text": "It is perfect theme. This what I look for for a long time.",
+				"upvotes": 2,
+				"downvotes": 0
+			},
+			{
+				"text": "This is absolutely brilliant, at last light feels right!",
+				"upvotes": 2,
+				"downvotes": 0
+			},
+			{
+				"text": "Any chance of getting this installed with AUR? \n\n&#x200B;\n\n/Manjaro noob",
+				"upvotes": 2,
+				"downvotes": 0
+			},
+			{
+				"text": "I've been using it for several months now, it's great. Thank you for your work /u/Luwx <3",
+				"upvotes": 2,
+				"downvotes": 0
+			},
+			{
+				"text": "I actually think light themes look generally better, you can just see way more little details. However the eye strain forbids it :(",
+				"upvotes": 1,
+				"downvotes": 0
+			},
+			{
+				"text": "How did you get the Falkon tabs in the titlebar? (though I notice there is no close etc. button)",
+				"upvotes": 1,
+				"downvotes": 0
+			},
+			{
+				"text": "It would look better if the close button was not black, because it seems unfamiliar to an eye",
+				"upvotes": 1,
+				"downvotes": 0
+			},
+			{
+				"text": "Sorry if I sound like a noob (because I am one) but I can't seem to install this no matter what. If I use Arch terminal line from readme on github It installs but I cant see option to use it inanywhere system settings. If I use build options I get access denied error when trying to mkdir. Any help?\n\nEDIT: i'm using manjaro kde",
+				"upvotes": 1,
+				"downvotes": 0
+			},
+			{
+				"text": "So what\u2019s the easiest way to install this theme?\nI tried to follow github instructions with no luck.I\u2019m on Manjaro.",
+				"upvotes": 1,
+				"downvotes": 0
+			},
+			{
+				"text": "So, I installed it, but cannot see it in the System Settings. Has anyone else has this issue?",
+				"upvotes": 1,
+				"downvotes": 0
+			},
+			{
+				"text": "It looks great!!!!\n\nCan we have a Darkly too? \ud83d\ude01",
+				"upvotes": 1,
+				"downvotes": 0
+			},
+			{
+				"text": "Now that's a great improvement. Just a few things missing from Qt, and this could be on par with Gtk!",
+				"upvotes": 1,
+				"downvotes": 0
+			},
+			{
+				"text": "Hi, I have modified the color-scheme to have different transparencies in the windows, I can't find the way that the selected tab is also transparent, can I configure the transparencies in the tabs?",
+				"upvotes": 1,
+				"downvotes": 0
+			},
+			{
+				"text": "Can we achieve subtle 3d look for window decoration and border to become something like this [https://github.com/mut-ex/awesome-wm-nice](https://github.com/mut-ex/awesome-wm-nice) & this [https://github.com/arndtphillip/dotfiles](https://github.com/arndtphillip/dotfiles) ? afaik, in the past, hello-kde have similiar effect",
+				"upvotes": 1,
+				"downvotes": 0
+			},
+			{
+				"text": "You're the savior for KDE.",
+				"upvotes": 1,
+				"downvotes": 0
+			},
+			{
+				"text": "Is there lightly dark version?",
+				"upvotes": 1,
+				"downvotes": 0
+			},
+			{
+				"text": "Do you offer Plasma Style? The one that is on the start menu.",
+				"upvotes": 1,
+				"downvotes": 0
+			},
+			{
+				"text": "Hmm, I don't comment on theming ever but this looks pretty nice.",
+				"upvotes": 1,
+				"downvotes": 0
+			},
+			{
+				"text": "Does anyone actually use Falkon?",
+				"upvotes": 1,
+				"downvotes": 0
+			}
+		]
+	},
+	{
+		"title": "This week in KDE: KWin gains direct scan-out, and Gwenview gets a lot of love",
+		"ups": "245",
+		"upvote_ratio": "1.0",
+		"total_awards_received": "2",
+		"created": "1612615091.0",
+		"id": "ldq019",
+		"num_crossposts": "0",
+		"num_comments": "30",
+		"link_flair_text": "None",
+		"author": "Modelmat",
+		"stickied": "False",
+		"url": "https://pointieststick.com/2021/02/05/this-week-in-kde-kwin-gains-direct-scan-out-and-gwenview-gets-a-lot-of-love/",
+		"author_flair_text": ":arch:",
+		"comments": [
+			{
+				"text": "Clickable destination in notifications is the sort of thing you didn't know you wanted until you see it",
+				"upvotes": 45,
+				"downvotes": 0
+			},
+			{
+				"text": "That's awesome! Every time Nate posts KDE News makes me happy for switching to Plasma and the KDE ecossytem in general!",
+				"upvotes": 53,
+				"downvotes": 0
+			},
+			{
+				"text": "What does \"direct scan-out\" mean in practice? Does that mean it's no longer required to disable compositing for games, or does it improve performance with compositing disabled?",
+				"upvotes": 11,
+				"downvotes": 0
+			},
+			{
+				"text": "Great news! I couldn't be happier about Krunner matching improvements. It sucks tbh",
+				"upvotes": 5,
+				"downvotes": 0
+			},
+			{
+				"text": "> The Present Windows effect can now activate when only one window is open.\n\nThis is very much appreciated.",
+				"upvotes": 6,
+				"downvotes": 0
+			},
+			{
+				"text": "Plasma 5.21 looks to be in great shape! :)\n\nWhy are some from the looks of it minor improvements, being pushed to Plasma 5.22 instead? Double clicking on notifications to copy them and the file location path link seems really nice. Do these changes need more testing or any other good reasons not merging this into Plasma 5.21?\n\nNo criticism, just curious why this decision has been made. :)",
+				"upvotes": 9,
+				"downvotes": 0
+			},
+			{
+				"text": "> The Present Windows effect can now activate when only one window is open\n\nty, that always bugged me about it.",
+				"upvotes": 5,
+				"downvotes": 0
+			},
+			{
+				"text": "The kwin patches for intel integrated graphics and firefox are very welcome. I can't wait to test this",
+				"upvotes": 3,
+				"downvotes": 0
+			},
+			{
+				"text": "Nice! Where can I get plasma git? Do I need to build it myself or I can download it somewhere? I'm running kubuntu 21.04, want to test direct scan-out on wayland.",
+				"upvotes": 2,
+				"downvotes": 0
+			},
+			{
+				"text": "Yay, nice work! Would it be too much to ask for a fix? I recently discovered a very annoying bug in Kate, not sure if it is something new, but still...\n\nWhen working on markdown document with a live preview plugin, Kate sometimes complains all the time that various key combinations (like Ctrl+C, Ctrl+F, Ctrl+S) are ambiguous, while there is nothing obvious in a Kates config that could cause that.\n\nI bet you can imagine how annoying is that...",
+				"upvotes": 2,
+				"downvotes": 0
+			}
+		]
+	},
+	{
+		"title": "Firefox + Custom userChrome.css makes firefox less ugly on plasma",
+		"ups": "219",
+		"upvote_ratio": "0.93",
+		"total_awards_received": "2",
+		"created": "1612227161.0",
+		"id": "la7rpu",
+		"num_crossposts": "0",
+		"num_comments": "41",
+		"link_flair_text": "None",
+		"author": "bigbigted",
+		"stickied": "False",
+		"url": "https://v.redd.it/as32y55pbwe61",
+		"author_flair_text": "None",
+		"comments": [
+			{
+				"text": "> makes firefox less ugly on plasma\n\nWhat changes have you made besides the auto-hiding toolbar? That part doesn't seem to have much to do with Plasma, and the rest just looks like how Firefox looks on my machine (it matches the title bar well as long as you use  the Breeze GTK theme).",
+				"upvotes": 41,
+				"downvotes": 0
+			},
+			{
+				"text": "A custom userChrome.css makes firefox less ugly on any DE btw",
+				"upvotes": 39,
+				"downvotes": 0
+			},
+			{
+				"text": "Since when is Firefox ugly (especially on Plasma)? You can just disable the title bar in Firefox and it integrates very nicely.",
+				"upvotes": 61,
+				"downvotes": 0
+			},
+			{
+				"text": "I too like the on hover reveal effect for more vertical space. However I prefer the CSD and instead hide the bookmarks bar.\n\nhttps://gist.github.com/Zren/37bed9ed257347d97233273f32287707",
+				"upvotes": 9,
+				"downvotes": 0
+			},
+			{
+				"text": "Cool! Is it  on [https://firefoxcss-store.github.io/](https://firefoxcss-store.github.io/) yet? :-)",
+				"upvotes": 6,
+				"downvotes": 0
+			},
+			{
+				"text": "Do you have the dot files somewhere?",
+				"upvotes": 5,
+				"downvotes": 0
+			},
+			{
+				"text": "How do you get FF to have a Breeze Dark look?\n\nIt's literally my only application with a white window and it's blinding to me.",
+				"upvotes": 4,
+				"downvotes": 0
+			},
+			{
+				"text": "Just yesterday I was looking into [Slick-fox](https://github.com/Etesam913/slick-fox), but I ended up dropping it because it strayed away too much from Firefox's default look.  \nYour theme is exactly what I was looking for. Thank you!",
+				"upvotes": 3,
+				"downvotes": 0
+			},
+			{
+				"text": "Auto-hiding UI elements?\n\n*hisses angrily*",
+				"upvotes": 3,
+				"downvotes": 0
+			},
+			{
+				"text": "What's the point of using both uBlock Origin and Adguard?",
+				"upvotes": 2,
+				"downvotes": 0
+			},
+			{ "text": "Am so confused??", "upvotes": 1, "downvotes": 0 },
+			{
+				"text": "Will you upload the css file?",
+				"upvotes": 1,
+				"downvotes": 0
+			},
+			{
+				"text": "I do not think firefox looks ugly on kde. I agree that titlebar looks better on gtk based systems but I think It is pretty good on qt based systems too. I always disable titlebar regardless on gtk or qt based systems.",
+				"upvotes": 1,
+				"downvotes": 0
+			},
+			{
+				"text": "Removing title bar make firefox \" less ugly\"",
+				"upvotes": 1,
+				"downvotes": 0
+			},
+			{
+				"text": "Chrome looks uglier to me",
+				"upvotes": 1,
+				"downvotes": 0
+			},
+			{
+				"text": "Here's how I edited my .config/gtk-3.0/gtk.css:\n\n.scrollbar,\nscrollbar {\n    -GtkScrollbar-has-backward-stepper: 1;\n    -GtkScrollbar-has-forward-stepper: 1;\n}\n\nscrollbar slider {\n    background-color: rgba(162, 18, 20, 1);\n}\n\nscrollbar.horizontal button,\nscrollbar.horizontal .button {\n    min-width: 14px;\n    min-height: 0px;\n    padding: 0px;\n}\n\nThis fixes the missing scrollbar buttons in Firefox, edit CSS how you want to make the scrollbar less ugly.",
+				"upvotes": 1,
+				"downvotes": 0
+			},
+			{
+				"text": "Ugly? It's not ugly cmon...",
+				"upvotes": 1,
+				"downvotes": 0
+			},
+			{
+				"text": "looks fancy, but if you wanted more space up at the top, Firefox has a setting somewhere to move the window decorations on the same bar as the search and everything",
+				"upvotes": 1,
+				"downvotes": 0
+			},
+			{
+				"text": "Thanks that I've hidden tabs bar, because for daily use I have \"Tree Style Tabs\" (vertical tabs composed in tree).",
+				"upvotes": 1,
+				"downvotes": 0
+			},
+			{
+				"text": "How to make Firefox less ugly but way less practical to use....",
+				"upvotes": 1,
+				"downvotes": 0
+			}
+		]
+	},
+	{
+		"title": "Want to create a Plasma Theme? Here's a guide on how to do that, no code required!",
+		"ups": "199",
+		"upvote_ratio": "1.0",
+		"total_awards_received": "1",
+		"created": "1612540728.0",
+		"id": "ld2hfl",
+		"num_crossposts": "2",
+		"num_comments": "14",
+		"link_flair_text": "None",
+		"author": "veggero",
+		"stickied": "False",
+		"url": "https://youtu.be/XrNWYt_vciA",
+		"author_flair_text": ":kde: KDE Contributor",
+		"comments": [
+			{
+				"text": "The ownopacity tool is great! Before this I usually just guessed what values would improve the look, restarted Plasmashell, repeat.",
+				"upvotes": 16,
+				"downvotes": 0
+			},
+			{
+				"text": "I wanted to get into KDE customization and this looks absolutely perfect! Please do more!\n\nA small request. While doing the changes to the svg's can you take a bit of time to explain what each element does or what it affects? For example the hint margins. what are they used for?",
+				"upvotes": 13,
+				"downvotes": 0
+			},
+			{
+				"text": "2021 has finally a good beginning ;)\n\nThis video is a *must have* in this community. \n\nThanks!",
+				"upvotes": 4,
+				"downvotes": 0
+			},
+			{
+				"text": "Can u explain how to embed an images texture into svg elements\nSuch as leather,carbon fiber,wood\nTh",
+				"upvotes": 2,
+				"downvotes": 0
+			},
+			{
+				"text": "> no coding required\n\nGod keep 'em coming!!",
+				"upvotes": 4,
+				"downvotes": 0
+			},
+			{
+				"text": "Nice, waiting for kvantum and gtk themes",
+				"upvotes": 2,
+				"downvotes": 0
+			},
+			{
+				"text": "Why not using the plasma global theme explorer?",
+				"upvotes": 1,
+				"downvotes": 0
+			},
+			{
+				"text": "\"No coding required\"\n\nthats where he lost me",
+				"upvotes": -1,
+				"downvotes": 0
+			}
+		]
+	},
+	{
+		"title": "Please use and open-source alternative to Google's reCAPTCHA when registering a KDE Identity account",
+		"ups": "189",
+		"upvote_ratio": "0.96",
+		"total_awards_received": "1",
+		"created": "1612576595.0",
+		"id": "ldcxe6",
+		"num_crossposts": "0",
+		"num_comments": "26",
+		"link_flair_text": "Suggestion",
+		"author": "CousinOfThor",
+		"stickied": "False",
+		"url": "https://www.reddit.com/r/kde/comments/ldcxe6/please_use_and_opensource_alternative_to_googles/",
+		"author_flair_text": "None",
+		"comments": [
+			{
+				"text": "Other open source projects have discussed it too:\n\n- https://github.com/matomo-org/matomo/issues/13905\n\n  Result: \"We're removed google recaptcha from Matomo.org websites. So far we're using a mix of simple catchas (a math question) and also https://www.hcaptcha.com/\"\n  \n  hcaptcha is proprietary, but afaik still better for privacy than Google\n\n- https://github.com/vector-im/element-web/issues/3606\n\n  https://github.com/matrix-org/matrix-doc/issues/1281\n\nAside from Securimage, there are several other captcha systems discussed, including some ones which are proprietary but still self-hosted and at least better for privacy than Google.",
+				"upvotes": 28,
+				"downvotes": 0
+			},
+			{
+				"text": "Does it really need a captcha even? What problem does a captcha solve that a combination of email verification and rate-limiting doesn't?",
+				"upvotes": 7,
+				"downvotes": 0
+			},
+			{
+				"text": "Sometimes, I feel like you guys are taking it too far. Really, an open source CAPTCHA? It seems like it's more work than it's worth.\n\nThat's just me though.",
+				"upvotes": -88,
+				"downvotes": 0
+			}
+		]
+	},
+	{
+		"title": "In KDE's February 2021 Apps Update: Kongress hits version 1.0 and Calligra Plan reaches version 3.3 (plus tons of bugfixes and improvements)",
+		"ups": "109",
+		"upvote_ratio": "0.99",
+		"total_awards_received": "1",
+		"created": "1612469407.0",
+		"id": "lcebaj",
+		"num_crossposts": "0",
+		"num_comments": "4",
+		"link_flair_text": "Update",
+		"author": "Bro666",
+		"stickied": "False",
+		"url": "https://kde.org/announcements/releases/2021-02-apps-update/",
+		"author_flair_text": ":kde: KDE Contributor",
+		"comments": [
+			{
+				"text": "What is Kongress?? Some political news app?",
+				"upvotes": -8,
+				"downvotes": 0
+			}
+		]
+	},
+	{
+		"title": "After some changes I made in Kvantum manager , dolphin looks like this. I tried a lot, but couldn't make it look like older",
+		"ups": "101",
+		"upvote_ratio": "0.96",
+		"total_awards_received": "0",
+		"created": "1612443874.0",
+		"id": "lc84wb",
+		"num_crossposts": "0",
+		"num_comments": "12",
+		"link_flair_text": "Question",
+		"author": "itsme_shibintmz",
+		"stickied": "False",
+		"url": "https://i.redd.it/3ifqgcw58ef61.png",
+		"author_flair_text": "None",
+		"comments": [
+			{
+				"text": "Maybe it's Kvantum, SVGs are just too new. Have you tried the MS Windows 9x style? :D",
+				"upvotes": 11,
+				"downvotes": 0
+			},
+			{
+				"text": "Maybe change the color theme?",
+				"upvotes": 3,
+				"downvotes": 0
+			},
+			{
+				"text": "You have done well,it looks like an early QtCurve theme.\n\nMaybe you could try more of a gradient for the toolbar,give it bit of a tubular look for an early 2000s style?",
+				"upvotes": 3,
+				"downvotes": 0
+			},
+			{
+				"text": "did you try to change kvantum theme :d",
+				"upvotes": 1,
+				"downvotes": 0
+			},
+			{
+				"text": "I like the original Oxygen aurorae with this basic Kvantum theme (based on E17 desktop). You can download Oxygen from the PPA. Flat themes are boring.",
+				"upvotes": 1,
+				"downvotes": 0
+			},
+			{
+				"text": "Off-topic, but holy shit these exit/minimize/maximize buttons are gorgeous!! They look much more like macOS Big Sur than the BigSur theme which has weird button placement! Where are they from?",
+				"upvotes": 1,
+				"downvotes": 0
+			},
+			{
+				"text": "I had this exact problem. Try to set the global theme to default manjaro theme like breathe or something. let me know If it works.",
+				"upvotes": 1,
+				"downvotes": 0
+			}
+		]
+	},
+	{
+		"title": "The upcoming version of Index comes with support to compress files, a new overview view listing favorite and most recent files, and a bunch of other small improvements. Check more about it and get the beta package for Android, and Linux desktop and phones https://nxos.org/maui/maui-weekly-report-8",
+		"ups": "100",
+		"upvote_ratio": "0.99",
+		"total_awards_received": "0",
+		"created": "1612656160.0",
+		"id": "le0ffl",
+		"num_crossposts": "1",
+		"num_comments": "16",
+		"link_flair_text": "KDE Apps and Projects",
+		"author": "milohr",
+		"stickied": "False",
+		"url": "https://i.redd.it/37lsdhqcrvf61.png",
+		"author_flair_text": "None",
+		"comments": [
+			{
+				"text": "Anyone mind explaining what all these Maui apps are? I don't understand. The websites tell me they're based on KDE Widgets (I thought it was a toolkit?) and cross platform. The apps look pretty, but I haven't seen them packaged for a lot of distros. Is it qt based but not qt? Or is it just an abstraction over qt?",
+				"upvotes": 13,
+				"downvotes": 0
+			},
+			{
+				"text": "Link for mobile: https://nxos.org/maui/maui-weekly-report-8",
+				"upvotes": 6,
+				"downvotes": 0
+			},
+			{
+				"text": "Links don't work in description",
+				"upvotes": 4,
+				"downvotes": 0
+			},
+			{
+				"text": "I could be wrong but I see MAUI as a family of apps aimed at making a new MAUI environment. And since the project started with some KDE guys. They use Qt and some of the KDE libraries and thus remain a friendly sister-community. \n\nBut maybe I remember wrong but I see it like a new UI on top of a KDE backend.",
+				"upvotes": 2,
+				"downvotes": 0
+			}
+		]
+	},
+	{
+		"title": "Is the redesign of the widgets (buttons, check boxes...) Still on mind of the KDE devs? I saw this on a task on phabricator",
+		"ups": "86",
+		"upvote_ratio": "0.97",
+		"total_awards_received": "0",
+		"created": "1612653475.0",
+		"id": "ldzjqb",
+		"num_crossposts": "0",
+		"num_comments": "33",
+		"link_flair_text": "KDE Apps and Projects",
+		"author": "robertob45",
+		"stickied": "False",
+		"url": "https://www.reddit.com/gallery/ldzjqb",
+		"author_flair_text": ":fedora:",
+		"comments": [
+			{
+				"text": "Yep, more or less. The first parts have been done (color scheme and unified header area on top), and we're hoping to do the selection effects, tabs, checkboxes, radio buttons, buttons, and sliders for Plasma 5.22.\n\nThere will be some minor divergences. For example text will be darker than shown in the mockups, the mockups don't show the red close button circle, etc. But overall, yeah, that's what we'll have.",
+				"upvotes": 30,
+				"downvotes": 0
+			},
+			{
+				"text": "I like this is a sort of breeze with some oxygen in it",
+				"upvotes": 32,
+				"downvotes": 0
+			},
+			{
+				"text": "Looks like a mix of Ubuntu's Yaru style and macOS Mojave style.\n\nAnd I'd like to have the link to the task.",
+				"upvotes": 8,
+				"downvotes": 0
+			},
+			{
+				"text": "The checkboxes, radio buttons and some other widgets look much better than current breeze. I'm not a huge fan of the tabs, especially the super light inactive font color. The buttons are fine but could be nicer. I wish they would unflatten the toolbar buttons though.",
+				"upvotes": 8,
+				"downvotes": 0
+			},
+			{
+				"text": "I'm loving the general roundness of it all! right now breeze just feels a bit boxy. And while we're talking about Plasma themes, by far my most anticipated feature in Plasma 6 is [this!](https://phabricator.kde.org/T13467) Being able to actually change the style of the apps without using Kvantum would be a godsend. I just hope this works with things like translucency and background blur.",
+				"upvotes": 3,
+				"downvotes": 0
+			},
+			{
+				"text": "Plasma Mobile will have some elements of the redesign sooner than the Desktop I think. Work is being done, I've seen some of the progress already coded and it's amazing.",
+				"upvotes": 4,
+				"downvotes": 0
+			},
+			{
+				"text": "I wish. Looks much better.",
+				"upvotes": 3,
+				"downvotes": 0
+			},
+			{
+				"text": "u/PointiestStick what do you think about these aspects of the [new Lightly-Theme](https://www.reddit.com/r/kde/comments/leive9/lightly_04_release_featuring_redesigned_tabs_and/), [comparing Lightly 0.4 against Breeze 5.20](https://imgur.com/a/BPNlGgu):\n\n1) In the category panel on the left, the blue selection covers the whole width\n\n2) The darker blue gives a better contrast to the font and makes it better readable. May make the blue icons suffer a little bit more though.\n\n3) Window, content border and control edges are all round\n\n4) There's a lighter frame with soft shadows, and slightly brighter content area which makes the theme look less flat\n\n5) The radio buttons and check boxes have a much lighter frame\n\n6) The buttons are brighter as well, making them stand out more\n\n&#x200B;\n\nI think you should invite u/Luwx over to work with you. :-)\n\n&#x200B;\n\nAll the best!",
+				"upvotes": 2,
+				"downvotes": 0
+			},
+			{
+				"text": "The darker separators between things in the new breeze dark theme makes it look so much better, yum.",
+				"upvotes": 2,
+				"downvotes": 0
+			},
+			{
+				"text": "Looks outdated. multiple shades, unnecessary lines and Gradients still better than the old design rounded corners are a warm welcome",
+				"upvotes": 8,
+				"downvotes": 0
+			},
+			{
+				"text": "Nice. The current breeze is too rough.",
+				"upvotes": 2,
+				"downvotes": 0
+			},
+			{
+				"text": "As long as they don't remove Oxygen, I'm happy. Having some element of texture and depth is incredibly important for some of us.",
+				"upvotes": 2,
+				"downvotes": 0
+			},
+			{
+				"text": "Did you see that [here](https://phabricator.kde.org/T10891), in the discussion for the ongoing Breeze theme evolution?",
+				"upvotes": 2,
+				"downvotes": 0
+			},
+			{
+				"text": "Kind of reminds me of Gnome 2' Clearlooks",
+				"upvotes": 1,
+				"downvotes": 0
+			},
+			{
+				"text": "The head bar looks ugly in the dark mode. Given it is a gradient straight through the title itself and button bar, it just looks as if it was a very fat headbar taking 20% of the whole window.",
+				"upvotes": 1,
+				"downvotes": 0
+			}
+		]
+	},
+	{
+		"title": "Rewritten Shortcut Configuration in 2020",
+		"ups": "72",
+		"upvote_ratio": "1.0",
+		"total_awards_received": "1",
+		"created": "1612393707.0",
+		"id": "lbpjw4",
+		"num_crossposts": "0",
+		"num_comments": "8",
+		"link_flair_text": "None",
+		"author": "aKateDev",
+		"stickied": "False",
+		"url": "https://blog.david-redondo.de/kde/2021/02/03/keys.html",
+		"author_flair_text": ":kde: KDE Contributor",
+		"comments": [
+			{ "text": "Amazing work. Wow!", "upvotes": 2, "downvotes": 0 },
+			{
+				"text": "Was the bug that this introduced where you could no longer set Enter/Return as a shortcut fixed? Mine is still working because I haven't changed and applied the setting change yet, but last I checked the keypress recorder no longer recorded \"Enter/Return,\" so this one needed to be changed from the command line.",
+				"upvotes": 1,
+				"downvotes": 0
+			},
+			{
+				"text": "https://commits.kde.org/frameworks/kdeclarative/-/commit/6c5619ffebaee01eafe5eec94662f1d29bc82d06 and similar links are a white screen for me. Running curl on the URL returns an empty page.",
+				"upvotes": 1,
+				"downvotes": 0
+			},
+			{
+				"text": "Just to confirm, X11 can't be setup to use some shortcuts that Wayland can right? I think one was `Meta + numpad`, eg for snap tiling/resizing a window to an edge or corner which iirc was a problem with X11?\n\nWhile I haven't used a laptop in a while, I'm aware of a libinput gestures lib/package that allows users to add gesture shortcuts on their touchpads, allowing for some actions that iirc Gnome provides by default with managing/navigating virtual desktops.\n\nI'm aware that there's support for KDE, but don't recall if that would be part of the shortcuts settings page (seems an appropriate place?). If anyone is using that is it good UX?",
+				"upvotes": 1,
+				"downvotes": 0
+			}
+		]
+	},
+	{
+		"title": "Why do notifications lose their buttons when they're put into the notification history?",
+		"ups": "69",
+		"upvote_ratio": "1.0",
+		"total_awards_received": "1",
+		"created": "1612337245.0",
+		"id": "lb9r8f",
+		"num_crossposts": "0",
+		"num_comments": "23",
+		"link_flair_text": "None",
+		"author": "AryToNeX",
+		"stickied": "False",
+		"url": "https://www.reddit.com/r/kde/comments/lb9r8f/why_do_notifications_lose_their_buttons_when/",
+		"author_flair_text": ":arch:",
+		"comments": [
+			{
+				"text": "With [this commit](https://invent.kde.org/network/kdeconnect-kde/-/commit/ffdbd9aefec44e2c32431d32b430ad1fe3385e28), KDE Connect's inline reply buttons will be retained and functional.\n\nScreenshot: https://i.imgur.com/aU8TAcR.png\n\nNotifications from the phone will be shown in the KDE Connect plasmoid, not Notifications history (this is configurable if you want), and properly synced to the phone.\n\nThe more general problem of retaining *all* buttons on notifications is a bit more difficult, but hopefully soon.",
+				"upvotes": 18,
+				"downvotes": 0
+			},
+			{
+				"text": "Yeah, this sounds like a Wishlist which should be sent to KDE Bug Tracker.",
+				"upvotes": 10,
+				"downvotes": 0
+			},
+			{
+				"text": "This is some really fundamental API design choice, but is is planned to implement this: [https://phabricator.kde.org/T11875](https://phabricator.kde.org/T11875)\n\n&#x200B;\n\n>Could allow features like revoking notifications after they expired and triggering actions from the history.",
+				"upvotes": 5,
+				"downvotes": 0
+			},
+			{
+				"text": "Because https://bugs.kde.org/show_bug.cgi?id=424625 hasn't been fixed yet. :)",
+				"upvotes": 2,
+				"downvotes": 0
+			},
+			{
+				"text": "Even I faced the same problem.",
+				"upvotes": 1,
+				"downvotes": 0
+			},
+			{
+				"text": "KDE's notifications is something really strange. \nI don't understand why the tray icon is hidden after clicking on it; this action doesn't mean that I read all the notifications.",
+				"upvotes": 1,
+				"downvotes": 0
+			}
+		]
+	},
+	{
+		"title": "This is really annoying tbh. I wish there's a few ms delay between thumbnail change",
+		"ups": "83",
+		"upvote_ratio": "0.91",
+		"total_awards_received": "0",
+		"created": "1612731587.0",
+		"id": "lem00c",
+		"num_crossposts": "0",
+		"num_comments": "12",
+		"link_flair_text": "Suggestion",
+		"author": "Zzombiee2361",
+		"stickied": "False",
+		"url": "https://v.redd.it/nv7t7pyaz1g61",
+		"author_flair_text": ":kdeneon:",
+		"comments": [
+			{
+				"text": "Known issue. See https://bugs.kde.org/show_bug.cgi?id=358930.",
+				"upvotes": 20,
+				"downvotes": 0
+			},
+			{
+				"text": "a delay wouldn't be a good idea but I am sure it could be made more intelligent and recognize when the pointer is heading straight to one of the windows.",
+				"upvotes": 6,
+				"downvotes": 0
+			},
+			{
+				"text": "I would find the delay annoying TBH, now it has a sane behavior",
+				"upvotes": 3,
+				"downvotes": 0
+			},
+			{
+				"text": "I like thumbnails but I have to disable them completely because of how they block things I need to click or see.",
+				"upvotes": 1,
+				"downvotes": 0
+			},
+			{
+				"text": "This issue makes my double height task bar really difficult.",
+				"upvotes": 1,
+				"downvotes": 0
+			}
+		]
+	},
+	{
+		"title": "My review of the Pine64 phone KDE Edition",
+		"ups": "53",
+		"upvote_ratio": "0.97",
+		"total_awards_received": "0",
+		"created": "1612255637.0",
+		"id": "laj665",
+		"num_crossposts": "0",
+		"num_comments": "13",
+		"link_flair_text": "Community Content",
+		"author": "somekool",
+		"stickied": "False",
+		"url": "https://www.reddit.com/r/kde/comments/laj665/my_review_of_the_pine64_phone_kde_edition/",
+		"author_flair_text": ":kde:",
+		"comments": [
+			{
+				"text": "For your second question, I would look at the pinephone page on the pine64 wiki page. For your 5th question, it shout-out be possible to do so under date and time in plasma settings. The best maps software i\u2019ve found is uNav. Finally, it dos have gps, but I think support for it is still a work in progress.",
+				"upvotes": 7,
+				"downvotes": 0
+			},
+			{
+				"text": "I downloaded Ktrip from f-droid just now. Couldn't find my city either. Nor could I find any way to add a dataset...\n\nLooks like Ktrip uses [KPublicTransport](https://invent.kde.org/utilities/ktrip/-/blob/master/src/controller.cpp) for trip planning. In turn [KPublicTransport](https://api.kde.org/kdepim/kpublictransport/html/index.html) calls this [api](https://www.navitia.io/datasets). From what I can tell, Navitia has large data gaps.\n\nFrom KPublicTransport: \n> Backends\n> \n> All data is retrieved from online backend services, this library is not offline capable. The following Free Software/Open Data backend types are supported:\n> \n> Navitia.\n> \nOpenTripPlanner, in the REST, Digitransit and Entur variants.\n> \n\n.\n> Additionally, a few proprietary/vendor-specific backends are supported too though.\n> \n> Configurations for more than 60 backend services can be found in 'src/lib/networks'.",
+				"upvotes": 1,
+				"downvotes": 0
+			},
+			{
+				"text": "> the first step to use the phone, you need to pull off the back, take out the battery which is very tight, and I am afraid to pull off the external paper every time. Then there is a sticker to be removed for the battery connector to power the phone.\n\n> Now is your chance to put a micro SD card or a phone SIM card, because every time you will want to swap SD/SIM cards, you will need to turn off your phone, pull out the battery and do that dance again.\n\nThat's how all phones work\u2026 they won't ship them with the connected battery and certainly not with a SIM already in.\n\nHave you only bought vendored phones from tmobile shops and similar before?",
+				"upvotes": -1,
+				"downvotes": 0
+			}
+		]
+	},
+	{
+		"title": "Does anyone know why the menu buttons in certain apps look super messed up?",
+		"ups": "51",
+		"upvote_ratio": "0.95",
+		"total_awards_received": "0",
+		"created": "1612529300.0",
+		"id": "lczp6n",
+		"num_crossposts": "0",
+		"num_comments": "3",
+		"link_flair_text": "Question",
+		"author": "scaryboiftw",
+		"stickied": "False",
+		"url": "https://i.redd.it/aparn4y9alf61.png",
+		"author_flair_text": "None",
+		"comments": [
+			{
+				"text": "Delete ~/.config/gtk-3.0/\nThen, log out and log in",
+				"upvotes": 18,
+				"downvotes": 0
+			},
+			{
+				"text": "Fixed in Plasma 5.20 IIRC. If not that, then 5.21",
+				"upvotes": 2,
+				"downvotes": 0
+			}
+		]
+	},
+	{
+		"title": "How do I prevent KDE's built-in VPN client from leaking my real IP address via IPv6?",
+		"ups": "47",
+		"upvote_ratio": "0.96",
+		"total_awards_received": "0",
+		"created": "1612272978.0",
+		"id": "laokcb",
+		"num_crossposts": "0",
+		"num_comments": "24",
+		"link_flair_text": "None",
+		"author": "AgreeableLandscape3",
+		"stickied": "False",
+		"url": "https://www.reddit.com/r/kde/comments/laokcb/how_do_i_prevent_kdes_builtin_vpn_client_from/",
+		"author_flair_text": "None",
+		"comments": [
+			{
+				"text": "The only solution I found was to completely disable ipv6 altogether. There are several ways to do this. Just google it. I used the GRUB2 method and it worked fine.",
+				"upvotes": 14,
+				"downvotes": 0
+			},
+			{
+				"text": "Your openvpn config has to be properly configure for ipv6, and the vpn server has to support it too",
+				"upvotes": 5,
+				"downvotes": 0
+			},
+			{
+				"text": "Yes; what a colossally stupid bug :(\n\non Debian you can [create an ifupdown script that disables ipv6 when a vpn comes up](https://askubuntu.com/questions/1140172/disable-ipv6-when-connected-to-specific-vpn-network).",
+				"upvotes": 2,
+				"downvotes": 0
+			},
+			{
+				"text": "Manually modify the openvpn config to block IPv6:\n\n    ifconfig-ipv6 fd15:53b6:dead::2/64 fd15:53b6:dead::1\n    redirect-gateway ipv6\n    block-ipv6",
+				"upvotes": 1,
+				"downvotes": 0
+			},
+			{
+				"text": "probably easiest is to block all outgoing ipv6 traffic for your PC to the internet by your firewall",
+				"upvotes": 1,
+				"downvotes": 0
+			},
+			{
+				"text": "another easy way would be to turn off ip v6 dhcp addressing at the router.",
+				"upvotes": -1,
+				"downvotes": 0
+			}
+		]
+	},
+	{
+		"title": "Getting rid of discover, keeps popping back up...",
+		"ups": "49",
+		"upvote_ratio": "0.9",
+		"total_awards_received": "0",
+		"created": "1612302097.0",
+		"id": "lavors",
+		"num_crossposts": "0",
+		"num_comments": "49",
+		"link_flair_text": "None",
+		"author": "alsostefan",
+		"stickied": "False",
+		"url": "https://www.reddit.com/r/kde/comments/lavors/getting_rid_of_discover_keeps_popping_back_up/",
+		"author_flair_text": "None",
+		"comments": [
+			{
+				"text": "Am I the only one who has had no issues with Discover? Granted I rarely use it.\nLinux Mint 20.01",
+				"upvotes": 7,
+				"downvotes": 0
+			},
+			{
+				"text": "Also, yeah, if you switch from using `plasma-meta` package to using `plasma` group, you can uninstall it.",
+				"upvotes": 6,
+				"downvotes": 0
+			},
+			{
+				"text": "That image depicts Discover PERFECTLY. I's truly the program from hell.",
+				"upvotes": 22,
+				"downvotes": 0
+			},
+			{
+				"text": "Check if `/etc/xdg/autostart/org.kde.discover.notifier.desktop` exists. Remove it and configure your package manager to not extract it on upgrades.",
+				"upvotes": 4,
+				"downvotes": 0
+			},
+			{
+				"text": "When I remember correctly I just removed it from the list of programs at startup in the \"System Settings\" -> \"Startup and Shutdown\" settings. Also check the \"Background Services\"\n\nI personally use Discover only for managing my Flatpaks, for everything else I use the  terminal",
+				"upvotes": 4,
+				"downvotes": 0
+			},
+			{
+				"text": "Just remove it if you don't like it. That's the indended course of action for this circumstance. If removing it breaks a metapackage, this seems like a packaging issue with your distro.",
+				"upvotes": 9,
+				"downvotes": 0
+			},
+			{
+				"text": "Perfect picture. I hate discover too",
+				"upvotes": 6,
+				"downvotes": 0
+			},
+			{
+				"text": "One of the comments explains how to make it inactive by modifying the pacman.conf file, but if you want it to completely go away you will have to uninstall the plasma-meta package along with discover. I was going to get rid of the new system monitor at the same time I got rid of discover, but it is early days and it is possible that more work will make it less hideous to look at. Besides, it isn't constantly annoying like discover. I am going to miss the plasma-meta package, but I follow along pretty closely anyway so I don't think I will actually miss anything. Discover needs to either go away or become much less intrusive. A truly unpleasant experience.",
+				"upvotes": 2,
+				"downvotes": 0
+			},
+			{
+				"text": "> Removing it breaks the KDE meta packages\n\nmeta packages only exist to pull in other packages, so it's ok to break them.",
+				"upvotes": 2,
+				"downvotes": 0
+			},
+			{
+				"text": "LOL I was once like you but decided to stop fighting it.... first because it seemed impossible but second because twice already I had issues with apps installed from third parties (MS Teams and Joplin) appimages that started blowing up but then became stable once installed from Discover",
+				"upvotes": 1,
+				"downvotes": 0
+			},
+			{
+				"text": "What distro are you using?",
+				"upvotes": 1,
+				"downvotes": 0
+			},
+			{
+				"text": "What would be a good alternative on Neon? I install software via the command line and sometimes synaptic, but I like having a new-user-friendly software center on board for completionist reasons.",
+				"upvotes": 1,
+				"downvotes": 0
+			},
+			{
+				"text": "pacman -Rs discover\nNo one needs discover",
+				"upvotes": 1,
+				"downvotes": 0
+			},
+			{
+				"text": "You said your on arch, just:\n\n`sudo pacman -Rnsc discover`\n\nAnd you should be ready to go",
+				"upvotes": 0,
+				"downvotes": 0
+			}
+		]
+	},
+	{
+		"title": "Maui Weekly blog post is out with beta packages for Android and Linux desktop and phones. https://nxos.org/maui/maui-weekly-report-8/",
+		"ups": "37",
+		"upvote_ratio": "0.96",
+		"total_awards_received": "0",
+		"created": "1612656233.0",
+		"id": "le0g9y",
+		"num_crossposts": "2",
+		"num_comments": "4",
+		"link_flair_text": "News",
+		"author": "milohr",
+		"stickied": "False",
+		"url": "https://i.redd.it/dimvwx4qrvf61.png",
+		"author_flair_text": "None",
+		"comments": [
+			{
+				"text": "I look forward to trying these again when there's an f-droid repo.",
+				"upvotes": 3,
+				"downvotes": 0
+			},
+			{
+				"text": "[https://nxos.org/maui/maui-weekly-report-8/](https://nxos.org/maui/maui-weekly-report-8/)",
+				"upvotes": 1,
+				"downvotes": 0
+			},
+			{
+				"text": "Damn, that looks really good!",
+				"upvotes": 1,
+				"downvotes": 0
+			}
+		]
+	},
+	{
+		"title": "plasma 5.20.5 on debian bullseye, sound is muted after suspend",
+		"ups": "29",
+		"upvote_ratio": "0.93",
+		"total_awards_received": "1",
+		"created": "1612390004.0",
+		"id": "lbo8nc",
+		"num_crossposts": "0",
+		"num_comments": "6",
+		"link_flair_text": "General Bug",
+		"author": "jimi_hendrisk",
+		"stickied": "False",
+		"url": "https://www.reddit.com/r/kde/comments/lbo8nc/plasma_5205_on_debian_bullseye_sound_is_muted/",
+		"author_flair_text": "None",
+		"comments": [
+			{
+				"text": "I think it\u2019s a Debian problem rather than KDE problem because my two installations (one KDE, one XFCE) started to behave strange in sound department around the same time.\n\nKDE doesn\u2019t switch back to speakers when I unplug the headphones and XFCE is muting if my screen goes to standby.\n\nSomething wonky in Pulse\u2019s default config it seems. Both systems are Testing.",
+				"upvotes": 2,
+				"downvotes": 0
+			}
+		]
+	},
+	{
+		"title": "Setup your KDE development environment - kdesrc-build &amp; Kate",
+		"ups": "41",
+		"upvote_ratio": "1.0",
+		"total_awards_received": "0",
+		"created": "1612741057.0",
+		"id": "leopg9",
+		"num_crossposts": "1",
+		"num_comments": "1",
+		"link_flair_text": "Onboarding",
+		"author": "ChristophCullmann",
+		"stickied": "False",
+		"url": "https://kate-editor.org/post/2021/2021-02-07-kdesrc-build-and-kate/",
+		"author_flair_text": ":kde: KDE Contributor",
+		"comments": [
+			{
+				"text": "If anyone wants to contribute and is unsure / hesitant, please contact us or just come over to the repo and say Hi!\n\nYou don't need any expert Coding abilities. Artists are welcome too, we are in great need of some good Icons :)\n\nIf you are too busy to contribute, it would still be awesome if you can tell us about your experience with Kate and / or any suggestions things that bug you :)",
+				"upvotes": 8,
+				"downvotes": 0
+			}
+		]
+	},
+	{
+		"title": "What KDE config directories are safe to sync with my other computer?",
+		"ups": "26",
+		"upvote_ratio": "0.95",
+		"total_awards_received": "0",
+		"created": "1612711021.0",
+		"id": "lehr43",
+		"num_crossposts": "0",
+		"num_comments": "17",
+		"link_flair_text": "Question",
+		"author": "LiterallyJohnny",
+		"stickied": "False",
+		"url": "https://www.reddit.com/r/kde/comments/lehr43/what_kde_config_directories_are_safe_to_sync_with/",
+		"author_flair_text": "None",
+		"comments": [
+			{
+				"text": "https://github.com/shalva97/kde-configuration-files",
+				"upvotes": 13,
+				"downvotes": 0
+			},
+			{
+				"text": "I researched this a couple of years ago when thinking of a configuration network sync and storage system (which, so far hasn't come to life). To get this completely right, we'd need a way for apps to mark certain config keys or groups as \"this makes sense to sync\", since right now, the config files may include any combination of general user preferences and things that only make sense on a local machine (hardware specifics such as screen geometry, references to other resources on this particular system, etc.). So a proper solution would work at KConfig level, which is the framework used throughout KDE apps to store and read configuration.\nAt file level, there's just not enough information, or at least, the stored settings are not split per file into user prefs and hardware local.\n\nYou may get it mostly working by syncing certain files, which may already be satisfying for your case or at least save you most of the work, but for a complete solution, the above holds.",
+				"upvotes": 7,
+				"downvotes": 0
+			},
+			{
+				"text": "I have been doing that since 2014. My initial motivation was to track config bug/updates and being able to rollback. And also for migration.\n\nI used \\`git gui\\` to review most files before adding them. And I added to my gitignore what I did not what to keep, for several reasons.\n\nhere i my gitignore file \n\n[https://pad.disroot.org/p/home.gitignore](https://pad.disroot.org/p/home.gitignore)",
+				"upvotes": 4,
+				"downvotes": 0
+			},
+			{
+				"text": "The question in itself is already a hint you're on a wrong path. This is wrong on so many levels. Privacy, technically, app interdependencies. I mean... no, no, no..... please don't....",
+				"upvotes": -6,
+				"downvotes": 0
+			}
+		]
+	},
+	{
+		"title": "Announcing Krita Art Contest - Four Seasons of Leon and Kiki",
+		"ups": "24",
+		"upvote_ratio": "0.89",
+		"total_awards_received": "0",
+		"created": "1612207627.0",
+		"id": "la11he",
+		"num_crossposts": "0",
+		"num_comments": "0",
+		"link_flair_text": "None",
+		"author": "raghukamath",
+		"stickied": "False",
+		"url": "https://krita.org/en/four_seaons_of_leon_and_kiki/",
+		"author_flair_text": ":arch:",
+		"comments": []
+	},
+	{
+		"title": "WOW: Wayland works out of the box on Nvidia in Debian unstable",
+		"ups": "25",
+		"upvote_ratio": "0.96",
+		"total_awards_received": "0",
+		"created": "1612463129.0",
+		"id": "lccu9m",
+		"num_crossposts": "0",
+		"num_comments": "15",
+		"link_flair_text": "None",
+		"author": "MaurizioMH",
+		"stickied": "False",
+		"url": "https://www.reddit.com/r/kde/comments/lccu9m/wow_wayland_works_out_of_the_box_on_nvidia_in/",
+		"author_flair_text": "None",
+		"comments": [
+			{
+				"text": "Been working for me for a while but Firefox is blurry",
+				"upvotes": 3,
+				"downvotes": 0
+			},
+			{
+				"text": "Plasma Wayland and full Wayland works ok for me in general use. Some issues I have is keyboard layout indicator is not working yet. Frame rate on games like L4D2 or CSGO drop significantly.",
+				"upvotes": 4,
+				"downvotes": 0
+			},
+			{
+				"text": "Does it have working XWayland acceleration?",
+				"upvotes": 2,
+				"downvotes": 0
+			}
+		]
+	},
+	{
+		"title": "Is it possible to get rid of the transparency in the application menu bar and global menu? The global transparency setting for the theme doesn't affect it.",
+		"ups": "25",
+		"upvote_ratio": "0.97",
+		"total_awards_received": "0",
+		"created": "1612474093.0",
+		"id": "lcfmfs",
+		"num_crossposts": "0",
+		"num_comments": "13",
+		"link_flair_text": "Question",
+		"author": "Zalbu",
+		"stickied": "False",
+		"url": "https://i.redd.it/l6m653z0qgf61.png",
+		"author_flair_text": "None",
+		"comments": [
+			{
+				"text": "Try using a different Plasma theme such as Materia, Infinity-Solid-Plasma, Aritim-Dark \\[Flat Solid\\], etc. Search through Plasma themes on KDE store and look out for 'no transparency' in theme description. Many  include 'solid' in their theme name.",
+				"upvotes": 7,
+				"downvotes": 0
+			},
+			{
+				"text": "Did you fully enable the Background Contrast desktop effect?\n\nBy default it's half ticked.",
+				"upvotes": 4,
+				"downvotes": 0
+			},
+			{
+				"text": "Enable blur. Or edit the svgs in the theme and set opacity to 1.",
+				"upvotes": 4,
+				"downvotes": 0
+			},
+			{
+				"text": "I just reinstalled Linux to make the switch from Manjaro to Arch, and now I have the global menu and application menu bar transparent when they weren't transparent before. \n\nIt's been months since I last used this laptop so I don't know if it's something that have changed with the Breeze theme in recent updates or if I've just managed to screw something up, but changing the global transparency settings in the theme doesn't affect how this menu looks.",
+				"upvotes": 2,
+				"downvotes": 0
+			},
+			{
+				"text": "Oh man, i havent seen classic menu since ... my first Kubuntu installation about 3 years ago :D",
+				"upvotes": 1,
+				"downvotes": 0
+			},
+			{
+				"text": "you could create a window rule for the window class org.kde.plasmashell and force set the transparency. (I actually used it to make the breeze dark plasma theme more transparent.)",
+				"upvotes": 1,
+				"downvotes": 0
+			},
+			{
+				"text": "In the \"Desktop Effect Settings\" under \"transparency\", what is the transparency level for menus set to?",
+				"upvotes": 1,
+				"downvotes": 0
+			}
+		]
+	},
+	{
+		"title": "How to automatically source format in Kdevelop?",
+		"ups": "21",
+		"upvote_ratio": "1.0",
+		"total_awards_received": "0",
+		"created": "1612280222.0",
+		"id": "laqdfl",
+		"num_crossposts": "0",
+		"num_comments": "6",
+		"link_flair_text": "None",
+		"author": "MarcellusDrum",
+		"stickied": "False",
+		"url": "https://www.reddit.com/r/kde/comments/laqdfl/how_to_automatically_source_format_in_kdevelop/",
+		"author_flair_text": "None",
+		"comments": [
+			{
+				"text": "Do you have `kdevelop5-plugin-php` or `kdevelop-php`  depending on your unnamed distro?",
+				"upvotes": 2,
+				"downvotes": 0
+			},
+			{
+				"text": "I also searched for an option to format by PHP code but was not able to find something. To me, it looks like the option existed back in the days of KDevelop 4 but was not ported over.",
+				"upvotes": 2,
+				"downvotes": 0
+			},
+			{
+				"text": "I can confirm that option: \"Edit > Reformat Source\" works. At least for me and iIsn't grayed out. I tested it for following settings:\n\n`Language: C`\n\n`Formatter: Custom Script Formatter`\n\n`Style: KDevelop kdev_format_source`\n\nI'm not sure what settings use used. Theoretically should work for all, but theoretically. Always you can report bug is something doesn't work.\n\nBTW. Is it possible also to reformat whole project. To do this you need to click in root dire in Project view you will see option \"Reformat files...\". Notice that also is available setting of format style by project. If you will click into root dir your project and click into option \"Open Configuration\" you will find \"Source Formater\".",
+				"upvotes": 1,
+				"downvotes": 0
+			},
+			{
+				"text": "The real question is - why do you use kdevelop for php? Do you program also in C/Cpp? If no, there is no reason of using kdevelop.",
+				"upvotes": -9,
+				"downvotes": 0
+			}
+		]
+	},
+	{
+		"title": "Where are Dolphin tags stored?",
+		"ups": "21",
+		"upvote_ratio": "0.97",
+		"total_awards_received": "0",
+		"created": "1612490240.0",
+		"id": "lclld0",
+		"num_crossposts": "0",
+		"num_comments": "7",
+		"link_flair_text": "Question",
+		"author": "QazCetelic",
+		"stickied": "False",
+		"url": "https://www.reddit.com/r/kde/comments/lclld0/where_are_dolphin_tags_stored/",
+		"author_flair_text": ":kdeneon:",
+		"comments": [
+			{
+				"text": "They are stored as extended attributes of the files themselves.\n\n`getfattr -d -m \".*\" <filename>` to list them.\n\n(I know that command sounds like a joke, it's just a really unfortunate shortening of \"get file attributes\" \ud83d\ude1b)\n\nThey are not copied automatically by some programs (many CLI utilities require a special switch to preserve them), and will not survive being copied to filesystems that don't support extended attributes (like anything FAT based).",
+				"upvotes": 14,
+				"downvotes": 0
+			},
+			{
+				"text": "~~I believe those are stored in~~ *~~baloo~~* ~~database, so not really portable sadly.~~\n\nBut I may be wrong.\n\nEdit: I was wrong!",
+				"upvotes": -4,
+				"downvotes": 0
+			}
+		]
+	}
+]
