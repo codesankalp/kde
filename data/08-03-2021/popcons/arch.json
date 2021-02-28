@@ -1,0 +1,3370 @@
+[
+	{
+		"name": "Cervisia",
+		"samples": 1473,
+		"count": 147,
+		"popularity": 9.98,
+		"startMonth": 202102,
+		"endMonth": 202102
+	},
+	{
+		"name": "Clazy",
+		"samples": 1473,
+		"count": 188,
+		"popularity": 12.76,
+		"startMonth": 202102,
+		"endMonth": 202102
+	},
+	{
+		"name": "Heaptrack",
+		"samples": 1473,
+		"count": 35,
+		"popularity": 2.38,
+		"startMonth": 202102,
+		"endMonth": 202102
+	},
+	{
+		"name": "KAppTemplate",
+		"samples": 1473,
+		"count": 156,
+		"popularity": 10.59,
+		"startMonth": 202102,
+		"endMonth": 202102
+	},
+	{
+		"name": "KCachegrind",
+		"samples": 1473,
+		"count": 197,
+		"popularity": 13.37,
+		"startMonth": 202102,
+		"endMonth": 202102
+	},
+	{
+		"name": "KDebugSettings",
+		"samples": 1473,
+		"count": 164,
+		"popularity": 11.13,
+		"startMonth": 202102,
+		"endMonth": 202102
+	},
+	{
+		"name": "kdesrc-build",
+		"samples": 1473,
+		"count": 2,
+		"popularity": 0.14,
+		"startMonth": 202102,
+		"endMonth": 202102
+	},
+	{
+		"name": "kdesvn",
+		"samples": 1473,
+		"count": 8,
+		"popularity": 0.54,
+		"startMonth": 202102,
+		"endMonth": 202102
+	},
+	{
+		"name": "KDevelop",
+		"samples": 1473,
+		"count": 188,
+		"popularity": 12.76,
+		"startMonth": 202102,
+		"endMonth": 202102
+	},
+	{
+		"name": "KDiff3",
+		"samples": 1473,
+		"count": 102,
+		"popularity": 6.92,
+		"startMonth": 202102,
+		"endMonth": 202102
+	},
+	{
+		"name": "KImageMapEditor",
+		"samples": 1473,
+		"count": 161,
+		"popularity": 10.93,
+		"startMonth": 202102,
+		"endMonth": 202102
+	},
+	{
+		"name": "Kompare",
+		"samples": 1473,
+		"count": 232,
+		"popularity": 15.75,
+		"startMonth": 202102,
+		"endMonth": 202102
+	},
+	{
+		"name": "KUIViewer",
+		"samples": 1473,
+		"count": 0,
+		"popularity": 0,
+		"startMonth": 202102,
+		"endMonth": 202102
+	},
+	{
+		"name": "Lokalize",
+		"samples": 1473,
+		"count": 159,
+		"popularity": 10.79,
+		"startMonth": 202102,
+		"endMonth": 202102
+	},
+	{
+		"name": "Massif-Visualizer",
+		"samples": 1473,
+		"count": 18,
+		"popularity": 1.22,
+		"startMonth": 202102,
+		"endMonth": 202102
+	},
+	{
+		"name": "Umbrello",
+		"samples": 1473,
+		"count": 149,
+		"popularity": 10.12,
+		"startMonth": 202102,
+		"endMonth": 202102
+	},
+	{
+		"name": "Artikulate",
+		"samples": 1473,
+		"count": 140,
+		"popularity": 9.5,
+		"startMonth": 202102,
+		"endMonth": 202102
+	},
+	{
+		"name": "Blinken",
+		"samples": 1473,
+		"count": 143,
+		"popularity": 9.71,
+		"startMonth": 202102,
+		"endMonth": 202102
+	},
+	{
+		"name": "Cantor",
+		"samples": 1473,
+		"count": 158,
+		"popularity": 10.73,
+		"startMonth": 202102,
+		"endMonth": 202102
+	},
+	{
+		"name": "GCompris",
+		"samples": 1473,
+		"count": 0,
+		"popularity": 0,
+		"startMonth": 202102,
+		"endMonth": 202102
+	},
+	{
+		"name": "Kalzium",
+		"samples": 1473,
+		"count": 144,
+		"popularity": 9.78,
+		"startMonth": 202102,
+		"endMonth": 202102
+	},
+	{
+		"name": "Kanagram",
+		"samples": 1473,
+		"count": 135,
+		"popularity": 9.16,
+		"startMonth": 202102,
+		"endMonth": 202102
+	},
+	{
+		"name": "KBibTeX",
+		"samples": 1473,
+		"count": 41,
+		"popularity": 2.78,
+		"startMonth": 202102,
+		"endMonth": 202102
+	},
+	{
+		"name": "KBruch",
+		"samples": 1473,
+		"count": 146,
+		"popularity": 9.91,
+		"startMonth": 202102,
+		"endMonth": 202102
+	},
+	{
+		"name": "KGeography",
+		"samples": 1473,
+		"count": 147,
+		"popularity": 9.98,
+		"startMonth": 202102,
+		"endMonth": 202102
+	},
+	{
+		"name": "KHangMan",
+		"samples": 1473,
+		"count": 132,
+		"popularity": 8.96,
+		"startMonth": 202102,
+		"endMonth": 202102
+	},
+	{
+		"name": "Kig",
+		"samples": 1473,
+		"count": 149,
+		"popularity": 10.12,
+		"startMonth": 202102,
+		"endMonth": 202102
+	},
+	{
+		"name": "Kiten",
+		"samples": 1473,
+		"count": 143,
+		"popularity": 9.71,
+		"startMonth": 202102,
+		"endMonth": 202102
+	},
+	{
+		"name": "KLettres",
+		"samples": 1473,
+		"count": 141,
+		"popularity": 9.57,
+		"startMonth": 202102,
+		"endMonth": 202102
+	},
+	{
+		"name": "KmPlot",
+		"samples": 1473,
+		"count": 153,
+		"popularity": 10.39,
+		"startMonth": 202102,
+		"endMonth": 202102
+	},
+	{
+		"name": "KStars",
+		"samples": 1473,
+		"count": 58,
+		"popularity": 3.94,
+		"startMonth": 202102,
+		"endMonth": 202102
+	},
+	{
+		"name": "KTouch",
+		"samples": 1473,
+		"count": 169,
+		"popularity": 11.47,
+		"startMonth": 202102,
+		"endMonth": 202102
+	},
+	{
+		"name": "KTurtle",
+		"samples": 1473,
+		"count": 143,
+		"popularity": 9.71,
+		"startMonth": 202102,
+		"endMonth": 202102
+	},
+	{
+		"name": "KWordQuiz",
+		"samples": 1473,
+		"count": 146,
+		"popularity": 9.91,
+		"startMonth": 202102,
+		"endMonth": 202102
+	},
+	{
+		"name": "LabPlot",
+		"samples": 1473,
+		"count": 17,
+		"popularity": 1.15,
+		"startMonth": 202102,
+		"endMonth": 202102
+	},
+	{
+		"name": "Marble",
+		"samples": 1473,
+		"count": 176,
+		"popularity": 11.95,
+		"startMonth": 202102,
+		"endMonth": 202102
+	},
+	{
+		"name": "Minuet",
+		"samples": 1473,
+		"count": 129,
+		"popularity": 8.76,
+		"startMonth": 202102,
+		"endMonth": 202102
+	},
+	{
+		"name": "Parley",
+		"samples": 1473,
+		"count": 148,
+		"popularity": 10.05,
+		"startMonth": 202102,
+		"endMonth": 202102
+	},
+	{
+		"name": "Rocs",
+		"samples": 1473,
+		"count": 153,
+		"popularity": 10.39,
+		"startMonth": 202102,
+		"endMonth": 202102
+	},
+	{
+		"name": "Step",
+		"samples": 1473,
+		"count": 156,
+		"popularity": 10.59,
+		"startMonth": 202102,
+		"endMonth": 202102
+	},
+	{
+		"name": "Blinken",
+		"samples": 1473,
+		"count": 143,
+		"popularity": 9.71,
+		"startMonth": 202102,
+		"endMonth": 202102
+	},
+	{
+		"name": "Bomber",
+		"samples": 1473,
+		"count": 137,
+		"popularity": 9.3,
+		"startMonth": 202102,
+		"endMonth": 202102
+	},
+	{
+		"name": "Bovo",
+		"samples": 1473,
+		"count": 139,
+		"popularity": 9.44,
+		"startMonth": 202102,
+		"endMonth": 202102
+	},
+	{
+		"name": "GCompris",
+		"samples": 1473,
+		"count": 0,
+		"popularity": 0,
+		"startMonth": 202102,
+		"endMonth": 202102
+	},
+	{
+		"name": "Granatier",
+		"samples": 1473,
+		"count": 135,
+		"popularity": 9.16,
+		"startMonth": 202102,
+		"endMonth": 202102
+	},
+	{
+		"name": "Kajongg",
+		"samples": 1473,
+		"count": 137,
+		"popularity": 9.3,
+		"startMonth": 202102,
+		"endMonth": 202102
+	},
+	{
+		"name": "Kanagram",
+		"samples": 1473,
+		"count": 135,
+		"popularity": 9.16,
+		"startMonth": 202102,
+		"endMonth": 202102
+	},
+	{
+		"name": "Kapman",
+		"samples": 1473,
+		"count": 140,
+		"popularity": 9.5,
+		"startMonth": 202102,
+		"endMonth": 202102
+	},
+	{
+		"name": "KAtomic",
+		"samples": 1473,
+		"count": 140,
+		"popularity": 9.5,
+		"startMonth": 202102,
+		"endMonth": 202102
+	},
+	{
+		"name": "KBlackbox",
+		"samples": 1473,
+		"count": 139,
+		"popularity": 9.44,
+		"startMonth": 202102,
+		"endMonth": 202102
+	},
+	{
+		"name": "KBlocks",
+		"samples": 1473,
+		"count": 142,
+		"popularity": 9.64,
+		"startMonth": 202102,
+		"endMonth": 202102
+	},
+	{
+		"name": "KBounce",
+		"samples": 1473,
+		"count": 138,
+		"popularity": 9.37,
+		"startMonth": 202102,
+		"endMonth": 202102
+	},
+	{
+		"name": "KBreakOut",
+		"samples": 1473,
+		"count": 141,
+		"popularity": 9.57,
+		"startMonth": 202102,
+		"endMonth": 202102
+	},
+	{
+		"name": "KDiamond",
+		"samples": 1473,
+		"count": 135,
+		"popularity": 9.16,
+		"startMonth": 202102,
+		"endMonth": 202102
+	},
+	{
+		"name": "KFourInLine",
+		"samples": 1473,
+		"count": 137,
+		"popularity": 9.3,
+		"startMonth": 202102,
+		"endMonth": 202102
+	},
+	{
+		"name": "KGoldrunner",
+		"samples": 1473,
+		"count": 136,
+		"popularity": 9.23,
+		"startMonth": 202102,
+		"endMonth": 202102
+	},
+	{
+		"name": "KHangMan",
+		"samples": 1473,
+		"count": 132,
+		"popularity": 8.96,
+		"startMonth": 202102,
+		"endMonth": 202102
+	},
+	{
+		"name": "Kigo",
+		"samples": 1473,
+		"count": 141,
+		"popularity": 9.57,
+		"startMonth": 202102,
+		"endMonth": 202102
+	},
+	{
+		"name": "Killbots",
+		"samples": 1473,
+		"count": 137,
+		"popularity": 9.3,
+		"startMonth": 202102,
+		"endMonth": 202102
+	},
+	{
+		"name": "Kiriki",
+		"samples": 1473,
+		"count": 139,
+		"popularity": 9.44,
+		"startMonth": 202102,
+		"endMonth": 202102
+	},
+	{
+		"name": "KJumpingCube",
+		"samples": 1473,
+		"count": 137,
+		"popularity": 9.3,
+		"startMonth": 202102,
+		"endMonth": 202102
+	},
+	{
+		"name": "Klickety",
+		"samples": 1473,
+		"count": 139,
+		"popularity": 9.44,
+		"startMonth": 202102,
+		"endMonth": 202102
+	},
+	{
+		"name": "KMahjongg",
+		"samples": 1473,
+		"count": 147,
+		"popularity": 9.98,
+		"startMonth": 202102,
+		"endMonth": 202102
+	},
+	{
+		"name": "KMines",
+		"samples": 1473,
+		"count": 159,
+		"popularity": 10.79,
+		"startMonth": 202102,
+		"endMonth": 202102
+	},
+	{
+		"name": "KNetWalk",
+		"samples": 1473,
+		"count": 147,
+		"popularity": 9.98,
+		"startMonth": 202102,
+		"endMonth": 202102
+	},
+	{
+		"name": "KNights",
+		"samples": 1473,
+		"count": 128,
+		"popularity": 8.69,
+		"startMonth": 202102,
+		"endMonth": 202102
+	},
+	{
+		"name": "Kolf",
+		"samples": 1473,
+		"count": 139,
+		"popularity": 9.44,
+		"startMonth": 202102,
+		"endMonth": 202102
+	},
+	{
+		"name": "Kollision",
+		"samples": 1473,
+		"count": 139,
+		"popularity": 9.44,
+		"startMonth": 202102,
+		"endMonth": 202102
+	},
+	{
+		"name": "Konquest",
+		"samples": 1473,
+		"count": 138,
+		"popularity": 9.37,
+		"startMonth": 202102,
+		"endMonth": 202102
+	},
+	{
+		"name": "KPatience",
+		"samples": 1473,
+		"count": 160,
+		"popularity": 10.86,
+		"startMonth": 202102,
+		"endMonth": 202102
+	},
+	{
+		"name": "KReversi",
+		"samples": 1473,
+		"count": 135,
+		"popularity": 9.16,
+		"startMonth": 202102,
+		"endMonth": 202102
+	},
+	{
+		"name": "KShisen",
+		"samples": 1473,
+		"count": 140,
+		"popularity": 9.5,
+		"startMonth": 202102,
+		"endMonth": 202102
+	},
+	{
+		"name": "KSirk",
+		"samples": 1473,
+		"count": 134,
+		"popularity": 9.1,
+		"startMonth": 202102,
+		"endMonth": 202102
+	},
+	{
+		"name": "KSnakeDuel",
+		"samples": 1473,
+		"count": 134,
+		"popularity": 9.1,
+		"startMonth": 202102,
+		"endMonth": 202102
+	},
+	{
+		"name": "KSpaceDuel",
+		"samples": 1473,
+		"count": 135,
+		"popularity": 9.16,
+		"startMonth": 202102,
+		"endMonth": 202102
+	},
+	{
+		"name": "KSquares",
+		"samples": 1473,
+		"count": 138,
+		"popularity": 9.37,
+		"startMonth": 202102,
+		"endMonth": 202102
+	},
+	{
+		"name": "KSudoku",
+		"samples": 1473,
+		"count": 142,
+		"popularity": 9.64,
+		"startMonth": 202102,
+		"endMonth": 202102
+	},
+	{
+		"name": "Kubrick",
+		"samples": 1473,
+		"count": 135,
+		"popularity": 9.16,
+		"startMonth": 202102,
+		"endMonth": 202102
+	},
+	{
+		"name": "LSkat",
+		"samples": 1473,
+		"count": 135,
+		"popularity": 9.16,
+		"startMonth": 202102,
+		"endMonth": 202102
+	},
+	{
+		"name": "Palapeli",
+		"samples": 1473,
+		"count": 135,
+		"popularity": 9.16,
+		"startMonth": 202102,
+		"endMonth": 202102
+	},
+	{
+		"name": "Picmi",
+		"samples": 1473,
+		"count": 140,
+		"popularity": 9.5,
+		"startMonth": 202102,
+		"endMonth": 202102
+	},
+	{
+		"name": "Ikona",
+		"samples": 1473,
+		"count": 0,
+		"popularity": 0,
+		"startMonth": 202102,
+		"endMonth": 202102
+	},
+	{
+		"name": "SymbolEditor",
+		"samples": 1473,
+		"count": 3,
+		"popularity": 0.2,
+		"startMonth": 202102,
+		"endMonth": 202102
+	},
+	{
+		"name": "digiKam",
+		"samples": 1473,
+		"count": 135,
+		"popularity": 9.16,
+		"startMonth": 202102,
+		"endMonth": 202102
+	},
+	{
+		"name": "Gwenview",
+		"samples": 1473,
+		"count": 378,
+		"popularity": 25.66,
+		"startMonth": 202102,
+		"endMonth": 202102
+	},
+	{
+		"name": "KColorChooser",
+		"samples": 1473,
+		"count": 235,
+		"popularity": 15.95,
+		"startMonth": 202102,
+		"endMonth": 202102
+	},
+	{
+		"name": "KGeoTag",
+		"samples": 1473,
+		"count": 0,
+		"popularity": 0,
+		"startMonth": 202102,
+		"endMonth": 202102
+	},
+	{
+		"name": "KGraphViewer",
+		"samples": 1473,
+		"count": 20,
+		"popularity": 1.36,
+		"startMonth": 202102,
+		"endMonth": 202102
+	},
+	{
+		"name": "KolourPaint",
+		"samples": 1473,
+		"count": 219,
+		"popularity": 14.87,
+		"startMonth": 202102,
+		"endMonth": 202102
+	},
+	{
+		"name": "Kontrast",
+		"samples": 1473,
+		"count": 72,
+		"popularity": 4.89,
+		"startMonth": 202102,
+		"endMonth": 202102
+	},
+	{
+		"name": "KPhotoAlbum",
+		"samples": 1473,
+		"count": 15,
+		"popularity": 1.02,
+		"startMonth": 202102,
+		"endMonth": 202102
+	},
+	{
+		"name": "Krita",
+		"samples": 1473,
+		"count": 282,
+		"popularity": 19.14,
+		"startMonth": 202102,
+		"endMonth": 202102
+	},
+	{
+		"name": "KRuler",
+		"samples": 1473,
+		"count": 204,
+		"popularity": 13.85,
+		"startMonth": 202102,
+		"endMonth": 202102
+	},
+	{
+		"name": "KXStitch",
+		"samples": 1473,
+		"count": 3,
+		"popularity": 0.2,
+		"startMonth": 202102,
+		"endMonth": 202102
+	},
+	{
+		"name": "Okular",
+		"samples": 1473,
+		"count": 523,
+		"popularity": 35.51,
+		"startMonth": 202102,
+		"endMonth": 202102
+	},
+	{
+		"name": "Peruse",
+		"samples": 1473,
+		"count": 0,
+		"popularity": 0,
+		"startMonth": 202102,
+		"endMonth": 202102
+	},
+	{
+		"name": "Peruse",
+		"samples": 1473,
+		"count": 0,
+		"popularity": 0,
+		"startMonth": 202102,
+		"endMonth": 202102
+	},
+	{
+		"name": "pvfViewer",
+		"samples": 1473,
+		"count": 0,
+		"popularity": 0,
+		"startMonth": 202102,
+		"endMonth": 202102
+	},
+	{
+		"name": "Showfoto",
+		"samples": 1473,
+		"count": 0,
+		"popularity": 0,
+		"startMonth": 202102,
+		"endMonth": 202102
+	},
+	{
+		"name": "Skanlite",
+		"samples": 1473,
+		"count": 74,
+		"popularity": 5.02,
+		"startMonth": 202102,
+		"endMonth": 202102
+	},
+	{
+		"name": "kdegraphics-mobipocket",
+		"samples": 1473,
+		"count": 212,
+		"popularity": 14.39,
+		"startMonth": 202102,
+		"endMonth": 202102
+	},
+	{
+		"name": "kdegraphics-thumbnailers",
+		"samples": 1473,
+		"count": 269,
+		"popularity": 18.26,
+		"startMonth": 202102,
+		"endMonth": 202102
+	},
+	{
+		"name": "Akregator",
+		"samples": 1473,
+		"count": 162,
+		"popularity": 11,
+		"startMonth": 202102,
+		"endMonth": 202102
+	},
+	{
+		"name": "Alligator",
+		"samples": 1473,
+		"count": 0,
+		"popularity": 0,
+		"startMonth": 202102,
+		"endMonth": 202102
+	},
+	{
+		"name": "Choqok",
+		"samples": 1473,
+		"count": 17,
+		"popularity": 1.15,
+		"startMonth": 202102,
+		"endMonth": 202102
+	},
+	{
+		"name": "Falkon",
+		"samples": 1473,
+		"count": 70,
+		"popularity": 4.75,
+		"startMonth": 202102,
+		"endMonth": 202102
+	},
+	{
+		"name": "KGet",
+		"samples": 1473,
+		"count": 168,
+		"popularity": 11.41,
+		"startMonth": 202102,
+		"endMonth": 202102
+	},
+	{
+		"name": "KMail",
+		"samples": 1473,
+		"count": 176,
+		"popularity": 11.95,
+		"startMonth": 202102,
+		"endMonth": 202102
+	},
+	{
+		"name": "Konqueror",
+		"samples": 1473,
+		"count": 170,
+		"popularity": 11.54,
+		"startMonth": 202102,
+		"endMonth": 202102
+	},
+	{
+		"name": "Konversation",
+		"samples": 1473,
+		"count": 145,
+		"popularity": 9.84,
+		"startMonth": 202102,
+		"endMonth": 202102
+	},
+	{
+		"name": "Kopete",
+		"samples": 1473,
+		"count": 152,
+		"popularity": 10.32,
+		"startMonth": 202102,
+		"endMonth": 202102
+	},
+	{
+		"name": "KRDC",
+		"samples": 1473,
+		"count": 217,
+		"popularity": 14.73,
+		"startMonth": 202102,
+		"endMonth": 202102
+	},
+	{
+		"name": "Krfb",
+		"samples": 1473,
+		"count": 180,
+		"popularity": 12.22,
+		"startMonth": 202102,
+		"endMonth": 202102
+	},
+	{
+		"name": "KTorrent",
+		"samples": 1473,
+		"count": 162,
+		"popularity": 11,
+		"startMonth": 202102,
+		"endMonth": 202102
+	},
+	{
+		"name": "Neochat",
+		"samples": 1473,
+		"count": 13,
+		"popularity": 0.88,
+		"startMonth": 202102,
+		"endMonth": 202102
+	},
+	{
+		"name": "Banji",
+		"samples": 1473,
+		"count": 0,
+		"popularity": 0,
+		"startMonth": 202102,
+		"endMonth": 202102
+	},
+	{
+		"name": "Ruqola",
+		"samples": 1473,
+		"count": 0,
+		"popularity": 0,
+		"startMonth": 202102,
+		"endMonth": 202102
+	},
+	{
+		"name": "SieveEditor",
+		"samples": 1473,
+		"count": 0,
+		"popularity": 0,
+		"startMonth": 202102,
+		"endMonth": 202102
+	},
+	{
+		"name": "Spacebar",
+		"samples": 1473,
+		"count": 0,
+		"popularity": 0,
+		"startMonth": 202102,
+		"endMonth": 202102
+	},
+	{
+		"name": "Trojit\u00e1",
+		"samples": 1473,
+		"count": 9,
+		"popularity": 0.61,
+		"startMonth": 202102,
+		"endMonth": 202102
+	},
+	{
+		"name": "Elisa",
+		"samples": 1473,
+		"count": 141,
+		"popularity": 9.57,
+		"startMonth": 202102,
+		"endMonth": 202102
+	},
+	{
+		"name": "JuK",
+		"samples": 1473,
+		"count": 159,
+		"popularity": 10.79,
+		"startMonth": 202102,
+		"endMonth": 202102
+	},
+	{
+		"name": "K3b",
+		"samples": 1473,
+		"count": 228,
+		"popularity": 15.48,
+		"startMonth": 202102,
+		"endMonth": 202102
+	},
+	{
+		"name": "Kaffeine",
+		"samples": 1473,
+		"count": 53,
+		"popularity": 3.6,
+		"startMonth": 202102,
+		"endMonth": 202102
+	},
+	{
+		"name": "Kamoso",
+		"samples": 1473,
+		"count": 161,
+		"popularity": 10.93,
+		"startMonth": 202102,
+		"endMonth": 202102
+	},
+	{
+		"name": "Kdenlive",
+		"samples": 1473,
+		"count": 365,
+		"popularity": 24.78,
+		"startMonth": 202102,
+		"endMonth": 202102
+	},
+	{
+		"name": "Kid3",
+		"samples": 1473,
+		"count": 73,
+		"popularity": 4.96,
+		"startMonth": 202102,
+		"endMonth": 202102
+	},
+	{
+		"name": "KMix",
+		"samples": 1473,
+		"count": 198,
+		"popularity": 13.44,
+		"startMonth": 202102,
+		"endMonth": 202102
+	},
+	{
+		"name": "KMPlayer",
+		"samples": 1473,
+		"count": 18,
+		"popularity": 1.22,
+		"startMonth": 202102,
+		"endMonth": 202102
+	},
+	{
+		"name": "Kwave",
+		"samples": 1473,
+		"count": 141,
+		"popularity": 9.57,
+		"startMonth": 202102,
+		"endMonth": 202102
+	},
+	{
+		"name": "Calindori",
+		"samples": 1473,
+		"count": 0,
+		"popularity": 0,
+		"startMonth": 202102,
+		"endMonth": 202102
+	},
+	{
+		"name": "Plan",
+		"samples": 1473,
+		"count": 0,
+		"popularity": 0,
+		"startMonth": 202102,
+		"endMonth": 202102
+	},
+	{
+		"name": "KAddressBook",
+		"samples": 1473,
+		"count": 171,
+		"popularity": 11.61,
+		"startMonth": 202102,
+		"endMonth": 202102
+	},
+	{
+		"name": "KBibTeX",
+		"samples": 1473,
+		"count": 41,
+		"popularity": 2.78,
+		"startMonth": 202102,
+		"endMonth": 202102
+	},
+	{
+		"name": "KEuroCalc",
+		"samples": 1473,
+		"count": 0,
+		"popularity": 0,
+		"startMonth": 202102,
+		"endMonth": 202102
+	},
+	{
+		"name": "KEXI",
+		"samples": 1473,
+		"count": 30,
+		"popularity": 2.04,
+		"startMonth": 202102,
+		"endMonth": 202102
+	},
+	{
+		"name": "Kile",
+		"samples": 1473,
+		"count": 64,
+		"popularity": 4.34,
+		"startMonth": 202102,
+		"endMonth": 202102
+	},
+	{
+		"name": "KMail",
+		"samples": 1473,
+		"count": 176,
+		"popularity": 11.95,
+		"startMonth": 202102,
+		"endMonth": 202102
+	},
+	{
+		"name": "KMyMoney",
+		"samples": 1473,
+		"count": 27,
+		"popularity": 1.83,
+		"startMonth": 202102,
+		"endMonth": 202102
+	},
+	{
+		"name": "Kongress",
+		"samples": 1473,
+		"count": 0,
+		"popularity": 0,
+		"startMonth": 202102,
+		"endMonth": 202102
+	},
+	{
+		"name": "Kontact",
+		"samples": 1473,
+		"count": 171,
+		"popularity": 11.61,
+		"startMonth": 202102,
+		"endMonth": 202102
+	},
+	{
+		"name": "KOrganizer",
+		"samples": 1473,
+		"count": 181,
+		"popularity": 12.29,
+		"startMonth": 202102,
+		"endMonth": 202102
+	},
+	{
+		"name": "KTimeTracker",
+		"samples": 1473,
+		"count": 9,
+		"popularity": 0.61,
+		"startMonth": 202102,
+		"endMonth": 202102
+	},
+	{
+		"name": "Lokalize",
+		"samples": 1473,
+		"count": 159,
+		"popularity": 10.79,
+		"startMonth": 202102,
+		"endMonth": 202102
+	},
+	{
+		"name": "Okular",
+		"samples": 1473,
+		"count": 523,
+		"popularity": 35.51,
+		"startMonth": 202102,
+		"endMonth": 202102
+	},
+	{
+		"name": "SieveEditor",
+		"samples": 1473,
+		"count": 0,
+		"popularity": 0,
+		"startMonth": 202102,
+		"endMonth": 202102
+	},
+	{
+		"name": "Skrooge",
+		"samples": 1473,
+		"count": 27,
+		"popularity": 1.83,
+		"startMonth": 202102,
+		"endMonth": 202102
+	},
+	{
+		"name": "Tellico",
+		"samples": 1473,
+		"count": 20,
+		"popularity": 1.36,
+		"startMonth": 202102,
+		"endMonth": 202102
+	},
+	{
+		"name": "Trojit\u00e1",
+		"samples": 1473,
+		"count": 9,
+		"popularity": 0.61,
+		"startMonth": 202102,
+		"endMonth": 202102
+	},
+	{
+		"name": "KHelpCenter",
+		"samples": 1473,
+		"count": 211,
+		"popularity": 14.32,
+		"startMonth": 202102,
+		"endMonth": 202102
+	},
+	{
+		"name": "Ikona",
+		"samples": 1473,
+		"count": 0,
+		"popularity": 0,
+		"startMonth": 202102,
+		"endMonth": 202102
+	},
+	{
+		"name": "Apper",
+		"samples": 1473,
+		"count": 13,
+		"popularity": 0.88,
+		"startMonth": 202102,
+		"endMonth": 202102
+	},
+	{
+		"name": "Discover",
+		"samples": 1473,
+		"count": 302,
+		"popularity": 20.5,
+		"startMonth": 202102,
+		"endMonth": 202102
+	},
+	{
+		"name": "Dolphin",
+		"samples": 1473,
+		"count": 470,
+		"popularity": 31.91,
+		"startMonth": 202102,
+		"endMonth": 202102
+	},
+	{
+		"name": "KDiskFree",
+		"samples": 1473,
+		"count": 0,
+		"popularity": 0,
+		"startMonth": 202102,
+		"endMonth": 202102
+	},
+	{
+		"name": "Konsole",
+		"samples": 1473,
+		"count": 467,
+		"popularity": 31.7,
+		"startMonth": 202102,
+		"endMonth": 202102
+	},
+	{
+		"name": "KSysGuard",
+		"samples": 1473,
+		"count": 465,
+		"popularity": 31.57,
+		"startMonth": 202102,
+		"endMonth": 202102
+	},
+	{
+		"name": "KSystemLog",
+		"samples": 1473,
+		"count": 227,
+		"popularity": 15.41,
+		"startMonth": 202102,
+		"endMonth": 202102
+	},
+	{
+		"name": "KWalletManager",
+		"samples": 1473,
+		"count": 323,
+		"popularity": 21.93,
+		"startMonth": 202102,
+		"endMonth": 202102
+	},
+	{
+		"name": "Yakuake",
+		"samples": 1473,
+		"count": 204,
+		"popularity": 13.85,
+		"startMonth": 202102,
+		"endMonth": 202102
+	},
+	{
+		"name": "FileStash",
+		"samples": 1473,
+		"count": 0,
+		"popularity": 0,
+		"startMonth": 202102,
+		"endMonth": 202102
+	},
+	{
+		"name": "Kup",
+		"samples": 1473,
+		"count": 14,
+		"popularity": 0.95,
+		"startMonth": 202102,
+		"endMonth": 202102
+	},
+	{
+		"name": "Symmy",
+		"samples": 1473,
+		"count": 0,
+		"popularity": 0,
+		"startMonth": 202102,
+		"endMonth": 202102
+	},
+	{
+		"name": "Ark",
+		"samples": 1473,
+		"count": 410,
+		"popularity": 27.83,
+		"startMonth": 202102,
+		"endMonth": 202102
+	},
+	{
+		"name": "Filelight",
+		"samples": 1473,
+		"count": 291,
+		"popularity": 19.76,
+		"startMonth": 202102,
+		"endMonth": 202102
+	},
+	{
+		"name": "KAlarm",
+		"samples": 1473,
+		"count": 167,
+		"popularity": 11.34,
+		"startMonth": 202102,
+		"endMonth": 202102
+	},
+	{
+		"name": "Kate",
+		"samples": 1473,
+		"count": 361,
+		"popularity": 24.51,
+		"startMonth": 202102,
+		"endMonth": 202102
+	},
+	{
+		"name": "KBackup",
+		"samples": 1473,
+		"count": 145,
+		"popularity": 9.84,
+		"startMonth": 202102,
+		"endMonth": 202102
+	},
+	{
+		"name": "KCalc",
+		"samples": 1473,
+		"count": 307,
+		"popularity": 20.84,
+		"startMonth": 202102,
+		"endMonth": 202102
+	},
+	{
+		"name": "KCharSelect",
+		"samples": 1473,
+		"count": 228,
+		"popularity": 15.48,
+		"startMonth": 202102,
+		"endMonth": 202102
+	},
+	{
+		"name": "KDialog",
+		"samples": 1473,
+		"count": 332,
+		"popularity": 22.54,
+		"startMonth": 202102,
+		"endMonth": 202102
+	},
+	{
+		"name": "Keysmith",
+		"samples": 1473,
+		"count": 1,
+		"popularity": 0.07,
+		"startMonth": 202102,
+		"endMonth": 202102
+	},
+	{
+		"name": "KFind",
+		"samples": 1473,
+		"count": 262,
+		"popularity": 17.79,
+		"startMonth": 202102,
+		"endMonth": 202102
+	},
+	{
+		"name": "KFloppy",
+		"samples": 1473,
+		"count": 155,
+		"popularity": 10.52,
+		"startMonth": 202102,
+		"endMonth": 202102
+	},
+	{
+		"name": "KGpg",
+		"samples": 1473,
+		"count": 205,
+		"popularity": 13.92,
+		"startMonth": 202102,
+		"endMonth": 202102
+	},
+	{
+		"name": "Kleopatra",
+		"samples": 1473,
+		"count": 209,
+		"popularity": 14.19,
+		"startMonth": 202102,
+		"endMonth": 202102
+	},
+	{
+		"name": "KMag",
+		"samples": 1473,
+		"count": 161,
+		"popularity": 10.93,
+		"startMonth": 202102,
+		"endMonth": 202102
+	},
+	{
+		"name": "KMouseTool",
+		"samples": 1473,
+		"count": 159,
+		"popularity": 10.79,
+		"startMonth": 202102,
+		"endMonth": 202102
+	},
+	{
+		"name": "KMouth",
+		"samples": 1473,
+		"count": 148,
+		"popularity": 10.05,
+		"startMonth": 202102,
+		"endMonth": 202102
+	},
+	{
+		"name": "KNotes",
+		"samples": 1473,
+		"count": 167,
+		"popularity": 11.34,
+		"startMonth": 202102,
+		"endMonth": 202102
+	},
+	{
+		"name": "KRename",
+		"samples": 1473,
+		"count": 86,
+		"popularity": 5.84,
+		"startMonth": 202102,
+		"endMonth": 202102
+	},
+	{
+		"name": "Kronometer",
+		"samples": 1473,
+		"count": 17,
+		"popularity": 1.15,
+		"startMonth": 202102,
+		"endMonth": 202102
+	},
+	{
+		"name": "Krusader",
+		"samples": 1473,
+		"count": 67,
+		"popularity": 4.55,
+		"startMonth": 202102,
+		"endMonth": 202102
+	},
+	{
+		"name": "KTeaTime",
+		"samples": 1473,
+		"count": 164,
+		"popularity": 11.13,
+		"startMonth": 202102,
+		"endMonth": 202102
+	},
+	{
+		"name": "KTimer",
+		"samples": 1473,
+		"count": 183,
+		"popularity": 12.42,
+		"startMonth": 202102,
+		"endMonth": 202102
+	},
+	{
+		"name": "KTimeTracker",
+		"samples": 1473,
+		"count": 9,
+		"popularity": 0.61,
+		"startMonth": 202102,
+		"endMonth": 202102
+	},
+	{
+		"name": "KTrip",
+		"samples": 1473,
+		"count": 0,
+		"popularity": 0,
+		"startMonth": 202102,
+		"endMonth": 202102
+	},
+	{
+		"name": "KWrite",
+		"samples": 1473,
+		"count": 228,
+		"popularity": 15.48,
+		"startMonth": 202102,
+		"endMonth": 202102
+	},
+	{
+		"name": "Okteta",
+		"samples": 1473,
+		"count": 138,
+		"popularity": 9.37,
+		"startMonth": 202102,
+		"endMonth": 202102
+	},
+	{
+		"name": "Smb4K",
+		"samples": 1473,
+		"count": 38,
+		"popularity": 2.58,
+		"startMonth": 202102,
+		"endMonth": 202102
+	},
+	{
+		"name": "Spectacle",
+		"samples": 1473,
+		"count": 402,
+		"popularity": 27.29,
+		"startMonth": 202102,
+		"endMonth": 202102
+	},
+	{
+		"name": "Sweeper",
+		"samples": 1473,
+		"count": 227,
+		"popularity": 15.41,
+		"startMonth": 202102,
+		"endMonth": 202102
+	},
+	{
+		"name": "Zanshin",
+		"samples": 1473,
+		"count": 9,
+		"popularity": 0.61,
+		"startMonth": 202102,
+		"endMonth": 202102
+	},
+	{
+		"name": "Kamera",
+		"samples": 1473,
+		"count": 208,
+		"popularity": 14.12,
+		"startMonth": 202102,
+		"endMonth": 202102
+	},
+	{
+		"name": "KCron",
+		"samples": 1473,
+		"count": 205,
+		"popularity": 13.92,
+		"startMonth": 202102,
+		"endMonth": 202102
+	},
+	{
+		"name": "Latte",
+		"samples": 1473,
+		"count": 0,
+		"popularity": 0,
+		"startMonth": 202102,
+		"endMonth": 202102
+	},
+	{
+		"name": "Blogilo",
+		"samples": 1473,
+		"count": 14,
+		"popularity": 0.95,
+		"startMonth": 202102,
+		"endMonth": 202102
+	},
+	{
+		"name": "Gemini",
+		"samples": 1473,
+		"count": 0,
+		"popularity": 0,
+		"startMonth": 202102,
+		"endMonth": 202102
+	},
+	{
+		"name": "Jovie",
+		"samples": 1473,
+		"count": 0,
+		"popularity": 0,
+		"startMonth": 202102,
+		"endMonth": 202102
+	},
+	{
+		"name": "KAppFinder",
+		"samples": 1473,
+		"count": 0,
+		"popularity": 0,
+		"startMonth": 202102,
+		"endMonth": 202102
+	},
+	{
+		"name": "Karbon",
+		"samples": 1473,
+		"count": 0,
+		"popularity": 0,
+		"startMonth": 202102,
+		"endMonth": 202102
+	},
+	{
+		"name": "KFileReplace",
+		"samples": 1473,
+		"count": 0,
+		"popularity": 0,
+		"startMonth": 202102,
+		"endMonth": 202102
+	},
+	{
+		"name": "KFTPGrabber",
+		"samples": 1473,
+		"count": 0,
+		"popularity": 0,
+		"startMonth": 202102,
+		"endMonth": 202102
+	},
+	{
+		"name": "KLinkStatus",
+		"samples": 1473,
+		"count": 0,
+		"popularity": 0,
+		"startMonth": 202102,
+		"endMonth": 202102
+	},
+	{
+		"name": "KMid",
+		"samples": 1473,
+		"count": 0,
+		"popularity": 0,
+		"startMonth": 202102,
+		"endMonth": 202102
+	},
+	{
+		"name": "KMLDonkey",
+		"samples": 1473,
+		"count": 0,
+		"popularity": 0,
+		"startMonth": 202102,
+		"endMonth": 202102
+	},
+	{
+		"name": "KNemo",
+		"samples": 1473,
+		"count": 6,
+		"popularity": 0.41,
+		"startMonth": 202102,
+		"endMonth": 202102
+	},
+	{
+		"name": "KNode",
+		"samples": 1473,
+		"count": 0,
+		"popularity": 0,
+		"startMonth": 202102,
+		"endMonth": 202102
+	},
+	{
+		"name": "KPager",
+		"samples": 1473,
+		"count": 0,
+		"popularity": 0,
+		"startMonth": 202102,
+		"endMonth": 202102
+	},
+	{
+		"name": "KPPP",
+		"samples": 1473,
+		"count": 0,
+		"popularity": 0,
+		"startMonth": 202102,
+		"endMonth": 202102
+	},
+	{
+		"name": "KRecipes",
+		"samples": 1473,
+		"count": 2,
+		"popularity": 0.14,
+		"startMonth": 202102,
+		"endMonth": 202102
+	},
+	{
+		"name": "KRemoteControl",
+		"samples": 1473,
+		"count": 0,
+		"popularity": 0,
+		"startMonth": 202102,
+		"endMonth": 202102
+	},
+	{
+		"name": "KSame",
+		"samples": 1473,
+		"count": 0,
+		"popularity": 0,
+		"startMonth": 202102,
+		"endMonth": 202102
+	},
+	{
+		"name": "KsCD",
+		"samples": 1473,
+		"count": 0,
+		"popularity": 0,
+		"startMonth": 202102,
+		"endMonth": 202102
+	},
+	{
+		"name": "KSig",
+		"samples": 1473,
+		"count": 0,
+		"popularity": 0,
+		"startMonth": 202102,
+		"endMonth": 202102
+	},
+	{
+		"name": "Kst",
+		"samples": 1473,
+		"count": 1,
+		"popularity": 0.07,
+		"startMonth": 202102,
+		"endMonth": 202102
+	},
+	{
+		"name": "KUser",
+		"samples": 1473,
+		"count": 0,
+		"popularity": 0,
+		"startMonth": 202102,
+		"endMonth": 202102
+	},
+	{
+		"name": "KWlan",
+		"samples": 1473,
+		"count": 0,
+		"popularity": 0,
+		"startMonth": 202102,
+		"endMonth": 202102
+	},
+	{
+		"name": "Simon",
+		"samples": 1473,
+		"count": 0,
+		"popularity": 0,
+		"startMonth": 202102,
+		"endMonth": 202102
+	},
+	{
+		"name": "dolphin-plugins",
+		"samples": 1473,
+		"count": 328,
+		"popularity": 22.27,
+		"startMonth": 202102,
+		"endMonth": 202102
+	},
+	{
+		"name": "kirigami2",
+		"samples": 1473,
+		"count": 746,
+		"popularity": 50.64,
+		"startMonth": 202102,
+		"endMonth": 202102
+	},
+	{
+		"name": "kirigami-gallery",
+		"samples": 1473,
+		"count": 128,
+		"popularity": 8.69,
+		"startMonth": 202102,
+		"endMonth": 202102
+	},
+	{
+		"name": "KArchive",
+		"samples": 1473,
+		"count": 913,
+		"popularity": 61.98,
+		"startMonth": 202102,
+		"endMonth": 202102
+	},
+	{
+		"name": "ThreadWeaver",
+		"samples": 1473,
+		"count": 640,
+		"popularity": 43.45,
+		"startMonth": 202102,
+		"endMonth": 202102
+	},
+	{
+		"name": "breeze-icons",
+		"samples": 1473,
+		"count": 667,
+		"popularity": 45.28,
+		"startMonth": 202102,
+		"endMonth": 202102
+	},
+	{
+		"name": "KI18n",
+		"samples": 1473,
+		"count": 931,
+		"popularity": 63.2,
+		"startMonth": 202102,
+		"endMonth": 202102
+	},
+	{
+		"name": "plasma-framework",
+		"samples": 14687,
+		"count": 5386,
+		"popularity": 36.67,
+		"startMonth": 202101,
+		"endMonth": 202101
+	},
+	{
+		"name": "plasma-integration",
+		"samples": 14687,
+		"count": 4935,
+		"popularity": 33.6,
+		"startMonth": 202101,
+		"endMonth": 202101
+	},
+	{
+		"name": "plasma-workspace",
+		"samples": 14687,
+		"count": 4914,
+		"popularity": 33.46,
+		"startMonth": 202101,
+		"endMonth": 202101
+	},
+	{
+		"name": "plasma-desktop",
+		"samples": 14687,
+		"count": 4611,
+		"popularity": 31.4,
+		"startMonth": 202101,
+		"endMonth": 202101
+	},
+	{
+		"name": "plasma-pa",
+		"samples": 14687,
+		"count": 4327,
+		"popularity": 29.46,
+		"startMonth": 202101,
+		"endMonth": 202101
+	},
+	{
+		"name": "plasma-nm",
+		"samples": 14687,
+		"count": 4242,
+		"popularity": 28.88,
+		"startMonth": 202101,
+		"endMonth": 202101
+	},
+	{
+		"name": "plasma-workspace-wallpapers",
+		"samples": 14687,
+		"count": 4111,
+		"popularity": 27.99,
+		"startMonth": 202101,
+		"endMonth": 202101
+	},
+	{
+		"name": "plasma-sdk",
+		"samples": 14687,
+		"count": 3781,
+		"popularity": 25.74,
+		"startMonth": 202101,
+		"endMonth": 202101
+	},
+	{
+		"name": "plasma-browser-integration",
+		"samples": 14687,
+		"count": 3632,
+		"popularity": 24.73,
+		"startMonth": 202101,
+		"endMonth": 202101
+	},
+	{
+		"name": "plasma-vault",
+		"samples": 14687,
+		"count": 3287,
+		"popularity": 22.38,
+		"startMonth": 202101,
+		"endMonth": 202101
+	},
+	{
+		"name": "plasma-thunderbolt",
+		"samples": 14687,
+		"count": 2711,
+		"popularity": 18.46,
+		"startMonth": 202101,
+		"endMonth": 202101
+	},
+	{
+		"name": "plasma-disks",
+		"samples": 14687,
+		"count": 2041,
+		"popularity": 13.9,
+		"startMonth": 202101,
+		"endMonth": 202101
+	},
+	{
+		"name": "plasma-wayland-session",
+		"samples": 14687,
+		"count": 1344,
+		"popularity": 9.15,
+		"startMonth": 202101,
+		"endMonth": 202101
+	},
+	{
+		"name": "plasma-meta",
+		"samples": 14687,
+		"count": 1326,
+		"popularity": 9.03,
+		"startMonth": 202101,
+		"endMonth": 202101
+	},
+	{
+		"name": "plasma5-applets-thermal-monitor",
+		"samples": 14687,
+		"count": 330,
+		"popularity": 2.25,
+		"startMonth": 202101,
+		"endMonth": 202101
+	},
+	{
+		"name": "plasma5-applets-weather-widget",
+		"samples": 14687,
+		"count": 300,
+		"popularity": 2.04,
+		"startMonth": 202101,
+		"endMonth": 202101
+	},
+	{
+		"name": "plasma-systemmonitor",
+		"samples": 14687,
+		"count": 298,
+		"popularity": 2.03,
+		"startMonth": 202101,
+		"endMonth": 202101
+	},
+	{
+		"name": "plasma-wayland-protocols",
+		"samples": 14687,
+		"count": 232,
+		"popularity": 1.58,
+		"startMonth": 202101,
+		"endMonth": 202101
+	},
+	{
+		"name": "plasma-mediacenter",
+		"samples": 14687,
+		"count": 213,
+		"popularity": 1.45,
+		"startMonth": 202101,
+		"endMonth": 202101
+	},
+	{
+		"name": "plasma5-applets-active-window-control",
+		"samples": 14687,
+		"count": 181,
+		"popularity": 1.23,
+		"startMonth": 202101,
+		"endMonth": 202101
+	},
+	{
+		"name": "plasma5-applets-eventcalendar",
+		"samples": 14687,
+		"count": 180,
+		"popularity": 1.23,
+		"startMonth": 202101,
+		"endMonth": 202101
+	},
+	{
+		"name": "plasma5-applets-redshift-control",
+		"samples": 14687,
+		"count": 119,
+		"popularity": 0.81,
+		"startMonth": 202101,
+		"endMonth": 202101
+	},
+	{
+		"name": "plasma5-applets-window-buttons",
+		"samples": 14687,
+		"count": 88,
+		"popularity": 0.6,
+		"startMonth": 202101,
+		"endMonth": 202101
+	},
+	{
+		"name": "plasma5-applets-window-title",
+		"samples": 14687,
+		"count": 87,
+		"popularity": 0.59,
+		"startMonth": 202101,
+		"endMonth": 202101
+	},
+	{
+		"name": "plasma5-applets-redshift-control-git",
+		"samples": 14687,
+		"count": 86,
+		"popularity": 0.59,
+		"startMonth": 202101,
+		"endMonth": 202101
+	},
+	{
+		"name": "plasma5-applets-virtual-desktop-bar-git",
+		"samples": 14687,
+		"count": 75,
+		"popularity": 0.51,
+		"startMonth": 202101,
+		"endMonth": 202101
+	},
+	{
+		"name": "plasma5-applets-thermal-monitor-git",
+		"samples": 14687,
+		"count": 64,
+		"popularity": 0.44,
+		"startMonth": 202101,
+		"endMonth": 202101
+	},
+	{
+		"name": "plasma5-applets-window-appmenu",
+		"samples": 14687,
+		"count": 63,
+		"popularity": 0.43,
+		"startMonth": 202101,
+		"endMonth": 202101
+	},
+	{
+		"name": "plasma",
+		"samples": 14687,
+		"count": 63,
+		"popularity": 0.43,
+		"startMonth": 202101,
+		"endMonth": 202101
+	},
+	{
+		"name": "plasma5-applets-netspeed",
+		"samples": 14687,
+		"count": 62,
+		"popularity": 0.42,
+		"startMonth": 202101,
+		"endMonth": 202101
+	},
+	{
+		"name": "plasma5-applets-latte-separator",
+		"samples": 14687,
+		"count": 48,
+		"popularity": 0.33,
+		"startMonth": 202101,
+		"endMonth": 202101
+	},
+	{
+		"name": "plasma5-applet-awesome-widgets",
+		"samples": 14687,
+		"count": 47,
+		"popularity": 0.32,
+		"startMonth": 202101,
+		"endMonth": 202101
+	},
+	{
+		"name": "plasma5-applets-kde-arch-update-notifier-git",
+		"samples": 14687,
+		"count": 45,
+		"popularity": 0.31,
+		"startMonth": 202101,
+		"endMonth": 202101
+	},
+	{
+		"name": "plasma5-applets-plasma-pstate",
+		"samples": 14687,
+		"count": 44,
+		"popularity": 0.3,
+		"startMonth": 202101,
+		"endMonth": 202101
+	},
+	{
+		"name": "plasma5-wallpapers-dynamic",
+		"samples": 14687,
+		"count": 43,
+		"popularity": 0.29,
+		"startMonth": 202101,
+		"endMonth": 202101
+	},
+	{
+		"name": "plasma5-applet-netctl-gui",
+		"samples": 14687,
+		"count": 38,
+		"popularity": 0.26,
+		"startMonth": 202101,
+		"endMonth": 202101
+	},
+	{
+		"name": "plasma5-applets-latte-spacer",
+		"samples": 14687,
+		"count": 37,
+		"popularity": 0.25,
+		"startMonth": 202101,
+		"endMonth": 202101
+	},
+	{
+		"name": "plasma-theme-archlinux",
+		"samples": 14687,
+		"count": 37,
+		"popularity": 0.25,
+		"startMonth": 202101,
+		"endMonth": 202101
+	},
+	{
+		"name": "plasma5-applets-caffeine-plus",
+		"samples": 14687,
+		"count": 34,
+		"popularity": 0.23,
+		"startMonth": 202101,
+		"endMonth": 202101
+	},
+	{
+		"name": "plasma5-themes-maia",
+		"samples": 14687,
+		"count": 33,
+		"popularity": 0.22,
+		"startMonth": 202101,
+		"endMonth": 202101
+	},
+	{
+		"name": "plasma5-runners-symbols",
+		"samples": 14687,
+		"count": 30,
+		"popularity": 0.2,
+		"startMonth": 202101,
+		"endMonth": 202101
+	},
+	{
+		"name": "plasma5-applets-latte-sidebar-button",
+		"samples": 14687,
+		"count": 30,
+		"popularity": 0.2,
+		"startMonth": 202101,
+		"endMonth": 202101
+	},
+	{
+		"name": "plasma5-applets-playbar2",
+		"samples": 14687,
+		"count": 27,
+		"popularity": 0.18,
+		"startMonth": 202101,
+		"endMonth": 202101
+	},
+	{
+		"name": "plasma5-applets-systemd",
+		"samples": 14687,
+		"count": 25,
+		"popularity": 0.17,
+		"startMonth": 202101,
+		"endMonth": 202101
+	},
+	{
+		"name": "plasma5-applets-resources-monitor-git",
+		"samples": 14687,
+		"count": 25,
+		"popularity": 0.17,
+		"startMonth": 202101,
+		"endMonth": 202101
+	},
+	{
+		"name": "plasma5-applets-network-monitor",
+		"samples": 14687,
+		"count": 25,
+		"popularity": 0.17,
+		"startMonth": 202101,
+		"endMonth": 202101
+	},
+	{
+		"name": "plasma-workspace-agent-ssh",
+		"samples": 14687,
+		"count": 23,
+		"popularity": 0.16,
+		"startMonth": 202101,
+		"endMonth": 202101
+	},
+	{
+		"name": "plasma5-applets-active-window-control-git",
+		"samples": 14687,
+		"count": 20,
+		"popularity": 0.14,
+		"startMonth": 202101,
+		"endMonth": 202101
+	},
+	{
+		"name": "plasma5-applets-qalculate",
+		"samples": 14687,
+		"count": 20,
+		"popularity": 0.14,
+		"startMonth": 202101,
+		"endMonth": 202101
+	},
+	{
+		"name": "plasma5-applets-volumewin7mixer",
+		"samples": 14687,
+		"count": 20,
+		"popularity": 0.14,
+		"startMonth": 202101,
+		"endMonth": 202101
+	},
+	{
+		"name": "plasma-systemmonitor-git",
+		"samples": 14687,
+		"count": 19,
+		"popularity": 0.13,
+		"startMonth": 202101,
+		"endMonth": 202101
+	},
+	{
+		"name": "plasma5-applets-tiledmenu",
+		"samples": 14687,
+		"count": 19,
+		"popularity": 0.13,
+		"startMonth": 202101,
+		"endMonth": 202101
+	},
+	{
+		"name": "plasma5-applets-todolist",
+		"samples": 14687,
+		"count": 19,
+		"popularity": 0.13,
+		"startMonth": 202101,
+		"endMonth": 202101
+	},
+	{
+		"name": "plasma5-theme-breeze-transparent-nomad-icons-git",
+		"samples": 14687,
+		"count": 17,
+		"popularity": 0.12,
+		"startMonth": 202101,
+		"endMonth": 202101
+	},
+	{
+		"name": "plasma-pass",
+		"samples": 14687,
+		"count": 16,
+		"popularity": 0.11,
+		"startMonth": 202101,
+		"endMonth": 202101
+	},
+	{
+		"name": "plasma5-applets-mycroft-git",
+		"samples": 14687,
+		"count": 16,
+		"popularity": 0.11,
+		"startMonth": 202101,
+		"endMonth": 202101
+	},
+	{
+		"name": "plasma5-applets-docker",
+		"samples": 14687,
+		"count": 16,
+		"popularity": 0.11,
+		"startMonth": 202101,
+		"endMonth": 202101
+	},
+	{
+		"name": "plasma-maliit-plugins",
+		"samples": 14687,
+		"count": 15,
+		"popularity": 0.1,
+		"startMonth": 202101,
+		"endMonth": 202101
+	},
+	{
+		"name": "plasma5-applets-weather-widget-git",
+		"samples": 14687,
+		"count": 15,
+		"popularity": 0.1,
+		"startMonth": 202101,
+		"endMonth": 202101
+	},
+	{
+		"name": "plasma-maliit-framework",
+		"samples": 14687,
+		"count": 15,
+		"popularity": 0.1,
+		"startMonth": 202101,
+		"endMonth": 202101
+	},
+	{
+		"name": "plasma5-applets-resources-monitor",
+		"samples": 14687,
+		"count": 15,
+		"popularity": 0.1,
+		"startMonth": 202101,
+		"endMonth": 202101
+	},
+	{
+		"name": "plasma5-theme-aex-nomad-git",
+		"samples": 14687,
+		"count": 14,
+		"popularity": 0.1,
+		"startMonth": 202101,
+		"endMonth": 202101
+	},
+	{
+		"name": "plasma-hud-git",
+		"samples": 14687,
+		"count": 14,
+		"popularity": 0.1,
+		"startMonth": 202101,
+		"endMonth": 202101
+	},
+	{
+		"name": "plasma-git",
+		"samples": 14687,
+		"count": 14,
+		"popularity": 0.1,
+		"startMonth": 202101,
+		"endMonth": 202101
+	},
+	{
+		"name": "plasma-wallpaper-snow",
+		"samples": 14687,
+		"count": 14,
+		"popularity": 0.1,
+		"startMonth": 202101,
+		"endMonth": 202101
+	},
+	{
+		"name": "plasma5-themes-breath",
+		"samples": 14687,
+		"count": 13,
+		"popularity": 0.09,
+		"startMonth": 202101,
+		"endMonth": 202101
+	},
+	{
+		"name": "plasmafox",
+		"samples": 14687,
+		"count": 13,
+		"popularity": 0.09,
+		"startMonth": 202101,
+		"endMonth": 202101
+	},
+	{
+		"name": "plasma5-theme-aex-nomad-dark-git",
+		"samples": 14687,
+		"count": 13,
+		"popularity": 0.09,
+		"startMonth": 202101,
+		"endMonth": 202101
+	},
+	{
+		"name": "plasma5-applets-panon",
+		"samples": 14687,
+		"count": 12,
+		"popularity": 0.08,
+		"startMonth": 202101,
+		"endMonth": 202101
+	},
+	{
+		"name": "plasma5-applets-kde-arch-update-notifier",
+		"samples": 14687,
+		"count": 12,
+		"popularity": 0.08,
+		"startMonth": 202101,
+		"endMonth": 202101
+	},
+	{
+		"name": "plasma5-applets-presentwindows",
+		"samples": 14687,
+		"count": 12,
+		"popularity": 0.08,
+		"startMonth": 202101,
+		"endMonth": 202101
+	},
+	{
+		"name": "plasma5-applets-uptime-widget-git",
+		"samples": 14687,
+		"count": 12,
+		"popularity": 0.08,
+		"startMonth": 202101,
+		"endMonth": 202101
+	},
+	{
+		"name": "plasma5-applets-hoppla-sa-git",
+		"samples": 14687,
+		"count": 12,
+		"popularity": 0.08,
+		"startMonth": 202101,
+		"endMonth": 202101
+	},
+	{
+		"name": "plasma-firewall",
+		"samples": 14687,
+		"count": 11,
+		"popularity": 0.07,
+		"startMonth": 202101,
+		"endMonth": 202101
+	},
+	{
+		"name": "plasma5-applets-network-monitor-git",
+		"samples": 14687,
+		"count": 11,
+		"popularity": 0.07,
+		"startMonth": 202101,
+		"endMonth": 202101
+	},
+	{
+		"name": "plasma5-applets-audio-device-switcher",
+		"samples": 14687,
+		"count": 11,
+		"popularity": 0.07,
+		"startMonth": 202101,
+		"endMonth": 202101
+	},
+	{
+		"name": "plasma5-runners-duckduckgo-bangs",
+		"samples": 14687,
+		"count": 10,
+		"popularity": 0.07,
+		"startMonth": 202101,
+		"endMonth": 202101
+	},
+	{
+		"name": "plasma5-applets-places-widget",
+		"samples": 14687,
+		"count": 10,
+		"popularity": 0.07,
+		"startMonth": 202101,
+		"endMonth": 202101
+	},
+	{
+		"name": "plasma-runners-translator",
+		"samples": 14687,
+		"count": 10,
+		"popularity": 0.07,
+		"startMonth": 202101,
+		"endMonth": 202101
+	},
+	{
+		"name": "plasma5-applets-window-buttons-git",
+		"samples": 14687,
+		"count": 9,
+		"popularity": 0.06,
+		"startMonth": 202101,
+		"endMonth": 202101
+	},
+	{
+		"name": "plasma-video-wallpaper-git",
+		"samples": 14687,
+		"count": 8,
+		"popularity": 0.05,
+		"startMonth": 202101,
+		"endMonth": 202101
+	},
+	{
+		"name": "plasma-runners-tmux",
+		"samples": 14687,
+		"count": 8,
+		"popularity": 0.05,
+		"startMonth": 202101,
+		"endMonth": 202101
+	},
+	{
+		"name": "plasma-applet-network-monitor-git",
+		"samples": 14687,
+		"count": 8,
+		"popularity": 0.05,
+		"startMonth": 202101,
+		"endMonth": 202101
+	},
+	{
+		"name": "plasma5-applets-system-panel",
+		"samples": 14687,
+		"count": 7,
+		"popularity": 0.05,
+		"startMonth": 202101,
+		"endMonth": 202101
+	},
+	{
+		"name": "plasma-wallpaper-neon-particles-bzr",
+		"samples": 14687,
+		"count": 7,
+		"popularity": 0.05,
+		"startMonth": 202101,
+		"endMonth": 202101
+	},
+	{
+		"name": "plasma-angelfish",
+		"samples": 14687,
+		"count": 7,
+		"popularity": 0.05,
+		"startMonth": 202101,
+		"endMonth": 202101
+	},
+	{
+		"name": "plasma5-applets-mpdnowplaying",
+		"samples": 14687,
+		"count": 7,
+		"popularity": 0.05,
+		"startMonth": 202101,
+		"endMonth": 202101
+	},
+	{
+		"name": "plasma-runners-ssh",
+		"samples": 14687,
+		"count": 7,
+		"popularity": 0.05,
+		"startMonth": 202101,
+		"endMonth": 202101
+	},
+	{
+		"name": "plasma5-applets-kargos-git",
+		"samples": 14687,
+		"count": 7,
+		"popularity": 0.05,
+		"startMonth": 202101,
+		"endMonth": 202101
+	},
+	{
+		"name": "plasma5-theme-caledonia",
+		"samples": 14687,
+		"count": 6,
+		"popularity": 0.04,
+		"startMonth": 202101,
+		"endMonth": 202101
+	},
+	{
+		"name": "plasma-pass-git",
+		"samples": 14687,
+		"count": 6,
+		"popularity": 0.04,
+		"startMonth": 202101,
+		"endMonth": 202101
+	},
+	{
+		"name": "plasma5-themes-chakra-heritage",
+		"samples": 14687,
+		"count": 6,
+		"popularity": 0.04,
+		"startMonth": 202101,
+		"endMonth": 202101
+	},
+	{
+		"name": "plasma5-applets-server-status-git",
+		"samples": 14687,
+		"count": 6,
+		"popularity": 0.04,
+		"startMonth": 202101,
+		"endMonth": 202101
+	},
+	{
+		"name": "plasma-simplemenu",
+		"samples": 14687,
+		"count": 6,
+		"popularity": 0.04,
+		"startMonth": 202101,
+		"endMonth": 202101
+	},
+	{
+		"name": "plasma5-applets-window-appmenu-git",
+		"samples": 14687,
+		"count": 6,
+		"popularity": 0.04,
+		"startMonth": 202101,
+		"endMonth": 202101
+	},
+	{
+		"name": "plasma5-applets-window-title-git",
+		"samples": 14687,
+		"count": 6,
+		"popularity": 0.04,
+		"startMonth": 202101,
+		"endMonth": 202101
+	},
+	{
+		"name": "plasma5-runners-jetbrains-runner",
+		"samples": 14687,
+		"count": 5,
+		"popularity": 0.03,
+		"startMonth": 202101,
+		"endMonth": 202101
+	},
+	{
+		"name": "plasma-theme-archpaint2",
+		"samples": 14687,
+		"count": 5,
+		"popularity": 0.03,
+		"startMonth": 202101,
+		"endMonth": 202101
+	},
+	{
+		"name": "plasma-theme-papirus",
+		"samples": 14687,
+		"count": 5,
+		"popularity": 0.03,
+		"startMonth": 202101,
+		"endMonth": 202101
+	},
+	{
+		"name": "plasma5-themes-breath2",
+		"samples": 14687,
+		"count": 5,
+		"popularity": 0.03,
+		"startMonth": 202101,
+		"endMonth": 202101
+	},
+	{
+		"name": "plasma-wayland-protocols-git",
+		"samples": 14687,
+		"count": 5,
+		"popularity": 0.03,
+		"startMonth": 202101,
+		"endMonth": 202101
+	},
+	{
+		"name": "plasma5-applets-timekeeper-git",
+		"samples": 14687,
+		"count": 4,
+		"popularity": 0.03,
+		"startMonth": 202101,
+		"endMonth": 202101
+	},
+	{
+		"name": "plasma-i3",
+		"samples": 14687,
+		"count": 4,
+		"popularity": 0.03,
+		"startMonth": 202101,
+		"endMonth": 202101
+	},
+	{
+		"name": "plasma5-theme-ocd",
+		"samples": 14687,
+		"count": 4,
+		"popularity": 0.03,
+		"startMonth": 202101,
+		"endMonth": 202101
+	},
+	{
+		"name": "plasma-applet-custom-notifier",
+		"samples": 14687,
+		"count": 4,
+		"popularity": 0.03,
+		"startMonth": 202101,
+		"endMonth": 202101
+	},
+	{
+		"name": "plasma-bigscreen-git",
+		"samples": 14687,
+		"count": 4,
+		"popularity": 0.03,
+		"startMonth": 202101,
+		"endMonth": 202101
+	},
+	{
+		"name": "plasma-browser-integration-git",
+		"samples": 14687,
+		"count": 4,
+		"popularity": 0.03,
+		"startMonth": 202101,
+		"endMonth": 202101
+	},
+	{
+		"name": "plasma5-applets-ultimate-gmailfeed",
+		"samples": 14687,
+		"count": 4,
+		"popularity": 0.03,
+		"startMonth": 202101,
+		"endMonth": 202101
+	},
+	{
+		"name": "plasma-nano-git",
+		"samples": 14687,
+		"count": 4,
+		"popularity": 0.03,
+		"startMonth": 202101,
+		"endMonth": 202101
+	},
+	{
+		"name": "plasma5-applets-betterinlineclock-git",
+		"samples": 14687,
+		"count": 4,
+		"popularity": 0.03,
+		"startMonth": 202101,
+		"endMonth": 202101
+	},
+	{
+		"name": "plasma-workspace-units-git",
+		"samples": 14687,
+		"count": 4,
+		"popularity": 0.03,
+		"startMonth": 202101,
+		"endMonth": 202101
+	},
+	{
+		"name": "plasma-wallpaper-himawari-git",
+		"samples": 14687,
+		"count": 4,
+		"popularity": 0.03,
+		"startMonth": 202101,
+		"endMonth": 202101
+	},
+	{
+		"name": "plasma5-applets-simplemenu-git",
+		"samples": 14687,
+		"count": 4,
+		"popularity": 0.03,
+		"startMonth": 202101,
+		"endMonth": 202101
+	},
+	{
+		"name": "plasma5-applets-plasma-pass-git",
+		"samples": 14687,
+		"count": 4,
+		"popularity": 0.03,
+		"startMonth": 202101,
+		"endMonth": 202101
+	},
+	{
+		"name": "plasma-pk-updates-git",
+		"samples": 14687,
+		"count": 4,
+		"popularity": 0.03,
+		"startMonth": 202101,
+		"endMonth": 202101
+	},
+	{
+		"name": "plasma5-applets-folderlist",
+		"samples": 14687,
+		"count": 4,
+		"popularity": 0.03,
+		"startMonth": 202101,
+		"endMonth": 202101
+	},
+	{
+		"name": "plasma5-applet-tiledmenu-git",
+		"samples": 14687,
+		"count": 4,
+		"popularity": 0.03,
+		"startMonth": 202101,
+		"endMonth": 202101
+	},
+	{
+		"name": "plasma5-applets-bandwidth-monitor",
+		"samples": 14687,
+		"count": 4,
+		"popularity": 0.03,
+		"startMonth": 202101,
+		"endMonth": 202101
+	},
+	{
+		"name": "plasma5-runners-nordvpn",
+		"samples": 14687,
+		"count": 3,
+		"popularity": 0.02,
+		"startMonth": 202101,
+		"endMonth": 202101
+	},
+	{
+		"name": "plasma5-theme-breeze-noshadow-antu-git",
+		"samples": 14687,
+		"count": 3,
+		"popularity": 0.02,
+		"startMonth": 202101,
+		"endMonth": 202101
+	},
+	{
+		"name": "plasma5-runners-appmenu-git",
+		"samples": 14687,
+		"count": 3,
+		"popularity": 0.02,
+		"startMonth": 202101,
+		"endMonth": 202101
+	},
+	{
+		"name": "plasma5-applets-journalviewer-git",
+		"samples": 14687,
+		"count": 3,
+		"popularity": 0.02,
+		"startMonth": 202101,
+		"endMonth": 202101
+	},
+	{
+		"name": "plasma5-applets-plasma-pstate-ml",
+		"samples": 14687,
+		"count": 3,
+		"popularity": 0.02,
+		"startMonth": 202101,
+		"endMonth": 202101
+	},
+	{
+		"name": "plasma-framework-git",
+		"samples": 14687,
+		"count": 3,
+		"popularity": 0.02,
+		"startMonth": 202101,
+		"endMonth": 202101
+	},
+	{
+		"name": "plasma-integration-git",
+		"samples": 14687,
+		"count": 2,
+		"popularity": 0.01,
+		"startMonth": 202101,
+		"endMonth": 202101
+	},
+	{
+		"name": "plasma5-applets-simplemonitor",
+		"samples": 14687,
+		"count": 2,
+		"popularity": 0.01,
+		"startMonth": 202101,
+		"endMonth": 202101
+	},
+	{
+		"name": "plasma-addons-customdesktopmenu-git",
+		"samples": 14687,
+		"count": 2,
+		"popularity": 0.01,
+		"startMonth": 202101,
+		"endMonth": 202101
+	},
+	{
+		"name": "plasma5-applets-chiliclock-git",
+		"samples": 14687,
+		"count": 2,
+		"popularity": 0.01,
+		"startMonth": 202101,
+		"endMonth": 202101
+	},
+	{
+		"name": "plasma-workspace-git",
+		"samples": 14687,
+		"count": 2,
+		"popularity": 0.01,
+		"startMonth": 202101,
+		"endMonth": 202101
+	},
+	{
+		"name": "plasma5-applets-latte-sidebar-button-git",
+		"samples": 14687,
+		"count": 2,
+		"popularity": 0.01,
+		"startMonth": 202101,
+		"endMonth": 202101
+	},
+	{
+		"name": "plasma-desktop-git",
+		"samples": 14687,
+		"count": 2,
+		"popularity": 0.01,
+		"startMonth": 202101,
+		"endMonth": 202101
+	},
+	{
+		"name": "plasma5-applets-ambientnoise",
+		"samples": 14687,
+		"count": 2,
+		"popularity": 0.01,
+		"startMonth": 202101,
+		"endMonth": 202101
+	},
+	{
+		"name": "plasma-workspace-wallpapers-git",
+		"samples": 14687,
+		"count": 2,
+		"popularity": 0.01,
+		"startMonth": 202101,
+		"endMonth": 202101
+	},
+	{
+		"name": "plasma5-applets-kde-githubissues-git",
+		"samples": 14687,
+		"count": 2,
+		"popularity": 0.01,
+		"startMonth": 202101,
+		"endMonth": 202101
+	},
+	{
+		"name": "plasma5-applets-nx-systemtray",
+		"samples": 14687,
+		"count": 2,
+		"popularity": 0.01,
+		"startMonth": 202101,
+		"endMonth": 202101
+	},
+	{
+		"name": "plasma-theme-sweet-mars",
+		"samples": 14687,
+		"count": 2,
+		"popularity": 0.01,
+		"startMonth": 202101,
+		"endMonth": 202101
+	},
+	{
+		"name": "plasma5-wallpapers-chakra-tulip",
+		"samples": 14687,
+		"count": 1,
+		"popularity": 0.01,
+		"startMonth": 202101,
+		"endMonth": 202101
+	},
+	{
+		"name": "plasma5-applet-buam",
+		"samples": 14687,
+		"count": 1,
+		"popularity": 0.01,
+		"startMonth": 202101,
+		"endMonth": 202101
+	},
+	{
+		"name": "plasma5-theme-sweet-git",
+		"samples": 14687,
+		"count": 1,
+		"popularity": 0.01,
+		"startMonth": 202101,
+		"endMonth": 202101
+	},
+	{
+		"name": "plasma5-applets-fanspeed-monitor-git",
+		"samples": 14687,
+		"count": 1,
+		"popularity": 0.01,
+		"startMonth": 202101,
+		"endMonth": 202101
+	},
+	{
+		"name": "plasma-midna-theme-git",
+		"samples": 14687,
+		"count": 1,
+		"popularity": 0.01,
+		"startMonth": 202101,
+		"endMonth": 202101
+	},
+	{
+		"name": "plasma5-applets-yahoo-weather-widget",
+		"samples": 14687,
+		"count": 1,
+		"popularity": 0.01,
+		"startMonth": 202101,
+		"endMonth": 202101
+	},
+	{
+		"name": "plasma-browser-integration-debug",
+		"samples": 14687,
+		"count": 1,
+		"popularity": 0.01,
+		"startMonth": 202101,
+		"endMonth": 202101
+	},
+	{
+		"name": "plasma-disks-git",
+		"samples": 14687,
+		"count": 1,
+		"popularity": 0.01,
+		"startMonth": 202101,
+		"endMonth": 202101
+	},
+	{
+		"name": "plasma-potd-spotlight",
+		"samples": 14687,
+		"count": 1,
+		"popularity": 0.01,
+		"startMonth": 202101,
+		"endMonth": 202101
+	},
+	{
+		"name": "plasma-angelfish-git",
+		"samples": 14687,
+		"count": 1,
+		"popularity": 0.01,
+		"startMonth": 202101,
+		"endMonth": 202101
+	},
+	{
+		"name": "kconfig",
+		"samples": 14687,
+		"count": 9267,
+		"popularity": 63.1,
+		"startMonth": 202101,
+		"endMonth": 202101
+	},
+	{
+		"name": "kconfigwidgets",
+		"samples": 14687,
+		"count": 8965,
+		"popularity": 61.04,
+		"startMonth": 202101,
+		"endMonth": 202101
+	},
+	{
+		"name": "kconfig-hardened-check",
+		"samples": 14687,
+		"count": 32,
+		"popularity": 0.22,
+		"startMonth": 202101,
+		"endMonth": 202101
+	},
+	{
+		"name": "kconfig-git",
+		"samples": 14687,
+		"count": 4,
+		"popularity": 0.03,
+		"startMonth": 202101,
+		"endMonth": 202101
+	},
+	{
+		"name": "kconfigwidgets-git",
+		"samples": 14687,
+		"count": 3,
+		"popularity": 0.02,
+		"startMonth": 202101,
+		"endMonth": 202101
+	},
+	{
+		"name": "kconfig-frontends",
+		"samples": 14687,
+		"count": 2,
+		"popularity": 0.01,
+		"startMonth": 202101,
+		"endMonth": 202101
+	},
+	{
+		"name": "kwindowsystem",
+		"samples": 14687,
+		"count": 9559,
+		"popularity": 65.08,
+		"startMonth": 202101,
+		"endMonth": 202101
+	},
+	{
+		"name": "kwin",
+		"samples": 14687,
+		"count": 4858,
+		"popularity": 33.08,
+		"startMonth": 202101,
+		"endMonth": 202101
+	},
+	{
+		"name": "kwin-lowlatency",
+		"samples": 14687,
+		"count": 97,
+		"popularity": 0.66,
+		"startMonth": 202101,
+		"endMonth": 202101
+	},
+	{
+		"name": "kwin-decoration-sierra-breeze-enhanced-git",
+		"samples": 14687,
+		"count": 43,
+		"popularity": 0.29,
+		"startMonth": 202101,
+		"endMonth": 202101
+	},
+	{
+		"name": "kwin-scripts-krohnkite-git",
+		"samples": 14687,
+		"count": 42,
+		"popularity": 0.29,
+		"startMonth": 202101,
+		"endMonth": 202101
+	},
+	{
+		"name": "kwin-scripts-tiling",
+		"samples": 14687,
+		"count": 39,
+		"popularity": 0.27,
+		"startMonth": 202101,
+		"endMonth": 202101
+	},
+	{
+		"name": "kwin-script-grid-tiling",
+		"samples": 14687,
+		"count": 26,
+		"popularity": 0.18,
+		"startMonth": 202101,
+		"endMonth": 202101
+	},
+	{
+		"name": "kwin-scripts-window-colors",
+		"samples": 14687,
+		"count": 25,
+		"popularity": 0.17,
+		"startMonth": 202101,
+		"endMonth": 202101
+	},
+	{
+		"name": "kwin-scripts-forceblur",
+		"samples": 14687,
+		"count": 23,
+		"popularity": 0.16,
+		"startMonth": 202101,
+		"endMonth": 202101
+	},
+	{
+		"name": "kwin-scripts-parachute",
+		"samples": 14687,
+		"count": 22,
+		"popularity": 0.15,
+		"startMonth": 202101,
+		"endMonth": 202101
+	},
+	{
+		"name": "kwinft",
+		"samples": 14687,
+		"count": 18,
+		"popularity": 0.12,
+		"startMonth": 202101,
+		"endMonth": 202101
+	},
+	{
+		"name": "kwin-effects-yet-another-magic-lamp",
+		"samples": 14687,
+		"count": 18,
+		"popularity": 0.12,
+		"startMonth": 202101,
+		"endMonth": 202101
+	},
+	{
+		"name": "kwin-effect-shapecorners-git",
+		"samples": 14687,
+		"count": 14,
+		"popularity": 0.1,
+		"startMonth": 202101,
+		"endMonth": 202101
+	},
+	{
+		"name": "kwin-effects-unminimize1",
+		"samples": 14687,
+		"count": 12,
+		"popularity": 0.08,
+		"startMonth": 202101,
+		"endMonth": 202101
+	},
+	{
+		"name": "kwin-effects-appear1",
+		"samples": 14687,
+		"count": 12,
+		"popularity": 0.08,
+		"startMonth": 202101,
+		"endMonth": 202101
+	},
+	{
+		"name": "kwin-effects-disappear1",
+		"samples": 14687,
+		"count": 12,
+		"popularity": 0.08,
+		"startMonth": 202101,
+		"endMonth": 202101
+	},
+	{
+		"name": "kwin-effects-minimize1",
+		"samples": 14687,
+		"count": 9,
+		"popularity": 0.06,
+		"startMonth": 202101,
+		"endMonth": 202101
+	},
+	{
+		"name": "kwin-scripts-dynamic-virtual-desktops-git",
+		"samples": 14687,
+		"count": 8,
+		"popularity": 0.05,
+		"startMonth": 202101,
+		"endMonth": 202101
+	},
+	{
+		"name": "kwin-effects-disappear2",
+		"samples": 14687,
+		"count": 8,
+		"popularity": 0.05,
+		"startMonth": 202101,
+		"endMonth": 202101
+	},
+	{
+		"name": "kwin-effects-appear2",
+		"samples": 14687,
+		"count": 8,
+		"popularity": 0.05,
+		"startMonth": 202101,
+		"endMonth": 202101
+	},
+	{
+		"name": "kwin-effect-grayscale-git",
+		"samples": 14687,
+		"count": 8,
+		"popularity": 0.05,
+		"startMonth": 202101,
+		"endMonth": 202101
+	},
+	{
+		"name": "kwin-effects-disappear3",
+		"samples": 14687,
+		"count": 8,
+		"popularity": 0.05,
+		"startMonth": 202101,
+		"endMonth": 202101
+	},
+	{
+		"name": "kwin-effects-appear3",
+		"samples": 14687,
+		"count": 8,
+		"popularity": 0.05,
+		"startMonth": 202101,
+		"endMonth": 202101
+	},
+	{
+		"name": "kwin-effects-sliding-notifications",
+		"samples": 14687,
+		"count": 7,
+		"popularity": 0.05,
+		"startMonth": 202101,
+		"endMonth": 202101
+	},
+	{
+		"name": "kwin-effect-xrdesktop-git",
+		"samples": 14687,
+		"count": 6,
+		"popularity": 0.04,
+		"startMonth": 202101,
+		"endMonth": 202101
+	},
+	{
+		"name": "kwin-script-switching-git",
+		"samples": 14687,
+		"count": 5,
+		"popularity": 0.03,
+		"startMonth": 202101,
+		"endMonth": 202101
+	},
+	{
+		"name": "kwin-scripts-quarter-tiling-git",
+		"samples": 14687,
+		"count": 5,
+		"popularity": 0.03,
+		"startMonth": 202101,
+		"endMonth": 202101
+	},
+	{
+		"name": "kwin-lowlatency-debug",
+		"samples": 14687,
+		"count": 5,
+		"popularity": 0.03,
+		"startMonth": 202101,
+		"endMonth": 202101
+	},
+	{
+		"name": "kwinft-git-debug",
+		"samples": 14687,
+		"count": 4,
+		"popularity": 0.03,
+		"startMonth": 202101,
+		"endMonth": 202101
+	},
+	{
+		"name": "kwin-effects-yet-another-magic-lamp-git",
+		"samples": 14687,
+		"count": 4,
+		"popularity": 0.03,
+		"startMonth": 202101,
+		"endMonth": 202101
+	},
+	{
+		"name": "kwindowsystem-git",
+		"samples": 14687,
+		"count": 4,
+		"popularity": 0.03,
+		"startMonth": 202101,
+		"endMonth": 202101
+	},
+	{
+		"name": "kwin-effect-osdclock-git",
+		"samples": 14687,
+		"count": 4,
+		"popularity": 0.03,
+		"startMonth": 202101,
+		"endMonth": 202101
+	},
+	{
+		"name": "kwin-scripts-tiling-git",
+		"samples": 14687,
+		"count": 4,
+		"popularity": 0.03,
+		"startMonth": 202101,
+		"endMonth": 202101
+	},
+	{
+		"name": "kwin-scripts-ultrawide-tiling",
+		"samples": 14687,
+		"count": 4,
+		"popularity": 0.03,
+		"startMonth": 202101,
+		"endMonth": 202101
+	},
+	{
+		"name": "kwin-effects-sliding-notifications-git",
+		"samples": 14687,
+		"count": 3,
+		"popularity": 0.02,
+		"startMonth": 202101,
+		"endMonth": 202101
+	},
+	{
+		"name": "kwinft-git",
+		"samples": 14687,
+		"count": 3,
+		"popularity": 0.02,
+		"startMonth": 202101,
+		"endMonth": 202101
+	},
+	{
+		"name": "kwin-scripts-maxmize-to-new-desktop",
+		"samples": 14687,
+		"count": 2,
+		"popularity": 0.01,
+		"startMonth": 202101,
+		"endMonth": 202101
+	},
+	{
+		"name": "kwin-effect-lightlyshaders-git",
+		"samples": 14687,
+		"count": 1,
+		"popularity": 0.01,
+		"startMonth": 202101,
+		"endMonth": 202101
+	},
+	{
+		"name": "kwin-scripts-sticky-window-snapping-git",
+		"samples": 14687,
+		"count": 1,
+		"popularity": 0.01,
+		"startMonth": 202101,
+		"endMonth": 202101
+	},
+	{
+		"name": "kwin-scripts-resizeandcenter",
+		"samples": 14687,
+		"count": 1,
+		"popularity": 0.01,
+		"startMonth": 202101,
+		"endMonth": 202101
+	},
+	{
+		"name": "kwin-lowlatency-custom",
+		"samples": 14687,
+		"count": 1,
+		"popularity": 0.01,
+		"startMonth": 202101,
+		"endMonth": 202101
+	},
+	{
+		"name": "kwin-git",
+		"samples": 14687,
+		"count": 1,
+		"popularity": 0.01,
+		"startMonth": 202101,
+		"endMonth": 202101
+	},
+	{
+		"name": "kwinft-windowing-git",
+		"samples": 14687,
+		"count": 1,
+		"popularity": 0.01,
+		"startMonth": 202101,
+		"endMonth": 202101
+	}
+]

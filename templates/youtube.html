@@ -1,42 +1,166 @@
+<div class="row gap-20 masonry pos-r" id="youtube-stats">
+  <div class="masonry-item w-100">
+    <div class="row gap-20">
+      <div class="col-md-4">
+        <div class="layers bd bgc-white p-20">
+          <div class="layer w-100 mB-10">
+            <h6 class="lh-1">Total Views</h6>
+          </div>
+          <div class="layer w-100">
+            <div class="peers ai-sb fxw-nw">
+              <div class="peer peer-greed">
+                <span id="sparklinedash">
+                  <canvas width="45" height="20"
+                    style="display: inline-block; width: 45px; height: 20px; vertical-align: top;">
+                  </canvas>
+                </span>
+              </div>
+              <div class="peer">
+                <span class="d-ib lh-0 va-m fw-600 bdrs-10em pX-15 pY-15 bgc-green-50 c-green-500">{{ youtube_channel_viewCount }}</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="layers bd bgc-white p-20">
+          <div class="layer w-100 mB-10">
+            <h6 class="lh-1">Total Subscribers</h6>
+          </div>
+          <div class="layer w-100">
+            <div class="peers ai-sb fxw-nw">
+              <div class="peer peer-greed">
+                <span id="sparklinedash2">
+                  <canvas width="45" height="20"
+                    style="display: inline-block; width: 45px; height: 20px; vertical-align: top;">
 
-  <div class="row gap-20 masonry pos-r" id="youtube-stats">
-<div class="masonry-item w-100"><div class="row gap-20"><div class="col-md-3"><div class="layers bd bgc-white p-20"><div class="layer w-100 mB-10"><h6 class="lh-1">Total Visits</h6></div><div class="layer w-100"><div class="peers ai-sb fxw-nw"><div class="peer peer-greed"><span id="sparklinedash"><canvas width="45" height="20" style="display: inline-block; width: 45px; height: 20px; vertical-align: top;"></canvas></span></div><div class="peer"><span class="d-ib lh-0 va-m fw-600 bdrs-10em pX-15 pY-15 bgc-green-50 c-green-500">+10%</span></div></div></div></div></div><div class="col-md-3"><div class="layers bd bgc-white p-20"><div class="layer w-100 mB-10"><h6 class="lh-1">Total Page Views</h6></div><div class="layer w-100"><div class="peers ai-sb fxw-nw"><div class="peer peer-greed"><span id="sparklinedash2"><canvas width="45" height="20" style="display: inline-block; width: 45px; height: 20px; vertical-align: top;"></canvas></span></div><div class="peer"><span class="d-ib lh-0 va-m fw-600 bdrs-10em pX-15 pY-15 bgc-red-50 c-red-500">-7%</span></div></div></div></div></div><div class="col-md-3"><div class="layers bd bgc-white p-20"><div class="layer w-100 mB-10"><h6 class="lh-1">Unique Visitor</h6></div><div class="layer w-100"><div class="peers ai-sb fxw-nw"><div class="peer peer-greed"><span id="sparklinedash3"><canvas width="45" height="20" style="display: inline-block; width: 45px; height: 20px; vertical-align: top;"></canvas></span></div><div class="peer"><span class="d-ib lh-0 va-m fw-600 bdrs-10em pX-15 pY-15 bgc-purple-50 c-purple-500">~12%</span></div></div></div></div></div><div class="col-md-3"><div class="layers bd bgc-white p-20"><div class="layer w-100 mB-10"><h6 class="lh-1">Bounce Rate</h6></div><div class="layer w-100"><div class="peers ai-sb fxw-nw"><div class="peer peer-greed"><span id="sparklinedash4"><canvas width="45" height="20" style="display: inline-block; width: 45px; height: 20px; vertical-align: top;"></canvas></span></div><div class="peer"><span class="d-ib lh-0 va-m fw-600 bdrs-10em pX-15 pY-15 bgc-blue-50 c-blue-500">33%</span></div></div></div></div></div></div></div>
-    <!-- #Monthly Stats ==================== -->
-    <div class="masonry-item col-md-6">
-    <div class="bd bgc-white">
-      <div class="layers">
-        <div class="layer w-100 pX-20 pT-20">
-          <h6 class="lh-1">Monthly Stats</h6>
+                  </canvas>
+                </span>
+              </div>
+              <div class="peer">
+                <span class="d-ib lh-0 va-m fw-600 bdrs-10em pX-15 pY-15 bgc-red-50 c-red-500">{{ youtube_channel_subscriberCount }}</span>
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="layer w-100 p-20">
-          <div id="youtube-chart"></div>
-        </div>
-        <div class="layer bdT p-20 w-100">
-          <div class="peers ai-c jc-c gapX-20">
-            <div class="peer">
-              <span class="fsz-def fw-600 mR-10 c-grey-800">10% <i
-                  class="fa fa-level-up c-green-500"></i></span>
-              <small class="c-grey-500 fw-600">APPL</small>
-            </div>
-            <div class="peer fw-600">
-              <span class="fsz-def fw-600 mR-10 c-grey-800">2% <i
-                  class="fa fa-level-down c-red-500"></i></span>
-              <small class="c-grey-500 fw-600">Average</small>
-            </div>
-            <div class="peer fw-600">
-              <span class="fsz-def fw-600 mR-10 c-grey-800">15% <i
-                  class="fa fa-level-up c-green-500"></i></span>
-              <small class="c-grey-500 fw-600">Sales</small>
-            </div>
-            <div class="peer fw-600">
-              <span class="fsz-def fw-600 mR-10 c-grey-800">8% <i
-                  class="fa fa-level-down c-red-500"></i></span>
-              <small class="c-grey-500 fw-600">Profit</small>
+      </div>
+      <div class="col-md-4">
+        <div class="layers bd bgc-white p-20">
+          <div class="layer w-100 mB-10">
+            <h6 class="lh-1">All Videos Count</h6>
+          </div>
+          <div class="layer w-100">
+            <div class="peers ai-sb fxw-nw">
+              <div class="peer peer-greed"><span id="sparklinedash3"><canvas width="45" height="20"
+                    style="display: inline-block; width: 45px; height: 20px; vertical-align: top;"></canvas></span>
+              </div>
+              <div class="peer"><span
+                  class="d-ib lh-0 va-m fw-600 bdrs-10em pX-15 pY-15 bgc-purple-50 c-purple-500">{{ youtube_channel_videoCount }}</span>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
   </div>
+  
+  <div class="masonry-item col-md-12">
+    <div class="bd bgc-white">
+      <div class="layers">
+        <div class="layer w-100 pX-20 pT-20">
+          <h6 class="lh-1">Monthly Stats</h6>
+        </div>
+        <div class="layer w-100 p-20">
+          <div id="youtube-combined-stats-chart"></div>
+        </div>
+        
+      </div>
+    </div>
   </div>
 </div>
+
+<script>
+function generateDayWiseTimeSeries(baseval, count, yrange) {
+    var i = 0;
+    var series = [];
+    while (i < count) {
+        var x = baseval;
+        var y = Math.floor(Math.random() * (yrange.max - yrange.min + 1)) + yrange.min;
+
+        series.push([x, y]);
+        baseval += 86400000;
+        i++;
+    }
+    return series;
+}
+var data = generateDayWiseTimeSeries(new Date("22 Apr 2017").getTime(), 115, {
+    min: 30,
+    max: 90
+});
+console.log(data)
+var a = {{ youtube_video_views }};
+var nd = [];
+for (var i=1; i<=a.length; i++){
+  nd.push([i, a[i]]);
+}
+console.log(nd);
+var options1 = {
+    chart: {
+        id: "chart2",
+        type: "area",
+        height: 430,
+        foreColor: "#ccc",
+        toolbar: {
+            autoSelected: "pan",
+            show: false
+        }
+    },
+    colors: ["#00BAEC"],
+    stroke: {
+        width: 3
+    },
+    grid: {
+        borderColor: "#555",
+        clipMarkers: false,
+        yaxis: {
+            lines: {
+                show: false
+            }
+        }
+    },
+    dataLabels: {
+        enabled: false
+    },
+    fill: {
+        gradient: {
+            enabled: true,
+            opacityFrom: 0.55,
+            opacityTo: 0
+        }
+    },
+    markers: {
+        size: 5,
+        colors: ["#000524"],
+        strokeColor: "#00BAEC",
+        strokeWidth: 3
+    },
+    series: [
+        {
+            data: nd
+        }
+    ],
+    tooltip: {
+        theme: "dark"
+    },
+    xaxis: {
+        type: "datetime"
+    },
+    yaxis: {
+        min: 0,
+        tickAmount: 4
+    }
+};
+
+var chart1 = new ApexCharts(document.querySelector("#youtube-combined-stats-chart"), options1);
+chart1.render();
+</script>

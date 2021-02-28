@@ -1,0 +1,878 @@
+[
+	{
+		"name": "dolphin",
+		"inst": "460212",
+		"vote": "184",
+		"old": "459819",
+		"recent": "4"
+	},
+	{
+		"name": "kmail",
+		"inst": "368934",
+		"vote": "155",
+		"old": "368633",
+		"recent": "7"
+	},
+	{
+		"name": "kmix",
+		"inst": "363161",
+		"vote": "153",
+		"old": "362868",
+		"recent": "5"
+	},
+	{
+		"name": "konsole",
+		"inst": "519510",
+		"vote": "146",
+		"old": "519168",
+		"recent": "5"
+	},
+	{
+		"name": "korganizer",
+		"inst": "381037",
+		"vote": "135",
+		"old": "380754",
+		"recent": "6"
+	},
+	{
+		"name": "knotes",
+		"inst": "369167",
+		"vote": "129",
+		"old": "368897",
+		"recent": "5"
+	},
+	{
+		"name": "gwenview",
+		"inst": "377350",
+		"vote": "126",
+		"old": "377071",
+		"recent": "4"
+	},
+	{
+		"name": "kate",
+		"inst": "395140",
+		"vote": "85",
+		"old": "394900",
+		"recent": "9"
+	},
+	{
+		"name": "ark",
+		"inst": "415839",
+		"vote": "79",
+		"old": "415578",
+		"recent": "6"
+	},
+	{
+		"name": "konqueror",
+		"inst": "428619",
+		"vote": "48",
+		"old": "428423",
+		"recent": "6"
+	},
+	{
+		"name": "ksysguard",
+		"inst": "400324",
+		"vote": "45",
+		"old": "400139",
+		"recent": "6"
+	},
+	{
+		"name": "kcalc",
+		"inst": "200910",
+		"vote": "42",
+		"old": "200745",
+		"recent": "3"
+	},
+	{
+		"name": "ktorrent",
+		"inst": "377861",
+		"vote": "42",
+		"old": "377653",
+		"recent": "5"
+	},
+	{
+		"name": "krita",
+		"inst": "95359",
+		"vote": "37",
+		"old": "95258",
+		"recent": "3"
+	},
+	{
+		"name": "k3b",
+		"inst": "665169",
+		"vote": "34",
+		"old": "664800",
+		"recent": "9"
+	},
+	{
+		"name": "kopete",
+		"inst": "353539",
+		"vote": "33",
+		"old": "353400",
+		"recent": "5"
+	},
+	{
+		"name": "krfb",
+		"inst": "271314",
+		"vote": "24",
+		"old": "271221",
+		"recent": "5"
+	},
+	{
+		"name": "krdc",
+		"inst": "320667",
+		"vote": "21",
+		"old": "320536",
+		"recent": "4"
+	},
+	{
+		"name": "kwalletmanager",
+		"inst": "367457",
+		"vote": "17",
+		"old": "367286",
+		"recent": "6"
+	},
+	{
+		"name": "akregator",
+		"inst": "362384",
+		"vote": "16",
+		"old": "362228",
+		"recent": "6"
+	},
+	{
+		"name": "kaddressbook",
+		"inst": "384384",
+		"vote": "15",
+		"old": "384231",
+		"recent": "5"
+	},
+	{
+		"name": "kontact",
+		"inst": "350482",
+		"vote": "15",
+		"old": "350337",
+		"recent": "6"
+	},
+	{
+		"name": "digikam",
+		"inst": "213921",
+		"vote": "13",
+		"old": "213834",
+		"recent": "3"
+	},
+	{
+		"name": "kaffeine",
+		"inst": "240948",
+		"vote": "12",
+		"old": "240854",
+		"recent": "6"
+	},
+	{
+		"name": "khelpcenter",
+		"inst": "212259",
+		"vote": "12",
+		"old": "186074",
+		"recent": "3"
+	},
+	{
+		"name": "kfind",
+		"inst": "457486",
+		"vote": "11",
+		"old": "457327",
+		"recent": "6"
+	},
+	{
+		"name": "kalarm",
+		"inst": "80449",
+		"vote": "10",
+		"old": "80409",
+		"recent": "2"
+	},
+	{
+		"name": "ksystemlog",
+		"inst": "350800",
+		"vote": "9",
+		"old": "350640",
+		"recent": "4"
+	},
+	{
+		"name": "gcompris",
+		"inst": "103332",
+		"vote": "8",
+		"old": "103264",
+		"recent": "0"
+	},
+	{
+		"name": "kamera",
+		"inst": "369365",
+		"vote": "8",
+		"old": "274998",
+		"recent": "2"
+	},
+	{
+		"name": "kmag",
+		"inst": "331173",
+		"vote": "8",
+		"old": "331038",
+		"recent": "2"
+	},
+	{
+		"name": "kshisen",
+		"inst": "94805",
+		"vote": "8",
+		"old": "94750",
+		"recent": "2"
+	},
+	{
+		"name": "kturtle",
+		"inst": "96081",
+		"vote": "7",
+		"old": "96029",
+		"recent": "3"
+	},
+	{
+		"name": "kmahjongg",
+		"inst": "112548",
+		"vote": "6",
+		"old": "112486",
+		"recent": "2"
+	},
+	{
+		"name": "kmousetool",
+		"inst": "329342",
+		"vote": "6",
+		"old": "329210",
+		"recent": "3"
+	},
+	{
+		"name": "kstars",
+		"inst": "121278",
+		"vote": "6",
+		"old": "121230",
+		"recent": "5"
+	},
+	{
+		"name": "ktouch",
+		"inst": "113617",
+		"vote": "6",
+		"old": "113559",
+		"recent": "3"
+	},
+	{
+		"name": "khangman",
+		"inst": "95476",
+		"vote": "5",
+		"old": "95435",
+		"recent": "2"
+	},
+	{
+		"name": "kspaceduel",
+		"inst": "86176",
+		"vote": "5",
+		"old": "86129",
+		"recent": "1"
+	},
+	{
+		"name": "kanagram",
+		"inst": "93314",
+		"vote": "4",
+		"old": "93271",
+		"recent": "2"
+	},
+	{
+		"name": "karbon",
+		"inst": "47670",
+		"vote": "4",
+		"old": "47643",
+		"recent": "2"
+	},
+	{
+		"name": "kig",
+		"inst": "96231",
+		"vote": "4",
+		"old": "96190",
+		"recent": "3"
+	},
+	{
+		"name": "kmplot",
+		"inst": "104589",
+		"vote": "4",
+		"old": "104538",
+		"recent": "2"
+	},
+	{
+		"name": "knetwalk",
+		"inst": "86290",
+		"vote": "4",
+		"old": "86244",
+		"recent": "2"
+	},
+	{
+		"name": "kolf",
+		"inst": "96923",
+		"vote": "4",
+		"old": "96884",
+		"recent": "1"
+	},
+	{
+		"name": "konversation",
+		"inst": "187946",
+		"vote": "4",
+		"old": "187872",
+		"recent": "4"
+	},
+	{
+		"name": "kppp",
+		"inst": "272060",
+		"vote": "4",
+		"old": "271966",
+		"recent": "4"
+	},
+	{
+		"name": "juk",
+		"inst": "76206",
+		"vote": "3",
+		"old": "76172",
+		"recent": "1"
+	},
+	{
+		"name": "kalzium",
+		"inst": "115519",
+		"vote": "3",
+		"old": "115467",
+		"recent": "2"
+	},
+	{
+		"name": "katomic",
+		"inst": "86927",
+		"vote": "3",
+		"old": "86882",
+		"recent": "2"
+	},
+	{
+		"name": "kblackbox",
+		"inst": "84544",
+		"vote": "3",
+		"old": "84501",
+		"recent": "1"
+	},
+	{
+		"name": "kexi",
+		"inst": "107028",
+		"vote": "3",
+		"old": "106979",
+		"recent": "2"
+	},
+	{
+		"name": "kgoldrunner",
+		"inst": "88323",
+		"vote": "3",
+		"old": "88274",
+		"recent": "2"
+	},
+	{
+		"name": "klettres",
+		"inst": "59089",
+		"vote": "3",
+		"old": "59061",
+		"recent": "3"
+	},
+	{
+		"name": "klickety",
+		"inst": "52492",
+		"vote": "3",
+		"old": "52462",
+		"recent": "2"
+	},
+	{
+		"name": "klinkstatus",
+		"inst": "82417",
+		"vote": "3",
+		"old": "82380",
+		"recent": "1"
+	},
+	{
+		"name": "kmouth",
+		"inst": "57672",
+		"vote": "3",
+		"old": "57635",
+		"recent": "2"
+	},
+	{
+		"name": "konquest",
+		"inst": "92819",
+		"vote": "3",
+		"old": "92772",
+		"recent": "1"
+	},
+	{
+		"name": "kteatime",
+		"inst": "47144",
+		"vote": "3",
+		"old": "47123",
+		"recent": "1"
+	},
+	{
+		"name": "kwordquiz",
+		"inst": "88708",
+		"vote": "3",
+		"old": "88669",
+		"recent": "1"
+	},
+	{
+		"name": "lskat",
+		"inst": "84485",
+		"vote": "3",
+		"old": "84440",
+		"recent": "1"
+	},
+	{
+		"name": "kbounce",
+		"inst": "94913",
+		"vote": "2",
+		"old": "94872",
+		"recent": "1"
+	},
+	{
+		"name": "kbruch",
+		"inst": "91766",
+		"vote": "2",
+		"old": "91726",
+		"recent": "2"
+	},
+	{
+		"name": "kjumpingcube",
+		"inst": "81183",
+		"vote": "2",
+		"old": "81146",
+		"recent": "2"
+	},
+	{
+		"name": "kmines",
+		"inst": "90143",
+		"vote": "2",
+		"old": "90102",
+		"recent": "2"
+	},
+	{
+		"name": "kmplayer",
+		"inst": "63913",
+		"vote": "2",
+		"old": "63877",
+		"recent": "3"
+	},
+	{
+		"name": "kreversi",
+		"inst": "86306",
+		"vote": "2",
+		"old": "86265",
+		"recent": "2"
+	},
+	{
+		"name": "kscd",
+		"inst": "69874",
+		"vote": "2",
+		"old": "69848",
+		"recent": "1"
+	},
+	{
+		"name": "kfilereplace",
+		"inst": "83038",
+		"vote": "1",
+		"old": "83002",
+		"recent": "1"
+	},
+	{
+		"name": "kimagemapeditor",
+		"inst": "58646",
+		"vote": "1",
+		"old": "58618",
+		"recent": "1"
+	},
+	{
+		"name": "kmid",
+		"inst": "34608",
+		"vote": "1",
+		"old": "34590",
+		"recent": "1"
+	},
+	{
+		"name": "showfoto",
+		"inst": "28323",
+		"vote": "1",
+		"old": "28302",
+		"recent": "0"
+	},
+	{
+		"name": "elisa",
+		"inst": "31269",
+		"vote": "0",
+		"old": "27216",
+		"recent": "0"
+	},
+	{
+		"name": "kappfinder",
+		"inst": "63658",
+		"vote": "0",
+		"old": "63628",
+		"recent": "1"
+	},
+	{
+		"name": "kcron",
+		"inst": "155960",
+		"vote": "0",
+		"old": "150275",
+		"recent": "4"
+	},
+	{
+		"name": "kpager",
+		"inst": "38648",
+		"vote": "0",
+		"old": "38639",
+		"recent": "1"
+	},
+	{
+		"name": "ksame",
+		"inst": "70835",
+		"vote": "0",
+		"old": "66937",
+		"recent": "2"
+	},
+	{
+		"name": "ksig",
+		"inst": "26012",
+		"vote": "0",
+		"old": "25999",
+		"recent": "2"
+	},
+	{
+		"name": "kuser",
+		"inst": "132153",
+		"vote": "3",
+		"old": "132107",
+		"recent": "1"
+	},
+	{
+		"name": "kompare",
+		"inst": "109670",
+		"vote": "6",
+		"old": "109620",
+		"recent": "3"
+	},
+	{
+		"name": "kget",
+		"inst": "93522",
+		"vote": "18",
+		"old": "93455",
+		"recent": "2"
+	},
+	{
+		"name": "marble",
+		"inst": "91543",
+		"vote": "22",
+		"old": "91469",
+		"recent": "0"
+	},
+	{
+		"name": "krusader",
+		"inst": "83288",
+		"vote": "26",
+		"old": "83215",
+		"recent": "3"
+	},
+	{
+		"name": "cervisia",
+		"inst": "77319",
+		"vote": "2",
+		"old": "77294",
+		"recent": "0"
+	},
+	{
+		"name": "kdenlive",
+		"inst": "74380",
+		"vote": "14",
+		"old": "74312",
+		"recent": "2"
+	},
+	{
+		"name": "kgpg",
+		"inst": "70208",
+		"vote": "13",
+		"old": "70166",
+		"recent": "1"
+	},
+	{
+		"name": "discover",
+		"inst": "67269",
+		"vote": "62",
+		"old": "67157",
+		"recent": "21"
+	},
+	{
+		"name": "ksudoku",
+		"inst": "64745",
+		"vote": "4",
+		"old": "64713",
+		"recent": "0"
+	},
+	{
+		"name": "kgeography",
+		"inst": "64561",
+		"vote": "3",
+		"old": "64537",
+		"recent": "2"
+	},
+	{
+		"name": "kruler",
+		"inst": "62554",
+		"vote": "4",
+		"old": "62527",
+		"recent": "1"
+	},
+	{
+		"name": "knode",
+		"inst": "62179",
+		"vote": "4",
+		"old": "62145",
+		"recent": "2"
+	},
+	{
+		"name": "yakuake",
+		"inst": "59993",
+		"vote": "23",
+		"old": "59937",
+		"recent": "0"
+	},
+	{
+		"name": "umbrello",
+		"inst": "57580",
+		"vote": "2",
+		"old": "57509",
+		"recent": "37"
+	},
+	{
+		"name": "kcharselect",
+		"inst": "57126",
+		"vote": "3",
+		"old": "57098",
+		"recent": "2"
+	},
+	{
+		"name": "kile",
+		"inst": "56956",
+		"vote": "8",
+		"old": "56887",
+		"recent": "39"
+	},
+	{
+		"name": "blinken",
+		"inst": "56108",
+		"vote": "3",
+		"old": "56075",
+		"recent": "1"
+	},
+	{
+		"name": "ktimer",
+		"inst": "55019",
+		"vote": "4",
+		"old": "54992",
+		"recent": "2"
+	},
+	{
+		"name": "kdevelop",
+		"inst": "46500",
+		"vote": "7",
+		"old": "46443",
+		"recent": "38"
+	},
+	{
+		"name": "kfloppy",
+		"inst": "45420",
+		"vote": "0",
+		"old": "45405",
+		"recent": "0"
+	},
+	{
+		"name": "filelight",
+		"inst": "37016",
+		"vote": "3",
+		"old": "36994",
+		"recent": "1"
+	},
+	{
+		"name": "krename",
+		"inst": "36847",
+		"vote": "3",
+		"old": "36807",
+		"recent": "0"
+	},
+	{
+		"name": "kcachegrind",
+		"inst": "36671",
+		"vote": "2",
+		"old": "36654",
+		"recent": "0"
+	},
+	{
+		"name": "kdiff3",
+		"inst": "36510",
+		"vote": "9",
+		"old": "36484",
+		"recent": "0"
+	},
+	{
+		"name": "smb4k",
+		"inst": "36319",
+		"vote": "7",
+		"old": "36292",
+		"recent": "1"
+	},
+	{
+		"name": "kleopatra",
+		"inst": "35124",
+		"vote": "4",
+		"old": "35099",
+		"recent": "1"
+	},
+	{
+		"name": "kolourpaint",
+		"inst": "30958",
+		"vote": "0",
+		"old": "30945",
+		"recent": "1"
+	},
+	{
+		"name": "kapptemplate",
+		"inst": "28695",
+		"vote": "2",
+		"old": "28643",
+		"recent": "37"
+	},
+	{
+		"name": "kuiviewer",
+		"inst": "27778",
+		"vote": "3",
+		"old": "27764",
+		"recent": "0"
+	},
+	{
+		"name": "kiten",
+		"inst": "27472",
+		"vote": "2",
+		"old": "27454",
+		"recent": "2"
+	},
+	{
+		"name": "kbibtex",
+		"inst": "22541",
+		"vote": "1",
+		"old": "22533",
+		"recent": "0"
+	},
+	{
+		"name": "kdesvn",
+		"inst": "22304",
+		"vote": "2",
+		"old": "22288",
+		"recent": "0"
+	},
+	{
+		"name": "tellico",
+		"inst": "21570",
+		"vote": "2",
+		"old": "21547",
+		"recent": "0"
+	},
+	{
+		"name": "kid3",
+		"inst": "20133",
+		"vote": "2",
+		"old": "20123",
+		"recent": "0"
+	},
+	{
+		"name": "kftpgrabber",
+		"inst": "17252",
+		"vote": "0",
+		"old": "17244",
+		"recent": "1"
+	},
+	{
+		"name": "kphotoalbum",
+		"inst": "10885",
+		"vote": "0",
+		"old": "10877",
+		"recent": "0"
+	},
+	{
+		"name": "kwave",
+		"inst": "10881",
+		"vote": "3",
+		"old": "10871",
+		"recent": "0"
+	},
+	{
+		"name": "knemo",
+		"inst": "10595",
+		"vote": "5",
+		"old": "8268",
+		"recent": "0"
+	},
+	{
+		"name": "labplot",
+		"inst": "8488",
+		"vote": "0",
+		"old": "8484",
+		"recent": "0"
+	},
+	{
+		"name": "krecipes",
+		"inst": "8004",
+		"vote": "0",
+		"old": "7999",
+		"recent": "0"
+	},
+	{
+		"name": "knights",
+		"inst": "6531",
+		"vote": "0",
+		"old": "6526",
+		"recent": "0"
+	},
+	{
+		"name": "kmldonkey",
+		"inst": "5815",
+		"vote": "1",
+		"old": "5809",
+		"recent": "1"
+	},
+	{
+		"name": "keurocalc",
+		"inst": "5399",
+		"vote": "1",
+		"old": "5392",
+		"recent": "0"
+	},
+	{
+		"name": "kwlan",
+		"inst": "1534",
+		"vote": "0",
+		"old": "1532",
+		"recent": "0"
+	},
+	{ "name": "kst", "inst": "1498", "vote": "0", "old": "272", "recent": "1" },
+	{
+		"name": "plan",
+		"inst": "1096",
+		"vote": "0",
+		"old": "1093",
+		"recent": "0"
+	},
+	{
+		"name": "kxstitch",
+		"inst": "711",
+		"vote": "0",
+		"old": "710",
+		"recent": "0"
+	}
+]

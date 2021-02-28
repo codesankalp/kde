@@ -2,6 +2,10 @@
 <html>
 
 <head>
+
+  <script type="text/javascript" src="vendor.js"></script>
+  <script type="text/javascript" src="bundle.js"></script>
+  <script type="text/javascript" src="custom.js"></script>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no" />
   <title>Dashboard</title>
@@ -35,15 +39,15 @@
       animation: sk-scaleout 1s infinite ease-in-out;
     }
 
-    .inactive{
-      display: none!important;
+    .inactive {
+      display: none !important;
     }
 
-    .active{
+    .active {
       background-color: aliceblue;
     }
 
-    .bg-main{
+    .bg-main {
       background: no-repeat;
       background-image: url(assets/static/images/bg.png);
       background-position-x: center;
@@ -117,46 +121,55 @@
         </div>
         <ul class="sidebar-menu scrollable pos-r">
           <li class="nav-item" id="facebook">
-            <a class="sidebar-link" href="javascript:void(0);" >
+            <a class="sidebar-link" href="javascript:void(0);">
               <span class="icon-holder">
                 <img src="assets/static/images/facebook.svg" alt="" style="width: 17px; height: 17px" /> </span><span
                 class="title">Facebook Stats</span></a>
           </li>
           <li class="nav-item" id="instagram">
-            <a class="sidebar-link" href="javascript:void(0);"><span class="icon-holder"><img src="assets/static/images/instagram.svg"
-                  alt="" style="width: 17px; height: 17px" /> </span><span class="title">Instagram Stats</span></a>
+            <a class="sidebar-link" href="javascript:void(0);"><span class="icon-holder"><img
+                  src="assets/static/images/instagram.svg" alt="" style="width: 17px; height: 17px" /> </span><span
+                class="title">Instagram Stats</span></a>
           </li>
           <li class="nav-item" id="linkedin">
-            <a class="sidebar-link" href="javascript:void(0);"><span class="icon-holder"><img src="assets/static/images/linkedin.svg"
-                  alt="" style="width: 17px; height: 17px" /> </span><span class="title">LinkedIn Stats</span></a>
+            <a class="sidebar-link" href="javascript:void(0);"><span class="icon-holder"><img
+                  src="assets/static/images/linkedin.svg" alt="" style="width: 17px; height: 17px" /> </span><span
+                class="title">LinkedIn Stats</span></a>
           </li>
           <li class="nav-item" id="reddit">
-            <a class="sidebar-link" href="javascript:void(0);"><span class="icon-holder"><img src="assets/static/images/reddit.svg" alt=""
-                  style="width: 17px; height: 17px" /> </span><span class="title">Reddit Stats</span></a>
+            <a class="sidebar-link" href="javascript:void(0);"><span class="icon-holder"><img
+                  src="assets/static/images/reddit.svg" alt="" style="width: 17px; height: 17px" /> </span><span
+                class="title">Reddit Stats</span></a>
           </li>
           <li class="nav-item" id="twitter">
-            <a class="sidebar-link" href="javascript:void(0);"><span class="icon-holder"><img src="assets/static/images/twitter.svg"
-                  alt="" style="width: 17px; height: 17px" /> </span><span class="title">Twitter Stats</span></a>
+            <a class="sidebar-link" href="javascript:void(0);"><span class="icon-holder"><img
+                  src="assets/static/images/twitter.svg" alt="" style="width: 17px; height: 17px" /> </span><span
+                class="title">Twitter Stats</span></a>
           </li>
           <li class="nav-item" id="mastodon">
-            <a class="sidebar-link" href="javascript:void(0);"><span class="icon-holder"><img src="assets/static/images/mastodon.svg"
-                  alt="" style="width: 17px; height: 17px" /> </span><span class="title">Mastodon Stats</span></a>
+            <a class="sidebar-link" href="javascript:void(0);"><span class="icon-holder"><img
+                  src="assets/static/images/mastodon.svg" alt="" style="width: 17px; height: 17px" /> </span><span
+                class="title">Mastodon Stats</span></a>
           </li>
           <li class="nav-item" id="youtube">
-            <a class="sidebar-link" href="javascript:void(0);"><span class="icon-holder"><img src="assets/static/images/youtube.svg"
-                  alt="" style="width: 17px; height: 17px" /> </span><span class="title">Youtube Stats</span></a>
+            <a class="sidebar-link" href="javascript:void(0);"><span class="icon-holder"><img
+                  src="assets/static/images/youtube.svg" alt="" style="width: 17px; height: 17px" /> </span><span
+                class="title">Youtube Stats</span></a>
           </li>
           <li class="nav-item" id="archlinux">
-            <a class="sidebar-link" href="javascript:void(0);"><span class="icon-holder"><img src="assets/static/images/archlinux.svg"
-                  alt="" style="width: 17px; height: 17px" /> </span><span class="title">ArchLinux Stats</span></a>
+            <a class="sidebar-link" href="javascript:void(0);"><span class="icon-holder"><img
+                  src="assets/static/images/archlinux.svg" alt="" style="width: 17px; height: 17px" /> </span><span
+                class="title">ArchLinux Stats</span></a>
           </li>
           <li class="nav-item" id="ubuntu">
-            <a class="sidebar-link" href="javascript:void(0);"><span class="icon-holder"><img src="assets/static/images/ubuntu.svg"
-                  alt="" style="width: 17px; height: 17px" /> </span><span class="title">Ubuntu Stats</span></a>
+            <a class="sidebar-link" href="javascript:void(0);"><span class="icon-holder"><img
+                  src="assets/static/images/ubuntu.svg" alt="" style="width: 17px; height: 17px" /> </span><span
+                class="title">Ubuntu Stats</span></a>
           </li>
           <li class="nav-item" id="debian">
-            <a class="sidebar-link" href="javascript:void(0);"><span class="icon-holder"><img src="assets/static/images/debian.svg"
-                  alt="" style="width: 17px; height: 17px" /> </span><span class="title">Debian Stats</span></a>
+            <a class="sidebar-link" href="javascript:void(0);"><span class="icon-holder"><img
+                  src="assets/static/images/debian.svg" alt="" style="width: 17px; height: 17px" /> </span><span
+                class="title">Debian Stats</span></a>
           </li>
         </ul>
       </div>
@@ -193,33 +206,9 @@
       <footer class="bdT ta-c p-30 lh-0 fsz-sm c-grey-600"></footer>
     </div>
   </div>
-  <script type="text/javascript" src="vendor.js"></script>
-  <script type="text/javascript" src="bundle.js"></script>
-  <script type="text/javascript" src="custom.js"></script>
   <!-- <script type="text/javascript" src="chart.js"></script> -->
-  <script type="text/javascript">   
-        var options = {
-          series: {{ series }},
-          chart: {
-          type: 'bar',
-          height: 350,
-          width: 600
-        },
-        plotOptions: {
-          bar: {
-            horizontal: true,
-          }
-        },
-        dataLabels: {
-          enabled: true
-        },
-        xaxis: {
-          categories: {{ labels }},
-        }
-        };
-
-        var chart = new ApexCharts(document.querySelector("#youtube-chart"), options);
-        chart.render();
-  </script>
+  <script type="text/javascript" src="main_script.js"></script>
+  <!-- <script type="text/javascript" src="main.js"></script> -->
 </body>
+
 </html>
