@@ -2,10 +2,7 @@
 <html>
 
 <head>
-
-  <script type="text/javascript" src="vendor.js"></script>
-  <script type="text/javascript" src="bundle.js"></script>
-  <script type="text/javascript" src="custom.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no" />
   <title>Dashboard</title>
@@ -350,37 +347,102 @@
   </div>
 </div>
           <div class="row gap-20 masonry pos-r" id="twitter-stats">
-  <div class="masonry-item col-md-6">
-    <!-- #Monthly Stats ==================== -->
+  <div class="masonry-item w-100">
+    <div class="row gap-20">
+      <div class="col-md-3">
+        <div class="layers bd bgc-white p-20">
+          <div class="layer w-100 mB-10">
+            <h6 class="lh-1">Total Followers</h6>
+          </div>
+          <div class="layer w-100">
+            <div class="peers ai-sb fxw-nw">
+              <div class="peer peer-greed">
+                <span id="sparklinedash">
+                  <canvas width="45" height="20"
+                    style="display: inline-block; width: 45px; height: 20px; vertical-align: top;">
+                  </canvas>
+                </span>
+              </div>
+              <div class="peer">
+                <span class="d-ib lh-0 va-m fw-600 bdrs-10em pX-15 pY-15 bgc-green-50 c-green-500">87976</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="layers bd bgc-white p-20">
+          <div class="layer w-100 mB-10">
+            <h6 class="lh-1">Following Count</h6>
+          </div>
+          <div class="layer w-100">
+            <div class="peers ai-sb fxw-nw">
+              <div class="peer peer-greed">
+                <span id="sparklinedash2">
+                  <canvas width="45" height="20"
+                    style="display: inline-block; width: 45px; height: 20px; vertical-align: top;">
+
+                  </canvas>
+                </span>
+              </div>
+              <div class="peer">
+                <span class="d-ib lh-0 va-m fw-600 bdrs-10em pX-15 pY-15 bgc-red-50 c-red-500">306</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="layers bd bgc-white p-20">
+          <div class="layer w-100 mB-10">
+            <h6 class="lh-1">Total Tweets</h6>
+          </div>
+          <div class="layer w-100">
+            <div class="peers ai-sb fxw-nw">
+              <div class="peer peer-greed"><span id="sparklinedash3"><canvas width="45" height="20"
+                    style="display: inline-block; width: 45px; height: 20px; vertical-align: top;"></canvas></span>
+              </div>
+              <div class="peer"><span
+                  class="d-ib lh-0 va-m fw-600 bdrs-10em pX-15 pY-15 bgc-purple-50 c-purple-500">4143</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="layers bd bgc-white p-20">
+          <div class="layer w-100 mB-10">
+            <h6 class="lh-1">Listed Count</h6>
+          </div>
+          <div class="layer w-100">
+            <div class="peers ai-sb fxw-nw">
+              <div class="peer peer-greed"><span id="sparklinedash4"><canvas width="45" height="20"
+                    style="display: inline-block; width: 45px; height: 20px; vertical-align: top;"></canvas></span>
+              </div>
+              <div class="peer"><span
+                  class="d-ib lh-0 va-m fw-600 bdrs-10em pX-15 pY-15 bgc-purple-50 c-purple-500">1807</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="masonry-item col-md-12">
     <div class="bd bgc-white">
       <div class="layers">
         <div class="layer w-100 pX-20 pT-20">
-          <h6 class="lh-1">Monthly Stats</h6>
+          <h6 class="lh-1">Twitter Combined Stats</h6>
         </div>
         <div class="layer w-100 p-20">
-          <div id="twitter-chart"></div>
+          <div id="twitter-combined-stats"></div>
         </div>
         <div class="layer bdT p-20 w-100">
           <div class="peers ai-c jc-c gapX-20">
             <div class="peer">
-              <span class="fsz-def fw-600 mR-10 c-grey-800">10% <i
+              <span class="fsz-def fw-600 mR-10 c-grey-800"><i
                   class="fa fa-level-up c-green-500"></i></span>
-              <small class="c-grey-500 fw-600">APPL</small>
-            </div>
-            <div class="peer fw-600">
-              <span class="fsz-def fw-600 mR-10 c-grey-800">2% <i
-                  class="fa fa-level-down c-red-500"></i></span>
-              <small class="c-grey-500 fw-600">Average</small>
-            </div>
-            <div class="peer fw-600">
-              <span class="fsz-def fw-600 mR-10 c-grey-800">15% <i
-                  class="fa fa-level-up c-green-500"></i></span>
-              <small class="c-grey-500 fw-600">Sales</small>
-            </div>
-            <div class="peer fw-600">
-              <span class="fsz-def fw-600 mR-10 c-grey-800">8% <i
-                  class="fa fa-level-down c-red-500"></i></span>
-              <small class="c-grey-500 fw-600">Profit</small>
+              <small class="c-grey-500 fw-600">Click On data-points to open Tweets</small>
             </div>
           </div>
         </div>
@@ -388,6 +450,171 @@
     </div>
   </div>
 </div>
+<script>
+
+let tweet_id = ['1360840233449791489', '1360836329752289280', '1355017469476237315', '1354363911898714113', '1354299238126030853', '1354298864522514433'];
+let tweet_conversation_id = ['1355017469476237315', '1358060377691459587', '1355017469476237315', '1354298864522514433', '1354299238126030853', '1354298864522514433'];
+let tweet_impression_count = [1, 0, 5, 4, 6, 8];
+let tweet_user_profile_click = [0, 0, 0, 0, 0, 0];
+let tweet_like_count = [0, 0, 0, 0, 0, 1];
+let tweet_quote_count = [0, 0, 0, 0, 0, 0];
+let tweet_reply_count = [0, 0, 1, 0, 0, 1];
+let tweet_retweet_count = [0, 0, 0, 0, 0, 1];
+let tweet_referenced_count = [1, 1, 0, 1, 0, 0];
+
+let impressions = [];
+let profileClick = [];
+let tweet_likes = [];
+let tweet_quotes = [];
+let tweet_reply = [];
+let retweets = [];
+let referencedCount = [];
+
+for (var i=0; i<=tweet_id.length; i++){
+  impressions.push([i+1, tweet_impression_count[i]]);
+  profileClick.push([i+1, tweet_user_profile_click[i]]);
+  tweet_likes.push([i+1, tweet_like_count[i]]);
+  tweet_quotes.push([i+1, tweet_quote_count[i]]);
+  tweet_reply.push([i+1, tweet_reply_count[i]]);
+  retweets.push([i+1, tweet_retweet_count[i]]);
+  referencedCount.push([i+1, tweet_referenced_count[i]])
+}
+
+var tweet_options = {
+
+    chart: {
+        id: "youtube-video-combined-stats-chart",
+        height: 500,
+        foreColor: "#ccc",
+        toolbar: {
+            show: true
+        },
+        events: {
+            dataPointSelection: function(event, chartContext, opts) {
+
+                console.log(opts.dataPointIndex);
+                window.open(`https://twitter.com/kdecommunity/status/${tweet_id[opts.dataPointIndex]}`)
+            }
+        }
+    },
+
+    colors: ['#2E93fA', '#66DA26', '#546E7A', '#E91E63', '#FF9800', '#454687', '#928F92'],
+    stroke: {
+        curve: 'smooth',
+        width: 4,
+    },
+
+    grid: {
+        borderColor: "#555",
+        clipMarkers: false,
+        yaxis: {
+            lines: {
+                show: false
+            }
+        }
+    },
+
+    dataLabels: {
+        enabled: false
+    },
+
+    fill: {
+        type: "gradient",
+        gradient: {
+            enabled: true,
+            opacityFrom: 0.7,
+            opacityTo: 0.9,
+            stops: [0, 90, 100],
+        }
+    },
+
+    markers: {
+        size: 3,
+        colors: ['#2E93fA', '#66DA26', '#546E7A', '#E91E63', '#FF9800', '#454687', '#928F92'],
+        strokeColor: "#65B051",
+        strokeWidth: 1
+    },
+
+    series: [
+        {
+            type: "line",
+            data: impressions,
+            name: "Tweet Impression",
+        },
+        {
+          type: "line",
+          data: profileClick,
+          name: "Profile Clicks",
+        },
+        {
+          type: "line",
+          data: tweet_likes,
+          name: "Tweet Likes",
+        },
+        {
+          type: "line",
+          data: tweet_quotes,
+          name: "Tweet Quotes",
+        },
+        {
+          type: "line",
+          data: tweet_reply,
+          name: "Reply",
+        },
+        {
+          type: "line",
+          data: retweets,
+          name: "Retweets"
+        },
+        {
+          type: "line",
+          data: referencedCount,
+          name: "Refrenced Tweets"
+        }
+    ],
+
+    tooltip: {
+        theme: "light"
+    },
+
+    xaxis: {
+        categories: tweet_id
+    },
+
+    yaxis: {
+        min: 0,
+        tickAmount: 4
+    },
+};
+
+var options = {
+    chart: {
+        height: 350,
+        type: 'bar',
+        events: {
+            dataPointSelection: function(event, chartContext, opts) {
+                switch(opts.w.config.xaxis.categories[opts.dataPointIndex]) {
+                    case 'Feb':
+                        window.open("https://simpleisbestt.herokuapp.com/");
+                    case 'Mar':
+                        window.open("https://google.com/");
+                    case 'Apr':
+                        window.open("https://yahoo.com/");
+                }
+            }
+        }
+    },
+    series: [{
+        data: [44, 55, 57, 56, 61, 58, 63, 60, 66]
+    }],
+    xaxis: {
+        categories: ['Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct'],
+    }
+}
+var twitterCombinedChart = new ApexCharts(document.querySelector("#twitter-combined-stats"), tweet_options);
+twitterCombinedChart.render();
+
+</script>
           <div class="row gap-20 masonry pos-r" id="mastodon-stats">
   <div class="masonry-item col-md-6">
     <!-- #Monthly Stats ==================== -->
@@ -483,8 +710,7 @@
               <div class="peer peer-greed"><span id="sparklinedash3"><canvas width="45" height="20"
                     style="display: inline-block; width: 45px; height: 20px; vertical-align: top;"></canvas></span>
               </div>
-              <div class="peer"><span
-                  class="d-ib lh-0 va-m fw-600 bdrs-10em pX-15 pY-15 bgc-purple-50 c-purple-500">346</span>
+              <div class="peer"><span class="d-ib lh-0 va-m fw-600 bdrs-10em pX-15 pY-15 bgc-purple-50 c-purple-500">346</span>
               </div>
             </div>
           </div>
@@ -492,106 +718,151 @@
       </div>
     </div>
   </div>
-  
+
   <div class="masonry-item col-md-12">
     <div class="bd bgc-white">
       <div class="layers">
         <div class="layer w-100 pX-20 pT-20">
-          <h6 class="lh-1">Monthly Stats</h6>
+          <h6 class="lh-1">Youtube Videos Combined Stats</h6>
         </div>
         <div class="layer w-100 p-20">
-          <div id="youtube-combined-stats-chart"></div>
+          <div id="youtube-video-combined-stats"></div>
         </div>
-        
+        <div class="layer bdT p-20 w-100">
+          <div class="peers ai-c jc-c gapX-20">
+            <div class="peer">
+              <span class="fsz-def fw-600 mR-10 c-grey-800"><i
+                  class="fa fa-level-up c-green-500"></i></span>
+              <small class="c-grey-500 fw-600">Click On data-points to open Youtube Video</small>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </div>
 </div>
 
 <script>
-function generateDayWiseTimeSeries(baseval, count, yrange) {
-    var i = 0;
-    var series = [];
-    while (i < count) {
-        var x = baseval;
-        var y = Math.floor(Math.random() * (yrange.max - yrange.min + 1)) + yrange.min;
 
-        series.push([x, y]);
-        baseval += 86400000;
-        i++;
-    }
-    return series;
-}
-var data = generateDayWiseTimeSeries(new Date("22 Apr 2017").getTime(), 115, {
-    min: 30,
-    max: 90
-});
-console.log(data)
-var a = ['21559', '1931', '919', '159', '205', '446', '189', '27', '47', '62', '22', '72', '42', '49', '137', '43', '108', '51', '61', '11', '83', '10', '136', '24', '29', '23', '96', '21', '12', '19', '92', '24', '22', '62', '88', '28', '4', '29', '126', '52', '45', '24', '20', '35', '55', '57', '41', '53', '32', '26'];
-var nd = [];
-for (var i=1; i<=a.length; i++){
-  nd.push([i, a[i]]);
-}
-console.log(nd);
-var options1 = {
+  let youtube_video_views = ['21559', '1931', '919', '159', '205', '446', '189', '27', '47', '62', '22', '72', '42', '49', '137', '43', '108', '51', '61', '11', '83', '10', '136', '24', '29', '23', '96', '21', '12', '19', '92', '24', '22', '62', '88', '28', '4', '29', '126', '52', '45', '24', '20', '35', '55', '57', '41', '53', '32', '26'];
+  let youtube_video_id = ['ahEWG4JCA1w', '8s2Jvrp2HyA', 'vMVd3q3bfx4', 'uKx6x0qlvnY', 'gj4XV0PMKZw', 'xVz3VgNjexY', 'hD7faJM2BYA', 'eIqTsT6UtT0', 'eW2sv_8RunY', 'k8jSULzq-tQ', 'dDNj15o9YRY', 'vBn6U-Aq2cs', 'WS1XUW_4FcY', 'XoAJ0Wl3z9U', 'xW9uTxAoULU', 'zDfxM6vcuEo', 'f_74zq8IcOw', 'OTAh1_YXXb0', 'QeOHV8myQ5E', 'r5O2jcM_MZA', 'rn7jfrJWuAM', 'eiYytV0HBJk', 'qY510rNMW0M', 'Ikxly74nECE', 'LVkxmHn_3bQ', 'NCV3-QHvbow', 'OiQXHb3l6TU', 'ik6632xh6ZQ', 'jf2Miy5JQAY', 'lwJoqgqvFx0', 'mlU97vqIkgk', 'rs0HT-cjD34', 'XrDfZaoesj0', 'bhn5ZKmW6Jg', 'GFPAwA5xVEc', 'IBJrjt16mGk', 'S5WiTc1LiSU', '_m2Zo6gDP6g', 'bayOuCvzOio', 'U6L3TYXPVHc', 'UvbhIre5no0', 'VeNJAXCFPXo', 'bOUV8KQGP8I', 'NXd11XMf-Vo', 'KqxZs7aOFMw', 'RgPl4JoApxY', 'SkMG4gwNKVI', 'GpNP7eJCvHs', 'JPKwXXTc8iw', 'P7WmvuLoZLw'];
+  let youtube_video_likes = ['2579', '243', '47', '6', '11', '26', '10', '3', '4', '3', '2', '4', '4', '5', '6', '0', '11', '2', '1', '1', '4', '1', '10', '0', '3', '1', '11', '1', '0', '0', '11', '1', '0', '1', '8', '1', '1', '0', '6', '2', '2', '0', '0', '1', '0', '0', '0', '5', '4', '3'];
+  let youtube_video_dislikes = ['22', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0'];
+  let youtube_video_comments = ['285', '29', '3', '1', '0', '1', '0', '0', '0', '1', '1', '1', '0', '0', '0', '0', '3', '0', '0', '0', '1', '0', '0', '0', '1', '0', '0', '0', '0', '1', '0', '0', '1', '1', '0', '0', '0', '2', '2', '0', '1', '0', '0', '0', '0', '0', '1', '0', '0', '0'];
+  let youtube_video_favorites = ['0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0'];
+
+  let views = [];
+  let likes = [];
+  let dislikes = [];
+  let comments = [];
+  let favorites = [];
+
+  for (var i = 0; i <= youtube_video_views.length; i++) {
+    views.push([i + 1, youtube_video_views[i]]);
+    likes.push([i + 1, youtube_video_likes[i]]);
+    dislikes.push([i + 1, youtube_video_dislikes[i]]);
+    comments.push([i + 1, youtube_video_comments[i]]);
+    favorites.push([i + 1, youtube_video_favorites[i]]);
+  }
+
+  var options1 = {
+
     chart: {
-        id: "chart2",
-        type: "area",
-        height: 430,
-        foreColor: "#ccc",
-        toolbar: {
-            autoSelected: "pan",
-            show: false
+      id: "youtube-video-combined-stats-chart",
+      height: 500,
+      foreColor: "#ccc",
+      toolbar: {
+        show: true
+      },
+      events: {
+        dataPointSelection: function (event, chartContext, opts) {
+          window.open(`https://youtu.be/${youtube_video_id[opts.dataPointIndex]}`)
         }
+      }
     },
-    colors: ["#00BAEC"],
-    stroke: {
-        width: 3
-    },
-    grid: {
-        borderColor: "#555",
-        clipMarkers: false,
-        yaxis: {
-            lines: {
-                show: false
-            }
-        }
-    },
-    dataLabels: {
-        enabled: false
-    },
-    fill: {
-        gradient: {
-            enabled: true,
-            opacityFrom: 0.55,
-            opacityTo: 0
-        }
-    },
-    markers: {
-        size: 5,
-        colors: ["#000524"],
-        strokeColor: "#00BAEC",
-        strokeWidth: 3
-    },
-    series: [
-        {
-            data: nd
-        }
-    ],
-    tooltip: {
-        theme: "dark"
-    },
-    xaxis: {
-        type: "datetime"
-    },
-    yaxis: {
-        min: 0,
-        tickAmount: 4
-    }
-};
 
-var chart1 = new ApexCharts(document.querySelector("#youtube-combined-stats-chart"), options1);
-chart1.render();
+    colors: ['#2E93fA', '#66DA26', '#546E7A', '#E91E63', '#FF9800'],
+    stroke: {
+      curve: 'smooth',
+      width: 4,
+    },
+
+    grid: {
+      borderColor: "#555",
+      clipMarkers: false,
+      yaxis: {
+        lines: {
+          show: false
+        }
+      }
+    },
+
+    dataLabels: {
+      enabled: false
+    },
+
+    fill: {
+      type: "gradient",
+      gradient: {
+        enabled: true,
+        opacityFrom: 0.7,
+        opacityTo: 0.9,
+        stops: [0, 90, 100],
+      }
+    },
+
+    markers: {
+      size: 3,
+      colors: ['#2E93fA', '#66DA26', '#546E7A', '#E91E63', '#FF9800'],
+      strokeColor: "#65B051",
+      strokeWidth: 1
+    },
+
+    series: [
+      {
+        type: "line",
+        data: views,
+        name: "views",
+      },
+      {
+        type: "line",
+        data: likes,
+        name: "likes",
+      },
+      {
+        type: "line",
+        data: dislikes,
+        name: "dislikes",
+      },
+      {
+        type: "line",
+        data: comments,
+        name: "comments",
+      },
+      {
+        type: "line",
+        data: favorites,
+        name: "favorites",
+      }
+    ],
+
+    tooltip: {
+      theme: "light"
+    },
+
+    xaxis: {
+      categories: youtube_video_id
+    },
+
+    yaxis: {
+      min: 0,
+      tickAmount: 4
+    },
+  };
+
+  var youtubeVideoChart = new ApexCharts(document.querySelector("#youtube-video-combined-stats"), options1);
+  youtubeVideoChart.render();
+
 </script>
           <div class="row gap-20 masonry pos-r" id="archlinux-stats">
   <div class="masonry-item col-md-6">
@@ -715,9 +986,10 @@ chart1.render();
       <footer class="bdT ta-c p-30 lh-0 fsz-sm c-grey-600"></footer>
     </div>
   </div>
-  <!-- <script type="text/javascript" src="chart.js"></script> -->
+  <script type="text/javascript" src="vendor.js"></script>
+  <script type="text/javascript" src="bundle.js"></script>
+  <script type="text/javascript" src="custom.js"></script>
   <script type="text/javascript" src="main_script.js"></script>
-  <!-- <script type="text/javascript" src="main.js"></script> -->
 </body>
 
 </html>

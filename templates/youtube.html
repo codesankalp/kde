@@ -16,7 +16,8 @@
                 </span>
               </div>
               <div class="peer">
-                <span class="d-ib lh-0 va-m fw-600 bdrs-10em pX-15 pY-15 bgc-green-50 c-green-500">{{ youtube_channel_viewCount }}</span>
+                <span class="d-ib lh-0 va-m fw-600 bdrs-10em pX-15 pY-15 bgc-green-50 c-green-500">{{
+                  youtube_channel_viewCount }}</span>
               </div>
             </div>
           </div>
@@ -38,7 +39,8 @@
                 </span>
               </div>
               <div class="peer">
-                <span class="d-ib lh-0 va-m fw-600 bdrs-10em pX-15 pY-15 bgc-red-50 c-red-500">{{ youtube_channel_subscriberCount }}</span>
+                <span class="d-ib lh-0 va-m fw-600 bdrs-10em pX-15 pY-15 bgc-red-50 c-red-500">{{
+                  youtube_channel_subscriberCount }}</span>
               </div>
             </div>
           </div>
@@ -54,8 +56,8 @@
               <div class="peer peer-greed"><span id="sparklinedash3"><canvas width="45" height="20"
                     style="display: inline-block; width: 45px; height: 20px; vertical-align: top;"></canvas></span>
               </div>
-              <div class="peer"><span
-                  class="d-ib lh-0 va-m fw-600 bdrs-10em pX-15 pY-15 bgc-purple-50 c-purple-500">{{ youtube_channel_videoCount }}</span>
+              <div class="peer"><span class="d-ib lh-0 va-m fw-600 bdrs-10em pX-15 pY-15 bgc-purple-50 c-purple-500">{{
+                  youtube_channel_videoCount }}</span>
               </div>
             </div>
           </div>
@@ -63,104 +65,149 @@
       </div>
     </div>
   </div>
-  
+
   <div class="masonry-item col-md-12">
     <div class="bd bgc-white">
       <div class="layers">
         <div class="layer w-100 pX-20 pT-20">
-          <h6 class="lh-1">Monthly Stats</h6>
+          <h6 class="lh-1">Youtube Videos Combined Stats</h6>
         </div>
         <div class="layer w-100 p-20">
-          <div id="youtube-combined-stats-chart"></div>
+          <div id="youtube-video-combined-stats"></div>
         </div>
-        
+        <div class="layer bdT p-20 w-100">
+          <div class="peers ai-c jc-c gapX-20">
+            <div class="peer">
+              <span class="fsz-def fw-600 mR-10 c-grey-800"><i
+                  class="fa fa-level-up c-green-500"></i></span>
+              <small class="c-grey-500 fw-600">Click On data-points to open Youtube Video</small>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </div>
 </div>
 
 <script>
-function generateDayWiseTimeSeries(baseval, count, yrange) {
-    var i = 0;
-    var series = [];
-    while (i < count) {
-        var x = baseval;
-        var y = Math.floor(Math.random() * (yrange.max - yrange.min + 1)) + yrange.min;
 
-        series.push([x, y]);
-        baseval += 86400000;
-        i++;
-    }
-    return series;
-}
-var data = generateDayWiseTimeSeries(new Date("22 Apr 2017").getTime(), 115, {
-    min: 30,
-    max: 90
-});
-console.log(data)
-var a = {{ youtube_video_views }};
-var nd = [];
-for (var i=1; i<=a.length; i++){
-  nd.push([i, a[i]]);
-}
-console.log(nd);
-var options1 = {
+  let youtube_video_views = {{ youtube_video_views }};
+  let youtube_video_id = {{ youtube_video_id }};
+  let youtube_video_likes = {{ youtube_video_likes }};
+  let youtube_video_dislikes = {{ youtube_video_dislikes }};
+  let youtube_video_comments = {{ youtube_video_comments }};
+  let youtube_video_favorites = {{ youtube_video_favorites }};
+
+  let views = [];
+  let likes = [];
+  let dislikes = [];
+  let comments = [];
+  let favorites = [];
+
+  for (var i = 0; i <= youtube_video_views.length; i++) {
+    views.push([i + 1, youtube_video_views[i]]);
+    likes.push([i + 1, youtube_video_likes[i]]);
+    dislikes.push([i + 1, youtube_video_dislikes[i]]);
+    comments.push([i + 1, youtube_video_comments[i]]);
+    favorites.push([i + 1, youtube_video_favorites[i]]);
+  }
+
+  var options1 = {
+
     chart: {
-        id: "chart2",
-        type: "area",
-        height: 430,
-        foreColor: "#ccc",
-        toolbar: {
-            autoSelected: "pan",
-            show: false
+      id: "youtube-video-combined-stats-chart",
+      height: 500,
+      foreColor: "#ccc",
+      toolbar: {
+        show: true
+      },
+      events: {
+        dataPointSelection: function (event, chartContext, opts) {
+          window.open(`https://youtu.be/${youtube_video_id[opts.dataPointIndex]}`)
         }
+      }
     },
-    colors: ["#00BAEC"],
-    stroke: {
-        width: 3
-    },
-    grid: {
-        borderColor: "#555",
-        clipMarkers: false,
-        yaxis: {
-            lines: {
-                show: false
-            }
-        }
-    },
-    dataLabels: {
-        enabled: false
-    },
-    fill: {
-        gradient: {
-            enabled: true,
-            opacityFrom: 0.55,
-            opacityTo: 0
-        }
-    },
-    markers: {
-        size: 5,
-        colors: ["#000524"],
-        strokeColor: "#00BAEC",
-        strokeWidth: 3
-    },
-    series: [
-        {
-            data: nd
-        }
-    ],
-    tooltip: {
-        theme: "dark"
-    },
-    xaxis: {
-        type: "datetime"
-    },
-    yaxis: {
-        min: 0,
-        tickAmount: 4
-    }
-};
 
-var chart1 = new ApexCharts(document.querySelector("#youtube-combined-stats-chart"), options1);
-chart1.render();
+    colors: ['#2E93fA', '#66DA26', '#546E7A', '#E91E63', '#FF9800'],
+    stroke: {
+      curve: 'smooth',
+      width: 4,
+    },
+
+    grid: {
+      borderColor: "#555",
+      clipMarkers: false,
+      yaxis: {
+        lines: {
+          show: false
+        }
+      }
+    },
+
+    dataLabels: {
+      enabled: false
+    },
+
+    fill: {
+      type: "gradient",
+      gradient: {
+        enabled: true,
+        opacityFrom: 0.7,
+        opacityTo: 0.9,
+        stops: [0, 90, 100],
+      }
+    },
+
+    markers: {
+      size: 3,
+      colors: ['#2E93fA', '#66DA26', '#546E7A', '#E91E63', '#FF9800'],
+      strokeColor: "#65B051",
+      strokeWidth: 1
+    },
+
+    series: [
+      {
+        type: "line",
+        data: views,
+        name: "views",
+      },
+      {
+        type: "line",
+        data: likes,
+        name: "likes",
+      },
+      {
+        type: "line",
+        data: dislikes,
+        name: "dislikes",
+      },
+      {
+        type: "line",
+        data: comments,
+        name: "comments",
+      },
+      {
+        type: "line",
+        data: favorites,
+        name: "favorites",
+      }
+    ],
+
+    tooltip: {
+      theme: "light"
+    },
+
+    xaxis: {
+      categories: youtube_video_id
+    },
+
+    yaxis: {
+      min: 0,
+      tickAmount: 4
+    },
+  };
+
+  var youtubeVideoChart = new ApexCharts(document.querySelector("#youtube-video-combined-stats"), options1);
+  youtubeVideoChart.render();
+
 </script>

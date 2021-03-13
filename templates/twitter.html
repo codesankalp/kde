@@ -1,35 +1,100 @@
 <div class="row gap-20 masonry pos-r" id="twitter-stats">
-  <div class="masonry-item col-md-6">
-    <!-- #Monthly Stats ==================== -->
+  <div class="masonry-item w-100">
+    <div class="row gap-20">
+      <div class="col-md-3">
+        <div class="layers bd bgc-white p-20">
+          <div class="layer w-100 mB-10">
+            <h6 class="lh-1">Total Followers</h6>
+          </div>
+          <div class="layer w-100">
+            <div class="peers ai-sb fxw-nw">
+              <div class="peer peer-greed">
+                <span id="sparklinedash">
+                  <canvas width="45" height="20"
+                    style="display: inline-block; width: 45px; height: 20px; vertical-align: top;">
+                  </canvas>
+                </span>
+              </div>
+              <div class="peer">
+                <span class="d-ib lh-0 va-m fw-600 bdrs-10em pX-15 pY-15 bgc-green-50 c-green-500">{{ twitter_followers_count }}</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="layers bd bgc-white p-20">
+          <div class="layer w-100 mB-10">
+            <h6 class="lh-1">Following Count</h6>
+          </div>
+          <div class="layer w-100">
+            <div class="peers ai-sb fxw-nw">
+              <div class="peer peer-greed">
+                <span id="sparklinedash2">
+                  <canvas width="45" height="20"
+                    style="display: inline-block; width: 45px; height: 20px; vertical-align: top;">
+
+                  </canvas>
+                </span>
+              </div>
+              <div class="peer">
+                <span class="d-ib lh-0 va-m fw-600 bdrs-10em pX-15 pY-15 bgc-red-50 c-red-500">{{ twitter_following_count }}</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="layers bd bgc-white p-20">
+          <div class="layer w-100 mB-10">
+            <h6 class="lh-1">Total Tweets</h6>
+          </div>
+          <div class="layer w-100">
+            <div class="peers ai-sb fxw-nw">
+              <div class="peer peer-greed"><span id="sparklinedash3"><canvas width="45" height="20"
+                    style="display: inline-block; width: 45px; height: 20px; vertical-align: top;"></canvas></span>
+              </div>
+              <div class="peer"><span
+                  class="d-ib lh-0 va-m fw-600 bdrs-10em pX-15 pY-15 bgc-purple-50 c-purple-500">{{ twitter_tweet_count }}</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="layers bd bgc-white p-20">
+          <div class="layer w-100 mB-10">
+            <h6 class="lh-1">Listed Count</h6>
+          </div>
+          <div class="layer w-100">
+            <div class="peers ai-sb fxw-nw">
+              <div class="peer peer-greed"><span id="sparklinedash4"><canvas width="45" height="20"
+                    style="display: inline-block; width: 45px; height: 20px; vertical-align: top;"></canvas></span>
+              </div>
+              <div class="peer"><span
+                  class="d-ib lh-0 va-m fw-600 bdrs-10em pX-15 pY-15 bgc-purple-50 c-purple-500">{{ twitter_listed_count }}</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="masonry-item col-md-12">
     <div class="bd bgc-white">
       <div class="layers">
         <div class="layer w-100 pX-20 pT-20">
-          <h6 class="lh-1">Monthly Stats</h6>
+          <h6 class="lh-1">Twitter Combined Stats</h6>
         </div>
         <div class="layer w-100 p-20">
-          <div id="twitter-chart"></div>
+          <div id="twitter-combined-stats"></div>
         </div>
         <div class="layer bdT p-20 w-100">
           <div class="peers ai-c jc-c gapX-20">
             <div class="peer">
-              <span class="fsz-def fw-600 mR-10 c-grey-800">10% <i
+              <span class="fsz-def fw-600 mR-10 c-grey-800"><i
                   class="fa fa-level-up c-green-500"></i></span>
-              <small class="c-grey-500 fw-600">APPL</small>
-            </div>
-            <div class="peer fw-600">
-              <span class="fsz-def fw-600 mR-10 c-grey-800">2% <i
-                  class="fa fa-level-down c-red-500"></i></span>
-              <small class="c-grey-500 fw-600">Average</small>
-            </div>
-            <div class="peer fw-600">
-              <span class="fsz-def fw-600 mR-10 c-grey-800">15% <i
-                  class="fa fa-level-up c-green-500"></i></span>
-              <small class="c-grey-500 fw-600">Sales</small>
-            </div>
-            <div class="peer fw-600">
-              <span class="fsz-def fw-600 mR-10 c-grey-800">8% <i
-                  class="fa fa-level-down c-red-500"></i></span>
-              <small class="c-grey-500 fw-600">Profit</small>
+              <small class="c-grey-500 fw-600">Click On data-points to open Tweets</small>
             </div>
           </div>
         </div>
@@ -37,3 +102,168 @@
     </div>
   </div>
 </div>
+<script>
+
+let tweet_id = {{ tweet_id }};
+let tweet_conversation_id = {{ tweet_conversation_id }};
+let tweet_impression_count = {{ tweet_impression_count }};
+let tweet_user_profile_click = {{ tweet_user_profile_click }};
+let tweet_like_count = {{ tweet_like_count }};
+let tweet_quote_count = {{ tweet_quote_count }};
+let tweet_reply_count = {{ tweet_reply_count }};
+let tweet_retweet_count = {{ tweet_retweet_count }};
+let tweet_referenced_count = {{ tweet_referenced_count }};
+
+let impressions = [];
+let profileClick = [];
+let tweet_likes = [];
+let tweet_quotes = [];
+let tweet_reply = [];
+let retweets = [];
+let referencedCount = [];
+
+for (var i=0; i<=tweet_id.length; i++){
+  impressions.push([i+1, tweet_impression_count[i]]);
+  profileClick.push([i+1, tweet_user_profile_click[i]]);
+  tweet_likes.push([i+1, tweet_like_count[i]]);
+  tweet_quotes.push([i+1, tweet_quote_count[i]]);
+  tweet_reply.push([i+1, tweet_reply_count[i]]);
+  retweets.push([i+1, tweet_retweet_count[i]]);
+  referencedCount.push([i+1, tweet_referenced_count[i]])
+}
+
+var tweet_options = {
+
+    chart: {
+        id: "youtube-video-combined-stats-chart",
+        height: 500,
+        foreColor: "#ccc",
+        toolbar: {
+            show: true
+        },
+        events: {
+            dataPointSelection: function(event, chartContext, opts) {
+
+                console.log(opts.dataPointIndex);
+                window.open(`https://twitter.com/kdecommunity/status/${tweet_id[opts.dataPointIndex]}`)
+            }
+        }
+    },
+
+    colors: ['#2E93fA', '#66DA26', '#546E7A', '#E91E63', '#FF9800', '#454687', '#928F92'],
+    stroke: {
+        curve: 'smooth',
+        width: 4,
+    },
+
+    grid: {
+        borderColor: "#555",
+        clipMarkers: false,
+        yaxis: {
+            lines: {
+                show: false
+            }
+        }
+    },
+
+    dataLabels: {
+        enabled: false
+    },
+
+    fill: {
+        type: "gradient",
+        gradient: {
+            enabled: true,
+            opacityFrom: 0.7,
+            opacityTo: 0.9,
+            stops: [0, 90, 100],
+        }
+    },
+
+    markers: {
+        size: 3,
+        colors: ['#2E93fA', '#66DA26', '#546E7A', '#E91E63', '#FF9800', '#454687', '#928F92'],
+        strokeColor: "#65B051",
+        strokeWidth: 1
+    },
+
+    series: [
+        {
+            type: "line",
+            data: impressions,
+            name: "Tweet Impression",
+        },
+        {
+          type: "line",
+          data: profileClick,
+          name: "Profile Clicks",
+        },
+        {
+          type: "line",
+          data: tweet_likes,
+          name: "Tweet Likes",
+        },
+        {
+          type: "line",
+          data: tweet_quotes,
+          name: "Tweet Quotes",
+        },
+        {
+          type: "line",
+          data: tweet_reply,
+          name: "Reply",
+        },
+        {
+          type: "line",
+          data: retweets,
+          name: "Retweets"
+        },
+        {
+          type: "line",
+          data: referencedCount,
+          name: "Refrenced Tweets"
+        }
+    ],
+
+    tooltip: {
+        theme: "light"
+    },
+
+    xaxis: {
+        categories: tweet_id
+    },
+
+    yaxis: {
+        min: 0,
+        tickAmount: 4
+    },
+};
+
+var options = {
+    chart: {
+        height: 350,
+        type: 'bar',
+        events: {
+            dataPointSelection: function(event, chartContext, opts) {
+                switch(opts.w.config.xaxis.categories[opts.dataPointIndex]) {
+                    case 'Feb':
+                        window.open("https://simpleisbestt.herokuapp.com/");
+                    case 'Mar':
+                        window.open("https://google.com/");
+                    case 'Apr':
+                        window.open("https://yahoo.com/");
+                }
+            }
+        }
+    },
+    series: [{
+        data: [44, 55, 57, 56, 61, 58, 63, 60, 66]
+    }],
+    xaxis: {
+        categories: ['Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct'],
+    }
+}
+var twitterCombinedChart = new ApexCharts(document.querySelector("#twitter-combined-stats"), tweet_options);
+twitterCombinedChart.render();
+
+</script>

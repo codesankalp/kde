@@ -136,6 +136,7 @@ function generateDayWiseTimeSeries(baseval, count, yrange) {
     var series = [];
     while (i < count) {
         var x = baseval;
+
         var y =
             Math.floor(Math.random() * (yrange.max - yrange.min + 1)) + yrange.min;
 
