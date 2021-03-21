@@ -2,6 +2,9 @@
 <html>
 
 <head>
+  <script type="text/javascript" src="vendor.js"></script>
+  <script type="text/javascript" src="bundle.js"></script>
+  <script type="text/javascript" src="custom.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no" />
@@ -181,13 +184,15 @@
           </ul>
           <ul class="nav-right">
             <li>
-              <h3 style="margin: 12px 10px 8px 0" id="navbar-name">Facebook Stats</h3>
+              <h3 style="margin: 12px 10px 8px 0" id="navbar-name"></h3>
             </li>
           </ul>
         </div>
       </div>
       <main class="main-content bgc-grey-100" id="main">
         <div id="mainContent">
+          <div class="row gap-20 masonry pos-r" id="content">
+          </div>
           {% include 'templates/facebook.html' %}
           {% include 'templates/instagram.html' %}
           {% include 'templates/linkedin.html' %}
@@ -203,9 +208,6 @@
       <footer class="bdT ta-c p-30 lh-0 fsz-sm c-grey-600"></footer>
     </div>
   </div>
-  <script type="text/javascript" src="vendor.js"></script>
-  <script type="text/javascript" src="bundle.js"></script>
-  <script type="text/javascript" src="custom.js"></script>
   <script type="text/javascript" src="main_script.js"></script>
 </body>
 

@@ -1,10 +1,13 @@
-from render_base import render_test
-import os, time
+#!/usr/bin/env python
+
+import logging
 import sys
 import time
-import logging
-from watchdog.observers import Observer
+
 from watchdog.events import LoggingEventHandler
+from watchdog.observers import Observer
+
+from render_base import render_test
 
 
 class Event(LoggingEventHandler):

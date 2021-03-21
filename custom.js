@@ -1,5 +1,8 @@
 $(document).ready(function () {
-    const sidebar_rows = ['facebook', 'instagram', 'linkedin', 'reddit', 'twitter', 'mastodon', 'youtube', 'archlinux', 'ubuntu', 'debian']
+    const sidebar_rows = [
+        'facebook', 'instagram', 'linkedin', 'reddit', 'twitter',
+        'mastodon', 'youtube', 'archlinux', 'ubuntu', 'debian'
+    ]
 
     let main_content = (em, rows = sidebar_rows) => {
         let index = 0;

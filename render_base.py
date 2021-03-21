@@ -1,5 +1,6 @@
+#!/usr/bin/env python
+
 import json
-import os
 
 from jinja2 import Environment
 from jinja2 import FileSystemLoader as fs

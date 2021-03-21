@@ -1,4 +1,4 @@
-from os import getcwd, path, listdir
+from os import getcwd, listdir, path
 
 curr_dir = getcwd()
 data_dir = path.join(curr_dir, "data")

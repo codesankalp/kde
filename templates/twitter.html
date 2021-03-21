@@ -104,166 +104,125 @@
 </div>
 <script>
 
-let tweet_id = {{ tweet_id }};
-let tweet_conversation_id = {{ tweet_conversation_id }};
-let tweet_impression_count = {{ tweet_impression_count }};
-let tweet_user_profile_click = {{ tweet_user_profile_click }};
-let tweet_like_count = {{ tweet_like_count }};
-let tweet_quote_count = {{ tweet_quote_count }};
-let tweet_reply_count = {{ tweet_reply_count }};
-let tweet_retweet_count = {{ tweet_retweet_count }};
-let tweet_referenced_count = {{ tweet_referenced_count }};
+  let tweet_id = {{ tweet_id }};
+  let tweet_conversation_id = {{ tweet_conversation_id }};
+  let tweet_impression_count = {{ tweet_impression_count }};
+  let tweet_user_profile_click = {{ tweet_user_profile_click }};
+  let tweet_like_count = {{ tweet_like_count }};
+  let tweet_quote_count = {{ tweet_quote_count }};
+  let tweet_reply_count = {{ tweet_reply_count }};
+  let tweet_retweet_count = {{ tweet_retweet_count }};
+  let tweet_referenced_count = {{ tweet_referenced_count }};
 
-let impressions = [];
-let profileClick = [];
-let tweet_likes = [];
-let tweet_quotes = [];
-let tweet_reply = [];
-let retweets = [];
-let referencedCount = [];
+  var tweet_options = {
 
-for (var i=0; i<=tweet_id.length; i++){
-  impressions.push([i+1, tweet_impression_count[i]]);
-  profileClick.push([i+1, tweet_user_profile_click[i]]);
-  tweet_likes.push([i+1, tweet_like_count[i]]);
-  tweet_quotes.push([i+1, tweet_quote_count[i]]);
-  tweet_reply.push([i+1, tweet_reply_count[i]]);
-  retweets.push([i+1, tweet_retweet_count[i]]);
-  referencedCount.push([i+1, tweet_referenced_count[i]])
-}
+      chart: {
+          id: "twitter-combined-stats-chart",
+          width: '100%',
+          height: 460,
+          foreColor: "#373d3f",
+          toolbar: {
+              show: true
+          },
+          events: {
+              dataPointSelection: function(event, chartContext, opts) {
 
-var tweet_options = {
+                  console.log(opts.dataPointIndex);
+                  window.open(`https://twitter.com/kdecommunity/status/${tweet_id[opts.dataPointIndex]}`)
+              }
+          }
+      },
 
-    chart: {
-        id: "youtube-video-combined-stats-chart",
-        height: 500,
-        foreColor: "#ccc",
-        toolbar: {
-            show: true
-        },
-        events: {
-            dataPointSelection: function(event, chartContext, opts) {
+      colors: ['#2E93fA', '#66DA26', '#546E7A', '#E91E63', '#FF9800', '#454687', '#928F92'],
+      stroke: {
+          curve: 'smooth',
+          width: 4,
+      },
 
-                console.log(opts.dataPointIndex);
-                window.open(`https://twitter.com/kdecommunity/status/${tweet_id[opts.dataPointIndex]}`)
-            }
-        }
-    },
+      grid: {
+          borderColor: "#555",
+          clipMarkers: false,
+          yaxis: {
+              lines: {
+                  show: false
+              }
+          }
+      },
 
-    colors: ['#2E93fA', '#66DA26', '#546E7A', '#E91E63', '#FF9800', '#454687', '#928F92'],
-    stroke: {
-        curve: 'smooth',
-        width: 4,
-    },
+      dataLabels: {
+          enabled: false
+      },
 
-    grid: {
-        borderColor: "#555",
-        clipMarkers: false,
-        yaxis: {
-            lines: {
-                show: false
-            }
-        }
-    },
+      fill: {
+          type: "gradient",
+          gradient: {
+              enabled: true,
+              opacityFrom: 0.7,
+              opacityTo: 0.9,
+              stops: [0, 90, 100],
+          }
+      },
 
-    dataLabels: {
-        enabled: false
-    },
+      markers: {
+          size: 3,
+          colors: ['#2E93fA', '#66DA26', '#546E7A', '#E91E63', '#FF9800', '#454687', '#928F92'],
+          strokeColor: "#65B051",
+          strokeWidth: 1
+      },
 
-    fill: {
-        type: "gradient",
-        gradient: {
-            enabled: true,
-            opacityFrom: 0.7,
-            opacityTo: 0.9,
-            stops: [0, 90, 100],
-        }
-    },
-
-    markers: {
-        size: 3,
-        colors: ['#2E93fA', '#66DA26', '#546E7A', '#E91E63', '#FF9800', '#454687', '#928F92'],
-        strokeColor: "#65B051",
-        strokeWidth: 1
-    },
-
-    series: [
-        {
+      series: [
+          {
+              type: "line",
+              data: get_array(tweet_impression_count),
+              name: "Tweet Impression",
+          },
+          {
             type: "line",
-            data: impressions,
-            name: "Tweet Impression",
-        },
-        {
-          type: "line",
-          data: profileClick,
-          name: "Profile Clicks",
-        },
-        {
-          type: "line",
-          data: tweet_likes,
-          name: "Tweet Likes",
-        },
-        {
-          type: "line",
-          data: tweet_quotes,
-          name: "Tweet Quotes",
-        },
-        {
-          type: "line",
-          data: tweet_reply,
-          name: "Reply",
-        },
-        {
-          type: "line",
-          data: retweets,
-          name: "Retweets"
-        },
-        {
-          type: "line",
-          data: referencedCount,
-          name: "Refrenced Tweets"
-        }
-    ],
+            data: get_array(tweet_user_profile_click),
+            name: "Profile Clicks",
+          },
+          {
+            type: "line",
+            data: get_array(tweet_like_count),
+            name: "Tweet Likes",
+          },
+          {
+            type: "line",
+            data: get_array(tweet_quote_count),
+            name: "Tweet Quotes",
+          },
+          {
+            type: "line",
+            data: get_array(tweet_reply_count),
+            name: "Reply",
+          },
+          {
+            type: "line",
+            data: get_array(tweet_retweet_count),
+            name: "Retweets"
+          },
+          {
+            type: "line",
+            data: get_array(tweet_referenced_count),
+            name: "Refrenced Tweets"
+          }
+      ],
 
-    tooltip: {
-        theme: "light"
-    },
+      tooltip: {
+          theme: "light"
+      },
 
-    xaxis: {
-        categories: tweet_id
-    },
+      xaxis: {
+          categories: tweet_id
+      },
 
-    yaxis: {
-        min: 0,
-        tickAmount: 4
-    },
-};
+      yaxis: {
+          min: 0,
+          tickAmount: 4
+      },
+  };
 
-var options = {
-    chart: {
-        height: 350,
-        type: 'bar',
-        events: {
-            dataPointSelection: function(event, chartContext, opts) {
-                switch(opts.w.config.xaxis.categories[opts.dataPointIndex]) {
-                    case 'Feb':
-                        window.open("https://simpleisbestt.herokuapp.com/");
-                    case 'Mar':
-                        window.open("https://google.com/");
-                    case 'Apr':
-                        window.open("https://yahoo.com/");
-                }
-            }
-        }
-    },
-    series: [{
-        data: [44, 55, 57, 56, 61, 58, 63, 60, 66]
-    }],
-    xaxis: {
-        categories: ['Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct'],
-    }
-}
-var twitterCombinedChart = new ApexCharts(document.querySelector("#twitter-combined-stats"), tweet_options);
-twitterCombinedChart.render();
+  var twitterCombinedChart = new ApexCharts(document.querySelector("#twitter-combined-stats"), tweet_options);
+  twitterCombinedChart.render();
 
 </script>
