@@ -625,7 +625,7 @@
             type: "line",
             data: get_array(facebook_comments, facebook_created_time).reverse(),
             name: "Comments",
-          }      
+          }
       ],
 
       tooltip: {
@@ -1571,83 +1571,231 @@ instagramCombinedChart.render();
 
 </script>
           <div class="row gap-20 masonry pos-r" id="archlinux-stats">
-  <div class="masonry-item col-md-6">
-    <!-- #Monthly Stats ==================== -->
+  <div class="masonry-item col-md-12">
     <div class="bd bgc-white">
       <div class="layers">
         <div class="layer w-100 pX-20 pT-20">
-          <h6 class="lh-1">Monthly Stats</h6>
+          <h6 class="lh-1">Arch Popcons Combined Stats</h6>
         </div>
         <div class="layer w-100 p-20">
-          <div id="mastodon-chart"></div>
-        </div>
-        <div class="layer bdT p-20 w-100">
-          <div class="peers ai-c jc-c gapX-20">
-            <div class="peer">
-              <span class="fsz-def fw-600 mR-10 c-grey-800">10% <i
-                  class="fa fa-level-up c-green-500"></i></span>
-              <small class="c-grey-500 fw-600">APPL</small>
-            </div>
-            <div class="peer fw-600">
-              <span class="fsz-def fw-600 mR-10 c-grey-800">2% <i
-                  class="fa fa-level-down c-red-500"></i></span>
-              <small class="c-grey-500 fw-600">Average</small>
-            </div>
-            <div class="peer fw-600">
-              <span class="fsz-def fw-600 mR-10 c-grey-800">15% <i
-                  class="fa fa-level-up c-green-500"></i></span>
-              <small class="c-grey-500 fw-600">Sales</small>
-            </div>
-            <div class="peer fw-600">
-              <span class="fsz-def fw-600 mR-10 c-grey-800">8% <i
-                  class="fa fa-level-down c-red-500"></i></span>
-              <small class="c-grey-500 fw-600">Profit</small>
-            </div>
-          </div>
+          <div id="arch-combined-stats"></div>
         </div>
       </div>
     </div>
   </div>
 </div>
+<script>
+  let arch_name = ['Cervisia', 'Clazy', 'Heaptrack', 'KAppTemplate', 'KCachegrind', 'KDebugSettings', 'kdesrc-build', 'kdesvn', 'KDevelop', 'KDiff3', 'KImageMapEditor', 'Kompare', 'KUIViewer', 'Lokalize', 'Massif-Visualizer', 'Umbrello', 'Artikulate', 'Blinken', 'Cantor', 'GCompris', 'Kalzium', 'Kanagram', 'KBibTeX', 'KBruch', 'KGeography', 'KHangMan', 'Kig', 'Kiten', 'KLettres', 'KmPlot', 'KStars', 'KTouch', 'KTurtle', 'KWordQuiz', 'LabPlot', 'Marble', 'Minuet', 'Parley', 'Rocs', 'Step', 'Blinken', 'Bomber', 'Bovo', 'GCompris', 'Granatier', 'Kajongg', 'Kanagram', 'Kapman', 'KAtomic', 'KBlackbox', 'KBlocks', 'KBounce', 'KBreakOut', 'KDiamond', 'KFourInLine', 'KGoldrunner', 'KHangMan', 'Kigo', 'Killbots', 'Kiriki', 'KJumpingCube', 'Klickety', 'KMahjongg', 'KMines', 'KNetWalk', 'KNights', 'Kolf', 'Kollision', 'Konquest', 'KPatience', 'KReversi', 'KShisen', 'KSirk', 'KSnakeDuel', 'KSpaceDuel', 'KSquares', 'KSudoku', 'Kubrick', 'LSkat', 'Palapeli', 'Picmi', 'Ikona', 'SymbolEditor', 'digiKam', 'Gwenview', 'KColorChooser', 'KGeoTag', 'KGraphViewer', 'KolourPaint', 'Kontrast', 'KPhotoAlbum', 'Krita', 'KRuler', 'KXStitch', 'Okular', 'Peruse', 'Peruse', 'pvfViewer', 'Showfoto', 'Skanlite', 'kdegraphics-mobipocket', 'kdegraphics-thumbnailers', 'Akregator', 'Alligator', 'Choqok', 'Falkon', 'KGet', 'KMail', 'Konqueror', 'Konversation', 'Kopete', 'KRDC', 'Krfb', 'KTorrent', 'Neochat', 'Banji', 'Ruqola', 'SieveEditor', 'Spacebar', 'Trojitá', 'Elisa', 'JuK', 'K3b', 'Kaffeine', 'Kamoso', 'Kdenlive', 'Kid3', 'KMix', 'KMPlayer', 'Kwave', 'Calindori', 'Plan', 'KAddressBook', 'KBibTeX', 'KEuroCalc', 'KEXI', 'Kile', 'KMail', 'KMyMoney', 'Kongress', 'Kontact', 'KOrganizer', 'KTimeTracker', 'Lokalize', 'Okular', 'SieveEditor', 'Skrooge', 'Tellico', 'Trojitá', 'KHelpCenter', 'Ikona', 'Apper', 'Discover', 'Dolphin', 'KDiskFree', 'Konsole', 'KSysGuard', 'KSystemLog', 'KWalletManager', 'Yakuake', 'FileStash', 'Kup', 'Symmy', 'Ark', 'Filelight', 'KAlarm', 'Kate', 'KBackup', 'KCalc', 'KCharSelect', 'KDialog', 'Keysmith', 'KFind', 'KFloppy', 'KGpg', 'Kleopatra', 'KMag', 'KMouseTool', 'KMouth', 'KNotes', 'KRename', 'Kronometer', 'Krusader', 'KTeaTime', 'KTimer', 'KTimeTracker', 'KTrip', 'KWrite', 'Okteta', 'Smb4K', 'Spectacle', 'Sweeper', 'Zanshin', 'Kamera', 'KCron', 'Latte', 'Blogilo', 'Gemini', 'Jovie', 'KAppFinder', 'Karbon', 'KFileReplace', 'KFTPGrabber', 'KLinkStatus', 'KMid', 'KMLDonkey', 'KNemo', 'KNode', 'KPager', 'KPPP', 'KRecipes', 'KRemoteControl', 'KSame', 'KsCD', 'KSig', 'Kst', 'KUser', 'KWlan', 'Simon', 'dolphin-plugins', 'kirigami2', 'kirigami-gallery', 'KArchive', 'ThreadWeaver', 'breeze-icons', 'KI18n', 'plasma-framework', 'plasma-integration', 'plasma-workspace', 'plasma-desktop', 'plasma-pa', 'plasma-nm', 'plasma-workspace-wallpapers', 'plasma-sdk', 'plasma-browser-integration', 'plasma-vault', 'plasma-thunderbolt', 'plasma-disks', 'plasma-wayland-session', 'plasma-meta', 'plasma5-applets-thermal-monitor', 'plasma5-applets-weather-widget', 'plasma-systemmonitor', 'plasma-wayland-protocols', 'plasma-mediacenter', 'plasma5-applets-active-window-control', 'plasma5-applets-eventcalendar', 'plasma5-applets-redshift-control', 'plasma5-applets-window-buttons', 'plasma5-applets-window-title', 'plasma5-applets-redshift-control-git', 'plasma5-applets-virtual-desktop-bar-git', 'plasma5-applets-thermal-monitor-git', 'plasma5-applets-window-appmenu', 'plasma', 'plasma5-applets-netspeed', 'plasma5-applets-latte-separator', 'plasma5-applet-awesome-widgets', 'plasma5-applets-kde-arch-update-notifier-git', 'plasma5-applets-plasma-pstate', 'plasma5-wallpapers-dynamic', 'plasma5-applet-netctl-gui', 'plasma5-applets-latte-spacer', 'plasma-theme-archlinux', 'plasma5-applets-caffeine-plus', 'plasma5-themes-maia', 'plasma5-runners-symbols', 'plasma5-applets-latte-sidebar-button', 'plasma5-applets-playbar2', 'plasma5-applets-systemd', 'plasma5-applets-resources-monitor-git', 'plasma5-applets-network-monitor', 'plasma-workspace-agent-ssh', 'plasma5-applets-active-window-control-git', 'plasma5-applets-qalculate', 'plasma5-applets-volumewin7mixer', 'plasma-systemmonitor-git', 'plasma5-applets-tiledmenu', 'plasma5-applets-todolist', 'plasma5-theme-breeze-transparent-nomad-icons-git', 'plasma-pass', 'plasma5-applets-mycroft-git', 'plasma5-applets-docker', 'plasma-maliit-plugins', 'plasma5-applets-weather-widget-git', 'plasma-maliit-framework', 'plasma5-applets-resources-monitor', 'plasma5-theme-aex-nomad-git', 'plasma-hud-git', 'plasma-git', 'plasma-wallpaper-snow', 'plasma5-themes-breath', 'plasmafox', 'plasma5-theme-aex-nomad-dark-git', 'plasma5-applets-panon', 'plasma5-applets-kde-arch-update-notifier', 'plasma5-applets-presentwindows', 'plasma5-applets-uptime-widget-git', 'plasma5-applets-hoppla-sa-git', 'plasma-firewall', 'plasma5-applets-network-monitor-git', 'plasma5-applets-audio-device-switcher', 'plasma5-runners-duckduckgo-bangs', 'plasma5-applets-places-widget', 'plasma-runners-translator', 'plasma5-applets-window-buttons-git', 'plasma-video-wallpaper-git', 'plasma-runners-tmux', 'plasma-applet-network-monitor-git', 'plasma5-applets-system-panel', 'plasma-wallpaper-neon-particles-bzr', 'plasma-angelfish', 'plasma5-applets-mpdnowplaying', 'plasma-runners-ssh', 'plasma5-applets-kargos-git', 'plasma5-theme-caledonia', 'plasma-pass-git', 'plasma5-themes-chakra-heritage', 'plasma5-applets-server-status-git', 'plasma-simplemenu', 'plasma5-applets-window-appmenu-git', 'plasma5-applets-window-title-git', 'plasma5-runners-jetbrains-runner', 'plasma-theme-archpaint2', 'plasma-theme-papirus', 'plasma5-themes-breath2', 'plasma-wayland-protocols-git', 'plasma5-applets-timekeeper-git', 'plasma-i3', 'plasma5-theme-ocd', 'plasma-applet-custom-notifier', 'plasma-bigscreen-git', 'plasma-browser-integration-git', 'plasma5-applets-ultimate-gmailfeed', 'plasma-nano-git', 'plasma5-applets-betterinlineclock-git', 'plasma-workspace-units-git', 'plasma-wallpaper-himawari-git', 'plasma5-applets-simplemenu-git', 'plasma5-applets-plasma-pass-git', 'plasma-pk-updates-git', 'plasma5-applets-folderlist', 'plasma5-applet-tiledmenu-git', 'plasma5-applets-bandwidth-monitor', 'plasma5-runners-nordvpn', 'plasma5-theme-breeze-noshadow-antu-git', 'plasma5-runners-appmenu-git', 'plasma5-applets-journalviewer-git', 'plasma5-applets-plasma-pstate-ml', 'plasma-framework-git', 'plasma-integration-git', 'plasma5-applets-simplemonitor', 'plasma-addons-customdesktopmenu-git', 'plasma5-applets-chiliclock-git', 'plasma-workspace-git', 'plasma5-applets-latte-sidebar-button-git', 'plasma-desktop-git', 'plasma5-applets-ambientnoise', 'plasma-workspace-wallpapers-git', 'plasma5-applets-kde-githubissues-git', 'plasma5-applets-nx-systemtray', 'plasma-theme-sweet-mars', 'plasma5-wallpapers-chakra-tulip', 'plasma5-applet-buam', 'plasma5-theme-sweet-git', 'plasma5-applets-fanspeed-monitor-git', 'plasma-midna-theme-git', 'plasma5-applets-yahoo-weather-widget', 'plasma-browser-integration-debug', 'plasma-disks-git', 'plasma-potd-spotlight', 'plasma-angelfish-git', 'kconfig', 'kconfigwidgets', 'kconfig-hardened-check', 'kconfig-git', 'kconfigwidgets-git', 'kconfig-frontends', 'kwindowsystem', 'kwin', 'kwin-lowlatency', 'kwin-decoration-sierra-breeze-enhanced-git', 'kwin-scripts-krohnkite-git', 'kwin-scripts-tiling', 'kwin-script-grid-tiling', 'kwin-scripts-window-colors', 'kwin-scripts-forceblur', 'kwin-scripts-parachute', 'kwinft', 'kwin-effects-yet-another-magic-lamp', 'kwin-effect-shapecorners-git', 'kwin-effects-unminimize1', 'kwin-effects-appear1', 'kwin-effects-disappear1', 'kwin-effects-minimize1', 'kwin-scripts-dynamic-virtual-desktops-git', 'kwin-effects-disappear2', 'kwin-effects-appear2', 'kwin-effect-grayscale-git', 'kwin-effects-disappear3', 'kwin-effects-appear3', 'kwin-effects-sliding-notifications', 'kwin-effect-xrdesktop-git', 'kwin-script-switching-git', 'kwin-scripts-quarter-tiling-git', 'kwin-lowlatency-debug', 'kwinft-git-debug', 'kwin-effects-yet-another-magic-lamp-git', 'kwindowsystem-git', 'kwin-effect-osdclock-git', 'kwin-scripts-tiling-git', 'kwin-scripts-ultrawide-tiling', 'kwin-effects-sliding-notifications-git', 'kwinft-git', 'kwin-scripts-maxmize-to-new-desktop', 'kwin-effect-lightlyshaders-git', 'kwin-scripts-sticky-window-snapping-git', 'kwin-scripts-resizeandcenter', 'kwin-lowlatency-custom', 'kwin-git', 'kwinft-windowing-git'];
+  let arch_samples = [1473, 1473, 1473, 1473, 1473, 1473, 1473, 1473, 1473, 1473, 1473, 1473, 1473, 1473, 1473, 1473, 1473, 1473, 1473, 1473, 1473, 1473, 1473, 1473, 1473, 1473, 1473, 1473, 1473, 1473, 1473, 1473, 1473, 1473, 1473, 1473, 1473, 1473, 1473, 1473, 1473, 1473, 1473, 1473, 1473, 1473, 1473, 1473, 1473, 1473, 1473, 1473, 1473, 1473, 1473, 1473, 1473, 1473, 1473, 1473, 1473, 1473, 1473, 1473, 1473, 1473, 1473, 1473, 1473, 1473, 1473, 1473, 1473, 1473, 1473, 1473, 1473, 1473, 1473, 1473, 1473, 1473, 1473, 1473, 1473, 1473, 1473, 1473, 1473, 1473, 1473, 1473, 1473, 1473, 1473, 1473, 1473, 1473, 1473, 1473, 1473, 1473, 1473, 1473, 1473, 1473, 1473, 1473, 1473, 1473, 1473, 1473, 1473, 1473, 1473, 1473, 1473, 1473, 1473, 1473, 1473, 1473, 1473, 1473, 1473, 1473, 1473, 1473, 1473, 1473, 1473, 1473, 1473, 1473, 1473, 1473, 1473, 1473, 1473, 1473, 1473, 1473, 1473, 1473, 1473, 1473, 1473, 1473, 1473, 1473, 1473, 1473, 1473, 1473, 1473, 1473, 1473, 1473, 1473, 1473, 1473, 1473, 1473, 1473, 1473, 1473, 1473, 1473, 1473, 1473, 1473, 1473, 1473, 1473, 1473, 1473, 1473, 1473, 1473, 1473, 1473, 1473, 1473, 1473, 1473, 1473, 1473, 1473, 1473, 1473, 1473, 1473, 1473, 1473, 1473, 1473, 1473, 1473, 1473, 1473, 1473, 1473, 1473, 1473, 1473, 1473, 1473, 1473, 1473, 1473, 1473, 1473, 1473, 1473, 1473, 1473, 1473, 1473, 1473, 1473, 1473, 1473, 1473, 1473, 1473, 1473, 14687, 14687, 14687, 14687, 14687, 14687, 14687, 14687, 14687, 14687, 14687, 14687, 14687, 14687, 14687, 14687, 14687, 14687, 14687, 14687, 14687, 14687, 14687, 14687, 14687, 14687, 14687, 14687, 14687, 14687, 14687, 14687, 14687, 14687, 14687, 14687, 14687, 14687, 14687, 14687, 14687, 14687, 14687, 14687, 14687, 14687, 14687, 14687, 14687, 14687, 14687, 14687, 14687, 14687, 14687, 14687, 14687, 14687, 14687, 14687, 14687, 14687, 14687, 14687, 14687, 14687, 14687, 14687, 14687, 14687, 14687, 14687, 14687, 14687, 14687, 14687, 14687, 14687, 14687, 14687, 14687, 14687, 14687, 14687, 14687, 14687, 14687, 14687, 14687, 14687, 14687, 14687, 14687, 14687, 14687, 14687, 14687, 14687, 14687, 14687, 14687, 14687, 14687, 14687, 14687, 14687, 14687, 14687, 14687, 14687, 14687, 14687, 14687, 14687, 14687, 14687, 14687, 14687, 14687, 14687, 14687, 14687, 14687, 14687, 14687, 14687, 14687, 14687, 14687, 14687, 14687, 14687, 14687, 14687, 14687, 14687, 14687, 14687, 14687, 14687, 14687, 14687, 14687, 14687, 14687, 14687, 14687, 14687, 14687, 14687, 14687, 14687, 14687, 14687, 14687, 14687, 14687, 14687, 14687, 14687, 14687, 14687, 14687, 14687, 14687, 14687, 14687, 14687, 14687, 14687, 14687, 14687, 14687, 14687, 14687, 14687, 14687, 14687, 14687, 14687, 14687, 14687, 14687, 14687, 14687, 14687, 14687, 14687, 14687, 14687, 14687, 14687, 14687, 14687, 14687];
+  let arch_count = [147, 188, 35, 156, 197, 164, 2, 8, 188, 102, 161, 232, 0, 159, 18, 149, 140, 143, 158, 0, 144, 135, 41, 146, 147, 132, 149, 143, 141, 153, 58, 169, 143, 146, 17, 176, 129, 148, 153, 156, 143, 137, 139, 0, 135, 137, 135, 140, 140, 139, 142, 138, 141, 135, 137, 136, 132, 141, 137, 139, 137, 139, 147, 159, 147, 128, 139, 139, 138, 160, 135, 140, 134, 134, 135, 138, 142, 135, 135, 135, 140, 0, 3, 135, 378, 235, 0, 20, 219, 72, 15, 282, 204, 3, 523, 0, 0, 0, 0, 74, 212, 269, 162, 0, 17, 70, 168, 176, 170, 145, 152, 217, 180, 162, 13, 0, 0, 0, 0, 9, 141, 159, 228, 53, 161, 365, 73, 198, 18, 141, 0, 0, 171, 41, 0, 30, 64, 176, 27, 0, 171, 181, 9, 159, 523, 0, 27, 20, 9, 211, 0, 13, 302, 470, 0, 467, 465, 227, 323, 204, 0, 14, 0, 410, 291, 167, 361, 145, 307, 228, 332, 1, 262, 155, 205, 209, 161, 159, 148, 167, 86, 17, 67, 164, 183, 9, 0, 228, 138, 38, 402, 227, 9, 208, 205, 0, 14, 0, 0, 0, 0, 0, 0, 0, 0, 0, 6, 0, 0, 0, 2, 0, 0, 0, 0, 1, 0, 0, 0, 328, 746, 128, 913, 640, 667, 931, 5386, 4935, 4914, 4611, 4327, 4242, 4111, 3781, 3632, 3287, 2711, 2041, 1344, 1326, 330, 300, 298, 232, 213, 181, 180, 119, 88, 87, 86, 75, 64, 63, 63, 62, 48, 47, 45, 44, 43, 38, 37, 37, 34, 33, 30, 30, 27, 25, 25, 25, 23, 20, 20, 20, 19, 19, 19, 17, 16, 16, 16, 15, 15, 15, 15, 14, 14, 14, 14, 13, 13, 13, 12, 12, 12, 12, 12, 11, 11, 11, 10, 10, 10, 9, 8, 8, 8, 7, 7, 7, 7, 7, 7, 6, 6, 6, 6, 6, 6, 6, 5, 5, 5, 5, 5, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 3, 3, 3, 3, 3, 3, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 9267, 8965, 32, 4, 3, 2, 9559, 4858, 97, 43, 42, 39, 26, 25, 23, 22, 18, 18, 14, 12, 12, 12, 9, 8, 8, 8, 8, 8, 8, 7, 6, 5, 5, 5, 4, 4, 4, 4, 4, 4, 3, 3, 2, 1, 1, 1, 1, 1, 1];
+  let arch_popularity = [9.98, 12.76, 2.38, 10.59, 13.37, 11.13, 0.14, 0.54, 12.76, 6.92, 10.93, 15.75, 0, 10.79, 1.22, 10.12, 9.5, 9.71, 10.73, 0, 9.78, 9.16, 2.78, 9.91, 9.98, 8.96, 10.12, 9.71, 9.57, 10.39, 3.94, 11.47, 9.71, 9.91, 1.15, 11.95, 8.76, 10.05, 10.39, 10.59, 9.71, 9.3, 9.44, 0, 9.16, 9.3, 9.16, 9.5, 9.5, 9.44, 9.64, 9.37, 9.57, 9.16, 9.3, 9.23, 8.96, 9.57, 9.3, 9.44, 9.3, 9.44, 9.98, 10.79, 9.98, 8.69, 9.44, 9.44, 9.37, 10.86, 9.16, 9.5, 9.1, 9.1, 9.16, 9.37, 9.64, 9.16, 9.16, 9.16, 9.5, 0, 0.2, 9.16, 25.66, 15.95, 0, 1.36, 14.87, 4.89, 1.02, 19.14, 13.85, 0.2, 35.51, 0, 0, 0, 0, 5.02, 14.39, 18.26, 11, 0, 1.15, 4.75, 11.41, 11.95, 11.54, 9.84, 10.32, 14.73, 12.22, 11, 0.88, 0, 0, 0, 0, 0.61, 9.57, 10.79, 15.48, 3.6, 10.93, 24.78, 4.96, 13.44, 1.22, 9.57, 0, 0, 11.61, 2.78, 0, 2.04, 4.34, 11.95, 1.83, 0, 11.61, 12.29, 0.61, 10.79, 35.51, 0, 1.83, 1.36, 0.61, 14.32, 0, 0.88, 20.5, 31.91, 0, 31.7, 31.57, 15.41, 21.93, 13.85, 0, 0.95, 0, 27.83, 19.76, 11.34, 24.51, 9.84, 20.84, 15.48, 22.54, 0.07, 17.79, 10.52, 13.92, 14.19, 10.93, 10.79, 10.05, 11.34, 5.84, 1.15, 4.55, 11.13, 12.42, 0.61, 0, 15.48, 9.37, 2.58, 27.29, 15.41, 0.61, 14.12, 13.92, 0, 0.95, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0.41, 0, 0, 0, 0.14, 0, 0, 0, 0, 0.07, 0, 0, 0, 22.27, 50.64, 8.69, 61.98, 43.45, 45.28, 63.2, 36.67, 33.6, 33.46, 31.4, 29.46, 28.88, 27.99, 25.74, 24.73, 22.38, 18.46, 13.9, 9.15, 9.03, 2.25, 2.04, 2.03, 1.58, 1.45, 1.23, 1.23, 0.81, 0.6, 0.59, 0.59, 0.51, 0.44, 0.43, 0.43, 0.42, 0.33, 0.32, 0.31, 0.3, 0.29, 0.26, 0.25, 0.25, 0.23, 0.22, 0.2, 0.2, 0.18, 0.17, 0.17, 0.17, 0.16, 0.14, 0.14, 0.14, 0.13, 0.13, 0.13, 0.12, 0.11, 0.11, 0.11, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.09, 0.09, 0.09, 0.08, 0.08, 0.08, 0.08, 0.08, 0.07, 0.07, 0.07, 0.07, 0.07, 0.07, 0.06, 0.05, 0.05, 0.05, 0.05, 0.05, 0.05, 0.05, 0.05, 0.05, 0.04, 0.04, 0.04, 0.04, 0.04, 0.04, 0.04, 0.03, 0.03, 0.03, 0.03, 0.03, 0.03, 0.03, 0.03, 0.03, 0.03, 0.03, 0.03, 0.03, 0.03, 0.03, 0.03, 0.03, 0.03, 0.03, 0.03, 0.03, 0.03, 0.02, 0.02, 0.02, 0.02, 0.02, 0.02, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 63.1, 61.04, 0.22, 0.03, 0.02, 0.01, 65.08, 33.08, 0.66, 0.29, 0.29, 0.27, 0.18, 0.17, 0.16, 0.15, 0.12, 0.12, 0.1, 0.08, 0.08, 0.08, 0.06, 0.05, 0.05, 0.05, 0.05, 0.05, 0.05, 0.05, 0.04, 0.03, 0.03, 0.03, 0.03, 0.03, 0.03, 0.03, 0.03, 0.03, 0.02, 0.02, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01];
+  let arch_startMonth = [202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101];
+  let arch_endMonth = [202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202102, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101, 202101];
+
+  var arch_options = {
+
+      chart: {
+          id: "arch-combined-stats-chart",
+          width: '100%',
+          height: 460,
+          foreColor: "#373d3f",
+          toolbar: {
+              show: true
+          }
+      },
+
+      colors: ['#2E93fA', '#66DA26', '#546E7A', '#E91E63', '#FF9800', '#454687', '#928F92', '#d63c6c', '#17277d', '#4fd97d'],
+      stroke: {
+          curve: 'smooth',
+          width: 4,
+      },
+
+      grid: {
+          borderColor: "#555",
+          clipMarkers: false,
+          yaxis: {
+              lines: {
+                  show: false
+              }
+          }
+      },
+
+      dataLabels: {
+          enabled: false
+      },
+
+      fill: {
+          type: "gradient",
+          gradient: {
+              enabled: true,
+              opacityFrom: 0.7,
+              opacityTo: 0.9,
+              stops: [0, 90, 100],
+          }
+      },
+
+      markers: {
+          size: 3,
+          colors: ['#2E93fA', '#66DA26', '#546E7A', '#E91E63', '#FF9800', '#454687', '#928F92'],
+          strokeColor: "#65B051",
+          strokeWidth: 1
+      },
+
+      series: [
+          {
+              type: "line",
+              data: get_array(arch_samples),
+              name: "Samples",
+          },
+          {
+              type: "line",
+              data: get_array(arch_count),
+              name: "Count",
+          },
+          {
+              type: "line",
+              data: get_array(arch_popularity),
+              name: "Popularity",
+          },
+          {
+              type: "line",
+              data: get_array(arch_startMonth),
+              name: "Start Month",
+          },
+          {
+              type: "line",
+              data: get_array(arch_endMonth),
+              name: "End Month",
+          },
+      ],
+
+      tooltip: {
+          theme: "light"
+      },
+
+      xaxis: {
+          categories: arch_name
+      },
+
+      yaxis: {
+          min: 0,
+          tickAmount: 4
+      },
+  };
+
+  let archCombinedChart = new ApexCharts(document.querySelector("#arch-combined-stats"), arch_options);
+  archCombinedChart.render();
+</script>
           <div class="row gap-20 masonry pos-r" id="ubuntu-stats">
-  <div class="masonry-item col-md-6">
-    <!-- #Monthly Stats ==================== -->
+  <div class="masonry-item col-md-12">
     <div class="bd bgc-white">
       <div class="layers">
         <div class="layer w-100 pX-20 pT-20">
-          <h6 class="lh-1">Monthly Stats</h6>
+          <h6 class="lh-1">Ubuntu Combined Stats</h6>
         </div>
         <div class="layer w-100 p-20">
-          <div id="mastodon-chart"></div>
-        </div>
-        <div class="layer bdT p-20 w-100">
-          <div class="peers ai-c jc-c gapX-20">
-            <div class="peer">
-              <span class="fsz-def fw-600 mR-10 c-grey-800">10% <i
-                  class="fa fa-level-up c-green-500"></i></span>
-              <small class="c-grey-500 fw-600">APPL</small>
-            </div>
-            <div class="peer fw-600">
-              <span class="fsz-def fw-600 mR-10 c-grey-800">2% <i
-                  class="fa fa-level-down c-red-500"></i></span>
-              <small class="c-grey-500 fw-600">Average</small>
-            </div>
-            <div class="peer fw-600">
-              <span class="fsz-def fw-600 mR-10 c-grey-800">15% <i
-                  class="fa fa-level-up c-green-500"></i></span>
-              <small class="c-grey-500 fw-600">Sales</small>
-            </div>
-            <div class="peer fw-600">
-              <span class="fsz-def fw-600 mR-10 c-grey-800">8% <i
-                  class="fa fa-level-down c-red-500"></i></span>
-              <small class="c-grey-500 fw-600">Profit</small>
-            </div>
-          </div>
+          <div id="ubuntu-combined-stats"></div>
         </div>
       </div>
     </div>
   </div>
 </div>
+<script>
+  let ubuntu_name = ['dolphin', 'kmail', 'kmix', 'konsole', 'korganizer', 'knotes', 'gwenview', 'kate', 'ark', 'konqueror', 'ksysguard', 'kcalc', 'ktorrent', 'krita', 'k3b', 'kopete', 'krfb', 'krdc', 'kwalletmanager', 'akregator', 'kaddressbook', 'kontact', 'digikam', 'kaffeine', 'khelpcenter', 'kfind', 'kalarm', 'ksystemlog', 'gcompris', 'kamera', 'kmag', 'kshisen', 'kturtle', 'kmahjongg', 'kmousetool', 'kstars', 'ktouch', 'khangman', 'kspaceduel', 'kanagram', 'karbon', 'kig', 'kmplot', 'knetwalk', 'kolf', 'konversation', 'kppp', 'juk', 'kalzium', 'katomic', 'kblackbox', 'kexi', 'kgoldrunner', 'klettres', 'klickety', 'klinkstatus', 'kmouth', 'konquest', 'kteatime', 'kwordquiz', 'lskat', 'kbounce', 'kbruch', 'kjumpingcube', 'kmines', 'kmplayer', 'kreversi', 'kscd', 'kfilereplace', 'kimagemapeditor', 'kmid', 'showfoto', 'elisa', 'kappfinder', 'kcron', 'kpager', 'ksame', 'ksig', 'kuser', 'kompare', 'kget', 'marble', 'krusader', 'cervisia', 'kdenlive', 'kgpg', 'discover', 'ksudoku', 'kgeography', 'kruler', 'knode', 'yakuake', 'umbrello', 'kcharselect', 'kile', 'blinken', 'ktimer', 'kdevelop', 'kfloppy', 'filelight', 'krename', 'kcachegrind', 'kdiff3', 'smb4k', 'kleopatra', 'kolourpaint', 'kapptemplate', 'kuiviewer', 'kiten', 'kbibtex', 'kdesvn', 'tellico', 'kid3', 'kftpgrabber', 'kphotoalbum', 'kwave', 'knemo', 'labplot', 'krecipes', 'knights', 'kmldonkey', 'keurocalc', 'kwlan', 'kst', 'plan', 'kxstitch'];
+  let ubuntu_inst = ['460212', '368934', '363161', '519510', '381037', '369167', '377350', '395140', '415839', '428619', '400324', '200910', '377861', '95359', '665169', '353539', '271314', '320667', '367457', '362384', '384384', '350482', '213921', '240948', '212259', '457486', '80449', '350800', '103332', '369365', '331173', '94805', '96081', '112548', '329342', '121278', '113617', '95476', '86176', '93314', '47670', '96231', '104589', '86290', '96923', '187946', '272060', '76206', '115519', '86927', '84544', '107028', '88323', '59089', '52492', '82417', '57672', '92819', '47144', '88708', '84485', '94913', '91766', '81183', '90143', '63913', '86306', '69874', '83038', '58646', '34608', '28323', '31269', '63658', '155960', '38648', '70835', '26012', '132153', '109670', '93522', '91543', '83288', '77319', '74380', '70208', '67269', '64745', '64561', '62554', '62179', '59993', '57580', '57126', '56956', '56108', '55019', '46500', '45420', '37016', '36847', '36671', '36510', '36319', '35124', '30958', '28695', '27778', '27472', '22541', '22304', '21570', '20133', '17252', '10885', '10881', '10595', '8488', '8004', '6531', '5815', '5399', '1534', '1498', '1096', '711'];
+  let ubuntu_vote = ['184', '155', '153', '146', '135', '129', '126', '85', '79', '48', '45', '42', '42', '37', '34', '33', '24', '21', '17', '16', '15', '15', '13', '12', '12', '11', '10', '9', '8', '8', '8', '8', '7', '6', '6', '6', '6', '5', '5', '4', '4', '4', '4', '4', '4', '4', '4', '3', '3', '3', '3', '3', '3', '3', '3', '3', '3', '3', '3', '3', '3', '2', '2', '2', '2', '2', '2', '2', '1', '1', '1', '1', '0', '0', '0', '0', '0', '0', '3', '6', '18', '22', '26', '2', '14', '13', '62', '4', '3', '4', '4', '23', '2', '3', '8', '3', '4', '7', '0', '3', '3', '2', '9', '7', '4', '0', '2', '3', '2', '1', '2', '2', '2', '0', '0', '3', '5', '0', '0', '0', '1', '1', '0', '0', '0', '0'];
+  let ubuntu_old = ['459819', '368633', '362868', '519168', '380754', '368897', '377071', '394900', '415578', '428423', '400139', '200745', '377653', '95258', '664800', '353400', '271221', '320536', '367286', '362228', '384231', '350337', '213834', '240854', '186074', '457327', '80409', '350640', '103264', '274998', '331038', '94750', '96029', '112486', '329210', '121230', '113559', '95435', '86129', '93271', '47643', '96190', '104538', '86244', '96884', '187872', '271966', '76172', '115467', '86882', '84501', '106979', '88274', '59061', '52462', '82380', '57635', '92772', '47123', '88669', '84440', '94872', '91726', '81146', '90102', '63877', '86265', '69848', '83002', '58618', '34590', '28302', '27216', '63628', '150275', '38639', '66937', '25999', '132107', '109620', '93455', '91469', '83215', '77294', '74312', '70166', '67157', '64713', '64537', '62527', '62145', '59937', '57509', '57098', '56887', '56075', '54992', '46443', '45405', '36994', '36807', '36654', '36484', '36292', '35099', '30945', '28643', '27764', '27454', '22533', '22288', '21547', '20123', '17244', '10877', '10871', '8268', '8484', '7999', '6526', '5809', '5392', '1532', '272', '1093', '710'];
+  let ubuntu_recent = ['4', '7', '5', '5', '6', '5', '4', '9', '6', '6', '6', '3', '5', '3', '9', '5', '5', '4', '6', '6', '5', '6', '3', '6', '3', '6', '2', '4', '0', '2', '2', '2', '3', '2', '3', '5', '3', '2', '1', '2', '2', '3', '2', '2', '1', '4', '4', '1', '2', '2', '1', '2', '2', '3', '2', '1', '2', '1', '1', '1', '1', '1', '2', '2', '2', '3', '2', '1', '1', '1', '1', '0', '0', '1', '4', '1', '2', '2', '1', '3', '2', '0', '3', '0', '2', '1', '21', '0', '2', '1', '2', '0', '37', '2', '39', '1', '2', '38', '0', '1', '0', '0', '0', '1', '1', '1', '37', '0', '2', '0', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '1', '0', '0', '1', '0', '0'];
+
+  var ubuntu_options = {
+
+      chart: {
+          id: "ubuntu-combined-stats-chart",
+          width: '100%',
+          height: 600,
+          foreColor: "#373d3f",
+          toolbar: {
+              show: true
+          }
+      },
+
+      colors: ['#2E93fA', '#66DA26', '#546E7A', '#E91E63', '#FF9800', '#454687', '#928F92', '#d63c6c', '#17277d', '#4fd97d'],
+      stroke: {
+          curve: 'smooth',
+          width: 4,
+      },
+
+      grid: {
+          borderColor: "#555",
+          clipMarkers: false,
+          yaxis: {
+              lines: {
+                  show: false
+              }
+          }
+      },
+
+      dataLabels: {
+          enabled: false
+      },
+
+      fill: {
+          type: "gradient",
+          gradient: {
+              enabled: true,
+              opacityFrom: 0.7,
+              opacityTo: 0.9,
+              stops: [0, 90, 100],
+          }
+      },
+
+      markers: {
+          size: 3,
+          colors: ['#2E93fA', '#66DA26', '#546E7A', '#E91E63', '#FF9800', '#454687', '#928F92'],
+          strokeColor: "#65B051",
+          strokeWidth: 1
+      },
+
+      series: [
+          {
+              type: "line",
+              data: get_array(ubuntu_inst),
+              name: "Inst",
+          },
+          {
+              type: "line",
+              data: get_array(ubuntu_vote),
+              name: "Votes",
+          },
+          {
+              type: "line",
+              data: get_array(ubuntu_old),
+              name: "old",
+          },
+          {
+              type: "line",
+              data: get_array(ubuntu_recent),
+              name: "recent",
+          },
+      ],
+
+      tooltip: {
+          theme: "light"
+      },
+
+      xaxis: {
+          categories: ubuntu_name
+      },
+
+      yaxis: {
+          min: 0,
+          tickAmount: 4
+      },
+  };
+
+  let ubuntuCombinedChart = new ApexCharts(document.querySelector("#ubuntu-combined-stats"), ubuntu_options);
+  ubuntuCombinedChart.render();
+</script>
           <div class="row gap-20 masonry pos-r" id="debian-stats">
   <div class="masonry-item col-md-6">
     <!-- #Monthly Stats ==================== -->
