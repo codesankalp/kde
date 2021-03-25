@@ -135,10 +135,10 @@
   </div>
   <div class="masonry-item w-100">
     <div class="row gap-20">
-      <div class="col-md-3">
+      <div class="col-md-2">
         <div class="layers bd bgc-white p-20">
           <div class="layer w-100 mB-10">
-            <h6 class="lh-1">Page Consumptions</h6>
+            <h6 class="lh-1">Page Fans Adds</h6>
           </div>
           <div class="layer w-100">
             <div class="peers ai-sb fxw-nw">
@@ -150,13 +150,13 @@
                 </span>
               </div>
               <div class="peer">
-                <span class="d-ib lh-0 va-m fw-600 bdrs-10em pX-15 pY-15 bgc-green-50 c-green-500">{{ facebook_page_consumptions }}</span>
+                <span class="d-ib lh-0 va-m fw-600 bdrs-10em pX-15 pY-15 bgc-green-50 c-green-500">{{ facebook_page_fan_adds_unique }}</span>
               </div>
             </div>
           </div>
         </div>
       </div>
-      <div class="col-md-3">
+      <div class="col-md-2">
         <div class="layers bd bgc-white p-20">
           <div class="layer w-100 mB-10">
             <h6 class="lh-1">Negative Feedback</h6>
@@ -177,7 +177,7 @@
           </div>
         </div>
       </div>
-      <div class="col-md-3">
+      <div class="col-md-2">
         <div class="layers bd bgc-white p-20">
           <div class="layer w-100 mB-10">
             <h6 class="lh-1">Video Views</h6>
@@ -198,7 +198,7 @@
           </div>
         </div>
       </div>
-      <div class="col-md-3">
+      <div class="col-md-2">
         <div class="layers bd bgc-white p-20">
           <div class="layer w-100 mB-10">
             <h6 class="lh-1">Page Impression Paid</h6>
@@ -220,6 +220,50 @@
           </div>
         </div>
       </div>
+      <div class="col-md-2">
+        <div class="layers bd bgc-white p-20">
+          <div class="layer w-100 mB-10">
+            <h6 class="lh-1">Page Fans Removes</h6>
+          </div>
+          <div class="layer w-100">
+            <div class="peers ai-sb fxw-nw">
+              <div class="peer peer-greed">
+                <span id="sparklinedash2">
+                  <canvas width="45" height="20"
+                    style="display: inline-block; width: 45px; height: 20px; vertical-align: top;">
+
+                  </canvas>
+                </span>
+              </div>
+              <div class="peer">
+                <span class="d-ib lh-0 va-m fw-600 bdrs-10em pX-15 pY-15 bgc-red-50 c-red-500">{{ facebook_page_fan_removes_unique }}</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-2">
+        <div class="layers bd bgc-white p-20">
+          <div class="layer w-100 mB-10">
+            <h6 class="lh-1">Fans Country Count</h6>
+          </div>
+          <div class="layer w-100">
+            <div class="peers ai-sb fxw-nw">
+              <div class="peer peer-greed">
+                <span id="sparklinedash2">
+                  <canvas width="45" height="20"
+                    style="display: inline-block; width: 45px; height: 20px; vertical-align: top;">
+
+                  </canvas>
+                </span>
+              </div>
+              <div class="peer">
+                <span class="d-ib lh-0 va-m fw-600 bdrs-10em pX-15 pY-15 bgc-red-50 c-red-500">{{ facebook_page_fans_locale|length }}</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
   <div class="masonry-item col-md-12">
@@ -234,6 +278,9 @@
         <div class="layer bdT p-20 w-100">
           <div class="peers ai-c jc-c gapX-20">
             <div class="peer">
+              <span class="fsz-def fw-600 mR-10 c-grey-800"><i
+                  class="fa fa-level-up c-green-500"></i></span>
+              <small class="c-grey-500 fw-600">Click on data-points to open Facebook Posts</small>
             </div>
           </div>
         </div>
@@ -242,11 +289,18 @@
   </div>
 </div>
 <script>
-  const get_array = (arr) => {
+  const get_array = (arr, sub=[]) => {
     const ls = []
+    if (sub.length==0){
     arr.map((val, index)=>{
       ls.push([index+1, val]);
     });
+    }
+    else {
+      arr.map((val, index)=>{
+      ls.push([sub[index], val]);
+    });
+    }
     console.log(ls)
     return ls;
   };
@@ -283,12 +337,13 @@
           },
           events: {
               dataPointSelection: function(event, chartContext, opts) {
-                  window.open(`${mastodon_posts_url[opts.dataPointIndex]}`)
+                const url = `https://facebook.com/kde/posts/${facebook_post_id.reverse()[opts.dataPointIndex].split('_')[1]}`;
+                window.open(url);
               }
           }
       },
 
-      colors: ['#2E93fA', '#66DA26', '#546E7A', '#E91E63', '#FF9800', '#454687', '#928F92'],
+      colors: ['#2E93fA', '#66DA26', '#546E7A', '#E91E63', '#FF9800', '#454687', '#928F92', '#d63c6c', '#17277d', '#4fd97d'],
       stroke: {
           curve: 'smooth',
           width: 4,
@@ -328,19 +383,54 @@
       series: [
           {
               type: "line",
-              data: get_array(facebook_post_engaged_users),
+              data: get_array(facebook_post_engaged_users, facebook_created_time).reverse(),
               name: "Engaged Users",
           },
           {
             type: "line",
-            data: get_array(facebook_created_time),
-            name: "Created Time",
+            data: get_array(facebook_post_negative_feedback, facebook_created_time).reverse(),
+            name: "Post Negative feedback",
           },
           {
             type: "line",
-            data: get_array(facebook_post_negative_feedback),
-            name: "facebook_post_negative_feedback",
+            data: get_array(facebook_post_clicks, facebook_created_time).reverse(),
+            name: "Post Clicks",
           },
+          {
+            type: "line",
+            data: get_array(facebook_post_clicks_unique, facebook_created_time).reverse(),
+            name: "Unique Post Clicks",
+          },
+          {
+            type: "line",
+            data: get_array(facebook_post_engaged_fan, facebook_created_time).reverse(),
+            name: "Engaged Fans",
+          },
+          {
+            type: "line",
+            data: get_array(facebook_post_impressions, facebook_created_time).reverse(),
+            name: "Post Impressions",
+          },
+          {
+            type: "line",
+            data: get_array(facebook_post_impressions_unique, facebook_created_time).reverse(),
+            name: "Unique Post Impressions",
+          },
+          {
+            type: "line",
+            data: get_array(facebook_post_impressions_fan, facebook_created_time).reverse(),
+            name: "Post Impressions Fan",
+          },
+          {
+            type: "line",
+            data: get_array(facebook_post_impressions_organic, facebook_created_time).reverse(),
+            name: "Impression Organic",
+          },
+          {
+            type: "line",
+            data: get_array(facebook_comments, facebook_created_time).reverse(),
+            name: "Comments",
+          }      
       ],
 
       tooltip: {
@@ -348,7 +438,7 @@
       },
 
       xaxis: {
-          categories: facebook_post_id
+          type: 'datetime',
       },
 
       yaxis: {
