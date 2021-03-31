@@ -1597,7 +1597,7 @@ instagramCombinedChart.render();
       chart: {
           id: "arch-combined-stats-chart",
           width: '100%',
-          height: 460,
+          height: 600,
           foreColor: "#373d3f",
           toolbar: {
               show: true
@@ -1691,7 +1691,7 @@ instagramCombinedChart.render();
     <div class="bd bgc-white">
       <div class="layers">
         <div class="layer w-100 pX-20 pT-20">
-          <h6 class="lh-1">Ubuntu Combined Stats</h6>
+          <h6 class="lh-1">Ubuntu Popcons Combined Stats</h6>
         </div>
         <div class="layer w-100 p-20">
           <div id="ubuntu-combined-stats"></div>
@@ -1797,44 +1797,115 @@ instagramCombinedChart.render();
   ubuntuCombinedChart.render();
 </script>
           <div class="row gap-20 masonry pos-r" id="debian-stats">
-  <div class="masonry-item col-md-6">
-    <!-- #Monthly Stats ==================== -->
+  <div class="masonry-item col-md-12">
     <div class="bd bgc-white">
       <div class="layers">
         <div class="layer w-100 pX-20 pT-20">
-          <h6 class="lh-1">Monthly Stats</h6>
+          <h6 class="lh-1">Debian Popcons Combined Stats</h6>
         </div>
         <div class="layer w-100 p-20">
-          <div id="mastodon-chart"></div>
-        </div>
-        <div class="layer bdT p-20 w-100">
-          <div class="peers ai-c jc-c gapX-20">
-            <div class="peer">
-              <span class="fsz-def fw-600 mR-10 c-grey-800">10% <i
-                  class="fa fa-level-up c-green-500"></i></span>
-              <small class="c-grey-500 fw-600">APPL</small>
-            </div>
-            <div class="peer fw-600">
-              <span class="fsz-def fw-600 mR-10 c-grey-800">2% <i
-                  class="fa fa-level-down c-red-500"></i></span>
-              <small class="c-grey-500 fw-600">Average</small>
-            </div>
-            <div class="peer fw-600">
-              <span class="fsz-def fw-600 mR-10 c-grey-800">15% <i
-                  class="fa fa-level-up c-green-500"></i></span>
-              <small class="c-grey-500 fw-600">Sales</small>
-            </div>
-            <div class="peer fw-600">
-              <span class="fsz-def fw-600 mR-10 c-grey-800">8% <i
-                  class="fa fa-level-down c-red-500"></i></span>
-              <small class="c-grey-500 fw-600">Profit</small>
-            </div>
-          </div>
+          <div id="debian-combined-stats"></div>
         </div>
       </div>
     </div>
   </div>
 </div>
+<script>
+  let debian_name = ['cervisia', 'clazy', 'heaptrack', 'kapptemplate', 'kcachegrind', 'kdebugsettings', 'kdesrc-build', 'kdesvn', 'kdevelop', 'kdiff3', 'kimagemapeditor', 'kompare', 'kuiviewer', 'lokalize', 'massif-visualizer', 'umbrello', 'artikulate', 'blinken', 'cantor', 'gcompris', 'kalzium', 'kanagram', 'kbibtex', 'kbruch', 'kgeography', 'khangman', 'kig', 'kiten', 'klettres', 'kmplot', 'kstars', 'ktouch', 'kturtle', 'kwordquiz', 'labplot', 'marble', 'minuet', 'parley', 'rocs', 'step', 'blinken', 'bomber', 'bovo', 'gcompris', 'granatier', 'kajongg', 'kanagram', 'kapman', 'katomic', 'kblackbox', 'kblocks', 'kbounce', 'kbreakout', 'kdiamond', 'kfourinline', 'kgoldrunner', 'khangman', 'kigo', 'killbots', 'kiriki', 'kjumpingcube', 'klickety', 'kmahjongg', 'kmines', 'knetwalk', 'knights', 'kolf', 'kollision', 'konquest', 'kreversi', 'kshisen', 'ksirk', 'ksnakeduel', 'kspaceduel', 'ksquares', 'ksudoku', 'kubrick', 'lskat', 'palapeli', 'picmi', 'digikam', 'gwenview', 'kcolorchooser', 'kgraphviewer', 'kolourpaint', 'kontrast', 'kphotoalbum', 'krita', 'kruler', 'kxstitch', 'okular', 'peruse', 'peruse', 'showfoto', 'skanlite', 'kdegraphics-mobipocket', 'kdegraphics-thumbnailers', 'akregator', 'choqok', 'falkon', 'kget', 'kmail', 'konqueror', 'konversation', 'kopete', 'krdc', 'krfb', 'ktorrent', 'elisa', 'juk', 'k3b', 'kaffeine', 'kamoso', 'kdenlive', 'kid3', 'kmix', 'kmplayer', 'kwave', 'calindori', 'plan', 'kaddressbook', 'kbibtex', 'keurocalc', 'kexi', 'kile', 'kmail', 'kmymoney', 'kongress', 'kontact', 'korganizer', 'ktimetracker', 'lokalize', 'okular', 'skrooge', 'tellico', 'khelpcenter', 'apper', 'discover', 'dolphin', 'konsole', 'ksysguard', 'ksystemlog', 'kwalletmanager', 'yakuake', 'kup', 'ark', 'filelight', 'kalarm', 'kate', 'kbackup', 'kcalc', 'kcharselect', 'kdialog', 'kfind', 'kfloppy', 'kgpg', 'kleopatra', 'kmag', 'kmousetool', 'kmouth', 'knotes', 'krename', 'kronometer', 'krusader', 'kteatime', 'ktimer', 'ktimetracker', 'ktrip', 'kwrite', 'okteta', 'smb4k', 'spectacle', 'sweeper', 'zanshin', 'kamera', 'kcron', 'blogilo', 'jovie', 'kappfinder', 'karbon', 'kfilereplace', 'kftpgrabber', 'klinkstatus', 'kmid', 'kmldonkey', 'knemo', 'knode', 'kpager', 'kppp', 'krecipes', 'kremotecontrol', 'ksame', 'kscd', 'ksig', 'kst', 'kuser', 'kwlan', 'simon', 'dolphin-plugins'];
+  let debian_inst = ['154', '39', '26', '192', '230', '13', '2', '73', '223', '452', '136', '336', '134', '139', '13', '201', '156', '98', '183', '48', '198', '147', '53', '157', '167', '155', '167', '178', '140', '174', '129', '206', '159', '159', '29', '487', '133', '142', '145', '150', '98', '118', '104', '48', '115', '94', '147', '126', '121', '103', '120', '119', '115', '118', '102', '110', '155', '107', '104', '109', '98', '132', '225', '168', '137', '54', '114', '104', '114', '108', '220', '107', '91', '103', '98', '162', '101', '121', '122', '103', '527', '6068', '252', '0', '629', '35', '41', '762', '240', '4', '9550', '17', '17', '64', '186', '109', '40', '1655', '26', '350', '579', '7281', '4085', '86', '2084', '538', '290', '579', '69', '1277', '1712', '292', '54', '905', '147', '1583', '102', '75', '1', '14', '1256', '53', '15', '52', '330', '7281', '154', '3', '333', '9298', '40', '139', '9550', '49', '84', '1942', '2933', '8570', '9248', '8010', '2629', '222', '1632', '958', '4', '4830', '431', '569', '5468', '21', '3027', '265', '3459', '1413', '29', '998', '361', '948', '961', '949', '7016', '176', '43', '571', '227', '193', '40', '0', '2439', '220', '153', '13', '1207', '12', '67', '2', '22', '692', '4', '109', '32', '3', '30', '2', '3', '17', '28', '2', '37', '6', '259', '3', '46', '2', '19', '64', '0', '0', '47'];
+  let debian_vote = ['2624', '100', '130', '2733', '3350', '64', '19', '834', '1366', '1623', '2037', '3466', '2084', '2094', '115', '2690', '1881', '2671', '2442', '360', '2966', '2548', '548', '2742', '2723', '2566', '2541', '2359', '2582', '2968', '1846', '3108', '2829', '2497', '149', '3057', '1619', '2550', '2512', '2695', '2671', '2747', '2738', '360', '2774', '2167', '2548', '2811', '2894', '2786', '2795', '2813', '2791', '2727', '2744', '2804', '2566', '2789', '2713', '2737', '2753', '2779', '3014', '2934', '2900', '510', '2817', '2739', '2799', '2813', '2821', '2740', '2277', '2793', '2742', '2913', '2740', '2787', '2784', '2605', '1998', '10819', '3064', '1', '2626', '0', '241', '2197', '3239', '28', '10232', '54', '54', '253', '1159', '655', '380', '13551', '118', '508', '2308', '8243', '13430', '305', '11211', '3712', '2765', '1269', '224', '14177', '13934', '1568', '209', '4181', '574', '1873', '386', '259', '1', '46', '13986', '548', '97', '443', '1862', '8243', '390', '0', '2732', '6559', '573', '2094', '10232', '158', '258', '15120', '8881', '162343', '8476', '9884', '13456', '3031', '15296', '934', '1', '11412', '3709', '2397', '11954', '108', '13245', '3251', '9179', '16235', '331', '2515', '2980', '12564', '11798', '12214', '8497', '873', '144', '1567', '2155', '3013', '573', '1', '14130', '2280', '823', '103', '14328', '56', '1463', '50', '827', '4782', '100', '1244', '891', '31', '859', '54', '46', '17', '646', '64', '1012', '52', '930', '64', '1273', '52', '206', '1337', '1', '1', '0'];
+  let debian_old = ['106', '57', '11', '246', '220', '11', '2', '15', '203', '452', '115', '204', '115', '169', '9', '417', '386', '253', '524', '4', '245', '258', '82', '155', '204', '240', '437', '415', '245', '172', '47', '162', '259', '335', '48', '286', '271', '252', '268', '250', '253', '277', '278', '4', '282', '248', '258', '284', '312', '277', '278', '275', '306', '304', '277', '275', '240', '285', '303', '278', '305', '278', '305', '322', '281', '197', '279', '277', '283', '284', '321', '304', '274', '277', '279', '301', '278', '275', '309', '306', '203', '3185', '329', '0', '253', '868', '11', '744', '212', '1', '4529', '6', '6', '28', '60', '3', '0', '2943', '3', '62', '484', '2639', '2927', '94', '2298', '300', '460', '71', '405', '2995', '4010', '70', '46', '1004', '164', '75', '13', '85', '0', '0', '3016', '82', '3', '17', '217', '2639', '30', '8', '166', '2286', '35', '169', '4529', '9', '87', '3222', '2505', '23361', '3567', '3206', '3957', '187', '3315', '83', '0', '3631', '213', '145', '2810', '22', '3122', '186', '2937', '3216', '10', '202', '174', '2906', '3046', '3092', '2713', '191', '7', '82', '177', '201', '35', '0', '3071', '609', '39', '13', '3157', '3', '29', '0', '6', '124', '0', '85', '4', '0', '4', '0', '0', '0', '3', '0', '8', '0', '7', '0', '6', '0', '10', '6', '0', '0', '3'];
+  let debian_recent = ['0', '0', '0', '1', '0', '0', '0', '0', '1', '0', '1', '0', '0', '0', '0', '1', '0', '1', '1', '1070', '1', '2', '0', '3', '2', '2', '2', '2', '1', '2', '2', '1', '1', '1', '0', '1', '1', '0', '1', '1', '1', '2', '2', '1070', '1', '1', '2', '1', '2', '1', '1', '2', '0', '1', '1', '2', '2', '1', '1', '1', '2', '2', '2', '2', '1', '0', '2', '2', '2', '2', '2', '2', '0', '2', '1', '1', '0', '3', '0', '0', '0', '12', '1', '0', '0', '0', '0', '0', '1', '0', '9', '0', '0', '0', '0', '1719', '2416', '10', '0', '0', '1', '9', '10', '0', '9', '1', '1', '0', '0', '11', '11', '1', '1', '3', '0', '2', '0', '1', '0', '0', '10', '0', '0', '0', '1', '9', '1', '0', '1', '9', '0', '0', '9', '0', '0', '14', '10', '70', '10', '12', '13', '1', '14', '0', '0', '10', '0', '1', '11', '0', '11', '2', '4', '10', '1', '3', '1', '8', '8', '9', '10', '1', '0', '0', '1', '1', '0', '0', '10', '0', '0', '0', '9', '0', '18402', '128', '0', '5', '1', '0', '1', '0', '1', '1', '0', '2', '1', '1', '1', '0', '0', '49', '1', '1', '4', '2', '0', '0', '2516'];
+
+  var debian_options = {
+
+      chart: {
+          id: "debian-combined-stats-chart",
+          width: '100%',
+          height: 600,
+          foreColor: "#373d3f",
+          toolbar: {
+              show: true
+          }
+      },
+
+      colors: ['#2E93fA', '#66DA26', '#546E7A', '#E91E63', '#FF9800', '#454687', '#928F92', '#d63c6c', '#17277d', '#4fd97d'],
+      stroke: {
+          curve: 'smooth',
+          width: 4,
+      },
+
+      grid: {
+          borderColor: "#555",
+          clipMarkers: false,
+          yaxis: {
+              lines: {
+                  show: false
+              }
+          }
+      },
+
+      dataLabels: {
+          enabled: false
+      },
+
+      fill: {
+          type: "gradient",
+          gradient: {
+              enabled: true,
+              opacityFrom: 0.7,
+              opacityTo: 0.9,
+              stops: [0, 90, 100],
+          }
+      },
+
+      markers: {
+          size: 3,
+          colors: ['#2E93fA', '#66DA26', '#546E7A', '#E91E63', '#FF9800', '#454687', '#928F92'],
+          strokeColor: "#65B051",
+          strokeWidth: 1
+      },
+
+      series: [
+          {
+              type: "line",
+              data: get_array(debian_inst),
+              name: "Inst",
+          },
+          {
+              type: "line",
+              data: get_array(debian_vote),
+              name: "Votes",
+          },
+          {
+              type: "line",
+              data: get_array(debian_old),
+              name: "old",
+          },
+          {
+              type: "line",
+              data: get_array(debian_recent),
+              name: "recent",
+          },
+      ],
+
+      tooltip: {
+          theme: "light"
+      },
+
+      xaxis: {
+          categories: debian_name
+      },
+
+      yaxis: {
+          min: 0,
+          tickAmount: 4
+      },
+  };
+
+  let debianCombinedChart = new ApexCharts(document.querySelector("#debian-combined-stats"), debian_options);
+  debianCombinedChart.render();
+</script>
         </div>
       </main>
       <footer class="bdT ta-c p-30 lh-0 fsz-sm c-grey-600"></footer>
