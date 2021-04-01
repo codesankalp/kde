@@ -37,7 +37,7 @@
           <h6 class="lh-1">Reddit top keywords</h6>
         </div>
         <div class="layer w-100 p-20">
-          <div id="kde-reddit-top-keword"></div>
+          <div id="kde-reddit-top-contributor"></div>
         </div>
       </div>
     </div>
@@ -466,6 +466,218 @@
       </div>
     </div>
   </div>
+
+  <!-- Kdenlive -->
+  <div class="masonry-item w-100">
+    <div class="row gap-20">
+      <div class="col-md-12">
+        <h3 style="text-align: center;background-color: #fff;">KDENLIVE REDDIT STATS</h3>
+      </div>
+    </div>
+  </div>
+  <div class="masonry-item w-100">
+    <div class="row gap-20">
+      <div class="col-md-3">
+        <div class="layers bd bgc-white p-20">
+          <div class="layer w-100 mB-10">
+            <h6 class="lh-1">subreddit Id</h6>
+          </div>
+          <div class="layer w-100">
+            <div class="peers ai-sb fxw-nw">
+              <div class="peer peer-greed">
+                <span id="sparklinedash">
+                  <canvas width="45" height="20"
+                    style="display: inline-block; width: 45px; height: 20px; vertical-align: top;">
+                  </canvas>
+                </span>
+              </div>
+              <div class="peer">
+                <span class="d-ib lh-0 va-m fw-600 bdrs-10em pX-15 pY-15 bgc-green-50 c-green-500">{{ kdenlive_reddit_subredditId }}</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="layers bd bgc-white p-20">
+          <div class="layer w-100 mB-10">
+            <h6 class="lh-1">Comments Per Subscriber</h6>
+          </div>
+          <div class="layer w-100">
+            <div class="peers ai-sb fxw-nw">
+              <div class="peer peer-greed">
+                <span id="sparklinedash">
+                  <canvas width="45" height="20"
+                    style="display: inline-block; width: 45px; height: 20px; vertical-align: top;">
+                  </canvas>
+                </span>
+              </div>
+              <div class="peer">
+                <span class="d-ib lh-0 va-m fw-600 bdrs-10em pX-15 pY-15 bgc-green-50 c-green-500">{{ "%.8f"|format(kdenlive_reddit_commentsPerSubscriber|float) }}</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="layers bd bgc-white p-20">
+          <div class="layer w-100 mB-10">
+            <h6 class="lh-1">Posts Per Subscriber</h6>
+          </div>
+          <div class="layer w-100">
+            <div class="peers ai-sb fxw-nw">
+              <div class="peer peer-greed">
+                <span id="sparklinedash">
+                  <canvas width="45" height="20"
+                    style="display: inline-block; width: 45px; height: 20px; vertical-align: top;">
+                  </canvas>
+                </span>
+              </div>
+              <div class="peer">
+                <span class="d-ib lh-0 va-m fw-600 bdrs-10em pX-15 pY-15 bgc-green-50 c-green-500" >{{ "%.8f"|format(kdenlive_reddit_postsPerSubscriber|float) }}</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="layers bd bgc-white p-20">
+          <div class="layer w-100 mB-10">
+            <h6 class="lh-1">Comments Per Hour</h6>
+          </div>
+          <div class="layer w-100">
+            <div class="peers ai-sb fxw-nw">
+              <div class="peer peer-greed">
+                <span id="sparklinedash">
+                  <canvas width="45" height="20"
+                    style="display: inline-block; width: 45px; height: 20px; vertical-align: top;">
+                  </canvas>
+                </span>
+              </div>
+              <div class="peer">
+                <span class="d-ib lh-0 va-m fw-600 bdrs-10em pX-15 pY-15 bgc-green-50 c-green-500" >{{ "%.8f"|format(kdenlive_reddit_commentsPerHour|float) }}</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="masonry-item w-100">
+    <div class="row gap-20">
+      <div class="col-md-4">
+        <div class="layers bd bgc-white p-20">
+          <div class="layer w-100 mB-10">
+            <h6 class="lh-1">Subscribers Count</h6>
+          </div>
+          <div class="layer w-100">
+            <div class="peers ai-sb fxw-nw">
+              <div class="peer peer-greed">
+                <span id="sparklinedash">
+                  <canvas width="45" height="20"
+                    style="display: inline-block; width: 45px; height: 20px; vertical-align: top;">
+                  </canvas>
+                </span>
+              </div>
+              <div class="peer">
+                <span class="d-ib lh-0 va-m fw-600 bdrs-10em pX-15 pY-15 bgc-green-50 c-green-500" >{{ kdenlive_reddit_subscriberCount }}</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="layers bd bgc-white p-20">
+          <div class="layer w-100 mB-10">
+            <h6 class="lh-1">Gilds per subscriber</h6>
+          </div>
+          <div class="layer w-100">
+            <div class="peers ai-sb fxw-nw">
+              <div class="peer peer-greed">
+                <span id="sparklinedash">
+                  <canvas width="45" height="20"
+                    style="display: inline-block; width: 45px; height: 20px; vertical-align: top;">
+                  </canvas>
+                </span>
+              </div>
+              <div class="peer">
+                <span class="d-ib lh-0 va-m fw-600 bdrs-10em pX-15 pY-15 bgc-green-50 c-green-500" >{{ "%.8f"|format(kdenlive_reddit_gildsPerSubscriber|float) }}</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="layers bd bgc-white p-20">
+          <div class="layer w-100 mB-10">
+            <h6 class="lh-1">Krita Posts Per Hour</h6>
+          </div>
+          <div class="layer w-100">
+            <div class="peers ai-sb fxw-nw">
+              <div class="peer peer-greed">
+                <span id="sparklinedash">
+                  <canvas width="45" height="20"
+                    style="display: inline-block; width: 45px; height: 20px; vertical-align: top;">
+                  </canvas>
+                </span>
+              </div>
+              <div class="peer">
+                <span class="d-ib lh-0 va-m fw-600 bdrs-10em pX-15 pY-15 bgc-green-50 c-green-500" >{{ "%.8f"|format(kdenlive_reddit_postsPerHour|float) }}</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="masonry-item col-md-6">
+    <div class="bd bgc-white">
+      <div class="layers">
+        <div class="layer w-100 pX-20 pT-20">
+          <h6 class="lh-1">kdenlive Reddit top keywords</h6>
+        </div>
+        <div class="layer w-100 p-20">
+          <div id="kdenlive-reddit-top-kewords"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="masonry-item col-md-6">
+    <div class="bd bgc-white">
+      <div class="layers">
+        <div class="layer w-100 pX-20 pT-20">
+          <h6 class="lh-1">kdenlive Reddit top Comments by frequency</h6>
+        </div>
+        <div class="layer w-100 p-20">
+          <div id="kdenlive-reddit-top-comments"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="masonry-item col-md-6">
+    <div class="bd bgc-white">
+      <div class="layers">
+        <div class="layer w-100 pX-20 pT-20">
+          <h6 class="lh-1">kdenlive Reddit top posters by frequency</h6>
+        </div>
+        <div class="layer w-100 p-20">
+          <div id="kdenlive-reddit-top-posters"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="masonry-item col-md-6">
+    <div class="bd bgc-white">
+      <div class="layers">
+        <div class="layer w-100 pX-20 pT-20">
+          <h6 class="lh-1">kdenlive Reddit top linked domains</h6>
+        </div>
+        <div class="layer w-100 p-20">
+          <div id="kdenlive-reddit-top-domains"></div>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
 
 
@@ -493,6 +705,10 @@
   let kde_reddit_topCommentersByFrequency = {{kde_reddit_topCommentersByFrequency}};
   let kde_reddit_topPostersByFrequency = {{kde_reddit_topPostersByFrequency}};
   let kde_reddit_topLinkedDomains = {{kde_reddit_topLinkedDomains}};
+  let kdenlive_reddit_topKeywords = {{kdenlive_reddit_topKeywords}};
+  let kdenlive_reddit_topCommentersByFrequency = {{kdenlive_reddit_topCommentersByFrequency}};
+  let kdenlive_reddit_topPostersByFrequency = {{kdenlive_reddit_topPostersByFrequency}};
+  let kdenlive_reddit_topLinkedDomains = {{kdenlive_reddit_topLinkedDomains}};
 
   var kde_posts_stats_options = {
 
@@ -597,8 +813,8 @@
   var topKeywords = {
          series: Object.values(reddit_keywords),
          chart: {
-         width: '100%',
-         height: 460,
+         width: '380',
+         height: '230',
          type: 'pie',
        },
        labels: Object.keys(reddit_keywords),
@@ -809,4 +1025,135 @@
 
   var topkdeDomainChart = new ApexCharts(document.querySelector('#kde-reddit-top-domains'), kdeTopLinkedDomains);
   topkdeDomainChart.render();
+
+  var kdenliveTopKeywords = {
+    series: kdenlive_reddit_topKeywords.map((v)=>{return v[1];}),
+    chart: {
+    width: '100%',
+    height: 300,
+    type: 'pie',
+      },
+    labels: kdenlive_reddit_topKeywords.map((v)=>{return v[0];}),
+    responsive: [{
+      breakpoint: 480,
+      options: {
+        chart: {
+          width: 200
+        },
+        legend: {
+          position: 'bottom'
+        }
+      }
+    }]
+  };
+
+  var topkdenliveKeywordChart = new ApexCharts(document.querySelector('#kdenlive-reddit-top-kewords'), kdenliveTopKeywords);
+  topkdenliveKeywordChart.render();
+
+  var kdenliveTopComments = {
+    series: kdenlive_reddit_topCommentersByFrequency.map((v)=>{return v[1];}),
+    chart: {
+    width: '100%',
+    height: 300,
+    type: 'pie',
+      },
+    labels: kdenlive_reddit_topCommentersByFrequency.map((v)=>{return v[0];}),
+    responsive: [{
+      breakpoint: 480,
+      options: {
+        chart: {
+          width: 200
+        },
+        legend: {
+          position: 'bottom'
+        }
+      }
+    }]
+  };
+
+  var topkdenliveCommentsChart = new ApexCharts(document.querySelector('#kdenlive-reddit-top-comments'), kdenliveTopComments);
+  topkdenliveCommentsChart.render();
+
+  var kdenliveTopPosters = {
+    series: kdenlive_reddit_topPostersByFrequency.map((v)=>{return v[1];}),
+    chart: {
+    width: '100%',
+    height: 300,
+    type: 'pie',
+      },
+    labels: kdenlive_reddit_topPostersByFrequency.map((v)=>{return v[0];}),
+    responsive: [{
+      breakpoint: 480,
+      options: {
+        chart: {
+          width: 200
+        },
+        legend: {
+          position: 'bottom'
+        }
+      }
+    }]
+  };
+
+  var topkdenlivePostersChart = new ApexCharts(document.querySelector('#kdenlive-reddit-top-posters'), kdenliveTopPosters);
+  topkdenlivePostersChart.render();
+
+  var kdenliveTopLinkedDomains = {
+    series: kdenlive_reddit_topLinkedDomains.map((v)=>{return v[1];}),
+    chart: {
+    width: '100%',
+    height: 300,
+    type: 'pie',
+      },
+    labels: kdenlive_reddit_topLinkedDomains.map((v)=>{return v[0];}),
+    responsive: [{
+      breakpoint: 480,
+      options: {
+        chart: {
+          width: 200
+        },
+        legend: {
+          position: 'bottom'
+        }
+      }
+    }]
+  };
+
+  var topkdenliveDomainChart = new ApexCharts(document.querySelector('#kdenlive-reddit-top-domains'), kdenliveTopLinkedDomains);
+  topkdenliveDomainChart.render();
+
+  let reddit_contributor_posts = {{reddit_contributor_posts}};
+  const getContributor = () => {
+    return (Object.keys(reddit_contributor_posts).map((v)=>{
+      if (reddit_contributor_posts[v]["reddit_contributor_post_votes"].length!=0){
+        return reddit_contributor_posts[v]["reddit_contributor_post_votes"][0]
+      }else {
+        return 0
+      }
+    }))
+  }
+
+  var topContributor = {
+         series: getContributor(),
+         chart: {
+         width: '380',
+         height: '230',
+         type: 'pie',
+       },
+       labels: Object.keys(reddit_contributor_posts),
+       responsive: [{
+         breakpoint: 480,
+         options: {
+           chart: {
+             width: 200
+           },
+           legend: {
+             position: 'bottom'
+           }
+         }
+       }]
+    };
+
+  var topContributorChart = new ApexCharts(document.querySelector("#kde-reddit-top-contributor"), topContributor);
+  topContributorChart.render();
 </script>
