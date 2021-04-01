@@ -7,8 +7,6 @@ from jinja2 import FileSystemLoader as fs
 
 
 def render_test(*args, **kwargs):
-    print("hele")
-    # print(args, kwargs)
     with open("stats.json", "r") as f:
         data = json.loads(f.read())
 

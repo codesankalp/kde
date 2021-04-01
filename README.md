@@ -1,3 +1,20 @@
+# KDE PROMO DASHBOARD
+
+# Installing for development
+
+```
+virtualenv venv
+source venv/bin/activate
+
+pip install -r requirements.txt
+
+# Required to skip re-rendering files manually
+./developer_renderer.py
+
+# Python server
+python -m http.server
+```
+
 # Facebook Stats
 
 ### Facebook Posts Stats 
