@@ -1,39 +1,812 @@
 <div class="row gap-20 masonry pos-r" id="reddit-stats">
-  <div class="masonry-item col-md-6">
-    <!-- #Monthly Stats ==================== -->
+  <div class="masonry-item col-md-8">
     <div class="bd bgc-white">
       <div class="layers">
         <div class="layer w-100 pX-20 pT-20">
-          <h6 class="lh-1">Monthly Stats</h6>
+          <h6 class="lh-1">KDE Reddit Posts Stats</h6>
         </div>
         <div class="layer w-100 p-20">
-          <div id="reddit-chart"></div>
+          <div id="kde-reddit-posts-chart"></div>
         </div>
         <div class="layer bdT p-20 w-100">
           <div class="peers ai-c jc-c gapX-20">
             <div class="peer">
-              <span class="fsz-def fw-600 mR-10 c-grey-800">10% <i
+              <span class="fsz-def fw-600 mR-10 c-grey-800"><i
                   class="fa fa-level-up c-green-500"></i></span>
-              <small class="c-grey-500 fw-600">APPL</small>
-            </div>
-            <div class="peer fw-600">
-              <span class="fsz-def fw-600 mR-10 c-grey-800">2% <i
-                  class="fa fa-level-down c-red-500"></i></span>
-              <small class="c-grey-500 fw-600">Average</small>
-            </div>
-            <div class="peer fw-600">
-              <span class="fsz-def fw-600 mR-10 c-grey-800">15% <i
-                  class="fa fa-level-up c-green-500"></i></span>
-              <small class="c-grey-500 fw-600">Sales</small>
-            </div>
-            <div class="peer fw-600">
-              <span class="fsz-def fw-600 mR-10 c-grey-800">8% <i
-                  class="fa fa-level-down c-red-500"></i></span>
-              <small class="c-grey-500 fw-600">Profit</small>
+              <small class="c-grey-500 fw-600">Click on data-points to open Reddit Posts</small>
             </div>
           </div>
         </div>
       </div>
     </div>
   </div>
+  <div class="masonry-item col-md-4">
+    <div class="bd bgc-white">
+      <div class="layers">
+        <div class="layer w-100 pX-20 pT-20">
+          <h6 class="lh-1">Reddit top keywords</h6>
+        </div>
+        <div class="layer w-100 p-20">
+          <div id="kde-reddit-top-kewords"></div>
+        </div>
+      </div>
+    </div>
+    <div class="bd bgc-white">
+      <div class="layers">
+        <div class="layer w-100 pX-20 pT-20">
+          <h6 class="lh-1">Reddit top keywords</h6>
+        </div>
+        <div class="layer w-100 p-20">
+          <div id="kde-reddit-top-keword"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- KRITA -->
+  <div class="masonry-item w-100">
+    <div class="row gap-20">
+      <div class="col-md-12">
+        <h3 style="text-align: center;background-color: #fff;">KRITA REDDIT STATS</h3>
+      </div>
+    </div>
+  </div>
+  <div class="masonry-item w-100">
+    <div class="row gap-20">
+      <div class="col-md-3">
+        <div class="layers bd bgc-white p-20">
+          <div class="layer w-100 mB-10">
+            <h6 class="lh-1">subreddit Id</h6>
+          </div>
+          <div class="layer w-100">
+            <div class="peers ai-sb fxw-nw">
+              <div class="peer peer-greed">
+                <span id="sparklinedash">
+                  <canvas width="45" height="20"
+                    style="display: inline-block; width: 45px; height: 20px; vertical-align: top;">
+                  </canvas>
+                </span>
+              </div>
+              <div class="peer">
+                <span class="d-ib lh-0 va-m fw-600 bdrs-10em pX-15 pY-15 bgc-green-50 c-green-500">{{ krita_reddit_subredditId }}</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="layers bd bgc-white p-20">
+          <div class="layer w-100 mB-10">
+            <h6 class="lh-1">Comments Per Subscriber</h6>
+          </div>
+          <div class="layer w-100">
+            <div class="peers ai-sb fxw-nw">
+              <div class="peer peer-greed">
+                <span id="sparklinedash">
+                  <canvas width="45" height="20"
+                    style="display: inline-block; width: 45px; height: 20px; vertical-align: top;">
+                  </canvas>
+                </span>
+              </div>
+              <div class="peer">
+                <span class="d-ib lh-0 va-m fw-600 bdrs-10em pX-15 pY-15 bgc-green-50 c-green-500">{{ "%.8f"|format(krita_reddit_commentsPerSubscriber|float) }}</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="layers bd bgc-white p-20">
+          <div class="layer w-100 mB-10">
+            <h6 class="lh-1">Posts Per Subscriber</h6>
+          </div>
+          <div class="layer w-100">
+            <div class="peers ai-sb fxw-nw">
+              <div class="peer peer-greed">
+                <span id="sparklinedash">
+                  <canvas width="45" height="20"
+                    style="display: inline-block; width: 45px; height: 20px; vertical-align: top;">
+                  </canvas>
+                </span>
+              </div>
+              <div class="peer">
+                <span class="d-ib lh-0 va-m fw-600 bdrs-10em pX-15 pY-15 bgc-green-50 c-green-500" >{{ "%.8f"|format(krita_reddit_postsPerSubscriber|float) }}</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="layers bd bgc-white p-20">
+          <div class="layer w-100 mB-10">
+            <h6 class="lh-1">Comments Per Hour</h6>
+          </div>
+          <div class="layer w-100">
+            <div class="peers ai-sb fxw-nw">
+              <div class="peer peer-greed">
+                <span id="sparklinedash">
+                  <canvas width="45" height="20"
+                    style="display: inline-block; width: 45px; height: 20px; vertical-align: top;">
+                  </canvas>
+                </span>
+              </div>
+              <div class="peer">
+                <span class="d-ib lh-0 va-m fw-600 bdrs-10em pX-15 pY-15 bgc-green-50 c-green-500" >{{ "%.8f"|format(krita_reddit_commentsPerHour|float) }}</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="masonry-item w-100">
+    <div class="row gap-20">
+      <div class="col-md-4">
+        <div class="layers bd bgc-white p-20">
+          <div class="layer w-100 mB-10">
+            <h6 class="lh-1">Krita Subscribers Count</h6>
+          </div>
+          <div class="layer w-100">
+            <div class="peers ai-sb fxw-nw">
+              <div class="peer peer-greed">
+                <span id="sparklinedash">
+                  <canvas width="45" height="20"
+                    style="display: inline-block; width: 45px; height: 20px; vertical-align: top;">
+                  </canvas>
+                </span>
+              </div>
+              <div class="peer">
+                <span class="d-ib lh-0 va-m fw-600 bdrs-10em pX-15 pY-15 bgc-green-50 c-green-500" >{{ krita_reddit_subscriberCount }}</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="layers bd bgc-white p-20">
+          <div class="layer w-100 mB-10">
+            <h6 class="lh-1">Gilds per subscriber</h6>
+          </div>
+          <div class="layer w-100">
+            <div class="peers ai-sb fxw-nw">
+              <div class="peer peer-greed">
+                <span id="sparklinedash">
+                  <canvas width="45" height="20"
+                    style="display: inline-block; width: 45px; height: 20px; vertical-align: top;">
+                  </canvas>
+                </span>
+              </div>
+              <div class="peer">
+                <span class="d-ib lh-0 va-m fw-600 bdrs-10em pX-15 pY-15 bgc-green-50 c-green-500" >{{ "%.8f"|format(krita_reddit_gildsPerSubscriber|float) }}</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="layers bd bgc-white p-20">
+          <div class="layer w-100 mB-10">
+            <h6 class="lh-1">Krita Posts Per Hour</h6>
+          </div>
+          <div class="layer w-100">
+            <div class="peers ai-sb fxw-nw">
+              <div class="peer peer-greed">
+                <span id="sparklinedash">
+                  <canvas width="45" height="20"
+                    style="display: inline-block; width: 45px; height: 20px; vertical-align: top;">
+                  </canvas>
+                </span>
+              </div>
+              <div class="peer">
+                <span class="d-ib lh-0 va-m fw-600 bdrs-10em pX-15 pY-15 bgc-green-50 c-green-500" >{{ "%.8f"|format(krita_reddit_postsPerHour|float) }}</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="masonry-item col-md-6">
+    <div class="bd bgc-white">
+      <div class="layers">
+        <div class="layer w-100 pX-20 pT-20">
+          <h6 class="lh-1">Krita Reddit top keywords</h6>
+        </div>
+        <div class="layer w-100 p-20">
+          <div id="krita-reddit-top-kewords"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="masonry-item col-md-6">
+    <div class="bd bgc-white">
+      <div class="layers">
+        <div class="layer w-100 pX-20 pT-20">
+          <h6 class="lh-1">Krita Reddit top Comments by frequency</h6>
+        </div>
+        <div class="layer w-100 p-20">
+          <div id="krita-reddit-top-comments"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="masonry-item col-md-6">
+    <div class="bd bgc-white">
+      <div class="layers">
+        <div class="layer w-100 pX-20 pT-20">
+          <h6 class="lh-1">Krita Reddit top posters by frequency</h6>
+        </div>
+        <div class="layer w-100 p-20">
+          <div id="krita-reddit-top-posters"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="masonry-item col-md-6">
+    <div class="bd bgc-white">
+      <div class="layers">
+        <div class="layer w-100 pX-20 pT-20">
+          <h6 class="lh-1">Krita Reddit top linked domains</h6>
+        </div>
+        <div class="layer w-100 p-20">
+          <div id="krita-reddit-top-domains"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- KDE -->
+  <div class="masonry-item w-100">
+    <div class="row gap-20">
+      <div class="col-md-12">
+        <h3 style="text-align: center;background-color: #fff;">KDE REDDIT STATS</h3>
+      </div>
+    </div>
+  </div>
+  <div class="masonry-item w-100">
+    <div class="row gap-20">
+      <div class="col-md-3">
+        <div class="layers bd bgc-white p-20">
+          <div class="layer w-100 mB-10">
+            <h6 class="lh-1">Subreddit Id</h6>
+          </div>
+          <div class="layer w-100">
+            <div class="peers ai-sb fxw-nw">
+              <div class="peer peer-greed">
+                <span id="sparklinedash">
+                  <canvas width="45" height="20"
+                    style="display: inline-block; width: 45px; height: 20px; vertical-align: top;">
+                  </canvas>
+                </span>
+              </div>
+              <div class="peer">
+                <span class="d-ib lh-0 va-m fw-600 bdrs-10em pX-15 pY-15 bgc-green-50 c-green-500">{{ kde_reddit_subredditId }}</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="layers bd bgc-white p-20">
+          <div class="layer w-100 mB-10">
+            <h6 class="lh-1">Comments Per Subscriber</h6>
+          </div>
+          <div class="layer w-100">
+            <div class="peers ai-sb fxw-nw">
+              <div class="peer peer-greed">
+                <span id="sparklinedash">
+                  <canvas width="45" height="20"
+                    style="display: inline-block; width: 45px; height: 20px; vertical-align: top;">
+                  </canvas>
+                </span>
+              </div>
+              <div class="peer">
+                <span class="d-ib lh-0 va-m fw-600 bdrs-10em pX-15 pY-15 bgc-green-50 c-green-500">{{ "%.8f"|format(kde_reddit_commentsPerSubscriber|float) }}</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="layers bd bgc-white p-20">
+          <div class="layer w-100 mB-10">
+            <h6 class="lh-1">Posts Per Subscriber</h6>
+          </div>
+          <div class="layer w-100">
+            <div class="peers ai-sb fxw-nw">
+              <div class="peer peer-greed">
+                <span id="sparklinedash">
+                  <canvas width="45" height="20"
+                    style="display: inline-block; width: 45px; height: 20px; vertical-align: top;">
+                  </canvas>
+                </span>
+              </div>
+              <div class="peer">
+                <span class="d-ib lh-0 va-m fw-600 bdrs-10em pX-15 pY-15 bgc-green-50 c-green-500" >{{ "%.8f"|format(kde_reddit_postsPerSubscriber|float) }}</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="layers bd bgc-white p-20">
+          <div class="layer w-100 mB-10">
+            <h6 class="lh-1">Comments Per Hour</h6>
+          </div>
+          <div class="layer w-100">
+            <div class="peers ai-sb fxw-nw">
+              <div class="peer peer-greed">
+                <span id="sparklinedash">
+                  <canvas width="45" height="20"
+                    style="display: inline-block; width: 45px; height: 20px; vertical-align: top;">
+                  </canvas>
+                </span>
+              </div>
+              <div class="peer">
+                <span class="d-ib lh-0 va-m fw-600 bdrs-10em pX-15 pY-15 bgc-green-50 c-green-500" >{{ "%.8f"|format(kde_reddit_commentsPerHour|float) }}</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="masonry-item w-100">
+    <div class="row gap-20">
+      <div class="col-md-4">
+        <div class="layers bd bgc-white p-20">
+          <div class="layer w-100 mB-10">
+            <h6 class="lh-1">Subscribers Count</h6>
+          </div>
+          <div class="layer w-100">
+            <div class="peers ai-sb fxw-nw">
+              <div class="peer peer-greed">
+                <span id="sparklinedash">
+                  <canvas width="45" height="20"
+                    style="display: inline-block; width: 45px; height: 20px; vertical-align: top;">
+                  </canvas>
+                </span>
+              </div>
+              <div class="peer">
+                <span class="d-ib lh-0 va-m fw-600 bdrs-10em pX-15 pY-15 bgc-green-50 c-green-500" >{{ kde_reddit_subscriberCount }}</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="layers bd bgc-white p-20">
+          <div class="layer w-100 mB-10">
+            <h6 class="lh-1">Gilds per subscriber</h6>
+          </div>
+          <div class="layer w-100">
+            <div class="peers ai-sb fxw-nw">
+              <div class="peer peer-greed">
+                <span id="sparklinedash">
+                  <canvas width="45" height="20"
+                    style="display: inline-block; width: 45px; height: 20px; vertical-align: top;">
+                  </canvas>
+                </span>
+              </div>
+              <div class="peer">
+                <span class="d-ib lh-0 va-m fw-600 bdrs-10em pX-15 pY-15 bgc-green-50 c-green-500" >{{ "%.8f"|format(kde_reddit_gildsPerSubscriber|float) }}</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="layers bd bgc-white p-20">
+          <div class="layer w-100 mB-10">
+            <h6 class="lh-1">Posts Per Hour</h6>
+          </div>
+          <div class="layer w-100">
+            <div class="peers ai-sb fxw-nw">
+              <div class="peer peer-greed">
+                <span id="sparklinedash">
+                  <canvas width="45" height="20"
+                    style="display: inline-block; width: 45px; height: 20px; vertical-align: top;">
+                  </canvas>
+                </span>
+              </div>
+              <div class="peer">
+                <span class="d-ib lh-0 va-m fw-600 bdrs-10em pX-15 pY-15 bgc-green-50 c-green-500" >{{ "%.4f"|format(kde_reddit_postsPerHour|float) }}</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="masonry-item col-md-6">
+    <div class="bd bgc-white">
+      <div class="layers">
+        <div class="layer w-100 pX-20 pT-20">
+          <h6 class="lh-1">KDE Reddit top keywords</h6>
+        </div>
+        <div class="layer w-100 p-20">
+          <div id="reddit-kde-top-kewords"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="masonry-item col-md-6">
+    <div class="bd bgc-white">
+      <div class="layers">
+        <div class="layer w-100 pX-20 pT-20">
+          <h6 class="lh-1">KDE Reddit top Comments by frequency</h6>
+        </div>
+        <div class="layer w-100 p-20">
+          <div id="kde-reddit-top-comments"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="masonry-item col-md-6">
+    <div class="bd bgc-white">
+      <div class="layers">
+        <div class="layer w-100 pX-20 pT-20">
+          <h6 class="lh-1">KDE Reddit top posters by frequency</h6>
+        </div>
+        <div class="layer w-100 p-20">
+          <div id="kde-reddit-top-posters"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="masonry-item col-md-6">
+    <div class="bd bgc-white">
+      <div class="layers">
+        <div class="layer w-100 pX-20 pT-20">
+          <h6 class="lh-1">KDE Reddit top linked domains</h6>
+        </div>
+        <div class="layer w-100 p-20">
+          <div id="kde-reddit-top-domains"></div>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
+
+
+<script>
+  let reddit_kde_post_title = {{reddit_kde_post_title}};
+  let reddit_kde_post_ups = {{reddit_kde_post_ups}};
+  let reddit_kde_post_upvote_ratio = {{reddit_kde_post_upvote_ratio}};
+  let reddit_kde_post_total_awards_received = {{reddit_kde_post_total_awards_received}};
+  let reddit_kde_post_created = {{reddit_kde_post_created}};
+  let reddit_kde_post_id = {{reddit_kde_post_id}};
+  let reddit_kde_post_num_crossposts = {{reddit_kde_post_num_crossposts}};
+  let reddit_kde_post_num_comments = {{reddit_kde_post_num_comments}};
+  let reddit_kde_post_link_flair_text = {{reddit_kde_post_link_flair_text}};
+  let reddit_kde_post_author = {{reddit_kde_post_author}};
+  let reddit_kde_post_stickied = {{reddit_kde_post_stickied}};
+  let reddit_kde_post_url = {{reddit_kde_post_url}};
+  let reddit_kde_post_author_flair_text = {{reddit_kde_post_author_flair_text}};
+  let reddit_kde_post_comments = {{reddit_kde_post_comments}};
+  let reddit_keywords = {{reddit_keywords}};
+  let krita_reddit_topKeywords = {{krita_reddit_topKeywords}};
+  let krita_reddit_topCommentersByFrequency = {{krita_reddit_topCommentersByFrequency}};
+  let krita_reddit_topPostersByFrequency = {{krita_reddit_topPostersByFrequency}};
+  let krita_reddit_topLinkedDomains = {{krita_reddit_topLinkedDomains}};
+  let kde_reddit_topKeywords = {{kde_reddit_topKeywords}};
+  let kde_reddit_topCommentersByFrequency = {{kde_reddit_topCommentersByFrequency}};
+  let kde_reddit_topPostersByFrequency = {{kde_reddit_topPostersByFrequency}};
+  let kde_reddit_topLinkedDomains = {{kde_reddit_topLinkedDomains}};
+
+  var kde_posts_stats_options = {
+
+          chart: {
+              id: "reddit-kde-posts-stats-chart",
+              width: '100%',
+              height: 460,
+              foreColor: "#373d3f",
+              toolbar: {
+                  show: true
+              },
+              events: {
+                  dataPointSelection: function(event, chartContext, opts) {
+                    const url = `https://www.reddit.com/r/kde/comments/${reddit_kde_post_id[opts.dataPointIndex]}/`;
+                    window.open(url);
+                  }
+              }
+          },
+
+          colors: ['#2E93fA', '#66DA26', '#546E7A', '#E91E63', '#FF9800', '#454687', '#928F92', '#d63c6c', '#17277d', '#4fd97d'],
+          stroke: {
+              curve: 'smooth',
+              width: 4,
+          },
+
+          grid: {
+              borderColor: "#555",
+              clipMarkers: false,
+              yaxis: {
+                  lines: {
+                      show: false
+                  }
+              }
+          },
+
+          dataLabels: {
+              enabled: false
+          },
+
+          fill: {
+              type: "gradient",
+              gradient: {
+                  enabled: true,
+                  opacityFrom: 0.7,
+                  opacityTo: 0.9,
+                  stops: [0, 90, 100],
+              }
+          },
+
+          markers: {
+              size: 3,
+              colors: ['#2E93fA', '#66DA26', '#546E7A', '#E91E63', '#FF9800', '#454687', '#928F92'],
+              strokeColor: "#65B051",
+              strokeWidth: 1
+          },
+
+          series: [
+              {
+                type: "line",
+                data: get_array(reddit_kde_post_ups),
+                name: "Post Ups",
+              },
+              {
+                type: "line",
+                data: get_array(reddit_kde_post_upvote_ratio),
+                name: "Post Upvote Ratio",
+              },
+              {
+                type: "line",
+                data: get_array(reddit_kde_post_total_awards_received),
+                name: "Post award recieved",
+              },
+              {
+                type: "line",
+                data: get_array(reddit_kde_post_num_crossposts),
+                name: "Post crosspots",
+              },
+              {
+                type: "line",
+                data: get_array(reddit_kde_post_num_comments),
+                name: "Post comments",
+              },
+          ],
+
+          tooltip: {
+              theme: "light"
+          },
+
+          xaxis: {
+              categories: reddit_kde_post_id
+          },
+
+          yaxis: {
+              min: 0,
+              tickAmount: 4
+          },
+  };
+
+  let redditKDEPostsChart = new ApexCharts(document.querySelector('#kde-reddit-posts-chart'), kde_posts_stats_options);
+  redditKDEPostsChart.render();
+
+  var topKeywords = {
+         series: Object.values(reddit_keywords),
+         chart: {
+         width: '100%',
+         height: 460,
+         type: 'pie',
+       },
+       labels: Object.keys(reddit_keywords),
+       responsive: [{
+         breakpoint: 480,
+         options: {
+           chart: {
+             width: 200
+           },
+           legend: {
+             position: 'bottom'
+           }
+         }
+       }]
+    };
+
+  var topKeywordsChart = new ApexCharts(document.querySelector("#kde-reddit-top-kewords"), topKeywords);
+  topKeywordsChart.render();
+
+  var kritaTopKeywords = {
+    series: krita_reddit_topKeywords.map((v)=>{return v[1];}),
+    chart: {
+    width: '100%',
+    height: 300,
+    type: 'pie',
+      },
+    labels: krita_reddit_topKeywords.map((v)=>{return v[0];}),
+    responsive: [{
+      breakpoint: 480,
+      options: {
+        chart: {
+          width: 200
+        },
+        legend: {
+          position: 'bottom'
+        }
+      }
+    }]
+  };
+
+  var topKritaKeywordChart = new ApexCharts(document.querySelector('#krita-reddit-top-kewords'), kritaTopKeywords);
+  topKritaKeywordChart.render();
+
+  var kritaTopComments = {
+    series: krita_reddit_topCommentersByFrequency.map((v)=>{return v[1];}),
+    chart: {
+    width: '100%',
+    height: 300,
+    type: 'pie',
+      },
+    labels: krita_reddit_topCommentersByFrequency.map((v)=>{return v[0];}),
+    responsive: [{
+      breakpoint: 480,
+      options: {
+        chart: {
+          width: 200
+        },
+        legend: {
+          position: 'bottom'
+        }
+      }
+    }]
+  };
+
+  var topKritaCommentsChart = new ApexCharts(document.querySelector('#krita-reddit-top-comments'), kritaTopComments);
+  topKritaCommentsChart.render();
+
+  var kritaTopPosters = {
+    series: krita_reddit_topPostersByFrequency.map((v)=>{return v[1];}),
+    chart: {
+    width: '100%',
+    height: 300,
+    type: 'pie',
+      },
+    labels: krita_reddit_topPostersByFrequency.map((v)=>{return v[0];}),
+    responsive: [{
+      breakpoint: 480,
+      options: {
+        chart: {
+          width: 200
+        },
+        legend: {
+          position: 'bottom'
+        }
+      }
+    }]
+  };
+
+  var topKritaPostersChart = new ApexCharts(document.querySelector('#krita-reddit-top-posters'), kritaTopPosters);
+  topKritaPostersChart.render();
+
+  var kritaTopLinkedDomains = {
+    series: krita_reddit_topLinkedDomains.map((v)=>{return v[1];}),
+    chart: {
+    width: '100%',
+    height: 300,
+    type: 'pie',
+      },
+    labels: krita_reddit_topLinkedDomains.map((v)=>{return v[0];}),
+    responsive: [{
+      breakpoint: 480,
+      options: {
+        chart: {
+          width: 200
+        },
+        legend: {
+          position: 'bottom'
+        }
+      }
+    }]
+  };
+
+  var topKritaDomainChart = new ApexCharts(document.querySelector('#krita-reddit-top-domains'), kritaTopLinkedDomains);
+  topKritaDomainChart.render();
+
+  var kdeTopKeywords = {
+    series: kde_reddit_topKeywords.map((v)=>{return v[1];}),
+    chart: {
+    width: '100%',
+    height: 300,
+    type: 'pie',
+      },
+    labels: kde_reddit_topKeywords.map((v)=>{return v[0];}),
+    responsive: [{
+      breakpoint: 480,
+      options: {
+        chart: {
+          width: 200
+        },
+        legend: {
+          position: 'bottom'
+        }
+      }
+    }]
+  };
+
+  var topkdeKeywordChart = new ApexCharts(document.querySelector('#reddit-kde-top-kewords'), kdeTopKeywords);
+  topkdeKeywordChart.render();
+
+  var kdeTopComments = {
+    series: kde_reddit_topCommentersByFrequency.map((v)=>{return v[1];}),
+    chart: {
+    width: '100%',
+    height: 300,
+    type: 'pie',
+      },
+    labels: kde_reddit_topCommentersByFrequency.map((v)=>{return v[0];}),
+    responsive: [{
+      breakpoint: 480,
+      options: {
+        chart: {
+          width: 200
+        },
+        legend: {
+          position: 'bottom'
+        }
+      }
+    }]
+  };
+
+  var topkdeCommentsChart = new ApexCharts(document.querySelector('#kde-reddit-top-comments'), kdeTopComments);
+  topkdeCommentsChart.render();
+
+  var kdeTopPosters = {
+    series: kde_reddit_topPostersByFrequency.map((v)=>{return v[1];}),
+    chart: {
+    width: '100%',
+    height: 300,
+    type: 'pie',
+      },
+    labels: kde_reddit_topPostersByFrequency.map((v)=>{return v[0];}),
+    responsive: [{
+      breakpoint: 480,
+      options: {
+        chart: {
+          width: 200
+        },
+        legend: {
+          position: 'bottom'
+        }
+      }
+    }]
+  };
+
+  var topkdePostersChart = new ApexCharts(document.querySelector('#kde-reddit-top-posters'), kdeTopPosters);
+  topkdePostersChart.render();
+
+  var kdeTopLinkedDomains = {
+    series: kde_reddit_topLinkedDomains.map((v)=>{return v[1];}),
+    chart: {
+    width: '100%',
+    height: 300,
+    type: 'pie',
+      },
+    labels: kde_reddit_topLinkedDomains.map((v)=>{return v[0];}),
+    responsive: [{
+      breakpoint: 480,
+      options: {
+        chart: {
+          width: 200
+        },
+        legend: {
+          position: 'bottom'
+        }
+      }
+    }]
+  };
+
+  var topkdeDomainChart = new ApexCharts(document.querySelector('#kde-reddit-top-domains'), kdeTopLinkedDomains);
+  topkdeDomainChart.render();
+</script>

@@ -496,7 +496,7 @@
       ls.push([sub[index], val]);
     });
     }
-    console.log(ls)
+    // console.log(ls);
     return ls;
   };
 
@@ -937,44 +937,817 @@ instagramCombinedChart.render();
   </div>
 </div>
           <div class="row gap-20 masonry pos-r" id="reddit-stats">
-  <div class="masonry-item col-md-6">
-    <!-- #Monthly Stats ==================== -->
+  <div class="masonry-item col-md-8">
     <div class="bd bgc-white">
       <div class="layers">
         <div class="layer w-100 pX-20 pT-20">
-          <h6 class="lh-1">Monthly Stats</h6>
+          <h6 class="lh-1">KDE Reddit Posts Stats</h6>
         </div>
         <div class="layer w-100 p-20">
-          <div id="reddit-chart"></div>
+          <div id="kde-reddit-posts-chart"></div>
         </div>
         <div class="layer bdT p-20 w-100">
           <div class="peers ai-c jc-c gapX-20">
             <div class="peer">
-              <span class="fsz-def fw-600 mR-10 c-grey-800">10% <i
+              <span class="fsz-def fw-600 mR-10 c-grey-800"><i
                   class="fa fa-level-up c-green-500"></i></span>
-              <small class="c-grey-500 fw-600">APPL</small>
-            </div>
-            <div class="peer fw-600">
-              <span class="fsz-def fw-600 mR-10 c-grey-800">2% <i
-                  class="fa fa-level-down c-red-500"></i></span>
-              <small class="c-grey-500 fw-600">Average</small>
-            </div>
-            <div class="peer fw-600">
-              <span class="fsz-def fw-600 mR-10 c-grey-800">15% <i
-                  class="fa fa-level-up c-green-500"></i></span>
-              <small class="c-grey-500 fw-600">Sales</small>
-            </div>
-            <div class="peer fw-600">
-              <span class="fsz-def fw-600 mR-10 c-grey-800">8% <i
-                  class="fa fa-level-down c-red-500"></i></span>
-              <small class="c-grey-500 fw-600">Profit</small>
+              <small class="c-grey-500 fw-600">Click on data-points to open Reddit Posts</small>
             </div>
           </div>
         </div>
       </div>
     </div>
   </div>
+  <div class="masonry-item col-md-4">
+    <div class="bd bgc-white">
+      <div class="layers">
+        <div class="layer w-100 pX-20 pT-20">
+          <h6 class="lh-1">Reddit top keywords</h6>
+        </div>
+        <div class="layer w-100 p-20">
+          <div id="kde-reddit-top-kewords"></div>
+        </div>
+      </div>
+    </div>
+    <div class="bd bgc-white">
+      <div class="layers">
+        <div class="layer w-100 pX-20 pT-20">
+          <h6 class="lh-1">Reddit top keywords</h6>
+        </div>
+        <div class="layer w-100 p-20">
+          <div id="kde-reddit-top-keword"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- KRITA -->
+  <div class="masonry-item w-100">
+    <div class="row gap-20">
+      <div class="col-md-12">
+        <h3 style="text-align: center;background-color: #fff;">KRITA REDDIT STATS</h3>
+      </div>
+    </div>
+  </div>
+  <div class="masonry-item w-100">
+    <div class="row gap-20">
+      <div class="col-md-3">
+        <div class="layers bd bgc-white p-20">
+          <div class="layer w-100 mB-10">
+            <h6 class="lh-1">subreddit Id</h6>
+          </div>
+          <div class="layer w-100">
+            <div class="peers ai-sb fxw-nw">
+              <div class="peer peer-greed">
+                <span id="sparklinedash">
+                  <canvas width="45" height="20"
+                    style="display: inline-block; width: 45px; height: 20px; vertical-align: top;">
+                  </canvas>
+                </span>
+              </div>
+              <div class="peer">
+                <span class="d-ib lh-0 va-m fw-600 bdrs-10em pX-15 pY-15 bgc-green-50 c-green-500">t5_2u4qs</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="layers bd bgc-white p-20">
+          <div class="layer w-100 mB-10">
+            <h6 class="lh-1">Comments Per Subscriber</h6>
+          </div>
+          <div class="layer w-100">
+            <div class="peers ai-sb fxw-nw">
+              <div class="peer peer-greed">
+                <span id="sparklinedash">
+                  <canvas width="45" height="20"
+                    style="display: inline-block; width: 45px; height: 20px; vertical-align: top;">
+                  </canvas>
+                </span>
+              </div>
+              <div class="peer">
+                <span class="d-ib lh-0 va-m fw-600 bdrs-10em pX-15 pY-15 bgc-green-50 c-green-500">0.00004060</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="layers bd bgc-white p-20">
+          <div class="layer w-100 mB-10">
+            <h6 class="lh-1">Posts Per Subscriber</h6>
+          </div>
+          <div class="layer w-100">
+            <div class="peers ai-sb fxw-nw">
+              <div class="peer peer-greed">
+                <span id="sparklinedash">
+                  <canvas width="45" height="20"
+                    style="display: inline-block; width: 45px; height: 20px; vertical-align: top;">
+                  </canvas>
+                </span>
+              </div>
+              <div class="peer">
+                <span class="d-ib lh-0 va-m fw-600 bdrs-10em pX-15 pY-15 bgc-green-50 c-green-500" >0.00002457</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="layers bd bgc-white p-20">
+          <div class="layer w-100 mB-10">
+            <h6 class="lh-1">Comments Per Hour</h6>
+          </div>
+          <div class="layer w-100">
+            <div class="peers ai-sb fxw-nw">
+              <div class="peer peer-greed">
+                <span id="sparklinedash">
+                  <canvas width="45" height="20"
+                    style="display: inline-block; width: 45px; height: 20px; vertical-align: top;">
+                  </canvas>
+                </span>
+              </div>
+              <div class="peer">
+                <span class="d-ib lh-0 va-m fw-600 bdrs-10em pX-15 pY-15 bgc-green-50 c-green-500" >1.58333333</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="masonry-item w-100">
+    <div class="row gap-20">
+      <div class="col-md-4">
+        <div class="layers bd bgc-white p-20">
+          <div class="layer w-100 mB-10">
+            <h6 class="lh-1">Krita Subscribers Count</h6>
+          </div>
+          <div class="layer w-100">
+            <div class="peers ai-sb fxw-nw">
+              <div class="peer peer-greed">
+                <span id="sparklinedash">
+                  <canvas width="45" height="20"
+                    style="display: inline-block; width: 45px; height: 20px; vertical-align: top;">
+                  </canvas>
+                </span>
+              </div>
+              <div class="peer">
+                <span class="d-ib lh-0 va-m fw-600 bdrs-10em pX-15 pY-15 bgc-green-50 c-green-500" >39007</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="layers bd bgc-white p-20">
+          <div class="layer w-100 mB-10">
+            <h6 class="lh-1">Gilds per subscriber</h6>
+          </div>
+          <div class="layer w-100">
+            <div class="peers ai-sb fxw-nw">
+              <div class="peer peer-greed">
+                <span id="sparklinedash">
+                  <canvas width="45" height="20"
+                    style="display: inline-block; width: 45px; height: 20px; vertical-align: top;">
+                  </canvas>
+                </span>
+              </div>
+              <div class="peer">
+                <span class="d-ib lh-0 va-m fw-600 bdrs-10em pX-15 pY-15 bgc-green-50 c-green-500" >0.00007693</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="layers bd bgc-white p-20">
+          <div class="layer w-100 mB-10">
+            <h6 class="lh-1">Krita Posts Per Hour</h6>
+          </div>
+          <div class="layer w-100">
+            <div class="peers ai-sb fxw-nw">
+              <div class="peer peer-greed">
+                <span id="sparklinedash">
+                  <canvas width="45" height="20"
+                    style="display: inline-block; width: 45px; height: 20px; vertical-align: top;">
+                  </canvas>
+                </span>
+              </div>
+              <div class="peer">
+                <span class="d-ib lh-0 va-m fw-600 bdrs-10em pX-15 pY-15 bgc-green-50 c-green-500" >0.95833333</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="masonry-item col-md-6">
+    <div class="bd bgc-white">
+      <div class="layers">
+        <div class="layer w-100 pX-20 pT-20">
+          <h6 class="lh-1">Krita Reddit top keywords</h6>
+        </div>
+        <div class="layer w-100 p-20">
+          <div id="krita-reddit-top-kewords"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="masonry-item col-md-6">
+    <div class="bd bgc-white">
+      <div class="layers">
+        <div class="layer w-100 pX-20 pT-20">
+          <h6 class="lh-1">Krita Reddit top Comments by frequency</h6>
+        </div>
+        <div class="layer w-100 p-20">
+          <div id="krita-reddit-top-comments"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="masonry-item col-md-6">
+    <div class="bd bgc-white">
+      <div class="layers">
+        <div class="layer w-100 pX-20 pT-20">
+          <h6 class="lh-1">Krita Reddit top posters by frequency</h6>
+        </div>
+        <div class="layer w-100 p-20">
+          <div id="krita-reddit-top-posters"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="masonry-item col-md-6">
+    <div class="bd bgc-white">
+      <div class="layers">
+        <div class="layer w-100 pX-20 pT-20">
+          <h6 class="lh-1">Krita Reddit top linked domains</h6>
+        </div>
+        <div class="layer w-100 p-20">
+          <div id="krita-reddit-top-domains"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- KDE -->
+  <div class="masonry-item w-100">
+    <div class="row gap-20">
+      <div class="col-md-12">
+        <h3 style="text-align: center;background-color: #fff;">KDE REDDIT STATS</h3>
+      </div>
+    </div>
+  </div>
+  <div class="masonry-item w-100">
+    <div class="row gap-20">
+      <div class="col-md-3">
+        <div class="layers bd bgc-white p-20">
+          <div class="layer w-100 mB-10">
+            <h6 class="lh-1">Subreddit Id</h6>
+          </div>
+          <div class="layer w-100">
+            <div class="peers ai-sb fxw-nw">
+              <div class="peer peer-greed">
+                <span id="sparklinedash">
+                  <canvas width="45" height="20"
+                    style="display: inline-block; width: 45px; height: 20px; vertical-align: top;">
+                  </canvas>
+                </span>
+              </div>
+              <div class="peer">
+                <span class="d-ib lh-0 va-m fw-600 bdrs-10em pX-15 pY-15 bgc-green-50 c-green-500">t5_2qh6i</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="layers bd bgc-white p-20">
+          <div class="layer w-100 mB-10">
+            <h6 class="lh-1">Comments Per Subscriber</h6>
+          </div>
+          <div class="layer w-100">
+            <div class="peers ai-sb fxw-nw">
+              <div class="peer peer-greed">
+                <span id="sparklinedash">
+                  <canvas width="45" height="20"
+                    style="display: inline-block; width: 45px; height: 20px; vertical-align: top;">
+                  </canvas>
+                </span>
+              </div>
+              <div class="peer">
+                <span class="d-ib lh-0 va-m fw-600 bdrs-10em pX-15 pY-15 bgc-green-50 c-green-500">0.00005322</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="layers bd bgc-white p-20">
+          <div class="layer w-100 mB-10">
+            <h6 class="lh-1">Posts Per Subscriber</h6>
+          </div>
+          <div class="layer w-100">
+            <div class="peers ai-sb fxw-nw">
+              <div class="peer peer-greed">
+                <span id="sparklinedash">
+                  <canvas width="45" height="20"
+                    style="display: inline-block; width: 45px; height: 20px; vertical-align: top;">
+                  </canvas>
+                </span>
+              </div>
+              <div class="peer">
+                <span class="d-ib lh-0 va-m fw-600 bdrs-10em pX-15 pY-15 bgc-green-50 c-green-500" >0.00001331</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="layers bd bgc-white p-20">
+          <div class="layer w-100 mB-10">
+            <h6 class="lh-1">Comments Per Hour</h6>
+          </div>
+          <div class="layer w-100">
+            <div class="peers ai-sb fxw-nw">
+              <div class="peer peer-greed">
+                <span id="sparklinedash">
+                  <canvas width="45" height="20"
+                    style="display: inline-block; width: 45px; height: 20px; vertical-align: top;">
+                  </canvas>
+                </span>
+              </div>
+              <div class="peer">
+                <span class="d-ib lh-0 va-m fw-600 bdrs-10em pX-15 pY-15 bgc-green-50 c-green-500" >3.50000000</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="masonry-item w-100">
+    <div class="row gap-20">
+      <div class="col-md-4">
+        <div class="layers bd bgc-white p-20">
+          <div class="layer w-100 mB-10">
+            <h6 class="lh-1">Subscribers Count</h6>
+          </div>
+          <div class="layer w-100">
+            <div class="peers ai-sb fxw-nw">
+              <div class="peer peer-greed">
+                <span id="sparklinedash">
+                  <canvas width="45" height="20"
+                    style="display: inline-block; width: 45px; height: 20px; vertical-align: top;">
+                  </canvas>
+                </span>
+              </div>
+              <div class="peer">
+                <span class="d-ib lh-0 va-m fw-600 bdrs-10em pX-15 pY-15 bgc-green-50 c-green-500" >65773</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="layers bd bgc-white p-20">
+          <div class="layer w-100 mB-10">
+            <h6 class="lh-1">Gilds per subscriber</h6>
+          </div>
+          <div class="layer w-100">
+            <div class="peers ai-sb fxw-nw">
+              <div class="peer peer-greed">
+                <span id="sparklinedash">
+                  <canvas width="45" height="20"
+                    style="display: inline-block; width: 45px; height: 20px; vertical-align: top;">
+                  </canvas>
+                </span>
+              </div>
+              <div class="peer">
+                <span class="d-ib lh-0 va-m fw-600 bdrs-10em pX-15 pY-15 bgc-green-50 c-green-500" >0.00010644</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="layers bd bgc-white p-20">
+          <div class="layer w-100 mB-10">
+            <h6 class="lh-1">Posts Per Hour</h6>
+          </div>
+          <div class="layer w-100">
+            <div class="peers ai-sb fxw-nw">
+              <div class="peer peer-greed">
+                <span id="sparklinedash">
+                  <canvas width="45" height="20"
+                    style="display: inline-block; width: 45px; height: 20px; vertical-align: top;">
+                  </canvas>
+                </span>
+              </div>
+              <div class="peer">
+                <span class="d-ib lh-0 va-m fw-600 bdrs-10em pX-15 pY-15 bgc-green-50 c-green-500" >0.8750</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="masonry-item col-md-6">
+    <div class="bd bgc-white">
+      <div class="layers">
+        <div class="layer w-100 pX-20 pT-20">
+          <h6 class="lh-1">KDE Reddit top keywords</h6>
+        </div>
+        <div class="layer w-100 p-20">
+          <div id="reddit-kde-top-kewords"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="masonry-item col-md-6">
+    <div class="bd bgc-white">
+      <div class="layers">
+        <div class="layer w-100 pX-20 pT-20">
+          <h6 class="lh-1">KDE Reddit top Comments by frequency</h6>
+        </div>
+        <div class="layer w-100 p-20">
+          <div id="kde-reddit-top-comments"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="masonry-item col-md-6">
+    <div class="bd bgc-white">
+      <div class="layers">
+        <div class="layer w-100 pX-20 pT-20">
+          <h6 class="lh-1">KDE Reddit top posters by frequency</h6>
+        </div>
+        <div class="layer w-100 p-20">
+          <div id="kde-reddit-top-posters"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="masonry-item col-md-6">
+    <div class="bd bgc-white">
+      <div class="layers">
+        <div class="layer w-100 pX-20 pT-20">
+          <h6 class="lh-1">KDE Reddit top linked domains</h6>
+        </div>
+        <div class="layer w-100 p-20">
+          <div id="kde-reddit-top-domains"></div>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
+
+
+<script>
+  let reddit_kde_post_title = ['Lightly 0.4 release, featuring redesigned tabs and cool animations.', 'This week in KDE: KWin gains direct scan-out, and Gwenview gets a lot of love', 'Firefox + Custom userChrome.css makes firefox less ugly on plasma', "Want to create a Plasma Theme? Here's a guide on how to do that, no code required!", "Please use and open-source alternative to Google's reCAPTCHA when registering a KDE Identity account", "In KDE's February 2021 Apps Update: Kongress hits version 1.0 and Calligra Plan reaches version 3.3 (plus tons of bugfixes and improvements)", "After some changes I made in Kvantum manager , dolphin looks like this. I tried a lot, but couldn't make it look like older", 'The upcoming version of Index comes with support to compress files, a new overview view listing favorite and most recent files, and a bunch of other small improvements. Check more about it and get the beta package for Android, and Linux desktop and phones https://nxos.org/maui/maui-weekly-report-8', 'Is the redesign of the widgets (buttons, check boxes...) Still on mind of the KDE devs? I saw this on a task on phabricator', 'Rewritten Shortcut Configuration in 2020', "Why do notifications lose their buttons when they're put into the notification history?", "This is really annoying tbh. I wish there's a few ms delay between thumbnail change", 'My review of the Pine64 phone KDE Edition', 'Does anyone know why the menu buttons in certain apps look super messed up?', "How do I prevent KDE's built-in VPN client from leaking my real IP address via IPv6?", 'Getting rid of discover, keeps popping back up...', 'Maui Weekly blog post is out with beta packages for Android and Linux desktop and phones. https://nxos.org/maui/maui-weekly-report-8/', 'plasma 5.20.5 on debian bullseye, sound is muted after suspend', 'Setup your KDE development environment - kdesrc-build &amp; Kate', 'What KDE config directories are safe to sync with my other computer?', 'Announcing Krita Art Contest - Four Seasons of Leon and Kiki', 'WOW: Wayland works out of the box on Nvidia in Debian unstable', "Is it possible to get rid of the transparency in the application menu bar and global menu? The global transparency setting for the theme doesn't affect it.", 'How to automatically source format in Kdevelop?', 'Where are Dolphin tags stored?'];
+  let reddit_kde_post_ups = ['431', '245', '219', '199', '189', '109', '101', '100', '86', '72', '69', '83', '53', '51', '47', '49', '37', '29', '41', '26', '24', '25', '25', '21', '21'];
+  let reddit_kde_post_upvote_ratio = ['1.0', '1.0', '0.93', '1.0', '0.96', '0.99', '0.96', '0.99', '0.97', '1.0', '1.0', '0.91', '0.97', '0.95', '0.96', '0.9', '0.96', '0.93', '1.0', '0.95', '0.89', '0.96', '0.97', '1.0', '0.97'];
+  let reddit_kde_post_total_awards_received = ['4', '2', '2', '1', '1', '1', '0', '0', '0', '1', '1', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0'];
+  let reddit_kde_post_created = ['1612716510.0', '1612615091.0', '1612227161.0', '1612540728.0', '1612576595.0', '1612469407.0', '1612443874.0', '1612656160.0', '1612653475.0', '1612393707.0', '1612337245.0', '1612731587.0', '1612255637.0', '1612529300.0', '1612272978.0', '1612302097.0', '1612656233.0', '1612390004.0', '1612741057.0', '1612711021.0', '1612207627.0', '1612463129.0', '1612474093.0', '1612280222.0', '1612490240.0'];
+  let reddit_kde_post_id = ['leive9', 'ldq019', 'la7rpu', 'ld2hfl', 'ldcxe6', 'lcebaj', 'lc84wb', 'le0ffl', 'ldzjqb', 'lbpjw4', 'lb9r8f', 'lem00c', 'laj665', 'lczp6n', 'laokcb', 'lavors', 'le0g9y', 'lbo8nc', 'leopg9', 'lehr43', 'la11he', 'lccu9m', 'lcfmfs', 'laqdfl', 'lclld0'];
+  let reddit_kde_post_num_crossposts = ['1', '0', '0', '2', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '2', '0', '1', '0', '0', '0', '0', '0', '0'];
+  let reddit_kde_post_num_comments = ['104', '30', '41', '14', '26', '4', '12', '16', '33', '8', '23', '12', '13', '3', '24', '49', '4', '6', '1', '17', '0', '15', '13', '6', '7'];
+  let reddit_kde_post_link_flair_text = ['Community Content', 'None', 'None', 'None', 'Suggestion', 'Update', 'Question', 'KDE Apps and Projects', 'KDE Apps and Projects', 'None', 'None', 'Suggestion', 'Community Content', 'Question', 'None', 'None', 'News', 'General Bug', 'Onboarding', 'Question', 'None', 'None', 'Question', 'None', 'Question'];
+  let reddit_kde_post_author = ['Luwx', 'Modelmat', 'bigbigted', 'veggero', 'CousinOfThor', 'Bro666', 'itsme_shibintmz', 'milohr', 'robertob45', 'aKateDev', 'AryToNeX', 'Zzombiee2361', 'somekool', 'scaryboiftw', 'AgreeableLandscape3', 'alsostefan', 'milohr', 'jimi_hendrisk', 'ChristophCullmann', 'LiterallyJohnny', 'raghukamath', 'MaurizioMH', 'Zalbu', 'MarcellusDrum', 'QazCetelic'];
+  let reddit_kde_post_stickied = ['False', 'False', 'False', 'False', 'False', 'False', 'False', 'False', 'False', 'False', 'False', 'False', 'False', 'False', 'False', 'False', 'False', 'False', 'False', 'False', 'False', 'False', 'False', 'False', 'False'];
+  let reddit_kde_post_url = ['https://i.redd.it/54jo15ooq0g61.png', 'https://pointieststick.com/2021/02/05/this-week-in-kde-kwin-gains-direct-scan-out-and-gwenview-gets-a-lot-of-love/', 'https://v.redd.it/as32y55pbwe61', 'https://youtu.be/XrNWYt_vciA', 'https://www.reddit.com/r/kde/comments/ldcxe6/please_use_and_opensource_alternative_to_googles/', 'https://kde.org/announcements/releases/2021-02-apps-update/', 'https://i.redd.it/3ifqgcw58ef61.png', 'https://i.redd.it/37lsdhqcrvf61.png', 'https://www.reddit.com/gallery/ldzjqb', 'https://blog.david-redondo.de/kde/2021/02/03/keys.html', 'https://www.reddit.com/r/kde/comments/lb9r8f/why_do_notifications_lose_their_buttons_when/', 'https://v.redd.it/nv7t7pyaz1g61', 'https://www.reddit.com/r/kde/comments/laj665/my_review_of_the_pine64_phone_kde_edition/', 'https://i.redd.it/aparn4y9alf61.png', 'https://www.reddit.com/r/kde/comments/laokcb/how_do_i_prevent_kdes_builtin_vpn_client_from/', 'https://www.reddit.com/r/kde/comments/lavors/getting_rid_of_discover_keeps_popping_back_up/', 'https://i.redd.it/dimvwx4qrvf61.png', 'https://www.reddit.com/r/kde/comments/lbo8nc/plasma_5205_on_debian_bullseye_sound_is_muted/', 'https://kate-editor.org/post/2021/2021-02-07-kdesrc-build-and-kate/', 'https://www.reddit.com/r/kde/comments/lehr43/what_kde_config_directories_are_safe_to_sync_with/', 'https://krita.org/en/four_seaons_of_leon_and_kiki/', 'https://www.reddit.com/r/kde/comments/lccu9m/wow_wayland_works_out_of_the_box_on_nvidia_in/', 'https://i.redd.it/l6m653z0qgf61.png', 'https://www.reddit.com/r/kde/comments/laqdfl/how_to_automatically_source_format_in_kdevelop/', 'https://www.reddit.com/r/kde/comments/lclld0/where_are_dolphin_tags_stored/'];
+  let reddit_kde_post_author_flair_text = ['None', ':arch:', 'None', ':kde: KDE Contributor', 'None', ':kde: KDE Contributor', 'None', 'None', ':fedora:', ':kde: KDE Contributor', ':arch:', ':kdeneon:', ':kde:', 'None', 'None', 'None', 'None', 'None', ':kde: KDE Contributor', 'None', ':arch:', 'None', 'None', 'None', ':kdeneon:'];
+  let reddit_kde_post_comments = [{'avg_upvotes_per_comment': 5.756756756756757, 'avg_downvotes_per_comment': 0.0}, {'avg_upvotes_per_comment': 14.1, 'avg_downvotes_per_comment': 0.0}, {'avg_upvotes_per_comment': 9.15, 'avg_downvotes_per_comment': 0.0}, {'avg_upvotes_per_comment': 5.125, 'avg_downvotes_per_comment': 0.0}, {'avg_upvotes_per_comment': -17.666666666666668, 'avg_downvotes_per_comment': 0.0}, {'avg_upvotes_per_comment': -8.0, 'avg_downvotes_per_comment': 0.0}, {'avg_upvotes_per_comment': 3.0, 'avg_downvotes_per_comment': 0.0}, {'avg_upvotes_per_comment': 6.25, 'avg_downvotes_per_comment': 0.0}, {'avg_upvotes_per_comment': 7.2, 'avg_downvotes_per_comment': 0.0}, {'avg_upvotes_per_comment': 1.25, 'avg_downvotes_per_comment': 0.0}, {'avg_upvotes_per_comment': 6.166666666666667, 'avg_downvotes_per_comment': 0.0}, {'avg_upvotes_per_comment': 6.2, 'avg_downvotes_per_comment': 0.0}, {'avg_upvotes_per_comment': 2.3333333333333335, 'avg_downvotes_per_comment': 0.0}, {'avg_upvotes_per_comment': 10.0, 'avg_downvotes_per_comment': 0.0}, {'avg_upvotes_per_comment': 3.6666666666666665, 'avg_downvotes_per_comment': 0.0}, {'avg_upvotes_per_comment': 4.714285714285714, 'avg_downvotes_per_comment': 0.0}, {'avg_upvotes_per_comment': 1.6666666666666667, 'avg_downvotes_per_comment': 0.0}, {'avg_upvotes_per_comment': 2.0, 'avg_downvotes_per_comment': 0.0}, {'avg_upvotes_per_comment': 8.0, 'avg_downvotes_per_comment': 0.0}, {'avg_upvotes_per_comment': 4.5, 'avg_downvotes_per_comment': 0.0}, {'avg_upvotes_per_comment': 0, 'avg_downvotes_per_comment': 0}, {'avg_upvotes_per_comment': 3.0, 'avg_downvotes_per_comment': 0.0}, {'avg_upvotes_per_comment': 2.857142857142857, 'avg_downvotes_per_comment': 0.0}, {'avg_upvotes_per_comment': -1.0, 'avg_downvotes_per_comment': 0.0}, {'avg_upvotes_per_comment': 5.0, 'avg_downvotes_per_comment': 0.0}];
+  let reddit_keywords = {'kde': 100, 'kde,plasma': 100, 'kde,krita': 100};
+  let krita_reddit_topKeywords = [['krita', 2727.4241038318914], ['lineart', 335.68296662546356], ['brushes', 302.9334089059061], ['opacity', 298.38485922263425], ['shading', 223.7886444169757], ['animating', 218.1939283065513], ['ffmpeg', 167.84148331273178], ['huion', 139.8679027606098], ['autosave', 134.2731866501854], ['brush', 121.85751528184636], ['animate', 114.43737498595347], ['toolbar', 111.89432220848784], ['tablet', 106.66561556323141], ['foreground', 100.70488998763906], ['stabilizer', 83.92074165636588]];
+  let krita_reddit_topCommentersByFrequency = [['katzengoblin', 11], ['Tagnen', 10], ['[deleted]', 10], ['bigbluewreckingcrew', 7], ['hanaseayase', 7], ['Naoshikuu', 6], ['rafatparvez', 6], ['waqasvic', 6], ['Lesran', 5], ['grapesohyes', 4], ['chocol8mousse', 4], ['JustAPotatoeExisting', 4], ['lnvisibleGhost', 4], ['bull500', 4], ['TrendyDelco', 4]];
+  let krita_reddit_topPostersByFrequency = [['MumenWriter', 32], ['rafatparvez', 27], ['Zoryasha', 22], ['vellmudoes', 21], ['Wardcaller', 21], ['44calibreblues', 20], ['Dechue_Regali', 18], ['ryuusu', 16], ['risinglegendd', 14], ['st_iron', 14], ['swaggyboydaddy', 14], ['wiixd', 13], ['Frostraven98', 12], ['hanaseayase', 12], ['[deleted]', 11]];
+  let krita_reddit_topLinkedDomains = [['i.redd.it', 1232], ['self.krita', 338], ['v.redd.it', 84], ['imgur.com', 39], ['youtube.com', 17], ['youtu.be', 17], ['i.imgur.com', 11], ['krita.org', 7], ['images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com', 2], ['cdn.discordapp.com', 2], ['twitch.tv', 2], ['self.DigitalArt', 2], ['deviantart.com', 2], ['outsideofinfinity.wordpress.com', 1], ['valdyas.org', 1]];
+  let kde_reddit_topKeywords = [['toolbar', 8214.921757356497], ['dm:', 7302.1526732057755], ["developer's", 6490.802376182911], ['githubusercontent', 5841.72213856462], ['product:', 5841.72213856462], ['maintainer', 5841.72213856462], ['log:', 5841.72213856462], ['resolution:', 5476.614504904331], ['qbittorrent', 4868.101782137183], ['keynote', 4563.84542075361], ['maximized', 3982.9923672031496], ['tiled', 3651.0763366028873], ['inhibited', 3245.4011880914554], ['k5', 3245.4011880914554], ['non-trivial', 2920.86106928231]];
+  let kde_reddit_topCommentersByFrequency = [['[deleted]', 58], ['jom4d4', 6], ['DanielRios549', 6], ['PointiestStick', 5], ['Zren', 5], ['Bro666', 5], ['JustMrNic3', 5], ['ManinaPanina', 5], ['cyberv0r', 4], ['Super_Papaya', 4], ['VortexAcherontic', 4], ['amoohesam', 4], ['spacemanSparrow', 4], ['ei-krem', 4], ['chic_luke', 4]];
+  let kde_reddit_topPostersByFrequency = [['Bro666', 79], ['[deleted]', 49], ['KrunaStojkovic', 44], ['Modelmat', 34], ['ChristophCullmann', 28], ['jom4d4', 23], ['psifidotos', 23], ['jari_45', 22], ['milohr', 18], ['LinuxFurryTranslator', 13], ['FreskoReddit', 13], ['alex1701c', 10], ['beer118', 10], ['aniqakhokhar', 10], ['ognarb1', 9]];
+  let kde_reddit_topLinkedDomains = [['self.kde', 669], ['i.redd.it', 352], ['v.redd.it', 61], ['pointieststick.com', 61], ['kde.org', 47], ['youtube.com', 22], ['reddit.com', 20], ['i.imgur.com', 17], ['kate-editor.org', 17], ['dot.kde.org', 14], ['plasma-mobile.org', 11], ['youtu.be', 11], ['psifidotos.blogspot.com', 11], ['imgur.com', 9], ['github.com', 9]];
+
+  var kde_posts_stats_options = {
+
+          chart: {
+              id: "reddit-kde-posts-stats-chart",
+              width: '100%',
+              height: 460,
+              foreColor: "#373d3f",
+              toolbar: {
+                  show: true
+              },
+              events: {
+                  dataPointSelection: function(event, chartContext, opts) {
+                    const url = `https://www.reddit.com/r/kde/comments/${reddit_kde_post_id[opts.dataPointIndex]}/`;
+                    window.open(url);
+                  }
+              }
+          },
+
+          colors: ['#2E93fA', '#66DA26', '#546E7A', '#E91E63', '#FF9800', '#454687', '#928F92', '#d63c6c', '#17277d', '#4fd97d'],
+          stroke: {
+              curve: 'smooth',
+              width: 4,
+          },
+
+          grid: {
+              borderColor: "#555",
+              clipMarkers: false,
+              yaxis: {
+                  lines: {
+                      show: false
+                  }
+              }
+          },
+
+          dataLabels: {
+              enabled: false
+          },
+
+          fill: {
+              type: "gradient",
+              gradient: {
+                  enabled: true,
+                  opacityFrom: 0.7,
+                  opacityTo: 0.9,
+                  stops: [0, 90, 100],
+              }
+          },
+
+          markers: {
+              size: 3,
+              colors: ['#2E93fA', '#66DA26', '#546E7A', '#E91E63', '#FF9800', '#454687', '#928F92'],
+              strokeColor: "#65B051",
+              strokeWidth: 1
+          },
+
+          series: [
+              {
+                type: "line",
+                data: get_array(reddit_kde_post_ups),
+                name: "Post Ups",
+              },
+              {
+                type: "line",
+                data: get_array(reddit_kde_post_upvote_ratio),
+                name: "Post Upvote Ratio",
+              },
+              {
+                type: "line",
+                data: get_array(reddit_kde_post_total_awards_received),
+                name: "Post award recieved",
+              },
+              {
+                type: "line",
+                data: get_array(reddit_kde_post_num_crossposts),
+                name: "Post crosspots",
+              },
+              {
+                type: "line",
+                data: get_array(reddit_kde_post_num_comments),
+                name: "Post comments",
+              },
+          ],
+
+          tooltip: {
+              theme: "light"
+          },
+
+          xaxis: {
+              categories: reddit_kde_post_id
+          },
+
+          yaxis: {
+              min: 0,
+              tickAmount: 4
+          },
+  };
+
+  let redditKDEPostsChart = new ApexCharts(document.querySelector('#kde-reddit-posts-chart'), kde_posts_stats_options);
+  redditKDEPostsChart.render();
+
+  var topKeywords = {
+         series: Object.values(reddit_keywords),
+         chart: {
+         width: '100%',
+         height: 460,
+         type: 'pie',
+       },
+       labels: Object.keys(reddit_keywords),
+       responsive: [{
+         breakpoint: 480,
+         options: {
+           chart: {
+             width: 200
+           },
+           legend: {
+             position: 'bottom'
+           }
+         }
+       }]
+    };
+
+  var topKeywordsChart = new ApexCharts(document.querySelector("#kde-reddit-top-kewords"), topKeywords);
+  topKeywordsChart.render();
+
+  var kritaTopKeywords = {
+    series: krita_reddit_topKeywords.map((v)=>{return v[1];}),
+    chart: {
+    width: '100%',
+    height: 300,
+    type: 'pie',
+      },
+    labels: krita_reddit_topKeywords.map((v)=>{return v[0];}),
+    responsive: [{
+      breakpoint: 480,
+      options: {
+        chart: {
+          width: 200
+        },
+        legend: {
+          position: 'bottom'
+        }
+      }
+    }]
+  };
+
+  var topKritaKeywordChart = new ApexCharts(document.querySelector('#krita-reddit-top-kewords'), kritaTopKeywords);
+  topKritaKeywordChart.render();
+
+  var kritaTopComments = {
+    series: krita_reddit_topCommentersByFrequency.map((v)=>{return v[1];}),
+    chart: {
+    width: '100%',
+    height: 300,
+    type: 'pie',
+      },
+    labels: krita_reddit_topCommentersByFrequency.map((v)=>{return v[0];}),
+    responsive: [{
+      breakpoint: 480,
+      options: {
+        chart: {
+          width: 200
+        },
+        legend: {
+          position: 'bottom'
+        }
+      }
+    }]
+  };
+
+  var topKritaCommentsChart = new ApexCharts(document.querySelector('#krita-reddit-top-comments'), kritaTopComments);
+  topKritaCommentsChart.render();
+
+  var kritaTopPosters = {
+    series: krita_reddit_topPostersByFrequency.map((v)=>{return v[1];}),
+    chart: {
+    width: '100%',
+    height: 300,
+    type: 'pie',
+      },
+    labels: krita_reddit_topPostersByFrequency.map((v)=>{return v[0];}),
+    responsive: [{
+      breakpoint: 480,
+      options: {
+        chart: {
+          width: 200
+        },
+        legend: {
+          position: 'bottom'
+        }
+      }
+    }]
+  };
+
+  var topKritaPostersChart = new ApexCharts(document.querySelector('#krita-reddit-top-posters'), kritaTopPosters);
+  topKritaPostersChart.render();
+
+  var kritaTopLinkedDomains = {
+    series: krita_reddit_topLinkedDomains.map((v)=>{return v[1];}),
+    chart: {
+    width: '100%',
+    height: 300,
+    type: 'pie',
+      },
+    labels: krita_reddit_topLinkedDomains.map((v)=>{return v[0];}),
+    responsive: [{
+      breakpoint: 480,
+      options: {
+        chart: {
+          width: 200
+        },
+        legend: {
+          position: 'bottom'
+        }
+      }
+    }]
+  };
+
+  var topKritaDomainChart = new ApexCharts(document.querySelector('#krita-reddit-top-domains'), kritaTopLinkedDomains);
+  topKritaDomainChart.render();
+
+  var kdeTopKeywords = {
+    series: kde_reddit_topKeywords.map((v)=>{return v[1];}),
+    chart: {
+    width: '100%',
+    height: 300,
+    type: 'pie',
+      },
+    labels: kde_reddit_topKeywords.map((v)=>{return v[0];}),
+    responsive: [{
+      breakpoint: 480,
+      options: {
+        chart: {
+          width: 200
+        },
+        legend: {
+          position: 'bottom'
+        }
+      }
+    }]
+  };
+
+  var topkdeKeywordChart = new ApexCharts(document.querySelector('#reddit-kde-top-kewords'), kdeTopKeywords);
+  topkdeKeywordChart.render();
+
+  var kdeTopComments = {
+    series: kde_reddit_topCommentersByFrequency.map((v)=>{return v[1];}),
+    chart: {
+    width: '100%',
+    height: 300,
+    type: 'pie',
+      },
+    labels: kde_reddit_topCommentersByFrequency.map((v)=>{return v[0];}),
+    responsive: [{
+      breakpoint: 480,
+      options: {
+        chart: {
+          width: 200
+        },
+        legend: {
+          position: 'bottom'
+        }
+      }
+    }]
+  };
+
+  var topkdeCommentsChart = new ApexCharts(document.querySelector('#kde-reddit-top-comments'), kdeTopComments);
+  topkdeCommentsChart.render();
+
+  var kdeTopPosters = {
+    series: kde_reddit_topPostersByFrequency.map((v)=>{return v[1];}),
+    chart: {
+    width: '100%',
+    height: 300,
+    type: 'pie',
+      },
+    labels: kde_reddit_topPostersByFrequency.map((v)=>{return v[0];}),
+    responsive: [{
+      breakpoint: 480,
+      options: {
+        chart: {
+          width: 200
+        },
+        legend: {
+          position: 'bottom'
+        }
+      }
+    }]
+  };
+
+  var topkdePostersChart = new ApexCharts(document.querySelector('#kde-reddit-top-posters'), kdeTopPosters);
+  topkdePostersChart.render();
+
+  var kdeTopLinkedDomains = {
+    series: kde_reddit_topLinkedDomains.map((v)=>{return v[1];}),
+    chart: {
+    width: '100%',
+    height: 300,
+    type: 'pie',
+      },
+    labels: kde_reddit_topLinkedDomains.map((v)=>{return v[0];}),
+    responsive: [{
+      breakpoint: 480,
+      options: {
+        chart: {
+          width: 200
+        },
+        legend: {
+          position: 'bottom'
+        }
+      }
+    }]
+  };
+
+  var topkdeDomainChart = new ApexCharts(document.querySelector('#kde-reddit-top-domains'), kdeTopLinkedDomains);
+  topkdeDomainChart.render();
+</script>
           <div class="row gap-20 masonry pos-r" id="twitter-stats">
   <div class="masonry-item w-100">
     <div class="row gap-20">
