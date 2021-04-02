@@ -88,32 +88,28 @@ def generate_linkedin_stats(file_path: str):
     return data
 
 
-data = {}
-data = {**data, **generate_youtube_stats(YT_DIR_PATH)}
+def combined_data():
+    data = {}
+    data = {**data, **generate_youtube_stats(YT_DIR_PATH)}
 
-data = {**data, **generate_twitter_stats(TWITTER_DIR_PATH)}
+    data = {**data, **generate_twitter_stats(TWITTER_DIR_PATH)}
 
-data = {**data, **generate_mastodon_stats(MASTODON_DIR_PATH)}
+    data = {**data, **generate_mastodon_stats(MASTODON_DIR_PATH)}
 
-data = {**data, **generate_facebook_stats(FACEBOOK_DIR_PATH)}
+    data = {**data, **generate_facebook_stats(FACEBOOK_DIR_PATH)}
 
-data = {**data, **generate_instagram_stats(INSTAGRAM_DIR_PATH)}
+    data = {**data, **generate_instagram_stats(INSTAGRAM_DIR_PATH)}
 
-data = {**data, **generate_reddit_stats(REDDIT_DIR_PATH)}
+    data = {**data, **generate_reddit_stats(REDDIT_DIR_PATH)}
 
-data = {**data, **generate_popcon_stats(POPCONS_DIR_PATH)}
+    data = {**data, **generate_popcon_stats(POPCONS_DIR_PATH)}
 
-data = {**data, **generate_linkedin_stats(LINKEDIN_DIR_PATH)}
+    data = {**data, **generate_linkedin_stats(LINKEDIN_DIR_PATH)}
 
-env = Environment(loader=fs("."))
-youtube_script_template = env.get_template("scripts/youtube.js")
-a = youtube_script_template.render(youtube_channel_stats=json.dumps(data))
-# # print(t.render(series=series, labels=labels))
-with open("main_script.js", "w") as f:
-    f.write(a)
+    return data
 
-with open("stats.json", "w") as f:
-    f.write(json.dumps(data, indent=4))
-# t = env.get_template('base.html')
-# with open('test.html', 'w') as f:
-#     f.write(t.render(series=series, labels=labels))
+
+if __name__ == "__main__":
+    data = combined_data()
+    with open("stats.json", "w") as f:
+        f.write(json.dumps(data, indent=4))

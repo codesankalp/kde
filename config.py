@@ -4,7 +4,6 @@ curr_dir = getcwd()
 data_dir = path.join(curr_dir, "data")
 
 for date_dir in listdir(data_dir):
-    print(date_dir)
     p = path.join(data_dir, date_dir)
     YT_DIR_PATH = path.join(p, "youtube")
     TWITTER_DIR_PATH = path.join(p, "twitter")

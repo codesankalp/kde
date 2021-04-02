@@ -14,8 +14,8 @@ def instagram_combined_stats(file_path: str):
     orig_data = get_data(file_path)
     data = {}
     for k, v in orig_data.items():
-        k = '_'.join(k.split(' '))
-        k = '_'.join(k.split('/'))
+        k = "_".join(k.split(" "))
+        k = "_".join(k.split("/"))
         data[f"instagram_{k}"] = v
     return data
 

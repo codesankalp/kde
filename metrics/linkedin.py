@@ -74,35 +74,35 @@ def linkedin_posts(file_path: str):
     linkedin_posts_likeCount = []
     linkedin_posts_shareCount = []
     for post in posts:
-        linkedin_posts_activity_URN.append(post.get('activityURN', ''))
-        linkedin_posts_id.append(post.get('id', ''))
+        linkedin_posts_activity_URN.append(post.get("activityURN", ""))
+        linkedin_posts_id.append(post.get("id", ""))
         linkedin_posts_clickCount.append(
-            post['totalShareStatistics'].get('clickCount', 0)
+            post["totalShareStatistics"].get("clickCount", 0)
         )
         linkedin_posts_commentCount.append(
-            post['totalShareStatistics'].get('commentCount', 0)
+            post["totalShareStatistics"].get("commentCount", 0)
         )
         linkedin_posts_engagement.append(
-            post['totalShareStatistics'].get('engagement', 0)
+            post["totalShareStatistics"].get("engagement", 0)
         )
         linkedin_posts_impressionCount.append(
-            post['totalShareStatistics'].get('impressionCount', 0)
+            post["totalShareStatistics"].get("impressionCount", 0)
         )
         linkedin_posts_likeCount.append(
-            post['totalShareStatistics'].get('likeCount', 0)
+            post["totalShareStatistics"].get("likeCount", 0)
         )
         linkedin_posts_shareCount.append(
-            post['totalShareStatistics'].get('shareCount', 0)
+            post["totalShareStatistics"].get("shareCount", 0)
         )
     return {
-        'linkedin_posts_id': linkedin_posts_id,
-        'linkedin_posts_activity_URN': linkedin_posts_activity_URN,
-        'linkedin_posts_clickCount': linkedin_posts_clickCount,
-        'linkedin_posts_commentCount': linkedin_posts_commentCount,
-        'linkedin_posts_engagement': linkedin_posts_engagement,
-        'linkedin_posts_impressionCount': linkedin_posts_impressionCount,
-        'linkedin_posts_likeCount': linkedin_posts_likeCount,
-        'linkedin_posts_shareCount': linkedin_posts_shareCount,
+        "linkedin_posts_id": linkedin_posts_id,
+        "linkedin_posts_activity_URN": linkedin_posts_activity_URN,
+        "linkedin_posts_clickCount": linkedin_posts_clickCount,
+        "linkedin_posts_commentCount": linkedin_posts_commentCount,
+        "linkedin_posts_engagement": linkedin_posts_engagement,
+        "linkedin_posts_impressionCount": linkedin_posts_impressionCount,
+        "linkedin_posts_likeCount": linkedin_posts_likeCount,
+        "linkedin_posts_shareCount": linkedin_posts_shareCount,
     }
 
 
@@ -114,23 +114,25 @@ def linkedin_combined_stats(file_path: str):
     orig_data = get_data(file_path)
     data = {}
     for k, v in orig_data.items():
-        data[f'linkedin_{k}'] = v
+        data[f"linkedin_{k}"] = v
     return data
 
 
 def linkedin_weekly_followers(file_path: str):
     orig_data = get_data(file_path)
-    follower_count  = []
+    follower_count = []
     time = []
     for dic in orig_data:
         try:
-            follower_count.append(dic['followerGains'].get('organicFollowerGain'))
-            time.append(dic['timeRange'].get('end', 0))
+            follower_count.append(
+                dic["followerGains"].get("organicFollowerGain")
+            )
+            time.append(dic["timeRange"].get("end", 0))
         except:
-            print('Key error in linkedin_weekly_followers')
+            print("Key error in linkedin_weekly_followers")
     return {
-        'linkedin_weekly_follower_count_gain': follower_count,
-        'linkedin_weekly_follower_count_time': time
+        "linkedin_weekly_follower_count_gain": follower_count,
+        "linkedin_weekly_follower_count_time": time,
     }
 
 
