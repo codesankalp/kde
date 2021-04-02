@@ -1,13 +1,13 @@
 [
     {
         "followerGains": {
-            "organicFollowerGain": 9,
+            "organicFollowerGain": 24,
             "paidFollowerGain": 0
         },
         "organizationalEntity": "urn:li:organization:29561",
         "timeRange": {
-            "start": 1612483200000,
-            "end": 1612569600000
+            "start": 1614729600000,
+            "end": 1614816000000
         }
     },
     {
@@ -17,52 +17,52 @@
         },
         "organizationalEntity": "urn:li:organization:29561",
         "timeRange": {
-            "start": 1612569600000,
-            "end": 1612656000000
+            "start": 1614816000000,
+            "end": 1614902400000
         }
     },
     {
         "followerGains": {
-            "organicFollowerGain": 4,
+            "organicFollowerGain": 9,
             "paidFollowerGain": 0
         },
         "organizationalEntity": "urn:li:organization:29561",
         "timeRange": {
-            "start": 1612656000000,
-            "end": 1612742400000
+            "start": 1614902400000,
+            "end": 1614988800000
         }
     },
     {
         "followerGains": {
-            "organicFollowerGain": 12,
+            "organicFollowerGain": 5,
             "paidFollowerGain": 0
         },
         "organizationalEntity": "urn:li:organization:29561",
         "timeRange": {
-            "start": 1612742400000,
-            "end": 1612828800000
+            "start": 1614988800000,
+            "end": 1615075200000
         }
     },
     {
         "followerGains": {
-            "organicFollowerGain": 8,
+            "organicFollowerGain": 6,
             "paidFollowerGain": 0
         },
         "organizationalEntity": "urn:li:organization:29561",
         "timeRange": {
-            "start": 1612828800000,
-            "end": 1612915200000
+            "start": 1615075200000,
+            "end": 1615161600000
         }
     },
     {
         "followerGains": {
-            "organicFollowerGain": 15,
+            "organicFollowerGain": 2,
             "paidFollowerGain": 0
         },
         "organizationalEntity": "urn:li:organization:29561",
         "timeRange": {
-            "start": 1612915200000,
-            "end": 1613001600000
+            "start": 1615161600000,
+            "end": 1615248000000
         }
     }
 ]

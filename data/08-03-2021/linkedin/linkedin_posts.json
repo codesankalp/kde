@@ -1,0 +1,34 @@
+[
+    {
+        "activityURN": "urn:li:activity:6775130322062331904",
+        "comments": [],
+        "id": "6775130321621934080",
+        "organizationalEntity": "urn:li:organization:29561",
+        "share": "urn:li:share:6775130321621934080",
+        "text": "KDE has been accepted into Google Summer of Code (@gsoc)! Once more, we will be mentoring students and helping them contribute features, solutions and new software to KDE with Google's sponsorship.\n\nhttps://g.co/gsoc\n\nWe already have an ideas page up where you can see what kind of projects you can participate with and suggest new ones:\n\nhttps://lnkd.in/dkxeimQ",
+        "totalShareStatistics": {
+            "clickCount": 39,
+            "commentCount": 0,
+            "engagement": 0.07323452484742807,
+            "impressionCount": 1147,
+            "likeCount": 43,
+            "shareCount": 2
+        }
+    },
+    {
+        "activityURN": "urn:li:activity:6774680862928732161",
+        "comments": [],
+        "id": "6774680862467342336",
+        "organizationalEntity": "urn:li:organization:29561",
+        "share": "urn:li:share:6774680862467342336",
+        "text": "The Qt Company is looking for a Community Manager. If you are interested in filling that very important role, check out the full details at https://lnkd.in/dceTfkk",
+        "totalShareStatistics": {
+            "clickCount": 13,
+            "commentCount": 0,
+            "engagement": 0.04780876494023904,
+            "impressionCount": 753,
+            "likeCount": 22,
+            "shareCount": 1
+        }
+    }
+]

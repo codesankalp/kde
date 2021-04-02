@@ -7,14 +7,14 @@ import time
 from watchdog.events import LoggingEventHandler
 from watchdog.observers import Observer
 
-from render_base import render_test
+from render_base import render_dev
 
 
 class Event(LoggingEventHandler):
     def on_modified(self, event):
         what = "directory" if event.is_directory else "file"
         self.logger.info("Modified %s: %s", what, event.src_path)
-        render_test()
+        render_dev()
 
 
 if __name__ == "__main__":

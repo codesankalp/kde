@@ -1339,9 +1339,9 @@
     "instagram_id": [
         "18145791046141692"
     ],
-    "instagram_Website clicks": 0,
-    "instagram_Profile views": 2,
-    "instagram_Audience town/city": {
+    "instagram_Website_clicks": 0,
+    "instagram_Profile_views": 2,
+    "instagram_Audience_town_city": {
         "S\u00e3o Paulo, S\u00e3o Paulo (state)": 30,
         "Barcelona, Catalu\u00f1a": 7,
         "Rio de Janeiro, Rio de Janeiro (state)": 14,
@@ -1388,7 +1388,7 @@
         "Campinas, S\u00e3o Paulo (state)": 3,
         "S\u00e3o Gon\u00e7alo, Rio de Janeiro (state)": 3
     },
-    "instagram_Audience country": {
+    "instagram_Audience_country": {
         "DE": 42,
         "BD": 3,
         "BE": 4,
@@ -1435,7 +1435,7 @@
         "NL": 5,
         "TR": 7
     },
-    "instagram_Gender and age": {
+    "instagram_Gender_and_age": {
         "M.55-64": 11,
         "U.35-44": 2,
         "F.45-54": 4,
@@ -6889,2426 +6889,420 @@
         "0",
         "0"
     ],
-    "linkedin_followerCountsByAssociationType": [
-        {
-            "followerCounts": {
-                "organicFollowerCount": 9178,
-                "paidFollowerCount": 0
-            }
-        },
-        {
-            "followerCounts": {
-                "organicFollowerCount": 239,
-                "paidFollowerCount": 0
-            },
-            "associationType": "EMPLOYEE"
-        }
+    "linkedin_followerCountsByAssociationType": {
+        "others": 9481,
+        "EMPLOYEE": 237
+    },
+    "linkedin_followerCountsByRegion": {
+        "Bengaluru Area, India": 279,
+        "S\u00e3o Paulo Area, Brazil": 215,
+        "New Delhi Area, India": 142,
+        "San Francisco Bay Area": 142,
+        "Paris Area, France": 116,
+        "Madrid Area, Spain": 105,
+        "Greater New York City Area": 103,
+        "Berlin Area, Germany": 92,
+        "Barcelona Area, Spain": 80,
+        "Mumbai Area, India": 76,
+        "London, United Kingdom": 74,
+        "Istanbul, Turkey": 70,
+        "Kalyan Area, India": 69,
+        "Greater Seattle Area": 61,
+        "Hyderabad Area, India": 61,
+        "Rome Area, Italy": 59,
+        "Austria area": 59,
+        "Washington D.C. Metro Area": 53,
+        "Chandigarh Area, India": 52,
+        "Milan Area, Italy": 52,
+        "Salvador Area, Brazil": 51,
+        "Greater Boston Area": 50,
+        "Chennai Area, India": 49,
+        "Munich Area, Germany": 49,
+        "Cologne Area, Germany": 47,
+        "Warsaw, Masovian District, Poland": 44,
+        "Greater Chicago Area": 43,
+        "Dallas/Fort Worth Area": 41,
+        "Lisbon Area, Portugal": 41,
+        "Sydney, Australia": 40,
+        "Frankfurt Am Main Area, Germany": 39,
+        "Greater Los Angeles Area": 39,
+        "Toronto, Canada Area": 38,
+        "Kolkata Area, India": 37,
+        "Greater Denver Area": 36,
+        "Toulouse Area, France": 36,
+        "Jaipur Area, India": 35,
+        "Stuttgart Area, Germany": 35,
+        "Curitiba Area, Brazil": 34,
+        "Belo Horizonte Area, Brazil": 34,
+        "Z\u00fcrich Area, Switzerland": 34,
+        "Beijing City, China": 34,
+        "Montreal, Canada Area": 33,
+        "Araruama Area, Brazil": 33,
+        "Lyon Area, France": 32,
+        "Rio de Janeiro Area, Brazil": 32,
+        "Amsterdam Area, Netherlands": 31,
+        "Gurgaon, India": 31,
+        "Helsinki Area, Finland": 30,
+        "Melbourne, Australia": 30,
+        "Austin, Texas Area": 28,
+        "Greater Philadelphia Area": 28,
+        "Porto Area, Portugal": 28,
+        "Bulgaria area": 28,
+        "Hungary area": 27,
+        "Ahmedabad Area, India": 27,
+        "Oslo Area, Norway": 27,
+        "Cochin Area, India": 26,
+        "Bras\u00edlia Area, Brazil": 26,
+        "Greater Atlanta Area": 26,
+        "Porto Alegre Area, Brazil": 26,
+        "Johannesburg Area, South Africa": 25,
+        "Campinas Area, Brazil": 25,
+        "Mexico City Area, Mexico": 25,
+        "Turin Area, Italy": 24,
+        "Noida Area, India": 24,
+        "Brussels Area, Belgium": 23,
+        "Valencia Area, Spain": 21,
+        "Pune Area, India": 21,
+        "Fortaleza Area, Brazil": 20,
+        "Greater Detroit Area": 19,
+        "Raleigh-Durham, North Carolina Area": 19,
+        "Lexington, Kentucky Area": 19,
+        "Geneva Area, Switzerland": 19,
+        "N\u00fcrnberg Area, Germany": 19,
+        "Antwerp Area, Belgium": 18,
+        "Bologna Area, Italy": 18,
+        "Recife Area, Brazil": 18,
+        "Bucharest, Romania": 18,
+        "A Coru\u00f1a Area, Spain": 17,
+        "Santiago Province, Chile": 17,
+        "Lille Area, France": 17,
+        "Houston, Texas Area": 17,
+        "Nantes Area, France": 17,
+        "Florian\u00f3polis Area, Brazil": 17,
+        "Portland, Oregon Area": 17,
+        "Copenhagen Area, Capital Region, Denmark": 17,
+        "Tunis Governorate, Tunisia": 16,
+        "Greater Minneapolis-St. Paul Area": 16,
+        "Ankara, Turkey": 16,
+        "Utrecht Area, Netherlands": 16,
+        "Bergamo Area, Italy": 16,
+        "Miami/Fort Lauderdale Area": 16,
+        "Bogot\u00e1 D.C. Area, Colombia": 16,
+        "Indore Area, India": 16,
+        "M\u00e1laga Area, Spain": 16,
+        "Naples Area, Italy": 15,
+        "Adelaide, Australia": 15
+    },
+    "linkedin_followerCountsBySeniority": {
+        "Entry": 3976,
+        "Senior": 2723,
+        "Manager": 323,
+        "Training": 260,
+        "Director": 244,
+        "Owner": 200,
+        "CXO": 174,
+        "VP": 80,
+        "Partner": 30,
+        "Unpaid": 18
+    },
+    "linkedin_followerCountsByIndustry": {
+        "Information Technology & Services": 2544,
+        "Computer Software": 1675,
+        "Internet": 465,
+        "Telecommunications": 303,
+        "Financial Services": 283,
+        "Higher Education": 274,
+        "Computer & Network Security": 195,
+        "Research": 167,
+        "Automotive": 136,
+        "Banking": 127,
+        "Government Administration": 118,
+        "Electrical & Electronic Manufacturing": 115,
+        "Education Management": 114,
+        "Retail": 101,
+        "Management Consulting": 100,
+        "Marketing & Advertising": 100,
+        "Program Development": 94,
+        "Computer Networking": 93,
+        "Hospital & Health Care": 88,
+        "Oil & Energy": 75,
+        "Consumer Electronics": 72,
+        "Industrial Automation": 69,
+        "Mechanical Or Industrial Engineering": 67,
+        "E-learning": 64,
+        "Defense & Space": 63,
+        "Semiconductors": 63,
+        "Construction": 60,
+        "Computer Hardware": 55,
+        "Non-profit Organization Management": 53,
+        "Insurance": 51,
+        "Logistics & Supply Chain": 45,
+        "Health, Wellness & Fitness": 45,
+        "Aviation & Aerospace": 44,
+        "Information Services": 41,
+        "Entertainment": 39,
+        "Accounting": 39,
+        "Utilities": 39,
+        "Design": 38,
+        "Transportation/Trucking/Railroad": 37,
+        "Real Estate": 37,
+        "Staffing & Recruiting": 37,
+        "Computer Games": 36,
+        "Pharmaceuticals": 35,
+        "Biotechnology": 34,
+        "Machinery": 34,
+        "Food & Beverages": 29,
+        "Publishing": 29,
+        "Human Resources": 28,
+        "Medical Device": 26,
+        "Professional Training & Coaching": 26,
+        "Consumer Services": 25,
+        "Leisure, Travel & Tourism": 25,
+        "Broadcast Media": 25,
+        "Renewables & Environment": 25,
+        "Outsourcing/Offshoring": 24,
+        "Architecture & Planning": 24,
+        "Consumer Goods": 23,
+        "Chemicals": 23,
+        "Wireless": 22,
+        "Airlines/Aviation": 21,
+        "Civil Engineering": 21,
+        "Facilities Services": 20,
+        "Wholesale": 19,
+        "Venture Capital & Private Equity": 19,
+        "Online Media": 18,
+        "Gambling & Casinos": 18,
+        "International Trade & Development": 18,
+        "Apparel & Fashion": 17,
+        "Sports": 17,
+        "Mining & Metals": 17,
+        "Civic & Social Organization": 16,
+        "Media Production": 16,
+        "Graphic Design": 16,
+        "Environmental Services": 16,
+        "Building Materials": 15,
+        "Military": 15,
+        "Food Production": 14,
+        "Investment Management": 14,
+        "Farming": 14,
+        "Writing & Editing": 14,
+        "Security & Investigations": 13,
+        "Animation": 13,
+        "Hospitality": 13,
+        "Restaurants": 13,
+        "Primary/Secondary Education": 13,
+        "Translation & Localization": 13,
+        "Medical Practice": 12,
+        "Law Practice": 12,
+        "Maritime": 11,
+        "Photography": 11,
+        "Music": 9,
+        "Legal Services": 9,
+        "Think Tanks": 9,
+        "Business Supplies & Equipment": 9,
+        "Fine Art": 9,
+        "Events Services": 8,
+        "Public Relations & Communications": 8,
+        "Furniture": 8,
+        "Political Organization": 8
+    },
+    "linkedin_followerCountsByFunction": {
+        "Engineering": 3222,
+        "Information Technology": 1806,
+        "Business Development": 486,
+        "Operations": 345,
+        "Education": 310,
+        "Sales": 191,
+        "Research": 182,
+        "Arts and Design": 157,
+        "Program and Project Management": 146,
+        "Media and Communication": 126,
+        "Consulting": 116,
+        "Marketing": 84,
+        "Support": 79,
+        "Quality Assurance": 77,
+        "Administrative": 74,
+        "Human Resources": 64,
+        "Product Management": 58,
+        "Community and Social Services": 50,
+        "Entrepreneurship": 46,
+        "Finance": 41,
+        "Military and Protective Services": 39,
+        "Accounting": 29,
+        "Legal": 14,
+        "Healthcare Services": 13,
+        "Real Estate": 12,
+        "Purchasing": 3
+    },
+    "linkedin_followerCountsByStaffCountRange": {
+        "SIZE_10001_OR_MORE": 1685,
+        "SIZE_51_TO_200": 1053,
+        "SIZE_1001_TO_5000": 1010,
+        "SIZE_11_TO_50": 974,
+        "SIZE_201_TO_500": 672,
+        "SIZE_2_TO_10": 567,
+        "SIZE_501_TO_1000": 539,
+        "SIZE_5001_TO_10000": 334,
+        "SIZE_1": 95
+    },
+    "linkedin_followerCountsByCountry": {
+        "India": 1480,
+        "United States": 1367,
+        "Brazil": 863,
+        "Italy": 470,
+        "Germany": 448,
+        "France": 407,
+        "Spain": 385,
+        "United Kingdom": 306,
+        "Canada": 199,
+        "Turkey": 196,
+        "Poland": 156,
+        "Netherlands": 153,
+        "Mexico": 138,
+        "Egypt": 121,
+        "Argentina": 120,
+        "Australia": 119,
+        "Iran": 115,
+        "Portugal": 100,
+        "China": 100,
+        "Greece": 97,
+        "Switzerland": 87,
+        "Chile": 84,
+        "Belgium": 83,
+        "Finland": 80,
+        "Ukraine": 76,
+        "Russian Federation": 70,
+        "Indonesia": 63,
+        "Sweden": 62,
+        "Colombia": 62,
+        "Austria": 61,
+        "Ireland": 59,
+        "Romania": 58,
+        "Czech Republic": 58,
+        "South Africa": 55,
+        "Serbia": 55,
+        "Israel": 51,
+        "Pakistan": 50,
+        "Tunisia": 48,
+        "Bulgaria": 47,
+        "United Arab Emirates": 41,
+        "Morocco": 41,
+        "NA": 41,
+        "Peru": 39,
+        "Bangladesh": 38,
+        "Singapore": 36,
+        "Malaysia": 36,
+        "Philippines": 36,
+        "Croatia": 34,
+        "Norway": 34,
+        "Japan": 31,
+        "Taiwan": 31,
+        "Korea": 29,
+        "Denmark": 29,
+        "Hungary": 28,
+        "Saudi Arabia": 25,
+        "Algeria": 25,
+        "Belarus": 24,
+        "Slovenia": 23,
+        "Vietnam": 22,
+        "Sri Lanka": 20,
+        "Venezuela": 19,
+        "Slovak Republic": 18,
+        "Luxembourg": 18,
+        "Costa Rica": 17,
+        "New Zealand": 17,
+        "Kenya": 16,
+        "Nigeria": 15,
+        "Other": 15,
+        "Bosnia and Herzegovina": 14,
+        "Thailand": 14,
+        "Hong Kong": 13,
+        "Macedonia": 13,
+        "Lithuania": 12,
+        "Dominican Republic": 12,
+        "Ecuador": 12,
+        "Uruguay": 12,
+        "Lebanon": 11,
+        "Paraguay": 10,
+        "Cyprus": 10,
+        "Ghana": 10,
+        "Iraq": 9,
+        "Armenia": 9,
+        "Georgia": 9,
+        "Sultanate of Oman": 9,
+        "Guatemala": 9,
+        "Jordan": 8,
+        "Puerto Rico": 7,
+        "Cote D\u2019Ivoire (Ivory Coast)": 7,
+        "Estonia": 7,
+        "Albania": 6,
+        "Myanmar": 6,
+        "Panama": 6,
+        "Honduras": 5,
+        "Syria": 5,
+        "Latvia": 5,
+        "Moldova": 5,
+        "Bolivia": 4,
+        "Kosovo": 4,
+        "Libya": 4,
+        "Mauritius": 4
+    },
+    "linkedin_weekly_follower_count_gain": [
+        24,
+        13,
+        9,
+        5,
+        6,
+        2
     ],
-    "linkedin_followerCountsByRegion": [
-        {
-            "region": "urn:li:region:7127",
-            "followerCounts": {
-                "organicFollowerCount": 278,
-                "paidFollowerCount": 0
-            }
-        },
-        {
-            "region": "urn:li:region:6368",
-            "followerCounts": {
-                "organicFollowerCount": 208,
-                "paidFollowerCount": 0
-            }
-        },
-        {
-            "region": "urn:li:region:7151",
-            "followerCounts": {
-                "organicFollowerCount": 141,
-                "paidFollowerCount": 0
-            }
-        },
-        {
-            "region": "urn:li:region:84",
-            "followerCounts": {
-                "organicFollowerCount": 139,
-                "paidFollowerCount": 0
-            }
-        },
-        {
-            "region": "urn:li:region:5227",
-            "followerCounts": {
-                "organicFollowerCount": 113,
-                "paidFollowerCount": 0
-            }
-        },
-        {
-            "region": "urn:li:region:5113",
-            "followerCounts": {
-                "organicFollowerCount": 99,
-                "paidFollowerCount": 0
-            }
-        },
-        {
-            "region": "urn:li:region:70",
-            "followerCounts": {
-                "organicFollowerCount": 98,
-                "paidFollowerCount": 0
-            }
-        },
-        {
-            "region": "urn:li:region:4944",
-            "followerCounts": {
-                "organicFollowerCount": 88,
-                "paidFollowerCount": 0
-            }
-        },
-        {
-            "region": "urn:li:region:5064",
-            "followerCounts": {
-                "organicFollowerCount": 79,
-                "paidFollowerCount": 0
-            }
-        },
-        {
-            "region": "urn:li:region:7150",
-            "followerCounts": {
-                "organicFollowerCount": 75,
-                "paidFollowerCount": 0
-            }
-        },
-        {
-            "region": "urn:li:region:4573",
-            "followerCounts": {
-                "organicFollowerCount": 73,
-                "paidFollowerCount": 0
-            }
-        },
-        {
-            "region": "urn:li:region:7585",
-            "followerCounts": {
-                "organicFollowerCount": 69,
-                "paidFollowerCount": 0
-            }
-        },
-        {
-            "region": "urn:li:region:7136",
-            "followerCounts": {
-                "organicFollowerCount": 68,
-                "paidFollowerCount": 0
-            }
-        },
-        {
-            "region": "urn:li:region:91",
-            "followerCounts": {
-                "organicFollowerCount": 60,
-                "paidFollowerCount": 0
-            }
-        },
-        {
-            "region": "urn:li:region:6508",
-            "followerCounts": {
-                "organicFollowerCount": 60,
-                "paidFollowerCount": 0
-            }
-        },
-        {
-            "region": "urn:li:region:5636",
-            "followerCounts": {
-                "organicFollowerCount": 56,
-                "paidFollowerCount": 0
-            }
-        },
-        {
-            "region": "urn:li:region:9335",
-            "followerCounts": {
-                "organicFollowerCount": 56,
-                "paidFollowerCount": 0
-            }
-        },
-        {
-            "region": "urn:li:region:97",
-            "followerCounts": {
-                "organicFollowerCount": 52,
-                "paidFollowerCount": 0
-            }
-        },
-        {
-            "region": "urn:li:region:6879",
-            "followerCounts": {
-                "organicFollowerCount": 52,
-                "paidFollowerCount": 0
-            }
-        },
-        {
-            "region": "urn:li:region:7",
-            "followerCounts": {
-                "organicFollowerCount": 50,
-                "paidFollowerCount": 0
-            }
-        },
-        {
-            "region": "urn:li:region:6378",
-            "followerCounts": {
-                "organicFollowerCount": 50,
-                "paidFollowerCount": 0
-            }
-        },
-        {
-            "region": "urn:li:region:5616",
-            "followerCounts": {
-                "organicFollowerCount": 49,
-                "paidFollowerCount": 0
-            }
-        },
-        {
-            "region": "urn:li:region:5000",
-            "followerCounts": {
-                "organicFollowerCount": 49,
-                "paidFollowerCount": 0
-            }
-        },
-        {
-            "region": "urn:li:region:6891",
-            "followerCounts": {
-                "organicFollowerCount": 47,
-                "paidFollowerCount": 0
-            }
-        },
-        {
-            "region": "urn:li:region:8172",
-            "followerCounts": {
-                "organicFollowerCount": 44,
-                "paidFollowerCount": 0
-            }
-        },
-        {
-            "region": "urn:li:region:4953",
-            "followerCounts": {
-                "organicFollowerCount": 43,
-                "paidFollowerCount": 0
-            }
-        },
-        {
-            "region": "urn:li:region:14",
-            "followerCounts": {
-                "organicFollowerCount": 42,
-                "paidFollowerCount": 0
-            }
-        },
-        {
-            "region": "urn:li:region:31",
-            "followerCounts": {
-                "organicFollowerCount": 40,
-                "paidFollowerCount": 0
-            }
-        },
-        {
-            "region": "urn:li:region:7405",
-            "followerCounts": {
-                "organicFollowerCount": 40,
-                "paidFollowerCount": 0
-            }
-        },
-        {
-            "region": "urn:li:region:4966",
-            "followerCounts": {
-                "organicFollowerCount": 39,
-                "paidFollowerCount": 0
-            }
-        },
-        {
-            "region": "urn:li:region:4910",
-            "followerCounts": {
-                "organicFollowerCount": 39,
-                "paidFollowerCount": 0
-            }
-        },
-        {
-            "region": "urn:li:region:49",
-            "followerCounts": {
-                "organicFollowerCount": 39,
-                "paidFollowerCount": 0
-            }
-        },
-        {
-            "region": "urn:li:region:4876",
-            "followerCounts": {
-                "organicFollowerCount": 38,
-                "paidFollowerCount": 0
-            }
-        },
-        {
-            "region": "urn:li:region:7003",
-            "followerCounts": {
-                "organicFollowerCount": 37,
-                "paidFollowerCount": 0
-            }
-        },
-        {
-            "region": "urn:li:region:34",
-            "followerCounts": {
-                "organicFollowerCount": 36,
-                "paidFollowerCount": 0
-            }
-        },
-        {
-            "region": "urn:li:region:7287",
-            "followerCounts": {
-                "organicFollowerCount": 35,
-                "paidFollowerCount": 0
-            }
-        },
-        {
-            "region": "urn:li:region:5249",
-            "followerCounts": {
-                "organicFollowerCount": 35,
-                "paidFollowerCount": 0
-            }
-        },
-        {
-            "region": "urn:li:region:8911",
-            "followerCounts": {
-                "organicFollowerCount": 35,
-                "paidFollowerCount": 0
-            }
-        },
-        {
-            "region": "urn:li:region:5026",
-            "followerCounts": {
-                "organicFollowerCount": 34,
-                "paidFollowerCount": 0
-            }
-        },
-        {
-            "region": "urn:li:region:6399",
-            "followerCounts": {
-                "organicFollowerCount": 34,
-                "paidFollowerCount": 0
-            }
-        },
-        {
-            "region": "urn:li:region:4938",
-            "followerCounts": {
-                "organicFollowerCount": 34,
-                "paidFollowerCount": 0
-            }
-        },
-        {
-            "region": "urn:li:region:4863",
-            "followerCounts": {
-                "organicFollowerCount": 33,
-                "paidFollowerCount": 0
-            }
-        },
-        {
-            "region": "urn:li:region:6156",
-            "followerCounts": {
-                "organicFollowerCount": 33,
-                "paidFollowerCount": 0
-            }
-        },
-        {
-            "region": "urn:li:region:5664",
-            "followerCounts": {
-                "organicFollowerCount": 32,
-                "paidFollowerCount": 0
-            }
-        },
-        {
-            "region": "urn:li:region:5210",
-            "followerCounts": {
-                "organicFollowerCount": 30,
-                "paidFollowerCount": 0
-            }
-        },
-        {
-            "region": "urn:li:region:6034",
-            "followerCounts": {
-                "organicFollowerCount": 30,
-                "paidFollowerCount": 0
-            }
-        },
-        {
-            "region": "urn:li:region:6046",
-            "followerCounts": {
-                "organicFollowerCount": 30,
-                "paidFollowerCount": 0
-            }
-        },
-        {
-            "region": "urn:li:region:7391",
-            "followerCounts": {
-                "organicFollowerCount": 30,
-                "paidFollowerCount": 0
-            }
-        },
-        {
-            "region": "urn:li:region:4900",
-            "followerCounts": {
-                "organicFollowerCount": 29,
-                "paidFollowerCount": 0
-            }
-        },
-        {
-            "region": "urn:li:region:64",
-            "followerCounts": {
-                "organicFollowerCount": 28,
-                "paidFollowerCount": 0
-            }
-        },
-        {
-            "region": "urn:li:region:9355",
-            "followerCounts": {
-                "organicFollowerCount": 27,
-                "paidFollowerCount": 0
-            }
-        },
-        {
-            "region": "urn:li:region:7065",
-            "followerCounts": {
-                "organicFollowerCount": 27,
-                "paidFollowerCount": 0
-            }
-        },
-        {
-            "region": "urn:li:region:77",
-            "followerCounts": {
-                "organicFollowerCount": 27,
-                "paidFollowerCount": 0
-            }
-        },
-        {
-            "region": "urn:li:region:7397",
-            "followerCounts": {
-                "organicFollowerCount": 27,
-                "paidFollowerCount": 0
-            }
-        },
-        {
-            "region": "urn:li:region:6477",
-            "followerCounts": {
-                "organicFollowerCount": 26,
-                "paidFollowerCount": 0
-            }
-        },
-        {
-            "region": "urn:li:region:5712",
-            "followerCounts": {
-                "organicFollowerCount": 26,
-                "paidFollowerCount": 0
-            }
-        },
-        {
-            "region": "urn:li:region:52",
-            "followerCounts": {
-                "organicFollowerCount": 26,
-                "paidFollowerCount": 0
-            }
-        },
-        {
-            "region": "urn:li:region:9336",
-            "followerCounts": {
-                "organicFollowerCount": 26,
-                "paidFollowerCount": 0
-            }
-        },
-        {
-            "region": "urn:li:region:9342",
-            "followerCounts": {
-                "organicFollowerCount": 25,
-                "paidFollowerCount": 0
-            }
-        },
-        {
-            "region": "urn:li:region:6394",
-            "followerCounts": {
-                "organicFollowerCount": 25,
-                "paidFollowerCount": 0
-            }
-        },
-        {
-            "region": "urn:li:region:6467",
-            "followerCounts": {
-                "organicFollowerCount": 25,
-                "paidFollowerCount": 0
-            }
-        },
-        {
-            "region": "urn:li:region:5921",
-            "followerCounts": {
-                "organicFollowerCount": 25,
-                "paidFollowerCount": 0
-            }
-        },
-        {
-            "region": "urn:li:region:5862",
-            "followerCounts": {
-                "organicFollowerCount": 24,
-                "paidFollowerCount": 0
-            }
-        },
-        {
-            "region": "urn:li:region:6104",
-            "followerCounts": {
-                "organicFollowerCount": 24,
-                "paidFollowerCount": 0
-            }
-        },
-        {
-            "region": "urn:li:region:7392",
-            "followerCounts": {
-                "organicFollowerCount": 24,
-                "paidFollowerCount": 0
-            }
-        },
-        {
-            "region": "urn:li:region:4920",
-            "followerCounts": {
-                "organicFollowerCount": 23,
-                "paidFollowerCount": 0
-            }
-        },
-        {
-            "region": "urn:li:region:5652",
-            "followerCounts": {
-                "organicFollowerCount": 22,
-                "paidFollowerCount": 0
-            }
-        },
-        {
-            "region": "urn:li:region:5152",
-            "followerCounts": {
-                "organicFollowerCount": 21,
-                "paidFollowerCount": 0
-            }
-        },
-        {
-            "region": "urn:li:region:7350",
-            "followerCounts": {
-                "organicFollowerCount": 19,
-                "paidFollowerCount": 0
-            }
-        },
-        {
-            "region": "urn:li:region:664",
-            "followerCounts": {
-                "organicFollowerCount": 19,
-                "paidFollowerCount": 0
-            }
-        },
-        {
-            "region": "urn:li:region:428",
-            "followerCounts": {
-                "organicFollowerCount": 19,
-                "paidFollowerCount": 0
-            }
-        },
-        {
-            "region": "urn:li:region:6392",
-            "followerCounts": {
-                "organicFollowerCount": 19,
-                "paidFollowerCount": 0
-            }
-        },
-        {
-            "region": "urn:li:region:5007",
-            "followerCounts": {
-                "organicFollowerCount": 19,
-                "paidFollowerCount": 0
-            }
-        },
-        {
-            "region": "urn:li:region:35",
-            "followerCounts": {
-                "organicFollowerCount": 18,
-                "paidFollowerCount": 0
-            }
-        },
-        {
-            "region": "urn:li:region:4918",
-            "followerCounts": {
-                "organicFollowerCount": 18,
-                "paidFollowerCount": 0
-            }
-        },
-        {
-            "region": "urn:li:region:5587",
-            "followerCounts": {
-                "organicFollowerCount": 18,
-                "paidFollowerCount": 0
-            }
-        },
-        {
-            "region": "urn:li:region:4930",
-            "followerCounts": {
-                "organicFollowerCount": 18,
-                "paidFollowerCount": 0
-            }
-        },
-        {
-            "region": "urn:li:region:7536",
-            "followerCounts": {
-                "organicFollowerCount": 18,
-                "paidFollowerCount": 0
-            }
-        },
-        {
-            "region": "urn:li:region:512",
-            "followerCounts": {
-                "organicFollowerCount": 17,
-                "paidFollowerCount": 0
-            }
-        },
-        {
-            "region": "urn:li:region:5046",
-            "followerCounts": {
-                "organicFollowerCount": 17,
-                "paidFollowerCount": 0
-            }
-        },
-        {
-            "region": "urn:li:region:9483",
-            "followerCounts": {
-                "organicFollowerCount": 17,
-                "paidFollowerCount": 0
-            }
-        },
-        {
-            "region": "urn:li:region:5205",
-            "followerCounts": {
-                "organicFollowerCount": 17,
-                "paidFollowerCount": 0
-            }
-        },
-        {
-            "region": "urn:li:region:5220",
-            "followerCounts": {
-                "organicFollowerCount": 17,
-                "paidFollowerCount": 0
-            }
-        },
-        {
-            "region": "urn:li:region:6286",
-            "followerCounts": {
-                "organicFollowerCount": 17,
-                "paidFollowerCount": 0
-            }
-        },
-        {
-            "region": "urn:li:region:79",
-            "followerCounts": {
-                "organicFollowerCount": 17,
-                "paidFollowerCount": 0
-            }
-        },
-        {
-            "region": "urn:li:region:9862",
-            "followerCounts": {
-                "organicFollowerCount": 16,
-                "paidFollowerCount": 0
-            }
-        },
-        {
-            "region": "urn:li:region:7569",
-            "followerCounts": {
-                "organicFollowerCount": 16,
-                "paidFollowerCount": 0
-            }
-        },
-        {
-            "region": "urn:li:region:5690",
-            "followerCounts": {
-                "organicFollowerCount": 16,
-                "paidFollowerCount": 0
-            }
-        },
-        {
-            "region": "urn:li:region:42",
-            "followerCounts": {
-                "organicFollowerCount": 16,
-                "paidFollowerCount": 0
-            }
-        },
-        {
-            "region": "urn:li:region:5586",
-            "followerCounts": {
-                "organicFollowerCount": 16,
-                "paidFollowerCount": 0
-            }
-        },
-        {
-            "region": "urn:li:region:56",
-            "followerCounts": {
-                "organicFollowerCount": 16,
-                "paidFollowerCount": 0
-            }
-        },
-        {
-            "region": "urn:li:region:5119",
-            "followerCounts": {
-                "organicFollowerCount": 16,
-                "paidFollowerCount": 0
-            }
-        },
-        {
-            "region": "urn:li:region:9330",
-            "followerCounts": {
-                "organicFollowerCount": 16,
-                "paidFollowerCount": 0
-            }
-        },
-        {
-            "region": "urn:li:region:5976",
-            "followerCounts": {
-                "organicFollowerCount": 15,
-                "paidFollowerCount": 0
-            }
-        },
-        {
-            "region": "urn:li:region:9549",
-            "followerCounts": {
-                "organicFollowerCount": 15,
-                "paidFollowerCount": 0
-            }
-        },
-        {
-            "region": "urn:li:region:7382",
-            "followerCounts": {
-                "organicFollowerCount": 15,
-                "paidFollowerCount": 0
-            }
-        },
-        {
-            "region": "urn:li:region:8447",
-            "followerCounts": {
-                "organicFollowerCount": 14,
-                "paidFollowerCount": 0
-            }
-        },
-        {
-            "region": "urn:li:region:732",
-            "followerCounts": {
-                "organicFollowerCount": 14,
-                "paidFollowerCount": 0
-            }
-        }
+    "linkedin_weekly_follower_count_time": [
+        1614816000000,
+        1614902400000,
+        1614988800000,
+        1615075200000,
+        1615161600000,
+        1615248000000
     ],
-    "linkedin_followerCountsBySeniority": [
-        {
-            "followerCounts": {
-                "organicFollowerCount": 3876,
-                "paidFollowerCount": 0
-            },
-            "seniority": "urn:li:seniority:3"
-        },
-        {
-            "followerCounts": {
-                "organicFollowerCount": 2637,
-                "paidFollowerCount": 0
-            },
-            "seniority": "urn:li:seniority:4"
-        },
-        {
-            "followerCounts": {
-                "organicFollowerCount": 306,
-                "paidFollowerCount": 0
-            },
-            "seniority": "urn:li:seniority:5"
-        },
-        {
-            "followerCounts": {
-                "organicFollowerCount": 234,
-                "paidFollowerCount": 0
-            },
-            "seniority": "urn:li:seniority:6"
-        },
-        {
-            "followerCounts": {
-                "organicFollowerCount": 231,
-                "paidFollowerCount": 0
-            },
-            "seniority": "urn:li:seniority:2"
-        },
-        {
-            "followerCounts": {
-                "organicFollowerCount": 195,
-                "paidFollowerCount": 0
-            },
-            "seniority": "urn:li:seniority:10"
-        },
-        {
-            "followerCounts": {
-                "organicFollowerCount": 167,
-                "paidFollowerCount": 0
-            },
-            "seniority": "urn:li:seniority:8"
-        },
-        {
-            "followerCounts": {
-                "organicFollowerCount": 80,
-                "paidFollowerCount": 0
-            },
-            "seniority": "urn:li:seniority:7"
-        },
-        {
-            "followerCounts": {
-                "organicFollowerCount": 32,
-                "paidFollowerCount": 0
-            },
-            "seniority": "urn:li:seniority:9"
-        },
-        {
-            "followerCounts": {
-                "organicFollowerCount": 20,
-                "paidFollowerCount": 0
-            },
-            "seniority": "urn:li:seniority:1"
-        }
+    "linkedin_followerCount": 9723,
+    "linkedin_uniqueImpressionsCount": 244801,
+    "linkedin_shareCount": 510,
+    "linkedin_shareMentionsCount": 86,
+    "linkedin_engagement": 0.050547291183140934,
+    "linkedin_clickCount": 14331,
+    "linkedin_likeCount": 11617,
+    "linkedin_impressionCount": 528238,
+    "linkedin_commentMentionsCount": 12,
+    "linkedin_commentCount": 243,
+    "linkedin_posts_id": [
+        "6775130321621934080",
+        "6774680862467342336"
     ],
-    "linkedin_followerCountsByIndustry": [
-        {
-            "followerCounts": {
-                "organicFollowerCount": 2422,
-                "paidFollowerCount": 0
-            },
-            "industry": "urn:li:industry:96"
-        },
-        {
-            "followerCounts": {
-                "organicFollowerCount": 1640,
-                "paidFollowerCount": 0
-            },
-            "industry": "urn:li:industry:4"
-        },
-        {
-            "followerCounts": {
-                "organicFollowerCount": 455,
-                "paidFollowerCount": 0
-            },
-            "industry": "urn:li:industry:6"
-        },
-        {
-            "followerCounts": {
-                "organicFollowerCount": 291,
-                "paidFollowerCount": 0
-            },
-            "industry": "urn:li:industry:8"
-        },
-        {
-            "followerCounts": {
-                "organicFollowerCount": 272,
-                "paidFollowerCount": 0
-            },
-            "industry": "urn:li:industry:43"
-        },
-        {
-            "followerCounts": {
-                "organicFollowerCount": 272,
-                "paidFollowerCount": 0
-            },
-            "industry": "urn:li:industry:68"
-        },
-        {
-            "followerCounts": {
-                "organicFollowerCount": 198,
-                "paidFollowerCount": 0
-            },
-            "industry": "urn:li:industry:118"
-        },
-        {
-            "followerCounts": {
-                "organicFollowerCount": 161,
-                "paidFollowerCount": 0
-            },
-            "industry": "urn:li:industry:70"
-        },
-        {
-            "followerCounts": {
-                "organicFollowerCount": 130,
-                "paidFollowerCount": 0
-            },
-            "industry": "urn:li:industry:53"
-        },
-        {
-            "followerCounts": {
-                "organicFollowerCount": 118,
-                "paidFollowerCount": 0
-            },
-            "industry": "urn:li:industry:41"
-        },
-        {
-            "followerCounts": {
-                "organicFollowerCount": 113,
-                "paidFollowerCount": 0
-            },
-            "industry": "urn:li:industry:75"
-        },
-        {
-            "followerCounts": {
-                "organicFollowerCount": 112,
-                "paidFollowerCount": 0
-            },
-            "industry": "urn:li:industry:69"
-        },
-        {
-            "followerCounts": {
-                "organicFollowerCount": 108,
-                "paidFollowerCount": 0
-            },
-            "industry": "urn:li:industry:112"
-        },
-        {
-            "followerCounts": {
-                "organicFollowerCount": 107,
-                "paidFollowerCount": 0
-            },
-            "industry": "urn:li:industry:11"
-        },
-        {
-            "followerCounts": {
-                "organicFollowerCount": 102,
-                "paidFollowerCount": 0
-            },
-            "industry": "urn:li:industry:80"
-        },
-        {
-            "followerCounts": {
-                "organicFollowerCount": 93,
-                "paidFollowerCount": 0
-            },
-            "industry": "urn:li:industry:27"
-        },
-        {
-            "followerCounts": {
-                "organicFollowerCount": 92,
-                "paidFollowerCount": 0
-            },
-            "industry": "urn:li:industry:5"
-        },
-        {
-            "followerCounts": {
-                "organicFollowerCount": 90,
-                "paidFollowerCount": 0
-            },
-            "industry": "urn:li:industry:102"
-        },
-        {
-            "followerCounts": {
-                "organicFollowerCount": 87,
-                "paidFollowerCount": 0
-            },
-            "industry": "urn:li:industry:14"
-        },
-        {
-            "followerCounts": {
-                "organicFollowerCount": 72,
-                "paidFollowerCount": 0
-            },
-            "industry": "urn:li:industry:57"
-        },
-        {
-            "followerCounts": {
-                "organicFollowerCount": 70,
-                "paidFollowerCount": 0
-            },
-            "industry": "urn:li:industry:24"
-        },
-        {
-            "followerCounts": {
-                "organicFollowerCount": 69,
-                "paidFollowerCount": 0
-            },
-            "industry": "urn:li:industry:147"
-        },
-        {
-            "followerCounts": {
-                "organicFollowerCount": 67,
-                "paidFollowerCount": 0
-            },
-            "industry": "urn:li:industry:132"
-        },
-        {
-            "followerCounts": {
-                "organicFollowerCount": 67,
-                "paidFollowerCount": 0
-            },
-            "industry": "urn:li:industry:135"
-        },
-        {
-            "followerCounts": {
-                "organicFollowerCount": 62,
-                "paidFollowerCount": 0
-            },
-            "industry": "urn:li:industry:1"
-        },
-        {
-            "followerCounts": {
-                "organicFollowerCount": 60,
-                "paidFollowerCount": 0
-            },
-            "industry": "urn:li:industry:48"
-        },
-        {
-            "followerCounts": {
-                "organicFollowerCount": 59,
-                "paidFollowerCount": 0
-            },
-            "industry": "urn:li:industry:7"
-        },
-        {
-            "followerCounts": {
-                "organicFollowerCount": 51,
-                "paidFollowerCount": 0
-            },
-            "industry": "urn:li:industry:42"
-        },
-        {
-            "followerCounts": {
-                "organicFollowerCount": 50,
-                "paidFollowerCount": 0
-            },
-            "industry": "urn:li:industry:3"
-        },
-        {
-            "followerCounts": {
-                "organicFollowerCount": 50,
-                "paidFollowerCount": 0
-            },
-            "industry": "urn:li:industry:100"
-        },
-        {
-            "followerCounts": {
-                "organicFollowerCount": 45,
-                "paidFollowerCount": 0
-            },
-            "industry": "urn:li:industry:124"
-        },
-        {
-            "followerCounts": {
-                "organicFollowerCount": 44,
-                "paidFollowerCount": 0
-            },
-            "industry": "urn:li:industry:84"
-        },
-        {
-            "followerCounts": {
-                "organicFollowerCount": 43,
-                "paidFollowerCount": 0
-            },
-            "industry": "urn:li:industry:116"
-        },
-        {
-            "followerCounts": {
-                "organicFollowerCount": 42,
-                "paidFollowerCount": 0
-            },
-            "industry": "urn:li:industry:52"
-        },
-        {
-            "followerCounts": {
-                "organicFollowerCount": 41,
-                "paidFollowerCount": 0
-            },
-            "industry": "urn:li:industry:47"
-        },
-        {
-            "followerCounts": {
-                "organicFollowerCount": 39,
-                "paidFollowerCount": 0
-            },
-            "industry": "urn:li:industry:59"
-        },
-        {
-            "followerCounts": {
-                "organicFollowerCount": 36,
-                "paidFollowerCount": 0
-            },
-            "industry": "urn:li:industry:99"
-        },
-        {
-            "followerCounts": {
-                "organicFollowerCount": 36,
-                "paidFollowerCount": 0
-            },
-            "industry": "urn:li:industry:28"
-        },
-        {
-            "followerCounts": {
-                "organicFollowerCount": 35,
-                "paidFollowerCount": 0
-            },
-            "industry": "urn:li:industry:15"
-        },
-        {
-            "followerCounts": {
-                "organicFollowerCount": 35,
-                "paidFollowerCount": 0
-            },
-            "industry": "urn:li:industry:104"
-        },
-        {
-            "followerCounts": {
-                "organicFollowerCount": 34,
-                "paidFollowerCount": 0
-            },
-            "industry": "urn:li:industry:55"
-        },
-        {
-            "followerCounts": {
-                "organicFollowerCount": 34,
-                "paidFollowerCount": 0
-            },
-            "industry": "urn:li:industry:109"
-        },
-        {
-            "followerCounts": {
-                "organicFollowerCount": 33,
-                "paidFollowerCount": 0
-            },
-            "industry": "urn:li:industry:12"
-        },
-        {
-            "followerCounts": {
-                "organicFollowerCount": 32,
-                "paidFollowerCount": 0
-            },
-            "industry": "urn:li:industry:92"
-        },
-        {
-            "followerCounts": {
-                "organicFollowerCount": 31,
-                "paidFollowerCount": 0
-            },
-            "industry": "urn:li:industry:44"
-        },
-        {
-            "followerCounts": {
-                "organicFollowerCount": 29,
-                "paidFollowerCount": 0
-            },
-            "industry": "urn:li:industry:82"
-        },
-        {
-            "followerCounts": {
-                "organicFollowerCount": 28,
-                "paidFollowerCount": 0
-            },
-            "industry": "urn:li:industry:137"
-        },
-        {
-            "followerCounts": {
-                "organicFollowerCount": 28,
-                "paidFollowerCount": 0
-            },
-            "industry": "urn:li:industry:36"
-        },
-        {
-            "followerCounts": {
-                "organicFollowerCount": 27,
-                "paidFollowerCount": 0
-            },
-            "industry": "urn:li:industry:17"
-        },
-        {
-            "followerCounts": {
-                "organicFollowerCount": 26,
-                "paidFollowerCount": 0
-            },
-            "industry": "urn:li:industry:105"
-        },
-        {
-            "followerCounts": {
-                "organicFollowerCount": 25,
-                "paidFollowerCount": 0
-            },
-            "industry": "urn:li:industry:34"
-        },
-        {
-            "followerCounts": {
-                "organicFollowerCount": 24,
-                "paidFollowerCount": 0
-            },
-            "industry": "urn:li:industry:91"
-        },
-        {
-            "followerCounts": {
-                "organicFollowerCount": 24,
-                "paidFollowerCount": 0
-            },
-            "industry": "urn:li:industry:123"
-        },
-        {
-            "followerCounts": {
-                "organicFollowerCount": 24,
-                "paidFollowerCount": 0
-            },
-            "industry": "urn:li:industry:30"
-        },
-        {
-            "followerCounts": {
-                "organicFollowerCount": 24,
-                "paidFollowerCount": 0
-            },
-            "industry": "urn:li:industry:144"
-        },
-        {
-            "followerCounts": {
-                "organicFollowerCount": 23,
-                "paidFollowerCount": 0
-            },
-            "industry": "urn:li:industry:50"
-        },
-        {
-            "followerCounts": {
-                "organicFollowerCount": 21,
-                "paidFollowerCount": 0
-            },
-            "industry": "urn:li:industry:119"
-        },
-        {
-            "followerCounts": {
-                "organicFollowerCount": 21,
-                "paidFollowerCount": 0
-            },
-            "industry": "urn:li:industry:94"
-        },
-        {
-            "followerCounts": {
-                "organicFollowerCount": 21,
-                "paidFollowerCount": 0
-            },
-            "industry": "urn:li:industry:25"
-        },
-        {
-            "followerCounts": {
-                "organicFollowerCount": 20,
-                "paidFollowerCount": 0
-            },
-            "industry": "urn:li:industry:51"
-        },
-        {
-            "followerCounts": {
-                "organicFollowerCount": 19,
-                "paidFollowerCount": 0
-            },
-            "industry": "urn:li:industry:113"
-        },
-        {
-            "followerCounts": {
-                "organicFollowerCount": 19,
-                "paidFollowerCount": 0
-            },
-            "industry": "urn:li:industry:122"
-        },
-        {
-            "followerCounts": {
-                "organicFollowerCount": 19,
-                "paidFollowerCount": 0
-            },
-            "industry": "urn:li:industry:133"
-        },
-        {
-            "followerCounts": {
-                "organicFollowerCount": 19,
-                "paidFollowerCount": 0
-            },
-            "industry": "urn:li:industry:141"
-        },
-        {
-            "followerCounts": {
-                "organicFollowerCount": 18,
-                "paidFollowerCount": 0
-            },
-            "industry": "urn:li:industry:29"
-        },
-        {
-            "followerCounts": {
-                "organicFollowerCount": 18,
-                "paidFollowerCount": 0
-            },
-            "industry": "urn:li:industry:54"
-        },
-        {
-            "followerCounts": {
-                "organicFollowerCount": 17,
-                "paidFollowerCount": 0
-            },
-            "industry": "urn:li:industry:56"
-        },
-        {
-            "followerCounts": {
-                "organicFollowerCount": 17,
-                "paidFollowerCount": 0
-            },
-            "industry": "urn:li:industry:106"
-        },
-        {
-            "followerCounts": {
-                "organicFollowerCount": 16,
-                "paidFollowerCount": 0
-            },
-            "industry": "urn:li:industry:33"
-        },
-        {
-            "followerCounts": {
-                "organicFollowerCount": 16,
-                "paidFollowerCount": 0
-            },
-            "industry": "urn:li:industry:140"
-        },
-        {
-            "followerCounts": {
-                "organicFollowerCount": 16,
-                "paidFollowerCount": 0
-            },
-            "industry": "urn:li:industry:49"
-        },
-        {
-            "followerCounts": {
-                "organicFollowerCount": 16,
-                "paidFollowerCount": 0
-            },
-            "industry": "urn:li:industry:71"
-        },
-        {
-            "followerCounts": {
-                "organicFollowerCount": 15,
-                "paidFollowerCount": 0
-            },
-            "industry": "urn:li:industry:90"
-        },
-        {
-            "followerCounts": {
-                "organicFollowerCount": 15,
-                "paidFollowerCount": 0
-            },
-            "industry": "urn:li:industry:19"
-        },
-        {
-            "followerCounts": {
-                "organicFollowerCount": 15,
-                "paidFollowerCount": 0
-            },
-            "industry": "urn:li:industry:67"
-        },
-        {
-            "followerCounts": {
-                "organicFollowerCount": 15,
-                "paidFollowerCount": 0
-            },
-            "industry": "urn:li:industry:86"
-        },
-        {
-            "followerCounts": {
-                "organicFollowerCount": 14,
-                "paidFollowerCount": 0
-            },
-            "industry": "urn:li:industry:126"
-        },
-        {
-            "followerCounts": {
-                "organicFollowerCount": 14,
-                "paidFollowerCount": 0
-            },
-            "industry": "urn:li:industry:23"
-        },
-        {
-            "followerCounts": {
-                "organicFollowerCount": 14,
-                "paidFollowerCount": 0
-            },
-            "industry": "urn:li:industry:32"
-        },
-        {
-            "followerCounts": {
-                "organicFollowerCount": 14,
-                "paidFollowerCount": 0
-            },
-            "industry": "urn:li:industry:63"
-        },
-        {
-            "followerCounts": {
-                "organicFollowerCount": 14,
-                "paidFollowerCount": 0
-            },
-            "industry": "urn:li:industry:108"
-        },
-        {
-            "followerCounts": {
-                "organicFollowerCount": 13,
-                "paidFollowerCount": 0
-            },
-            "industry": "urn:li:industry:121"
-        },
-        {
-            "followerCounts": {
-                "organicFollowerCount": 13,
-                "paidFollowerCount": 0
-            },
-            "industry": "urn:li:industry:31"
-        },
-        {
-            "followerCounts": {
-                "organicFollowerCount": 13,
-                "paidFollowerCount": 0
-            },
-            "industry": "urn:li:industry:46"
-        },
-        {
-            "followerCounts": {
-                "organicFollowerCount": 13,
-                "paidFollowerCount": 0
-            },
-            "industry": "urn:li:industry:103"
-        },
-        {
-            "followerCounts": {
-                "organicFollowerCount": 12,
-                "paidFollowerCount": 0
-            },
-            "industry": "urn:li:industry:9"
-        },
-        {
-            "followerCounts": {
-                "organicFollowerCount": 11,
-                "paidFollowerCount": 0
-            },
-            "industry": "urn:li:industry:88"
-        },
-        {
-            "followerCounts": {
-                "organicFollowerCount": 11,
-                "paidFollowerCount": 0
-            },
-            "industry": "urn:li:industry:13"
-        },
-        {
-            "followerCounts": {
-                "organicFollowerCount": 11,
-                "paidFollowerCount": 0
-            },
-            "industry": "urn:li:industry:127"
-        },
-        {
-            "followerCounts": {
-                "organicFollowerCount": 11,
-                "paidFollowerCount": 0
-            },
-            "industry": "urn:li:industry:130"
-        },
-        {
-            "followerCounts": {
-                "organicFollowerCount": 11,
-                "paidFollowerCount": 0
-            },
-            "industry": "urn:li:industry:136"
-        },
-        {
-            "followerCounts": {
-                "organicFollowerCount": 10,
-                "paidFollowerCount": 0
-            },
-            "industry": "urn:li:industry:115"
-        },
-        {
-            "followerCounts": {
-                "organicFollowerCount": 10,
-                "paidFollowerCount": 0
-            },
-            "industry": "urn:li:industry:95"
-        },
-        {
-            "followerCounts": {
-                "organicFollowerCount": 9,
-                "paidFollowerCount": 0
-            },
-            "industry": "urn:li:industry:110"
-        },
-        {
-            "followerCounts": {
-                "organicFollowerCount": 9,
-                "paidFollowerCount": 0
-            },
-            "industry": "urn:li:industry:138"
-        },
-        {
-            "followerCounts": {
-                "organicFollowerCount": 8,
-                "paidFollowerCount": 0
-            },
-            "industry": "urn:li:industry:98"
-        },
-        {
-            "followerCounts": {
-                "organicFollowerCount": 8,
-                "paidFollowerCount": 0
-            },
-            "industry": "urn:li:industry:10"
-        },
-        {
-            "followerCounts": {
-                "organicFollowerCount": 8,
-                "paidFollowerCount": 0
-            },
-            "industry": "urn:li:industry:26"
-        },
-        {
-            "followerCounts": {
-                "organicFollowerCount": 8,
-                "paidFollowerCount": 0
-            },
-            "industry": "urn:li:industry:107"
-        }
+    "linkedin_posts_activity_URN": [
+        "urn:li:activity:6775130322062331904",
+        "urn:li:activity:6774680862928732161"
     ],
-    "linkedin_followerCountsByFunction": [
-        {
-            "followerCounts": {
-                "organicFollowerCount": 3104,
-                "paidFollowerCount": 0
-            },
-            "function": "urn:li:function:8"
-        },
-        {
-            "followerCounts": {
-                "organicFollowerCount": 1750,
-                "paidFollowerCount": 0
-            },
-            "function": "urn:li:function:13"
-        },
-        {
-            "followerCounts": {
-                "organicFollowerCount": 468,
-                "paidFollowerCount": 0
-            },
-            "function": "urn:li:function:4"
-        },
-        {
-            "followerCounts": {
-                "organicFollowerCount": 343,
-                "paidFollowerCount": 0
-            },
-            "function": "urn:li:function:18"
-        },
-        {
-            "followerCounts": {
-                "organicFollowerCount": 303,
-                "paidFollowerCount": 0
-            },
-            "function": "urn:li:function:7"
-        },
-        {
-            "followerCounts": {
-                "organicFollowerCount": 186,
-                "paidFollowerCount": 0
-            },
-            "function": "urn:li:function:25"
-        },
-        {
-            "followerCounts": {
-                "organicFollowerCount": 173,
-                "paidFollowerCount": 0
-            },
-            "function": "urn:li:function:24"
-        },
-        {
-            "followerCounts": {
-                "organicFollowerCount": 150,
-                "paidFollowerCount": 0
-            },
-            "function": "urn:li:function:3"
-        },
-        {
-            "followerCounts": {
-                "organicFollowerCount": 147,
-                "paidFollowerCount": 0
-            },
-            "function": "urn:li:function:20"
-        },
-        {
-            "followerCounts": {
-                "organicFollowerCount": 125,
-                "paidFollowerCount": 0
-            },
-            "function": "urn:li:function:16"
-        },
-        {
-            "followerCounts": {
-                "organicFollowerCount": 111,
-                "paidFollowerCount": 0
-            },
-            "function": "urn:li:function:6"
-        },
-        {
-            "followerCounts": {
-                "organicFollowerCount": 79,
-                "paidFollowerCount": 0
-            },
-            "function": "urn:li:function:26"
-        },
-        {
-            "followerCounts": {
-                "organicFollowerCount": 79,
-                "paidFollowerCount": 0
-            },
-            "function": "urn:li:function:15"
-        },
-        {
-            "followerCounts": {
-                "organicFollowerCount": 78,
-                "paidFollowerCount": 0
-            },
-            "function": "urn:li:function:22"
-        },
-        {
-            "followerCounts": {
-                "organicFollowerCount": 71,
-                "paidFollowerCount": 0
-            },
-            "function": "urn:li:function:2"
-        },
-        {
-            "followerCounts": {
-                "organicFollowerCount": 57,
-                "paidFollowerCount": 0
-            },
-            "function": "urn:li:function:12"
-        },
-        {
-            "followerCounts": {
-                "organicFollowerCount": 56,
-                "paidFollowerCount": 0
-            },
-            "function": "urn:li:function:19"
-        },
-        {
-            "followerCounts": {
-                "organicFollowerCount": 50,
-                "paidFollowerCount": 0
-            },
-            "function": "urn:li:function:5"
-        },
-        {
-            "followerCounts": {
-                "organicFollowerCount": 44,
-                "paidFollowerCount": 0
-            },
-            "function": "urn:li:function:10"
-        },
-        {
-            "followerCounts": {
-                "organicFollowerCount": 44,
-                "paidFollowerCount": 0
-            },
-            "function": "urn:li:function:9"
-        },
-        {
-            "followerCounts": {
-                "organicFollowerCount": 38,
-                "paidFollowerCount": 0
-            },
-            "function": "urn:li:function:17"
-        },
-        {
-            "followerCounts": {
-                "organicFollowerCount": 29,
-                "paidFollowerCount": 0
-            },
-            "function": "urn:li:function:1"
-        },
-        {
-            "followerCounts": {
-                "organicFollowerCount": 14,
-                "paidFollowerCount": 0
-            },
-            "function": "urn:li:function:11"
-        },
-        {
-            "followerCounts": {
-                "organicFollowerCount": 14,
-                "paidFollowerCount": 0
-            },
-            "function": "urn:li:function:14"
-        },
-        {
-            "followerCounts": {
-                "organicFollowerCount": 11,
-                "paidFollowerCount": 0
-            },
-            "function": "urn:li:function:23"
-        },
-        {
-            "followerCounts": {
-                "organicFollowerCount": 2,
-                "paidFollowerCount": 0
-            },
-            "function": "urn:li:function:21"
-        }
+    "linkedin_posts_clickCount": [
+        39,
+        13
     ],
-    "linkedin_followerCountsByStaffCountRange": [
-        {
-            "followerCounts": {
-                "organicFollowerCount": 1592,
-                "paidFollowerCount": 0
-            },
-            "staffCountRange": "SIZE_10001_OR_MORE"
-        },
-        {
-            "followerCounts": {
-                "organicFollowerCount": 1028,
-                "paidFollowerCount": 0
-            },
-            "staffCountRange": "SIZE_51_TO_200"
-        },
-        {
-            "followerCounts": {
-                "organicFollowerCount": 994,
-                "paidFollowerCount": 0
-            },
-            "staffCountRange": "SIZE_1001_TO_5000"
-        },
-        {
-            "followerCounts": {
-                "organicFollowerCount": 939,
-                "paidFollowerCount": 0
-            },
-            "staffCountRange": "SIZE_11_TO_50"
-        },
-        {
-            "followerCounts": {
-                "organicFollowerCount": 631,
-                "paidFollowerCount": 0
-            },
-            "staffCountRange": "SIZE_201_TO_500"
-        },
-        {
-            "followerCounts": {
-                "organicFollowerCount": 534,
-                "paidFollowerCount": 0
-            },
-            "staffCountRange": "SIZE_2_TO_10"
-        },
-        {
-            "followerCounts": {
-                "organicFollowerCount": 520,
-                "paidFollowerCount": 0
-            },
-            "staffCountRange": "SIZE_501_TO_1000"
-        },
-        {
-            "followerCounts": {
-                "organicFollowerCount": 326,
-                "paidFollowerCount": 0
-            },
-            "staffCountRange": "SIZE_5001_TO_10000"
-        },
-        {
-            "followerCounts": {
-                "organicFollowerCount": 96,
-                "paidFollowerCount": 0
-            },
-            "staffCountRange": "SIZE_1"
-        }
+    "linkedin_posts_commentCount": [
+        0,
+        0
     ],
-    "linkedin_followerCountsByCountry": [
-        {
-            "followerCounts": {
-                "organicFollowerCount": 1444,
-                "paidFollowerCount": 0
-            },
-            "country": "urn:li:country:in"
-        },
-        {
-            "followerCounts": {
-                "organicFollowerCount": 1327,
-                "paidFollowerCount": 0
-            },
-            "country": "urn:li:country:us"
-        },
-        {
-            "followerCounts": {
-                "organicFollowerCount": 830,
-                "paidFollowerCount": 0
-            },
-            "country": "urn:li:country:br"
-        },
-        {
-            "followerCounts": {
-                "organicFollowerCount": 445,
-                "paidFollowerCount": 0
-            },
-            "country": "urn:li:country:it"
-        },
-        {
-            "followerCounts": {
-                "organicFollowerCount": 431,
-                "paidFollowerCount": 0
-            },
-            "country": "urn:li:country:de"
-        },
-        {
-            "followerCounts": {
-                "organicFollowerCount": 396,
-                "paidFollowerCount": 0
-            },
-            "country": "urn:li:country:fr"
-        },
-        {
-            "followerCounts": {
-                "organicFollowerCount": 376,
-                "paidFollowerCount": 0
-            },
-            "country": "urn:li:country:es"
-        },
-        {
-            "followerCounts": {
-                "organicFollowerCount": 298,
-                "paidFollowerCount": 0
-            },
-            "country": "urn:li:country:gb"
-        },
-        {
-            "followerCounts": {
-                "organicFollowerCount": 195,
-                "paidFollowerCount": 0
-            },
-            "country": "urn:li:country:ca"
-        },
-        {
-            "followerCounts": {
-                "organicFollowerCount": 191,
-                "paidFollowerCount": 0
-            },
-            "country": "urn:li:country:tr"
-        },
-        {
-            "followerCounts": {
-                "organicFollowerCount": 151,
-                "paidFollowerCount": 0
-            },
-            "country": "urn:li:country:pl"
-        },
-        {
-            "followerCounts": {
-                "organicFollowerCount": 145,
-                "paidFollowerCount": 0
-            },
-            "country": "urn:li:country:nl"
-        },
-        {
-            "followerCounts": {
-                "organicFollowerCount": 134,
-                "paidFollowerCount": 0
-            },
-            "country": "urn:li:country:mx"
-        },
-        {
-            "followerCounts": {
-                "organicFollowerCount": 117,
-                "paidFollowerCount": 0
-            },
-            "country": "urn:li:country:ar"
-        },
-        {
-            "followerCounts": {
-                "organicFollowerCount": 116,
-                "paidFollowerCount": 0
-            },
-            "country": "urn:li:country:au"
-        },
-        {
-            "followerCounts": {
-                "organicFollowerCount": 116,
-                "paidFollowerCount": 0
-            },
-            "country": "urn:li:country:eg"
-        },
-        {
-            "followerCounts": {
-                "organicFollowerCount": 114,
-                "paidFollowerCount": 0
-            },
-            "country": "urn:li:country:ir"
-        },
-        {
-            "followerCounts": {
-                "organicFollowerCount": 99,
-                "paidFollowerCount": 0
-            },
-            "country": "urn:li:country:cn"
-        },
-        {
-            "followerCounts": {
-                "organicFollowerCount": 97,
-                "paidFollowerCount": 0
-            },
-            "country": "urn:li:country:pt"
-        },
-        {
-            "followerCounts": {
-                "organicFollowerCount": 97,
-                "paidFollowerCount": 0
-            },
-            "country": "urn:li:country:gr"
-        },
-        {
-            "followerCounts": {
-                "organicFollowerCount": 85,
-                "paidFollowerCount": 0
-            },
-            "country": "urn:li:country:ch"
-        },
-        {
-            "followerCounts": {
-                "organicFollowerCount": 81,
-                "paidFollowerCount": 0
-            },
-            "country": "urn:li:country:cl"
-        },
-        {
-            "followerCounts": {
-                "organicFollowerCount": 79,
-                "paidFollowerCount": 0
-            },
-            "country": "urn:li:country:be"
-        },
-        {
-            "followerCounts": {
-                "organicFollowerCount": 76,
-                "paidFollowerCount": 0
-            },
-            "country": "urn:li:country:fi"
-        },
-        {
-            "followerCounts": {
-                "organicFollowerCount": 74,
-                "paidFollowerCount": 0
-            },
-            "country": "urn:li:country:ua"
-        },
-        {
-            "followerCounts": {
-                "organicFollowerCount": 66,
-                "paidFollowerCount": 0
-            },
-            "country": "urn:li:country:ru"
-        },
-        {
-            "followerCounts": {
-                "organicFollowerCount": 64,
-                "paidFollowerCount": 0
-            },
-            "country": "urn:li:country:id"
-        },
-        {
-            "followerCounts": {
-                "organicFollowerCount": 62,
-                "paidFollowerCount": 0
-            },
-            "country": "urn:li:country:se"
-        },
-        {
-            "followerCounts": {
-                "organicFollowerCount": 60,
-                "paidFollowerCount": 0
-            },
-            "country": "urn:li:country:co"
-        },
-        {
-            "followerCounts": {
-                "organicFollowerCount": 58,
-                "paidFollowerCount": 0
-            },
-            "country": "urn:li:country:at"
-        },
-        {
-            "followerCounts": {
-                "organicFollowerCount": 58,
-                "paidFollowerCount": 0
-            },
-            "country": "urn:li:country:cz"
-        },
-        {
-            "followerCounts": {
-                "organicFollowerCount": 57,
-                "paidFollowerCount": 0
-            },
-            "country": "urn:li:country:ie"
-        },
-        {
-            "followerCounts": {
-                "organicFollowerCount": 56,
-                "paidFollowerCount": 0
-            },
-            "country": "urn:li:country:ro"
-        },
-        {
-            "followerCounts": {
-                "organicFollowerCount": 54,
-                "paidFollowerCount": 0
-            },
-            "country": "urn:li:country:rs"
-        },
-        {
-            "followerCounts": {
-                "organicFollowerCount": 53,
-                "paidFollowerCount": 0
-            },
-            "country": "urn:li:country:za"
-        },
-        {
-            "followerCounts": {
-                "organicFollowerCount": 51,
-                "paidFollowerCount": 0
-            },
-            "country": "urn:li:country:il"
-        },
-        {
-            "followerCounts": {
-                "organicFollowerCount": 49,
-                "paidFollowerCount": 0
-            },
-            "country": "urn:li:country:tn"
-        },
-        {
-            "followerCounts": {
-                "organicFollowerCount": 48,
-                "paidFollowerCount": 0
-            },
-            "country": "urn:li:country:pk"
-        },
-        {
-            "followerCounts": {
-                "organicFollowerCount": 45,
-                "paidFollowerCount": 0
-            },
-            "country": "urn:li:country:bg"
-        },
-        {
-            "followerCounts": {
-                "organicFollowerCount": 41,
-                "paidFollowerCount": 0
-            },
-            "country": "urn:li:country:ma"
-        },
-        {
-            "followerCounts": {
-                "organicFollowerCount": 39,
-                "paidFollowerCount": 0
-            },
-            "country": "urn:li:country:ae"
-        },
-        {
-            "followerCounts": {
-                "organicFollowerCount": 39,
-                "paidFollowerCount": 0
-            },
-            "country": "urn:li:country:bd"
-        },
-        {
-            "followerCounts": {
-                "organicFollowerCount": 36,
-                "paidFollowerCount": 0
-            },
-            "country": "urn:li:country:my"
-        },
-        {
-            "followerCounts": {
-                "organicFollowerCount": 35,
-                "paidFollowerCount": 0
-            },
-            "country": "urn:li:country:ph"
-        },
-        {
-            "followerCounts": {
-                "organicFollowerCount": 34,
-                "paidFollowerCount": 0
-            },
-            "country": "urn:li:country:sg"
-        },
-        {
-            "followerCounts": {
-                "organicFollowerCount": 34,
-                "paidFollowerCount": 0
-            },
-            "country": "urn:li:country:N/A"
-        },
-        {
-            "followerCounts": {
-                "organicFollowerCount": 34,
-                "paidFollowerCount": 0
-            },
-            "country": "urn:li:country:pe"
-        },
-        {
-            "followerCounts": {
-                "organicFollowerCount": 33,
-                "paidFollowerCount": 0
-            },
-            "country": "urn:li:country:no"
-        },
-        {
-            "followerCounts": {
-                "organicFollowerCount": 32,
-                "paidFollowerCount": 0
-            },
-            "country": "urn:li:country:hr"
-        },
-        {
-            "followerCounts": {
-                "organicFollowerCount": 31,
-                "paidFollowerCount": 0
-            },
-            "country": "urn:li:country:tw"
-        },
-        {
-            "followerCounts": {
-                "organicFollowerCount": 30,
-                "paidFollowerCount": 0
-            },
-            "country": "urn:li:country:jp"
-        },
-        {
-            "followerCounts": {
-                "organicFollowerCount": 29,
-                "paidFollowerCount": 0
-            },
-            "country": "urn:li:country:kr"
-        },
-        {
-            "followerCounts": {
-                "organicFollowerCount": 27,
-                "paidFollowerCount": 0
-            },
-            "country": "urn:li:country:dk"
-        },
-        {
-            "followerCounts": {
-                "organicFollowerCount": 26,
-                "paidFollowerCount": 0
-            },
-            "country": "urn:li:country:hu"
-        },
-        {
-            "followerCounts": {
-                "organicFollowerCount": 24,
-                "paidFollowerCount": 0
-            },
-            "country": "urn:li:country:dz"
-        },
-        {
-            "followerCounts": {
-                "organicFollowerCount": 23,
-                "paidFollowerCount": 0
-            },
-            "country": "urn:li:country:sa"
-        },
-        {
-            "followerCounts": {
-                "organicFollowerCount": 23,
-                "paidFollowerCount": 0
-            },
-            "country": "urn:li:country:si"
-        },
-        {
-            "followerCounts": {
-                "organicFollowerCount": 23,
-                "paidFollowerCount": 0
-            },
-            "country": "urn:li:country:by"
-        },
-        {
-            "followerCounts": {
-                "organicFollowerCount": 22,
-                "paidFollowerCount": 0
-            },
-            "country": "urn:li:country:vn"
-        },
-        {
-            "followerCounts": {
-                "organicFollowerCount": 20,
-                "paidFollowerCount": 0
-            },
-            "country": "urn:li:country:lk"
-        },
-        {
-            "followerCounts": {
-                "organicFollowerCount": 18,
-                "paidFollowerCount": 0
-            },
-            "country": "urn:li:country:ve"
-        },
-        {
-            "followerCounts": {
-                "organicFollowerCount": 17,
-                "paidFollowerCount": 0
-            },
-            "country": "urn:li:country:sk"
-        },
-        {
-            "followerCounts": {
-                "organicFollowerCount": 17,
-                "paidFollowerCount": 0
-            },
-            "country": "urn:li:country:lu"
-        },
-        {
-            "followerCounts": {
-                "organicFollowerCount": 16,
-                "paidFollowerCount": 0
-            },
-            "country": "urn:li:country:cr"
-        },
-        {
-            "followerCounts": {
-                "organicFollowerCount": 16,
-                "paidFollowerCount": 0
-            },
-            "country": "urn:li:country:nz"
-        },
-        {
-            "followerCounts": {
-                "organicFollowerCount": 16,
-                "paidFollowerCount": 0
-            },
-            "country": "urn:li:country:oo"
-        },
-        {
-            "followerCounts": {
-                "organicFollowerCount": 15,
-                "paidFollowerCount": 0
-            },
-            "country": "urn:li:country:ke"
-        },
-        {
-            "followerCounts": {
-                "organicFollowerCount": 15,
-                "paidFollowerCount": 0
-            },
-            "country": "urn:li:country:ng"
-        },
-        {
-            "followerCounts": {
-                "organicFollowerCount": 13,
-                "paidFollowerCount": 0
-            },
-            "country": "urn:li:country:ba"
-        },
-        {
-            "followerCounts": {
-                "organicFollowerCount": 13,
-                "paidFollowerCount": 0
-            },
-            "country": "urn:li:country:th"
-        },
-        {
-            "followerCounts": {
-                "organicFollowerCount": 12,
-                "paidFollowerCount": 0
-            },
-            "country": "urn:li:country:hk"
-        },
-        {
-            "followerCounts": {
-                "organicFollowerCount": 12,
-                "paidFollowerCount": 0
-            },
-            "country": "urn:li:country:mk"
-        },
-        {
-            "followerCounts": {
-                "organicFollowerCount": 11,
-                "paidFollowerCount": 0
-            },
-            "country": "urn:li:country:lt"
-        },
-        {
-            "followerCounts": {
-                "organicFollowerCount": 11,
-                "paidFollowerCount": 0
-            },
-            "country": "urn:li:country:do"
-        },
-        {
-            "followerCounts": {
-                "organicFollowerCount": 11,
-                "paidFollowerCount": 0
-            },
-            "country": "urn:li:country:ec"
-        },
-        {
-            "followerCounts": {
-                "organicFollowerCount": 11,
-                "paidFollowerCount": 0
-            },
-            "country": "urn:li:country:uy"
-        },
-        {
-            "followerCounts": {
-                "organicFollowerCount": 10,
-                "paidFollowerCount": 0
-            },
-            "country": "urn:li:country:py"
-        },
-        {
-            "followerCounts": {
-                "organicFollowerCount": 10,
-                "paidFollowerCount": 0
-            },
-            "country": "urn:li:country:lb"
-        },
-        {
-            "followerCounts": {
-                "organicFollowerCount": 10,
-                "paidFollowerCount": 0
-            },
-            "country": "urn:li:country:gh"
-        },
-        {
-            "followerCounts": {
-                "organicFollowerCount": 9,
-                "paidFollowerCount": 0
-            },
-            "country": "urn:li:country:am"
-        },
-        {
-            "followerCounts": {
-                "organicFollowerCount": 9,
-                "paidFollowerCount": 0
-            },
-            "country": "urn:li:country:cy"
-        },
-        {
-            "followerCounts": {
-                "organicFollowerCount": 9,
-                "paidFollowerCount": 0
-            },
-            "country": "urn:li:country:ge"
-        },
-        {
-            "followerCounts": {
-                "organicFollowerCount": 9,
-                "paidFollowerCount": 0
-            },
-            "country": "urn:li:country:om"
-        },
-        {
-            "followerCounts": {
-                "organicFollowerCount": 8,
-                "paidFollowerCount": 0
-            },
-            "country": "urn:li:country:iq"
-        },
-        {
-            "followerCounts": {
-                "organicFollowerCount": 8,
-                "paidFollowerCount": 0
-            },
-            "country": "urn:li:country:jo"
-        },
-        {
-            "followerCounts": {
-                "organicFollowerCount": 8,
-                "paidFollowerCount": 0
-            },
-            "country": "urn:li:country:gt"
-        },
-        {
-            "followerCounts": {
-                "organicFollowerCount": 7,
-                "paidFollowerCount": 0
-            },
-            "country": "urn:li:country:pr"
-        },
-        {
-            "followerCounts": {
-                "organicFollowerCount": 7,
-                "paidFollowerCount": 0
-            },
-            "country": "urn:li:country:ci"
-        },
-        {
-            "followerCounts": {
-                "organicFollowerCount": 7,
-                "paidFollowerCount": 0
-            },
-            "country": "urn:li:country:ee"
-        },
-        {
-            "followerCounts": {
-                "organicFollowerCount": 6,
-                "paidFollowerCount": 0
-            },
-            "country": "urn:li:country:al"
-        },
-        {
-            "followerCounts": {
-                "organicFollowerCount": 6,
-                "paidFollowerCount": 0
-            },
-            "country": "urn:li:country:mm"
-        },
-        {
-            "followerCounts": {
-                "organicFollowerCount": 5,
-                "paidFollowerCount": 0
-            },
-            "country": "urn:li:country:hn"
-        },
-        {
-            "followerCounts": {
-                "organicFollowerCount": 5,
-                "paidFollowerCount": 0
-            },
-            "country": "urn:li:country:sy"
-        },
-        {
-            "followerCounts": {
-                "organicFollowerCount": 5,
-                "paidFollowerCount": 0
-            },
-            "country": "urn:li:country:lv"
-        },
-        {
-            "followerCounts": {
-                "organicFollowerCount": 5,
-                "paidFollowerCount": 0
-            },
-            "country": "urn:li:country:md"
-        },
-        {
-            "followerCounts": {
-                "organicFollowerCount": 5,
-                "paidFollowerCount": 0
-            },
-            "country": "urn:li:country:pa"
-        },
-        {
-            "followerCounts": {
-                "organicFollowerCount": 4,
-                "paidFollowerCount": 0
-            },
-            "country": "urn:li:country:az"
-        },
-        {
-            "followerCounts": {
-                "organicFollowerCount": 4,
-                "paidFollowerCount": 0
-            },
-            "country": "urn:li:country:sv"
-        },
-        {
-            "followerCounts": {
-                "organicFollowerCount": 4,
-                "paidFollowerCount": 0
-            },
-            "country": "urn:li:country:ko"
-        },
-        {
-            "followerCounts": {
-                "organicFollowerCount": 4,
-                "paidFollowerCount": 0
-            },
-            "country": "urn:li:country:mu"
-        }
+    "linkedin_posts_engagement": [
+        0.07323452484742807,
+        0.04780876494023904
     ],
-    "linkedin_organizationalEntity": "urn:li:organization:29561"
+    "linkedin_posts_impressionCount": [
+        1147,
+        753
+    ],
+    "linkedin_posts_likeCount": [
+        43,
+        22
+    ],
+    "linkedin_posts_shareCount": [
+        2,
+        1
+    ]
 }

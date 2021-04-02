@@ -287,6 +287,54 @@
       </div>
     </div>
   </div>
+  <div class="masonry-item col-md-6">
+    <div class="bd bgc-white">
+      <div class="layers">
+        <div class="layer w-100 pX-20 pT-20">
+          <h6 class="lh-1">Facebook Page Fans Locale</h6>
+        </div>
+        <div class="layer w-100 p-20">
+          <div id="facebook_page_fans_locale"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="masonry-item col-md-6">
+    <div class="bd bgc-white">
+      <div class="layers">
+        <div class="layer w-100 pX-20 pT-20">
+          <h6 class="lh-1">Facebook Page Fans City</h6>
+        </div>
+        <div class="layer w-100 p-20">
+          <div id="facebook_page_fans_city"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="masonry-item col-md-6">
+    <div class="bd bgc-white">
+      <div class="layers">
+        <div class="layer w-100 pX-20 pT-20">
+          <h6 class="lh-1">Facebook Page Fans Gender Age</h6>
+        </div>
+        <div class="layer w-100 p-20">
+          <div id="facebook_page_fans_gender_age"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="masonry-item col-md-6">
+    <div class="bd bgc-white">
+      <div class="layers">
+        <div class="layer w-100 pX-20 pT-20">
+          <h6 class="lh-1">Facebook Page Positive Feedback</h6>
+        </div>
+        <div class="layer w-100 p-20">
+          <div id="facebook_page_positive_feedback_by_type"></div>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
 <script>
   const get_array = (arr, sub=[]) => {
@@ -450,4 +498,99 @@
   let facebookCombinedChart = new ApexCharts(document.querySelector("#facebook-combined-stats"), facebook_options);
   facebookCombinedChart.render();
 
+  var facebook_page_fans_locale_opt = {
+    series: Object.values(facebook_page_fans_locale),
+    chart: {
+    width: '100%',
+    height: '250',
+    type: 'pie',
+  },
+  labels: Object.keys(facebook_page_fans_locale),
+  responsive: [{
+    breakpoint: 480,
+    options: {
+      chart: {
+        width: 200
+      },
+      legend: {
+        position: 'bottom'
+      }
+    }
+  }]
+};
+
+  var facebook_page_fans_locale_chart = new ApexCharts(document.querySelector("#facebook_page_fans_locale"), facebook_page_fans_locale_opt);
+  facebook_page_fans_locale_chart.render();
+
+  var facebook_page_fans_city_opts = {
+    series: Object.values(facebook_page_fans_city),
+    chart: {
+    width: '100%',
+    height: '250',
+    type: 'pie',
+  },
+  labels: Object.keys(facebook_page_fans_city),
+  responsive: [{
+    breakpoint: 480,
+    options: {
+      chart: {
+        width: 200
+      },
+      legend: {
+        position: 'bottom'
+      }
+    }
+  }]
+};
+
+  var facebook_page_fans_city_chart = new ApexCharts(document.querySelector("#facebook_page_fans_city"), facebook_page_fans_city_opts);
+  facebook_page_fans_city_chart.render();
+
+  var facebook_page_fans_gender_age_opts = {
+      series: Object.values(facebook_page_fans_gender_age),
+      chart: {
+      width: '100%',
+      height: '250',
+      type: 'pie',
+    },
+    labels: Object.keys(facebook_page_fans_gender_age),
+    responsive: [{
+      breakpoint: 480,
+      options: {
+        chart: {
+          width: 200
+        },
+        legend: {
+          position: 'bottom'
+        }
+      }
+    }]
+  };
+
+  var facebook_page_fans_gender_age_chart = new ApexCharts(document.querySelector("#facebook_page_fans_gender_age"), facebook_page_fans_gender_age_opts);
+  facebook_page_fans_gender_age_chart.render();
+
+  var facebook_page_positive_feedback_by_type_opts = {
+      series: Object.values(facebook_page_positive_feedback_by_type),
+      chart: {
+      width: '100%',
+      height: '250',
+      type: 'pie',
+    },
+    labels: Object.keys(facebook_page_positive_feedback_by_type),
+    responsive: [{
+      breakpoint: 480,
+      options: {
+        chart: {
+          width: 200
+        },
+        legend: {
+          position: 'bottom'
+        }
+      }
+    }]
+  };
+
+  var facebook_page_positive_feedback_by_type_chart = new ApexCharts(document.querySelector("#facebook_page_positive_feedback_by_type"), facebook_page_positive_feedback_by_type_opts);
+  facebook_page_positive_feedback_by_type_chart.render();
 </script>

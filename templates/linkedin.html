@@ -1,38 +1,356 @@
 <div class="row gap-20 masonry pos-r" id="linkedin-stats">
+  <!-- Combined Stats -->
+  <div class="masonry-item w-100">
+    <div class="row gap-20">
+      <div class="col-md-3">
+        <div class="layers bd bgc-white p-20">
+          <div class="layer w-100 mB-10">
+            <h6 class="lh-1">Followers</h6>
+          </div>
+          <div class="layer w-100">
+            <div class="peers ai-sb fxw-nw">
+              <div class="peer peer-greed">
+                <span id="sparklinedash">
+                  <canvas width="45" height="20"
+                    style="display: inline-block; width: 45px; height: 20px; vertical-align: top;">
+                  </canvas>
+                </span>
+              </div>
+              <div class="peer">
+                <span class="d-ib lh-0 va-m fw-600 bdrs-10em pX-15 pY-15 bgc-green-50 c-green-500">{{ linkedin_followerCount }}</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-2">
+        <div class="layers bd bgc-white p-20">
+          <div class="layer w-100 mB-10">
+            <h6 class="lh-1">Unique Impressions</h6>
+          </div>
+          <div class="layer w-100">
+            <div class="peers ai-sb fxw-nw">
+              <div class="peer peer-greed">
+                <span id="sparklinedash">
+                  <canvas width="45" height="20"
+                    style="display: inline-block; width: 45px; height: 20px; vertical-align: top;">
+                  </canvas>
+                </span>
+              </div>
+              <div class="peer">
+                <span class="d-ib lh-0 va-m fw-600 bdrs-10em pX-15 pY-15 bgc-green-50 c-green-500">{{ linkedin_uniqueImpressionsCount }}</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-2">
+        <div class="layers bd bgc-white p-20">
+          <div class="layer w-100 mB-10">
+            <h6 class="lh-1">Share Count</h6>
+          </div>
+          <div class="layer w-100">
+            <div class="peers ai-sb fxw-nw">
+              <div class="peer peer-greed">
+                <span id="sparklinedash2">
+                  <canvas width="45" height="20"
+                    style="display: inline-block; width: 45px; height: 20px; vertical-align: top;">
+
+                  </canvas>
+                </span>
+              </div>
+              <div class="peer">
+                <span class="d-ib lh-0 va-m fw-600 bdrs-10em pX-15 pY-15 bgc-red-50 c-red-500">{{ linkedin_shareCount }}</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-2">
+        <div class="layers bd bgc-white p-20">
+          <div class="layer w-100 mB-10">
+            <h6 class="lh-1">Share Mentions</h6>
+          </div>
+          <div class="layer w-100">
+            <div class="peers ai-sb fxw-nw">
+              <div class="peer peer-greed">
+                <span id="sparklinedash2">
+                  <canvas width="45" height="20"
+                    style="display: inline-block; width: 45px; height: 20px; vertical-align: top;">
+
+                  </canvas>
+                </span>
+              </div>
+              <div class="peer">
+                <span class="d-ib lh-0 va-m fw-600 bdrs-10em pX-15 pY-15 bgc-red-50 c-red-500">{{ linkedin_shareMentionsCount }}</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="layers bd bgc-white p-20">
+          <div class="layer w-100 mB-10">
+            <h6 class="lh-1">Engagement</h6>
+          </div>
+          <div class="layer w-100">
+            <div class="peers ai-sb fxw-nw">
+              <div class="peer peer-greed">
+                <span id="sparklinedash2">
+                  <canvas width="45" height="20"
+                    style="display: inline-block; width: 45px; height: 20px; vertical-align: top;">
+
+                  </canvas>
+                </span>
+              </div>
+              <div class="peer">
+                <span class="d-ib lh-0 va-m fw-600 bdrs-10em pX-15 pY-15 bgc-red-50 c-red-500">{{ linkedin_engagement }}</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div> 
+    </div>
+  </div>
+  <div class="masonry-item w-100">
+    <div class="row gap-20">
+      <div class="col-md-3">
+        <div class="layers bd bgc-white p-20">
+          <div class="layer w-100 mB-10">
+            <h6 class="lh-1">Click Count</h6>
+          </div>
+          <div class="layer w-100">
+            <div class="peers ai-sb fxw-nw">
+              <div class="peer peer-greed">
+                <span id="sparklinedash">
+                  <canvas width="45" height="20"
+                    style="display: inline-block; width: 45px; height: 20px; vertical-align: top;">
+
+                  </canvas>
+                </span>
+              </div>
+              <div class="peer">
+                <span class="d-ib lh-0 va-m fw-600 bdrs-10em pX-15 pY-15 bgc-green-50 c-green-500">{{ linkedin_clickCount }}</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-2">
+        <div class="layers bd bgc-white p-20">
+          <div class="layer w-100 mB-10">
+            <h6 class="lh-1">Likes</h6>
+          </div>
+          <div class="layer w-100">
+            <div class="peers ai-sb fxw-nw">
+              <div class="peer peer-greed">
+                <span id="sparklinedash">
+                  <canvas width="45" height="20"
+                    style="display: inline-block; width: 45px; height: 20px; vertical-align: top;">
+                  </canvas>
+                </span>
+              </div>
+              <div class="peer">
+                <span class="d-ib lh-0 va-m fw-600 bdrs-10em pX-15 pY-15 bgc-green-50 c-green-500">{{ linkedin_likeCount }}</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-2">
+        <div class="layers bd bgc-white p-20">
+          <div class="layer w-100 mB-10">
+            <h6 class="lh-1">Impressions</h6>
+          </div>
+          <div class="layer w-100">
+            <div class="peers ai-sb fxw-nw">
+              <div class="peer peer-greed">
+                <span id="sparklinedash">
+                  <canvas width="45" height="20"
+                    style="display: inline-block; width: 45px; height: 20px; vertical-align: top;">
+                  </canvas>
+                </span>
+              </div>
+              <div class="peer">
+                <span class="d-ib lh-0 va-m fw-600 bdrs-10em pX-15 pY-15 bgc-green-50 c-green-500">{{ linkedin_impressionCount }}</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-2">
+        <div class="layers bd bgc-white p-20">
+          <div class="layer w-100 mB-10">
+            <h6 class="lh-1">Comment Mentions</h6>
+          </div>
+          <div class="layer w-100">
+            <div class="peers ai-sb fxw-nw">
+              <div class="peer peer-greed">
+                <span id="sparklinedash2">
+                  <canvas width="45" height="20"
+                    style="display: inline-block; width: 45px; height: 20px; vertical-align: top;">
+
+                  </canvas>
+                </span>
+              </div>
+              <div class="peer">
+                <span class="d-ib lh-0 va-m fw-600 bdrs-10em pX-15 pY-15 bgc-red-50 c-red-500">{{ linkedin_commentMentionsCount }}</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="layers bd bgc-white p-20">
+          <div class="layer w-100 mB-10">
+            <h6 class="lh-1">Comments</h6>
+          </div>
+          <div class="layer w-100">
+            <div class="peers ai-sb fxw-nw">
+              <div class="peer peer-greed">
+                <span id="sparklinedash2">
+                  <canvas width="45" height="20"
+                    style="display: inline-block; width: 45px; height: 20px; vertical-align: top;">
+
+                  </canvas>
+                </span>
+              </div>
+              <div class="peer">
+                <span class="d-ib lh-0 va-m fw-600 bdrs-10em pX-15 pY-15 bgc-red-50 c-red-500">{{ linkedin_commentCount }}</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- LINKEDIN FOLLOWER STATS -->
+  <div class="masonry-item w-100">
+    <div class="row gap-20">
+      <div class="col-md-12">
+        <h3 style="text-align: center;background-color: #fff;">LINKEDIN FOLLOWERS STATS</h3>
+      </div>
+    </div>
+  </div>
   <div class="masonry-item col-md-6">
-    <!-- #Monthly Stats ==================== -->
     <div class="bd bgc-white">
       <div class="layers">
         <div class="layer w-100 pX-20 pT-20">
-          <h6 class="lh-1">Monthly Stats</h6>
+          <h6 class="lh-1">Follower Counts By Region</h6>
         </div>
         <div class="layer w-100 p-20">
-          <div id="linkedin-chart-area">
-          </div>
-          <div id="linkedin-chart-bar">
-          </div>
+          <div id="linkedin_followerCountsByRegion"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="masonry-item col-md-6">
+    <div class="bd bgc-white">
+      <div class="layers">
+        <div class="layer w-100 pX-20 pT-20">
+          <h6 class="lh-1">Follower Count By Industry</h6>
+        </div>
+        <div class="layer w-100 p-20">
+          <div id="linkedin_followerCountsByIndustry"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="masonry-item col-md-6">
+    <div class="bd bgc-white">
+      <div class="layers">
+        <div class="layer w-100 pX-20 pT-20">
+          <h6 class="lh-1">Follower Counts By Function</h6>
+        </div>
+        <div class="layer w-100 p-20">
+          <div id="linkedin_followerCountsByFunction"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="masonry-item col-md-6">
+    <div class="bd bgc-white">
+      <div class="layers">
+        <div class="layer w-100 pX-20 pT-20">
+          <h6 class="lh-1">Follower Counts By Country</h6>
+        </div>
+        <div class="layer w-100 p-20">
+          <div id="linkedin_followerCountsByCountry"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="masonry-item col-md-12">
+    <div class="bd bgc-white">
+      <div class="layers">
+        <div class="layer w-100 pX-20 pT-20">
+          <h6 class="lh-1">Linkedin Weekly Follower Stats</h6>
+        </div>
+        <div class="layer w-100 p-20">
+          <div id="linkedin-weekly-follower-stats"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="masonry-item col-md-4">
+    <div class="bd bgc-white">
+      <div class="layers">
+        <div class="layer w-100 pX-20 pT-20">
+          <h6 class="lh-1">Follower Count By Association Type</h6>
+        </div>
+        <div class="layer w-100 p-20">
+          <div id="linkedin-follower-count-by-association-type"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="masonry-item col-md-4">
+    <div class="bd bgc-white">
+      <div class="layers">
+        <div class="layer w-100 pX-20 pT-20">
+          <h6 class="lh-1">FollowerCounts By Seniority</h6>
+        </div>
+        <div class="layer w-100 p-20">
+          <div id="linkedin_followerCountsBySeniority"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="masonry-item col-md-4">
+    <div class="bd bgc-white">
+      <div class="layers">
+        <div class="layer w-100 pX-20 pT-20">
+          <h6 class="lh-1">Follower Counts By Staff Count Range</h6>
+        </div>
+        <div class="layer w-100 p-20">
+          <div id="linkedin_followerCountsByStaffCountRange"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- LINKEDIN POST STATS -->
+  <div class="masonry-item w-100">
+    <div class="row gap-20">
+      <div class="col-md-12">
+        <h3 style="text-align: center;background-color: #fff;">LINKEDIN POST STATS</h3>
+      </div>
+    </div>
+  </div>
+  <div class="masonry-item col-md-12">
+    <div class="bd bgc-white">
+      <div class="layers">
+        <div class="layer w-100 pX-20 pT-20">
+          <h6 class="lh-1">LINKEDIN POSTS STATS</h6>
+        </div>
+        <div class="layer w-100 p-20">
+          <div id="linkedin-post-stats"></div>
         </div>
         <div class="layer bdT p-20 w-100">
           <div class="peers ai-c jc-c gapX-20">
             <div class="peer">
-              <span class="fsz-def fw-600 mR-10 c-grey-800">10% <i
+              <span class="fsz-def fw-600 mR-10 c-grey-800"><i
                   class="fa fa-level-up c-green-500"></i></span>
-              <small class="c-grey-500 fw-600">APPL</small>
-            </div>
-            <div class="peer fw-600">
-              <span class="fsz-def fw-600 mR-10 c-grey-800">2% <i
-                  class="fa fa-level-down c-red-500"></i></span>
-              <small class="c-grey-500 fw-600">Average</small>
-            </div>
-            <div class="peer fw-600">
-              <span class="fsz-def fw-600 mR-10 c-grey-800">15% <i
-                  class="fa fa-level-up c-green-500"></i></span>
-              <small class="c-grey-500 fw-600">Sales</small>
-            </div>
-            <div class="peer fw-600">
-              <span class="fsz-def fw-600 mR-10 c-grey-800">8% <i
-                  class="fa fa-level-down c-red-500"></i></span>
-              <small class="c-grey-500 fw-600">Profit</small>
+              <small class="c-grey-500 fw-600">Click on data-points to open Linkedin Posts</small>
             </div>
           </div>
         </div>
@@ -40,3 +358,368 @@
     </div>
   </div>
 </div>
+<script>
+  let linkedin_followerCountsByAssociationType = {{linkedin_followerCountsByAssociationType}};
+  let linkedin_followerCountsByRegion = {{linkedin_followerCountsByRegion}};
+  let linkedin_followerCountsBySeniority = {{linkedin_followerCountsBySeniority}};
+  let linkedin_followerCountsByIndustry = {{linkedin_followerCountsByIndustry}};
+  let linkedin_followerCountsByFunction = {{linkedin_followerCountsByFunction}};
+  let linkedin_followerCountsByStaffCountRange = {{linkedin_followerCountsByStaffCountRange}}
+  let linkedin_followerCountsByCountry = {{linkedin_followerCountsByCountry}};
+  let linkedin_posts_id = {{linkedin_posts_id}};
+  let linkedin_posts_activity_URN = {{linkedin_posts_activity_URN}};
+  let linkedin_posts_clickCount = {{linkedin_posts_clickCount}};
+  let linkedin_posts_commentCount = {{linkedin_posts_commentCount}};
+  let linkedin_posts_engagement = {{linkedin_posts_engagement}};
+  let linkedin_posts_impressionCount = {{linkedin_posts_impressionCount}};
+  let linkedin_posts_likeCount = {{linkedin_posts_likeCount}};
+  let linkedin_posts_shareCount = {{linkedin_posts_shareCount}};
+  let linkedin_weekly_follower_count_gain = {{linkedin_weekly_follower_count_gain}};
+  let linkedin_weekly_follower_count_time = {{linkedin_weekly_follower_count_time}};
+
+  var followerCountsByAssociationType = {
+      series: Object.values(linkedin_followerCountsByAssociationType),
+      chart: {
+      width: '100%',
+      height: '250',
+      type: 'pie',
+    },
+    labels: Object.keys(linkedin_followerCountsByAssociationType),
+    responsive: [{
+      breakpoint: 480,
+      options: {
+        chart: {
+          width: 200
+        },
+        legend: {
+          position: 'bottom'
+        }
+      }
+    }]
+  };
+
+  var followerCountsByAssociationTypeChart = new ApexCharts(document.querySelector("#linkedin-follower-count-by-association-type"), followerCountsByAssociationType);
+  followerCountsByAssociationTypeChart.render();
+
+  var followerCountsByRegion = {
+      series: Object.values(linkedin_followerCountsByRegion),
+      chart: {
+      width: '100%',
+      height: '500',
+      type: 'pie',
+    },
+    labels: Object.keys(linkedin_followerCountsByRegion),
+    responsive: [{
+      breakpoint: 480,
+      options: {
+        chart: {
+          width: 200,
+        },
+        legend: {
+          position: 'bottom'
+        }
+      }
+    }]
+  };
+
+  var followerCountsByRegionChart = new ApexCharts(document.querySelector("#linkedin_followerCountsByRegion"), followerCountsByRegion);
+  followerCountsByRegionChart.render();
+
+  var followerCountsBySeniority = {
+      series: Object.values(linkedin_followerCountsBySeniority),
+      chart: {
+      width: '100%',
+      height: '250',
+      type: 'pie',
+    },
+    labels: Object.keys(linkedin_followerCountsBySeniority),
+    responsive: [{
+      breakpoint: 480,
+      options: {
+        chart: {
+          width: 200
+        },
+        legend: {
+          position: 'bottom'
+        }
+      }
+    }]
+  };
+
+  var followerCountsBySeniorityChart = new ApexCharts(document.querySelector("#linkedin_followerCountsBySeniority"), followerCountsBySeniority);
+  followerCountsBySeniorityChart.render();
+
+  var followerCountsByIndustry = {
+      series: Object.values(linkedin_followerCountsByIndustry),
+      chart: {
+      width: '100%',
+      height: '500',
+      type: 'pie',
+    },
+    labels: Object.keys(linkedin_followerCountsByIndustry),
+    responsive: [{
+      breakpoint: 480,
+      options: {
+        chart: {
+          width: 200
+        },
+        legend: {
+          position: 'bottom'
+        }
+      }
+    }]
+  };
+
+  var followerCountsByIndustryChart = new ApexCharts(document.querySelector("#linkedin_followerCountsByIndustry"), followerCountsByIndustry);
+  followerCountsByIndustryChart.render();
+
+  var followerCountsByFunction = {
+    series: Object.values(linkedin_followerCountsByFunction),
+    chart: {
+    width: '100%',
+    height: '500',
+    type: 'pie',
+  },
+  labels: Object.keys(linkedin_followerCountsByFunction),
+  responsive: [{
+    breakpoint: 480,
+    options: {
+      chart: {
+        width: 200
+      },
+      legend: {
+        position: 'bottom'
+      }
+    }
+  }]
+};
+
+  var followerCountsByFunctionChart = new ApexCharts(document.querySelector("#linkedin_followerCountsByFunction"), followerCountsByFunction);
+  followerCountsByFunctionChart.render();
+
+  var followerCountsByStaffCountRange = {
+    series: Object.values(linkedin_followerCountsByStaffCountRange),
+    chart: {
+    width: '100%',
+    type: 'pie',
+  },
+  labels: Object.keys(linkedin_followerCountsByStaffCountRange),
+  responsive: [{
+    breakpoint: 480,
+    options: {
+      chart: {
+        width: 200
+      },
+      legend: {
+        position: 'bottom'
+      }
+    }
+  }]
+  };
+
+  var followerCountsByStaffCountRangeChart = new ApexCharts(document.querySelector("#linkedin_followerCountsByStaffCountRange"), followerCountsByStaffCountRange);
+  followerCountsByStaffCountRangeChart.render();
+
+  var followerCountsByCountry = {
+    series: Object.values(linkedin_followerCountsByCountry),
+    chart: {
+    width: '100%',
+    height: '500',
+    type: 'pie',
+  },
+  labels: Object.keys(linkedin_followerCountsByCountry),
+  responsive: [{
+    breakpoint: 480,
+    options: {
+      chart: {
+        width: 200
+      },
+      legend: {
+        position: 'bottom'
+      }
+    }
+  }]
+  };
+
+  var followerCountsByCountryChart = new ApexCharts(document.querySelector("#linkedin_followerCountsByCountry"), followerCountsByCountry);
+  followerCountsByCountryChart.render();
+
+  var linkedin_post_options = {
+
+    chart: {
+        id: "linkedin-stats-post-chart",
+        width: '100%',
+        height: 460,
+        foreColor: "#373d3f",
+        toolbar: {
+            show: true
+        },
+        events: {
+            dataPointSelection: function(event, chartContext, opts) {
+              const url = `https://www.linkedin.com/feed/update/${linkedin_posts_activity_URN[opts.dataPointIndex]}/`;
+              window.open(url);
+            }
+        }
+    },
+
+    colors: ['#2E93fA', '#66DA26', '#546E7A', '#E91E63', '#FF9800', '#454687', '#928F92', '#d63c6c', '#17277d', '#4fd97d'],
+    stroke: {
+        curve: 'smooth',
+        width: 4,
+    },
+
+    grid: {
+        borderColor: "#555",
+        clipMarkers: false,
+        yaxis: {
+            lines: {
+                show: false
+            }
+        }
+    },
+
+    dataLabels: {
+        enabled: false
+    },
+
+    fill: {
+        type: "gradient",
+        gradient: {
+            enabled: true,
+            opacityFrom: 0.7,
+            opacityTo: 0.9,
+            stops: [0, 90, 100],
+        }
+    },
+
+    markers: {
+        size: 3,
+        colors: ['#2E93fA', '#66DA26', '#546E7A', '#E91E63', '#FF9800', '#454687', '#928F92'],
+        strokeColor: "#65B051",
+        strokeWidth: 1
+    },
+
+    series: [
+        {
+            type: "line",
+            data: get_array(linkedin_posts_clickCount),
+            name: "Clicks",
+        },
+        {
+          type: "line",
+          data: get_array(linkedin_posts_commentCount),
+          name: "Comments",
+        },
+        {
+          type: "line",
+          data: get_array(linkedin_posts_engagement),
+          name: "Engagement",
+        },
+        {
+          type: "line",
+          data: get_array(linkedin_posts_impressionCount),
+          name: "Impressions",
+        },
+        {
+          type: "line",
+          data: get_array(linkedin_posts_likeCount),
+          name: "Likes",
+        },
+        {
+          type: "line",
+          data: get_array(linkedin_posts_shareCount),
+          name: "Shares",
+        },
+    ],
+
+    tooltip: {
+        theme: "light"
+    },
+
+    xaxis: {
+      categories: linkedin_posts_id,
+    },
+
+    yaxis: {
+        min: 0,
+        tickAmount: 4
+    },
+};
+
+  let linkedinPostChart = new ApexCharts(document.querySelector("#linkedin-post-stats"), linkedin_post_options);
+  linkedinPostChart.render();
+
+  var linkedin_weekly_follower_options = {
+
+    chart: {
+        id: "linkedin_weekly_follower_options_chart",
+        width: '100%',
+        height: 460,
+        foreColor: "#373d3f",
+        toolbar: {
+            show: true
+        },
+    },
+
+    colors: ['#2E93fA', '#66DA26', '#546E7A', '#E91E63', '#FF9800', '#454687', '#928F92', '#d63c6c', '#17277d', '#4fd97d'],
+    stroke: {
+        curve: 'smooth',
+        width: 4,
+    },
+
+    grid: {
+        borderColor: "#555",
+        clipMarkers: false,
+        yaxis: {
+            lines: {
+                show: false
+            }
+        }
+    },
+
+    dataLabels: {
+        enabled: false
+    },
+
+    fill: {
+        type: "gradient",
+        gradient: {
+            enabled: true,
+            opacityFrom: 0.7,
+            opacityTo: 0.9,
+            stops: [0, 90, 100],
+        }
+    },
+
+    markers: {
+        size: 3,
+        colors: ['#2E93fA', '#66DA26', '#546E7A', '#E91E63', '#FF9800', '#454687', '#928F92'],
+        strokeColor: "#65B051",
+        strokeWidth: 1
+    },
+
+    series: [
+        {
+            type: "line",
+            data: get_array(linkedin_weekly_follower_count_gain, linkedin_weekly_follower_count_time),
+            name: "Followers",
+        },
+    ],
+
+    tooltip: {
+        theme: "light"
+    },
+
+    xaxis: {
+      type: 'datetime',
+    },
+
+    yaxis: {
+        min: 0,
+        tickAmount: 4
+    },
+};
+
+  let linkedinWeeklyFollowerChart = new ApexCharts(document.querySelector("#linkedin-weekly-follower-stats"), linkedin_weekly_follower_options);
+  linkedinWeeklyFollowerChart.render();
+</script>

@@ -154,12 +154,38 @@
       </div>
     </div>
   </div>
+  <div class="masonry-item col-md-6">
+    <div class="bd bgc-white">
+      <div class="layers">
+        <div class="layer w-100 pX-20 pT-20">
+          <h6 class="lh-1">Instagram Audience Town/City</h6>
+        </div>
+        <div class="layer w-100 p-20">
+          <div id="instagram_Audience_town_city"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="masonry-item col-md-6">
+    <div class="bd bgc-white">
+      <div class="layers">
+        <div class="layer w-100 pX-20 pT-20">
+          <h6 class="lh-1">Instagram Audience Gender and Age</h6>
+        </div>
+        <div class="layer w-100 p-20">
+          <div id="instagram_Audience_gender_age"></div>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
 <script>
   let instagram_id = {{instagram_id}};
   let instagram_comments_count = {{instagram_comments_count}};
   let instagram_like_count = {{instagram_like_count}};
   let instagram_permalink = {{instagram_permalink}};
+  let instagram_Audience_gender_age = {{instagram_Gender_and_age}};
+  let instagram_Audience_town_city = {{instagram_Audience_town_city}};
 
   var instagram_options = {
 
@@ -243,6 +269,55 @@
     },
 };
 
-let instagramCombinedChart = new ApexCharts(document.querySelector("#instagram-combined-chart"), instagram_options);
-instagramCombinedChart.render();
+  let instagramCombinedChart = new ApexCharts(document.querySelector("#instagram-combined-chart"), instagram_options);
+  instagramCombinedChart.render();
+
+
+  var instagram_Audience_gender_age_opts = {
+    series: Object.values(instagram_Audience_gender_age),
+    chart: {
+    width: '100%',
+    height: '250',
+    type: 'pie',
+  },
+  labels: Object.keys(instagram_Audience_gender_age),
+  responsive: [{
+    breakpoint: 480,
+    options: {
+      chart: {
+        width: 200
+      },
+      legend: {
+        position: 'bottom'
+      }
+    }
+  }]
+  };
+
+  var instagram_Audience_gender_age_chart = new ApexCharts(document.querySelector("#instagram_Audience_gender_age"), instagram_Audience_gender_age_opts);
+  instagram_Audience_gender_age_chart.render();
+
+  var instagram_Audience_town_city_opts = {
+      series: Object.values(instagram_Audience_town_city),
+      chart: {
+      width: '100%',
+      height: '250',
+      type: 'pie',
+    },
+    labels: Object.keys(instagram_Audience_town_city),
+    responsive: [{
+      breakpoint: 480,
+      options: {
+        chart: {
+          width: 200
+        },
+        legend: {
+          position: 'bottom'
+        }
+      }
+    }]
+  };
+
+  var instagram_Audience_town_city_chart = new ApexCharts(document.querySelector("#instagram_Audience_town_city"), instagram_Audience_town_city_opts);
+  instagram_Audience_town_city_chart.render();
 </script>
