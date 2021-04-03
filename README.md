@@ -1,21 +1,78 @@
 # KDE PROMO DASHBOARD
 
-# Installing for development
+This is the project made for visualizing promo data of KDE.
 
-```
-virtualenv venv
-source venv/bin/activate
+As It is for an internal team of KDE it will not be going to be deployed anywhere.
 
-pip install -r requirements.txt
+## How to Run?
 
-# Required to skip re-rendering files manually
-./developer_renderer.py
+1. Installing Dependencies:
+	```
+	virtualenv venv
+	source venv/bin/activate
 
-# Python server
-python -m http.server
-```
+	pip install -r requirements.txt
+	```
 
-# Facebook Stats
+2. Visualising Data:
+
+	```
+	python manage.py < PATH TO DATA DIRECTORY >
+	```
+	OR	
+	```
+	python manage.py
+	```
+	After this it will ask for the path to data directory.
+
+## Environment variables
+
+If you want to run the project for development purpose then you may need to set environment variables.
+
+`DEBUG` is the only environment variable used here. If you want to run this project for development you may need to run `export DEBUG=True`.
+
+By Default, `DEBUG` is `False`.
+
+
+## Installing for development
+
+1. Install Dependencies as mentioned in step 1 of how-to-run.
+2. Export env variables i.e. `export DEBUG=True`.
+3. Start the python http server i.e. `python -m http.server`.
+4. Go to `localhost:8000` and start development.
+
+## How It Works?
+
+1. After running `python manage.py`, It will ask for the path of data directory.
+2. It will perform some checks for the data directory.
+3. If checks pass it will use `stats.py` and all the metrics to generate stats data.
+4. This generated data will then be passed to `base.html` with the help of Jinja templating language.
+5. After this `render_base.py` will render `base.html` and produces `index.html` file for the path provided by manage.py.
+6. Now `manage.py` will copy the assets from the defined path and paste it to the provided data directory
+7. All the statistical and promotial data for different social handles of KDE will be rendered into index.html.
+8. Now just open the index.html file and you can visualize all the data.
+
+## QA-Checks and Linting
+1. For formatting the code run: `./qa-format`.
+2. For checking linting and formatting i.e. QA-Checks run: `./qa-checks`.
+
+## Tech-Stacks Used
+
+1. Apex Charts for different type of charts.
+2. Watchdog API for file changes reloader and to render base.html in development.
+3. Jinja is used as a templating language here.
+4. Python 3.7 and it's inbuilt libraries to get the metrics and stats from the uncleaned data.
+5. Flake8, Black and isort for QA-Checks.
+6. Webpack, JQuery, Javascript for development of the website.
+
+## TODO
+
+1. Adding Cron-Job support for rendering and visualizing data.
+2. Adding more charts after discussing from mentors.
+
+## Data Info (Optional)
+
+## Facebook Stats
 
 ### Facebook Posts Stats 
 
@@ -65,7 +122,7 @@ python -m http.server
 	15. page_fan_adds_unique: int
 	16. page_fan_removes_unique: int
 
-# Instagram Stats
+## Instagram Stats
 
 ### Instagram Posts Stats
 
@@ -93,7 +150,7 @@ python -m http.server
 	9. Reach: int
 	10. Impressions: int
 
-# Mastodon Stats
+## Mastodon Stats
 
 ### Mastodon Posts Stats
 
@@ -107,7 +164,7 @@ python -m http.server
 	5. reblogs_count: int
 	6. favourites_count: int
 
-# Reddit Stats
+## Reddit Stats
 
 ### Contributor Posts
 
@@ -205,7 +262,7 @@ python -m http.server
 	4. author: str
 
 
-# Twitter
+## Twitter
 
 ### Twitter Posts
 
@@ -241,7 +298,7 @@ python -m http.server
 
 ### Mentions
 
-# Youtube
+## Youtube
 
 ### Channel Stats
 
@@ -264,7 +321,7 @@ python -m http.server
 	5. commentCount: str(int)
 	6. id: str
 
-# Arch
+## Arch
 
 1. type: list
 2. each obj of list is dict.
@@ -276,7 +333,7 @@ python -m http.server
 	5. startMonth: int
 	6. endMonth: int
 
-# Debian
+## Debian
 
 1. type: list
 2. each obj of list is dict
@@ -287,7 +344,7 @@ python -m http.server
 	4. old: str(int)
 	5. recent: str(int)
 
-# Ubuntu
+## Ubuntu
 
 1. type: list
 2. each obj is dict.
@@ -298,7 +355,7 @@ python -m http.server
 	4. old: str(int)
 	5. recent: str(int)
 
-# LinkedIn
+## LinkedIn
 
 ### Weekly Page Stats
 
