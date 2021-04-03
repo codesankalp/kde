@@ -1,5 +1,7 @@
 # KDE PROMO DASHBOARD
 
+![dashboard](https://drive.google.com/uc?export=view&id=1szGHhQy7GUxlmIJVB2Wc0vdfasBEP8Qn)
+
 This is the project made for visualizing promo data of KDE.
 
 As It is for an internal team of KDE it will not be going to be deployed anywhere.
@@ -47,7 +49,7 @@ By Default, `DEBUG` is `False`.
 2. It will perform some checks for the data directory.
 3. If checks pass it will use `stats.py` and all the metrics to generate stats data.
 4. This generated data will then be passed to `base.html` with the help of Jinja templating language.
-5. After this `render_base.py` will render `base.html` and produces `index.html` file for the path provided by manage.py.
+5. After this `render_base.py` will render `base.html` and produces `index.html` with help of templates and scripts and export it to provided data directory.
 6. Now `manage.py` will copy the assets from the defined path and paste it to the provided data directory
 7. All the statistical and promotial data for different social handles of KDE will be rendered into index.html.
 8. Now just open the index.html file and you can visualize all the data.
