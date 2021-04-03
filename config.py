@@ -1,7 +1,25 @@
 from os import getcwd, listdir, path
 
-curr_dir = getcwd()
-data_dir = path.join(curr_dir, "data")
+BASE_DIR = getcwd()
+
+ASSETS_PATH = path.join(BASE_DIR, "assets")
+
+BASE_HTML = path.join(BASE_DIR, "base.html")
+
+social_dirs_name = [
+    "instagram",
+    "popcons",
+    "linkedin",
+    "youtube",
+    "mastodon",
+    "reddit",
+    "twitter",
+    "facebook",
+]
+
+already_visualized = social_dirs_name + ["assets", "index.html"]
+
+data_dir = path.join(BASE_DIR, "data")
 
 for date_dir in listdir(data_dir):
     p = path.join(data_dir, date_dir)

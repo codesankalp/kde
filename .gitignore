@@ -1,4 +1,6 @@
 .vscode/
+index.html
+data/*/assets/
 
 ### Python ###
 # Byte-compiled / optimized / DLL files
@@ -44,7 +46,8 @@ pip-delete-this-directory.txt
 htmlcov/
 .tox/
 .nox/
-.coverage
+.coverage# End of https://www.toptal.com/developers/gitignore/api/python
+
 .coverage.*
 .cache
 nosetests.xml
@@ -139,5 +142,3 @@ dmypy.json
 
 # profiling data
 .prof
-
-# End of https://www.toptal.com/developers/gitignore/api/python

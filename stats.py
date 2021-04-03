@@ -88,7 +88,21 @@ def generate_linkedin_stats(file_path: str):
     return data
 
 
-def combined_data():
+def combined_data(
+    YT_DIR_PATH=YT_DIR_PATH,
+    TWITTER_DIR_PATH=TWITTER_DIR_PATH,
+    MASTODON_DIR_PATH=MASTODON_DIR_PATH,
+    FACEBOOK_DIR_PATH=FACEBOOK_DIR_PATH,
+    INSTAGRAM_DIR_PATH=INSTAGRAM_DIR_PATH,
+    REDDIT_DIR_PATH=REDDIT_DIR_PATH,
+    POPCONS_DIR_PATH=POPCONS_DIR_PATH,
+    LINKEDIN_DIR_PATH=LINKEDIN_DIR_PATH,
+):
+    """
+    Returns combined data.
+    If DEBUG=True then it will use path defined in config.py
+    Else it will use path Provided from manage.py.
+    """
     data = {}
     data = {**data, **generate_youtube_stats(YT_DIR_PATH)}
 
