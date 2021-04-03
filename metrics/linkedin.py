@@ -67,9 +67,50 @@ def linkedin_followers_stats(file_path: str):
     return data
 
 
+def page_stats_utils(v, obj_type):
+    """
+    Util function to get page views for different fields
+    """
+    temp = {}
+    for obj in v:
+        type_of_obj = obj.get(obj_type, "others")
+        if obj["pageStatistics"]["views"]["allPageViews"]:
+            temp[type_of_obj] = obj["pageStatistics"]["views"][
+                "allPageViews"
+            ].get("pageViews", 0)
+    return temp
+
+
 def linkedin_page_stats(file_path: str):
-    # orig_data = get_data(file_path)
-    return {}
+    """
+    function to parse lifetime page stats.
+    """
+    orig_data = get_data(file_path)
+    data = {}
+    for k, v in orig_data.items():
+
+        if k == "pageStatisticsBySeniority":
+            data[f"linkedin_{k}"] = page_stats_utils(v, "seniority")
+
+        if k == "pageStatisticsByCountry":
+            data[f"linkedin_{k}"] = page_stats_utils(v, "country")
+
+        if k == "pageStatisticsByIndustry":
+            data[f"linkedin_{k}"] = page_stats_utils(v, "industry")
+
+        if k == "pageStatisticsByStaffCountRange":
+            data[f"linkedin_{k}"] = page_stats_utils(v, "staffCountRange")
+
+        if k == "pageStatisticsByRegion":
+            data[f"linkedin_{k}"] = page_stats_utils(v, "region")
+
+        if k == "pageStatisticsByFunction":
+            data[f"linkedin_{k}"] = page_stats_utils(v, "function")
+
+        if k == "totalPageStatistics":
+            data[f"linkedin_{k}"] = v["views"]["allPageViews"]["pageViews"]
+
+    return data
 
 
 def linkedin_posts(file_path: str):
@@ -119,7 +160,19 @@ def linkedin_posts(file_path: str):
 
 
 def linkedin_weekly_page_stats(file_path: str):
-    return {}
+    """
+    Parses weekly page stats of linkedin.
+    """
+    orig_data = get_data(file_path)
+    data = {}
+    try:
+        temp = {}
+        for k, v in orig_data["totalPageStatistics"]["views"].items():
+            temp[k] = v.get("pageViews", 0)
+        data["linkedin_weekly_page_stats"] = temp
+    except Exception:
+        data = {}
+    return data
 
 
 def linkedin_combined_stats(file_path: str):
