@@ -3,6 +3,9 @@ from os import path
 
 
 def instagram_stats(file_path: str):
+    """
+    Checks for file name and call respective functions
+    """
     file_name = path.basename(file_path)
     if file_name == "instagram_stats.json":
         return instagram_combined_stats(file_path)
@@ -11,6 +14,9 @@ def instagram_stats(file_path: str):
 
 
 def instagram_combined_stats(file_path: str):
+    """
+    function to parse instagram stats at present.
+    """
     orig_data = get_data(file_path)
     data = {}
     for k, v in orig_data.items():
@@ -21,6 +27,9 @@ def instagram_combined_stats(file_path: str):
 
 
 def instagram_posts_stats(file_path: str):
+    """
+    function to parse instagram posts stats
+    """
     orig_data = get_data(file_path)
     comments_count = []
     like_count = []
@@ -41,6 +50,9 @@ def instagram_posts_stats(file_path: str):
 
 
 def get_data(file_path: str):
+    """
+    function to convert json file to python dict
+    """
     with open(file_path) as f:
         orig_data = json.loads(f.read())
     return orig_data

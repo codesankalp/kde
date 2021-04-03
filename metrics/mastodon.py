@@ -3,6 +3,9 @@ from os import path
 
 
 def mastodon_stats(file_path: str):
+    """
+    Checks for file name and call respective functions
+    """
     file_name = path.basename(file_path)
     if file_name == "mastodon_stats.json":
         return mastodon_combined_stats(file_path)
@@ -11,6 +14,9 @@ def mastodon_stats(file_path: str):
 
 
 def mastodon_combined_stats(file_path: str):
+    """
+    function to parse mastodon combined stats.
+    """
     orig_data = get_data(file_path)
     data = {}
     for k, v in orig_data.items():
@@ -19,6 +25,9 @@ def mastodon_combined_stats(file_path: str):
 
 
 def mastodon_posts_stats(file_path: str):
+    """
+    function to parse mastodon posts stats.
+    """
     orig_data = get_data(file_path)
     mastodon_posts_url = []
     mastodon_posts_id = []
@@ -44,6 +53,9 @@ def mastodon_posts_stats(file_path: str):
 
 
 def get_data(file_path: str):
+    """
+    function to convert json file to python dict
+    """
     with open(file_path) as f:
         orig_data = json.loads(f.read())
     return orig_data

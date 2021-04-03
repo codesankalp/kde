@@ -3,6 +3,9 @@ from os import path
 
 
 def popcons_stats(file_path: str):
+    """
+    Checks for file name and call respective functions
+    """
     file_name = path.basename(file_path)
     if file_name == "arch.json":
         return arch_stats(file_path)
@@ -13,6 +16,9 @@ def popcons_stats(file_path: str):
 
 
 def arch_stats(file_path: str):
+    """
+    parse popcons stats for arch linux
+    """
     orig_data = get_data(file_path)
     arch_name = []
     arch_samples = []
@@ -38,6 +44,9 @@ def arch_stats(file_path: str):
 
 
 def debian_stats(file_path: str):
+    """
+    parse popcons stats for debian
+    """
     orig_data = get_data(file_path)
     debian_name = []
     debian_inst = []
@@ -60,6 +69,9 @@ def debian_stats(file_path: str):
 
 
 def ubuntu_stats(file_path: str):
+    """
+    parse popcons stats for ubuntu
+    """
     orig_data = get_data(file_path)
     ubuntu_name = []
     ubuntu_inst = []
@@ -82,6 +94,9 @@ def ubuntu_stats(file_path: str):
 
 
 def get_data(file_path: str):
+    """
+    function to convert json file to python dict
+    """
     with open(file_path) as f:
         orig_data = json.loads(f.read())
     return orig_data

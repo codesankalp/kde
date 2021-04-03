@@ -3,6 +3,9 @@ from os import path
 
 
 def facebook_stats(file_path: str):
+    """
+    Checks for file name and call respective functions
+    """
     file_name = path.basename(file_path)
     if file_name == "facebook_stats.json":
         return facebook_combined_stats(file_path)
@@ -11,6 +14,9 @@ def facebook_stats(file_path: str):
 
 
 def facebook_combined_stats(file_path: str):
+    """
+    function to parse facebook combined stats i.e. present.
+    """
     orig_data = get_data(file_path)
     data = {}
     for k, v in orig_data.items():
@@ -19,6 +25,9 @@ def facebook_combined_stats(file_path: str):
 
 
 def facebook_posts_stats(file_path: str):
+    """
+    function to parse facebook posts stats.
+    """
     orig_data = get_data(file_path)
     post_engaged_users = []
     created_time = []
@@ -67,6 +76,9 @@ def facebook_posts_stats(file_path: str):
 
 
 def get_data(file_path: str):
+    """
+    function to convert json file to python dict
+    """
     with open(file_path) as f:
         orig_data = json.loads(f.read())
     return orig_data

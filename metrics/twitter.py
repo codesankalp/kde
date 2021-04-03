@@ -3,6 +3,9 @@ from os import path
 
 
 def twitter_stats(file_path: str):
+    """
+    Checks for file name and call respective functions
+    """
     file_name = path.basename(file_path)
     if file_name == "twitter_stats.json":
         return twitter_combined_stats(file_path)
@@ -13,6 +16,9 @@ def twitter_stats(file_path: str):
 
 
 def twitter_combined_stats(file_path: str):
+    """
+    Parses twitter combined stats.
+    """
     data = {}
     orig_data = get_data(file_path)
     for k, v in orig_data.items():
@@ -21,6 +27,9 @@ def twitter_combined_stats(file_path: str):
 
 
 def twitter_posts_stats(file_path: str):
+    """
+    Parses twitter posts or tweets stats.
+    """
     orig_data = get_data(file_path)
     tweet_id = []
     tweet_conversation_id = []
@@ -72,6 +81,9 @@ def twitter_posts_stats(file_path: str):
 
 
 def get_data(file_path: str):
+    """
+    function to convert json file to python dict
+    """
     with open(file_path) as f:
         orig_data = json.loads(f.read())
     return orig_data

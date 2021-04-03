@@ -1,9 +1,6 @@
 import json
 import os
 
-from jinja2 import Environment
-from jinja2 import FileSystemLoader as fs
-
 from config import (
     FACEBOOK_DIR_PATH,
     INSTAGRAM_DIR_PATH,
@@ -14,17 +11,22 @@ from config import (
     TWITTER_DIR_PATH,
     YT_DIR_PATH,
 )
-from metrics.facebook import facebook_stats
-from metrics.instagram import instagram_stats
-from metrics.linkedin import linkedin_stats
-from metrics.mastodon import mastodon_stats
-from metrics.popcons import popcons_stats
-from metrics.reddit import reddit_stats
-from metrics.twitter import twitter_stats
-from metrics.youtube import youtube_stats
+from metrics import (
+    facebook_stats,
+    instagram_stats,
+    linkedin_stats,
+    mastodon_stats,
+    popcons_stats,
+    reddit_stats,
+    twitter_stats,
+    youtube_stats,
+)
 
 
 def generate_youtube_stats(file_path: str):
+    """
+    Generate youtube stats from metrics.
+    """
     data = {}
     for f_name in os.listdir(file_path):
         channel_stats = youtube_stats(os.path.join(file_path, f_name))
@@ -33,6 +35,9 @@ def generate_youtube_stats(file_path: str):
 
 
 def generate_twitter_stats(file_path: str):
+    """
+    Generate twitter stats from metrics.
+    """
     data = {}
     for f_name in os.listdir(file_path):
         stats = twitter_stats(os.path.join(file_path, f_name))
@@ -41,6 +46,9 @@ def generate_twitter_stats(file_path: str):
 
 
 def generate_mastodon_stats(file_path: str):
+    """
+    Generate mastodon stats from metrics.
+    """
     data = {}
     for f_name in os.listdir(file_path):
         stats = mastodon_stats(os.path.join(file_path, f_name))
@@ -49,6 +57,9 @@ def generate_mastodon_stats(file_path: str):
 
 
 def generate_facebook_stats(file_path: str):
+    """
+    Generate facebook stats from metrics.
+    """
     data = {}
     for f_name in os.listdir(file_path):
         stats = facebook_stats(os.path.join(file_path, f_name))
@@ -57,6 +68,9 @@ def generate_facebook_stats(file_path: str):
 
 
 def generate_instagram_stats(file_path: str):
+    """
+    Generate instagram stats from metrics.
+    """
     data = {}
     for f_name in os.listdir(file_path):
         stats = instagram_stats(os.path.join(file_path, f_name))
@@ -65,6 +79,9 @@ def generate_instagram_stats(file_path: str):
 
 
 def generate_reddit_stats(file_path: str):
+    """
+    Generate reddit stats from metrics.
+    """
     data = {}
     for f_name in os.listdir(file_path):
         stats = reddit_stats(os.path.join(file_path, f_name))
@@ -73,6 +90,9 @@ def generate_reddit_stats(file_path: str):
 
 
 def generate_popcon_stats(file_path: str):
+    """
+    Generate popcon stats from metrics.
+    """
     data = {}
     for f_name in os.listdir(file_path):
         stats = popcons_stats(os.path.join(file_path, f_name))
@@ -81,6 +101,9 @@ def generate_popcon_stats(file_path: str):
 
 
 def generate_linkedin_stats(file_path: str):
+    """
+    Generate linkedin stats from metrics.
+    """
     data = {}
     for f_name in os.listdir(file_path):
         stats = linkedin_stats(os.path.join(file_path, f_name))

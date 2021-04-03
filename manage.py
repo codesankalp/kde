@@ -1,12 +1,13 @@
 import os
 import sys
 from datetime import datetime
-from developer_renderer import file_changes_reloader
 from distutils.dir_util import copy_tree
-from config import social_dirs_name, already_visualized, ASSETS_PATH
-from stats import combined_data
-from render_base import render
 from shutil import rmtree
+
+from config import ASSETS_PATH, already_visualized, social_dirs_name
+from developer_renderer import file_changes_reloader
+from render_base import render
+from stats import combined_data
 
 DEBUG = os.getenv("DEBUG", "False") != "False"
 
@@ -38,9 +39,13 @@ def check_for_valid_social_dirs(path):
             if dir_name in already_visualized:
                 continue
             else:
-                print(
-                    f"Error: {dir_path} of date { name } do not contains valid directory."
-                )
+                print(f"Error: {dir_path} do not contains valid directory.")
+                return False
+        for social_name in social_dirs_name:
+            if social_name in os.listdir(dir_path):
+                continue
+            else:
+                print(f"Error: {social_name} not present in {dir_path}")
                 return False
     return True
 
@@ -98,7 +103,7 @@ if __name__ == "__main__":
 
         try:
             command = args[1]
-        except:
+        except Exception:
             command = input("Enter the path of data directory: ")
 
         if os.path.exists(command):
@@ -122,7 +127,7 @@ if __name__ == "__main__":
             print("✅ All Initial Checks Passed.")
             print("\n===VISUALIZING DATA===\n")
             render_data(command)
-            print(f"\n🎉 Visualisation Done 🎉\n")
+            print("\n🎉 Visualisation Done 🎉\n")
 
         else:
             sys.exit("❌ Invalid Path")

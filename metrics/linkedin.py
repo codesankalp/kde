@@ -3,6 +3,9 @@ from os import path
 
 
 def linkedin_stats(file_path: str):
+    """
+    Checks for file name and call respective functions
+    """
     file_name = path.basename(file_path)
     if file_name == "linkedin_followers_stats.json":
         return linkedin_followers_stats(file_path)
@@ -19,6 +22,9 @@ def linkedin_stats(file_path: str):
 
 
 def follower_stats_utils(v, obj_type):
+    """
+    Util function to get follower count for different fields
+    """
     temp = {}
     for obj in v:
         type_of_obj = obj.get(obj_type, "others")
@@ -30,6 +36,9 @@ def follower_stats_utils(v, obj_type):
 
 
 def linkedin_followers_stats(file_path: str):
+    """
+    function to parse lifetime followers stats.
+    """
     orig_data = get_data(file_path)
     data = {}
     for k, v in orig_data.items():
@@ -64,6 +73,9 @@ def linkedin_page_stats(file_path: str):
 
 
 def linkedin_posts(file_path: str):
+    """
+    function to parse linkedin posts stats.
+    """
     posts = get_data(file_path)
     linkedin_posts_id = []
     linkedin_posts_activity_URN = []
@@ -111,6 +123,9 @@ def linkedin_weekly_page_stats(file_path: str):
 
 
 def linkedin_combined_stats(file_path: str):
+    """
+    function to parse combined lifetime stats.
+    """
     orig_data = get_data(file_path)
     data = {}
     for k, v in orig_data.items():
@@ -119,6 +134,9 @@ def linkedin_combined_stats(file_path: str):
 
 
 def linkedin_weekly_followers(file_path: str):
+    """
+    function to parse weekly followers stats.
+    """
     orig_data = get_data(file_path)
     follower_count = []
     time = []
@@ -128,7 +146,7 @@ def linkedin_weekly_followers(file_path: str):
                 dic["followerGains"].get("organicFollowerGain")
             )
             time.append(dic["timeRange"].get("end", 0))
-        except:
+        except Exception:
             print("Key error in linkedin_weekly_followers")
     return {
         "linkedin_weekly_follower_count_gain": follower_count,
@@ -137,12 +155,18 @@ def linkedin_weekly_followers(file_path: str):
 
 
 def reformat_json(file_path: str):
+    """
+    function to format json file with indentation.
+    """
     orig_data = get_data(file_path)
     with open(file_path, "w") as f:
         f.write(json.dumps(orig_data, indent=4))
 
 
 def get_data(file_path: str):
+    """
+    function to convert json file to python dict
+    """
     with open(file_path) as f:
         orig_data = json.loads(f.read())
     return orig_data

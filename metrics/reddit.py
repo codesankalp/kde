@@ -3,6 +3,9 @@ from os import path
 
 
 def reddit_stats(file_path: str):
+    """
+    Checks for file name and call respective functions
+    """
     file_name = path.basename(file_path)
     if file_name == "contributor_posts.json":
         return contributor_posts(file_path)
@@ -19,6 +22,9 @@ def reddit_stats(file_path: str):
 
 
 def contributor_posts(file_path: str):
+    """
+    Parses contributor posts stats of reddit
+    """
     orig_data = get_data(file_path)
     reddit_contributor_posts = {}
     for username, posts in orig_data.items():
@@ -41,6 +47,9 @@ def contributor_posts(file_path: str):
 
 
 def parse_comments(comments):
+    """
+    Util function to get comments stats from comment dict
+    """
     comments_counts = len(comments)
     if comments_counts != 0:
         aggregated_sentiment = 0
@@ -62,6 +71,9 @@ def parse_comments(comments):
 
 
 def kde_posts(file_path: str):
+    """
+    Parses KDE posts stats of reddit.
+    """
     orig_data = get_data(file_path)
     post_title = []
     post_ups = []
@@ -113,6 +125,9 @@ def kde_posts(file_path: str):
 
 
 def get_comments_stats(comments):
+    """
+    Parses comments stats for reddit.
+    """
     if len(comments) != 0:
         avg_upvotes_per_comment = 0
         avg_downvotes_per_comment = 0
@@ -128,6 +143,9 @@ def get_comments_stats(comments):
 
 
 def abstract_stats(file_path: str, name: str):
+    """
+    Abstract function to return data for particular dict.
+    """
     orig_data = get_data(file_path)
     data = {}
     for k, v in orig_data.items():
@@ -136,18 +154,30 @@ def abstract_stats(file_path: str, name: str):
 
 
 def kde_reddit_stats(file_path: str):
+    """
+    parses reddit stats for kde
+    """
     return abstract_stats(file_path, "kde_reddit")
 
 
 def kdenlive_reddit_stats(file_path: str):
+    """
+    parses reddit stats for kdenlive
+    """
     return abstract_stats(file_path, "kdenlive_reddit")
 
 
 def krita_reddit_stats(file_path: str):
+    """
+    parses reddit stats for krita
+    """
     return abstract_stats(file_path, "krita_reddit")
 
 
 def reddit_keyword(file_path: str):
+    """
+    parses reddit keywords stats
+    """
     orig_data = get_data(file_path)
     data = {}
     for keyword, val in orig_data.items():
@@ -156,6 +186,9 @@ def reddit_keyword(file_path: str):
 
 
 def get_data(file_path: str):
+    """
+    function to convert json file to python dict
+    """
     with open(file_path) as f:
         orig_data = json.loads(f.read())
     return orig_data

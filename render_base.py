@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 
-import json
 from os import path
+
 from jinja2 import Environment
 from jinja2 import FileSystemLoader as fs
 
+from config import BASE_DIR
 from stats import combined_data
-from config import BASE_HTML, BASE_DIR
 
 
 def render(
